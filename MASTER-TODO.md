@@ -41,18 +41,39 @@ Ziel: Die reale wirtschaftliche Außenwelt so belastbar beschreiben, dass Econom
 - [x] drei offene Fachfragen von Petra freigegeben
 - [x] Framework 0.4 als aktueller Fachstand erstellt
 - [x] Build Brief 0.4 für die kleine technische Korrektur erstellt
-- [x] Option 4: Beratung – Arbeitsfassung 0.1 erstellt
-- [x] Option 5: Coaching – Arbeitsfassung 0.1 erstellt
+- [x] Option 4: Beratung – Arbeitsfassung 0.1
+- [x] Option 5: Coaching – Arbeitsfassung 0.1
+- [x] Option 6: Onlinekurs / Workshop – Arbeitsfassung 0.1
+- [x] Option 7: Affiliate Marketing – Arbeitsfassung 0.1
+- [x] Option 8: Empfehlungsmarketing / Network Marketing – Arbeitsfassung 0.1
+- [x] Option 9: E-Commerce / Onlineshop – Arbeitsfassung 0.1
+- [x] Option 10: Creator- / Content-Business – Arbeitsfassung 0.1
+- [x] Vergleich aller zehn Startoptionen – Arbeitsfassung 0.1
 
 ### Jetzt
 
 - [ ] Claude Code setzt die kleine Korrektur aus `build-briefs/2026-09-15-option-genome-framework-0.4-korrektur.md` um
 - [ ] Rückmeldung prüfen und als Bericht speichern
-- [ ] **Option 6: Onlinekurs / Workshop fachlich entwickeln**
-- [ ] danach Affiliate Marketing
-- [ ] danach Empfehlungsmarketing / Network Marketing
-- [ ] danach E-Commerce / Onlineshop
-- [ ] danach Creator-/Content-Business
+- [ ] **alle zehn Startoptionen systematisch gegen Framework 0.4 prüfen**
+- [ ] fehlende Felder und Quellenlücken je Option sichtbar machen
+- [ ] nur die entscheidungsrelevanten Lücken zuerst schließen
+- [ ] danach die zehn Optionen in die technische Option-Library übertragen
+- [ ] anschließend einen echten Matching-Test mit einem Economic Profile durchführen
+
+### Wichtiger neuer Fachbefund aus dem Zehnervergleich
+
+Noch FACH-LAB-VORSCHLAG, nicht PETRA APPROVED:
+
+> **Eine Option und eine Einnahmemechanik sind nicht immer dasselbe.**
+
+Beispiele:
+- Affiliate ist eher eine Einnahmemechanik.
+- Creator-Business ist ein größeres Geschäftssystem und kann Affiliate, Sponsoring, eigene Produkte und Abos kombinieren.
+- Ein Onlinekurs kann gleichzeitig Wissensleistung, digitales Produkt und Live-Dienstleistung sein.
+
+Folgerung als Arbeitshypothese:
+
+> Mischmodelle sind wahrscheinlich normal und sollten später nicht als Sonderfall behandelt werden.
 
 Verbindlich zu berücksichtigen:
 
@@ -146,20 +167,22 @@ Wenn Fachwissen fehlt:
 
 # 🟡 DANACH
 
-Wenn die Startoptionen fachlich ausreichend beschrieben sind:
+Wenn die zehn Startoptionen fachlich ausreichend beschrieben und technisch übertragen sind:
 
-1. Mischmodelle als Kombinationen prüfen
-2. Optionen mit Economic Profile matchen
-3. normalen Dienstag aus belegten Optionsdaten erzeugen
-4. Wachstumsrealität prüfen
-5. kleinsten sinnvollen Realitätscheck ableiten
+1. Optionen mit Economic Profile matchen
+2. normalen Dienstag aus belegten Optionsdaten erzeugen
+3. Wachstumsrealität prüfen
+4. kleinsten sinnvollen Realitätscheck ableiten
+5. Mischmodelle als Kombinationen prüfen
 6. mit Frau Nr. 1 komplett durchlaufen
+7. erst aus echten Lücken entscheiden, welche zusätzlichen Optionen gebraucht werden
 
 ---
 
 # ⏸️ NOCH NICHT
 
 - 150 Optionen aufbauen
+- weitere Optionslisten nur der Vollständigkeit halber ergänzen
 - große Community
 - Voll-HD
 - neue große Voice-Infrastruktur
@@ -172,6 +195,6 @@ Wenn die Startoptionen fachlich ausreichend beschrieben sind:
 
 # NÄCHSTER KONKRETER SCHRITT IM OPTION GENOME LAB
 
-> **Onlinekurs / Workshop als nächste reale wirtschaftliche Option entwickeln.**
+> **Die zehn Startoptionen jetzt nicht weiter vermehren, sondern gegen Framework 0.4 auf Vollständigkeit und Entscheidungsrelevanz prüfen.**
 
-Parallel darf Claude Code die kleine, bereits freigegebene 0.4-Korrektur umsetzen.
+Danach soll erstmals ein ernsthafter Matching-Test zeigen, ob diese Außenwelt-Daten wirklich bessere Entscheidungen ermöglichen.
