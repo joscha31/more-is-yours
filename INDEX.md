@@ -112,6 +112,7 @@ Nächste fachliche Option: **Coaching**.
 | `entscheidungen/2026-09-15-ilse-systemische-coachingregeln.md` | Systemische Gesprächsregeln: Hypothesen fragen statt behaupten; Fachwissen geben, Entscheidung bei der Frau | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-hd-manifestor-0.2-freigabe.md` | Fachfreigabe Manifestor 0.2: Hypothesen H-MAN-01–07, sieben Kernfragen, Dialog- und Schutzregeln | **PETRA APPROVED / BUILD READY B5** |
 | `gesetze/2026-09-15-projektregel-github-arbeitsweise.md` | Projektweite Regel: GitHub als Masterquelle; wichtige Inhalte zusätzlich im Chat; fertiger Claude-Befehl bei Übergaben | **PETRA APPROVED** |
+| `berichte-fuer-chatgpt/2026-09-15-ilse-b5-manifestor-0.2-eingebaut-fuer-chatgpt.md` | Claude Code: Manifestor 0.2 (H-MAN-01–07, offene Einstiege Q-MAN-01–07) in die HD Lens eingebaut, live 32/32; ein TECH GAP (Vertiefungen/Gegenproben brauchen eine Schemaentscheidung), Nebenbefund Wächter-Netz | **IMPLEMENTED / Übergabe → CHATGPT + PETRA** |
 | `berichte-fuer-chatgpt/2026-09-15-liveone-lowcost-architektur-tech-check.md` | Technischer Befund zur Low-Cost-Voice-Idee über eigenen ChatGPT-Account, Supabase-Zuordnung und aktuelle Integrationsgrenzen | **TECH FINDING / offen** |
 | `system/Programmarchitektur.md` | Fachliche Arbeitsarchitektur aus den Forschungsergebnissen; Teil A Klarheit, Teil B Möglichkeit, Teil C Umsetzung | vorhanden / Arbeitsmodell |
 | `system/Offene-Forschungsfragen.md` | Systemfragen, die bewusst noch nicht entschieden sind | sinnvoll, noch anzulegen |
