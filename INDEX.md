@@ -119,6 +119,7 @@ Das Repo hieß früher `modulares-entscheidungssystem-`. Heute heißt das Progra
 |---|---|
 | `master/` | der **Gesamt-Master 3.0** (14.09.2026) — zentrale Arbeits- und Orientierungsgrundlage für Petra, ChatGPT, Claude Co-Work und Claude Code |
 | `gesetze/` | Regeln für jede Seite und jeden Text — z. B. das **UI-Gesetz** (15.09.): lebendig und spielerisch, nie Formular |
+| `entscheidungen/` | verbindliche Architektur- und Fachentscheidungen nach Petra-Freigabe (z. B. B4–B7, 15.09.) — was Claude Code danach umsetzt |
 | `berichte-fuer-chatgpt/` | die Rückmeldungen je Baupaket in der Form von Master §25 (B4 Dienstag · B5 HD Lens · B6 Realitätscheck · B7 Quality Guard · UI-Gesetz) |
 
 **Wo der Code liegt:** Ilse 0.1 (das Haus) im Arbeits-Repo `meine-projekte` unter `outputs/moreisyours-ilse/`, live auf `https://ilse.moreisyours.de`. Landingpage: `https://moreisyours.de`.
