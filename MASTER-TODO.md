@@ -37,77 +37,57 @@ Ziel: Die reale wirtschaftliche Außenwelt so belastbar beschreiben, dass Econom
 - [x] Framework 0.3 erstellt und technisch umgesetzt
 - [x] Claude-Bericht zur Umsetzung 0.3 dauerhaft gespeichert
 - [x] fünf CONTENT GAPs aus Claudes Bericht geprüft
-- [x] bestehende Entscheidungen bestätigt: Teilzeit/Nebenjob = Familie Anstellung; Kategorien 1–7 = nur Ordnung
-- [x] drei offene Fachfragen von Petra freigegeben
-- [x] Framework 0.4 als aktueller Fachstand erstellt
-- [x] Build Brief 0.4 für die kleine technische Korrektur erstellt
-- [x] Option 4: Beratung – Arbeitsfassung 0.1
-- [x] Option 5: Coaching – Arbeitsfassung 0.1
-- [x] Option 6: Onlinekurs / Workshop – Arbeitsfassung 0.1
-- [x] Option 7: Affiliate Marketing – Arbeitsfassung 0.1
-- [x] Option 8: Empfehlungsmarketing / Network Marketing – Arbeitsfassung 0.1
-- [x] Option 9: E-Commerce / Onlineshop – Arbeitsfassung 0.1
-- [x] Option 10: Creator- / Content-Business – Arbeitsfassung 0.1
-- [x] Vergleich aller zehn Startoptionen – Arbeitsfassung 0.1
+- [x] Framework 0.4 erstellt
+- [x] alle zehn Startoptionen als Arbeitsfassungen erstellt
+- [x] Vergleich aller zehn Startoptionen erstellt
+- [x] Qualitätscheck aller zehn Optionen gegen Framework 0.4 durchgeführt
+- [x] erster manueller Matchinglauf Pilotin 0 × zehn Optionen durchgeführt
+- [x] zwei neue Grundregeln von Petra freigegeben:
+  - Erst hineinzoomen, dann urteilen
+  - Option und Einnahmemechanik trennen
+- [x] Entscheidung als `PETRA APPROVED` dokumentiert
+- [x] Framework 0.5 als aktueller Fachstand erstellt
+- [x] Build Brief für die technische 0.5-Ergänzung erstellt
 
 ### Jetzt
 
-- [ ] Claude Code setzt die kleine Korrektur aus `build-briefs/2026-09-15-option-genome-framework-0.4-korrektur.md` um
-- [ ] Rückmeldung prüfen und als Bericht speichern
-- [ ] **alle zehn Startoptionen systematisch gegen Framework 0.4 prüfen**
-- [ ] fehlende Felder und Quellenlücken je Option sichtbar machen
-- [ ] nur die entscheidungsrelevanten Lücken zuerst schließen
-- [ ] danach die zehn Optionen in die technische Option-Library übertragen
-- [ ] anschließend einen echten Matching-Test mit einem Economic Profile durchführen
+- [ ] Claude Code setzt die bereits freigegebene 0.4-Korrektur um, falls noch offen
+- [ ] Claude Code setzt anschließend `build-briefs/2026-09-15-option-genome-framework-0.5-zoom-mechaniken.md` um
+- [ ] Rückmeldungen prüfen und dauerhaft speichern
+- [ ] zehn fachliche Arbeitsfassungen feldgenau in die technische Option-Library übertragen bzw. bestehende Einträge ergänzen
+- [ ] Quellen pro Feld erhalten
+- [ ] erster technischer Matchinglauf gegen ein echtes Economic Profile
+- [ ] danach externe Pilotin testen, damit die Methode nicht nur Petras bereits eingeschlagene Richtung bestätigt
 
-### Wichtiger neuer Fachbefund aus dem Zehnervergleich
+### Verbindlicher aktueller Fachstand
 
-Noch FACH-LAB-VORSCHLAG, nicht PETRA APPROVED:
+`forschung/Option-Genome-Framework-0.5.md`
 
-> **Eine Option und eine Einnahmemechanik sind nicht immer dasselbe.**
+Neue verbindliche Regeln:
 
-Beispiele:
-- Affiliate ist eher eine Einnahmemechanik.
-- Creator-Business ist ein größeres Geschäftssystem und kann Affiliate, Sponsoring, eigene Produkte und Abos kombinieren.
-- Ein Onlinekurs kann gleichzeitig Wissensleistung, digitales Produkt und Live-Dienstleistung sein.
+> **Erst hineinzoomen, dann urteilen.**
 
-Folgerung als Arbeitshypothese:
+Wenn eine für die Frau wichtige Eigenschaft auf Familienebene zu grob ist, wird zuerst Variante/Rolle konkretisiert oder recherchiert.
 
-> Mischmodelle sind wahrscheinlich normal und sollten später nicht als Sonderfall behandelt werden.
+> **Option und Einnahmemechanik sind nicht dasselbe.**
 
-Verbindlich zu berücksichtigen:
+Mischmodelle kombinieren bestehende Optionen und Mechaniken; nicht jede Kombination wird eine neue Option.
 
-- Quellen
-- Prüfdatum
-- Region
-- Unsicherheiten
-- keine erfundenen Zahlen
-- normaler Dienstag
-- Wachstum: „Was passiert, wenn es funktioniert?“
-- Romantisierungen
-- Anfängerfallen
-- kleine Realitätschecks
-- Leistungserbringung/Lieferung als beschreibender Text
-- Recherche/Vorbereitung als beschreibender Text
-- Leerlauf/Warten als beschreibender Text
-- Absicherung / soziale Absicherung
-- rechtliche / regulatorische Besonderheiten
+### Erster Pilotin-0-Match – methodischer Befund
 
-Verbindliche Struktur:
+Aktuell stärkstes Mischbild:
 
-> **Optionsfamilie → Optionsvariante → Rolle / konkrete Tätigkeit**
+- digitales Produkt / digitales System als Kern
+- Creator-/Content-Ebene als Zugang zum Markt
+- asynchrone Wissensprodukte als mögliche Ergänzung
 
-Vier Grundfragen jeder Option:
+Weitere mögliche Rollen:
+- Beratung als Ergänzung/Testweg
+- Freelancing als Übergangsweg
+- Affiliate als Nebenmechanik
+- Empfehlungsmarketing / Network Marketing als separater Nebenweg
 
-1. Wer zahlt?
-2. Wofür wird gezahlt?
-3. Wie wird geliefert?
-4. Wie entsteht Zugang zum Zahler?
-
-Rechtliche Inhalte werden künftig nur noch im Hauptfeld `f37_rechtliche_besonderheiten` fachlich gepflegt. Alte Rechtsfelder bleiben nur aus Gründen des Datenerhalts lesbar.
-
-`f6` = Einstiegskosten.  
-`f27` = zusätzlicher Kapitalbedarf beim Wachstum.
+Wichtig: Das ist ein Methodentest, keine endgültige Lebensentscheidung.
 
 ---
 
@@ -122,10 +102,15 @@ Rechtliche Inhalte werden künftig nur noch im Hauptfeld `f37_rechtliche_besonde
 
 ## 3. Economic Profile & Matching Lab
 
-- [ ] Konfliktlogik weiter validieren
-- [ ] `unbekannt` vs. `testen` sauber halten
-- [ ] Suchraum weiterentwickeln
-- [ ] Mischmodelle später sauber abbilden
+Aktueller Fachstand:
+
+`forschung/Economic-Profile-Matching-Rule-Library-0.2.md` – **PETRA APPROVED**
+
+Als Nächstes:
+
+- [ ] technische Umsetzung der finalen Priorisierungslogik prüfen
+- [ ] Option-Genome-0.5-Zoomregel sauber anschließen
+- [ ] Mischmodelle mit bestehenden Mechaniken testen
 - [ ] Reality Learning nach echten Tests
 
 Keine Match-Prozente.
@@ -145,16 +130,19 @@ N100 bleibt dauerhafter Regressionstest.
 
 # 🟠 ARCHITEKTUR / CODE
 
-Aktueller Option-Genome-Bauauftrag:
+Aktuelle Option-Genome-Bauaufträge:
 
-`build-briefs/2026-09-15-option-genome-framework-0.4-korrektur.md`
+1. `build-briefs/2026-09-15-option-genome-framework-0.4-korrektur.md`
+2. `build-briefs/2026-09-15-option-genome-framework-0.5-zoom-mechaniken.md`
 
 Claude Code darf NICHT:
 
 - Option-Genome-Inhalte erfinden
 - wirtschaftliche Zahlen ohne Quelle schätzen
-- HD-Fachwissen erfinden
-- Matchingmethodik ändern
+- neue Optionsfamilien fachlich definieren
+- Varianten oder Rollen erraten
+- neue Einnahmemechaniken erfinden
+- Matchingmethodik eigenmächtig ändern
 - Persona eigenmächtig ändern
 - Fachlücken technisch „lösen“
 - alte Daten löschen
@@ -167,15 +155,15 @@ Wenn Fachwissen fehlt:
 
 # 🟡 DANACH
 
-Wenn die zehn Startoptionen fachlich ausreichend beschrieben und technisch übertragen sind:
+Wenn die zehn Startoptionen fachlich und technisch ausreichend vorliegen:
 
-1. Optionen mit Economic Profile matchen
-2. normalen Dienstag aus belegten Optionsdaten erzeugen
-3. Wachstumsrealität prüfen
-4. kleinsten sinnvollen Realitätscheck ableiten
-5. Mischmodelle als Kombinationen prüfen
-6. mit Frau Nr. 1 komplett durchlaufen
-7. erst aus echten Lücken entscheiden, welche zusätzlichen Optionen gebraucht werden
+1. technischer Matchinglauf mit Pilotin 0
+2. Ergebnisse gegen manuellen Match prüfen
+3. danach externe Pilotin mit eigenständigem Profil
+4. normalen Dienstag aus belegten Optionsdaten erzeugen
+5. Wachstumsrealität prüfen
+6. kleinsten sinnvollen Realitätscheck ableiten
+7. erst aus echten Pilotlücken entscheiden, welche weiteren Optionen oder Varianten gebraucht werden
 
 ---
 
@@ -183,6 +171,7 @@ Wenn die zehn Startoptionen fachlich ausreichend beschrieben und technisch über
 
 - 150 Optionen aufbauen
 - weitere Optionslisten nur der Vollständigkeit halber ergänzen
+- jede Mischform als neue Option speichern
 - große Community
 - Voll-HD
 - neue große Voice-Infrastruktur
@@ -195,6 +184,4 @@ Wenn die zehn Startoptionen fachlich ausreichend beschrieben und technisch über
 
 # NÄCHSTER KONKRETER SCHRITT IM OPTION GENOME LAB
 
-> **Die zehn Startoptionen jetzt nicht weiter vermehren, sondern gegen Framework 0.4 auf Vollständigkeit und Entscheidungsrelevanz prüfen.**
-
-Danach soll erstmals ein ernsthafter Matching-Test zeigen, ob diese Außenwelt-Daten wirklich bessere Entscheidungen ermöglichen.
+> **Framework 0.5 technisch anschließen und die zehn fachlichen Arbeitsfassungen sauber in die echte Option-Library übertragen. Danach technischer Match gegen Pilotin 0 und anschließend externe Pilotin.**
