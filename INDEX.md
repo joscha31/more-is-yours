@@ -50,19 +50,20 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `forschung/Economic-Profile-Matching-Rule-Library-0.1.md` | Fachliche Regelbibliothek für B3: Grenzen, Präferenzen, Evidenz, Konflikte, unbekannt vs. testen, Zahlenlogik und Reality-Learning-Routing | **FACH-LAB-VORSCHLAG** |
 | `forschung/Economic-Profile-Matching-Crashtest-Petra-0.1.md` | Belastungstest der Matchinglogik mit Petra gegen die drei Goldstandard-Optionen; sechs neue B3-/Matchingbefunde M-C1 bis M-C6 | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 | `forschung/Voice-Architektur-Optionen-0.1.md` | Vergleich der aktuellen Voice-Wege inkl. Low-Cost-Live-Hybrid, Supabase-Brücke, Alternativen und winzigem Proof of Concept | **FACH-LAB-/TECH-RESEARCH-VORSCHLAG** |
-| `forschung/Voice-Marktpruefung-0.1.md` | Quellenbasierte Markt- und Architekturprüfung der Voice-Wege (ChatGPT Live im eigenen Konto, GPT-Live-1 API, Gemini Live, Deepgram, ElevenLabs, LiveKit, Pipecat, Moshi/OSS, weitere); Kostentabelle 120/240/900/1.800 min, Sonderfragen A–E, zwei Benchmark-Kandidaten | **RESEARCH / PETRA REVIEW – keine Entscheidung** |
-| `forschung/Voice-Zugangsschutz-Shared-Project-0.1.md` | Zugangsschutz-Idee über ein von More is Yours besessenes Shared ChatGPT Project pro Nutzerin; Thin-Shell-Prinzip, Kündigungslogik und Open-Source-Orchestrierung als Resilienzpfad | **TECH-RESEARCH / PETRA REVIEW** |
-| `forschung/Voice-Ermittlung-Eigener-ChatGPT-Account-0.2.md` | Systematische Ermittlung aller Wege für GPT-Live im eigenen ChatGPT-Konto der Frau (Shared Projects, Business, Plugins, Hybrid, Transkript, Zugangsschutz), gegen offizielle OpenAI-Seiten geprüft; Empfehlung: Zimmer gehört More is Yours, Owner liest mit, Frau kopiert nichts; POC ohne Code | **TECH RESEARCH / PETRA REVIEW** |
-| `forschung/Human-Design-Dialogregeln-0.1.md` | Methodische Gesprächsregeln für die HD Lens: offen fragen, Hypothesen markieren, Biografie und Gegenbeispiele prüfen | verbindliche Arbeitsregel im HD Content Lab |
-| `forschung/Human-Design-Content-Library-01-Manifestor.md` | Erste HD-Content-Library-Einheit; Manifestor-Typ und Strategie mit MIY-Hypothesen, Sprachschutz und sieben dialogischen Kernfragen | **PETRA APPROVED / BUILD READY für B5 gemäß Freigabeentscheidung** |
-| `forschung/HD-B5-Folgeentscheidungen-0.1.md` | Vorschlag nach B5-Implementierung: Bibliotheksfelder für Vertiefungen/Gegenproben, HD-Schutznetz, Du-Fassung der Hypothesen und bewusst noch keine Gesprächseinbindung | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+| `forschung/Voice-Marktpruefung-0.1.md` | Quellenbasierte Markt- und Architekturprüfung der Voice-Wege | **RESEARCH / PETRA REVIEW – keine Entscheidung** |
+| `forschung/Voice-Zugangsschutz-Shared-Project-0.1.md` | Zugangsschutz-Idee über ein von More is Yours besessenes Shared ChatGPT Project pro Nutzerin | **TECH-RESEARCH / PETRA REVIEW** |
+| `forschung/Voice-Ermittlung-Eigener-ChatGPT-Account-0.2.md` | Systematische Ermittlung der Wege für GPT-Live im eigenen ChatGPT-Konto der Frau | **TECH RESEARCH / PETRA REVIEW** |
+| `forschung/Human-Design-Dialogregeln-0.1.md` | Methodische Gesprächsregeln für die HD Lens | verbindliche Arbeitsregel im HD Content Lab |
+| `forschung/Human-Design-Content-Library-01-Manifestor.md` | Erste HD-Content-Library-Einheit | **PETRA APPROVED / BUILD READY für B5** |
+| `forschung/HD-B5-Folgeentscheidungen-0.1.md` | Vorschlag nach B5-Implementierung | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 | `forschung/Option-Genome-Framework-0.2.md` | Frühere Arbeitsfassung des Option-Genome-Grundgerüsts | historische Arbeitsfassung |
-| `forschung/Option-Genome-Framework-0.3.md` | Aktuelles fachliches Grundgerüst für das Option Genome | **PETRA APPROVED** |
+| `forschung/Option-Genome-Framework-0.3.md` | Freigegebener Zwischenstand, technisch umgesetzt | historische freigegebene Fassung |
+| `forschung/Option-Genome-Framework-0.4.md` | Aktuelles fachliches Grundgerüst; Lieferung, Vorbereitung und Leerlauf beschreibend; eine Hauptstelle für Recht; Kapital beim Wachstum geklärt | **PETRA APPROVED / aktuell** |
 | `forschung/Option-Genome-01-Teilzeit-Nebenjob-0.1.md` | Goldstandard-Arbeitsfassung Teilzeit/Nebenjob | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-02-Freelancing-Done-for-you-0.1.md` | Goldstandard-Arbeitsfassung Freelancing/Done-for-you | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-03-Digitales-Produkt-0.1.md` | Goldstandard-Arbeitsfassung digitales Produkt | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-04-Beratung-0.1.md` | Arbeitsfassung Beratung / Consulting in Deutschland | **FACH-LAB-VORSCHLAG** |
-| `forschung/Option-Genome-Goldstandard-Vergleich-0.1.md` | Vergleich der ersten drei Goldstandards; neun Strukturvorschläge | Vorschläge am 15.09.2026 von Petra freigegeben |
+| `forschung/Option-Genome-Goldstandard-Vergleich-0.1.md` | Vergleich der ersten drei Goldstandards; neun Strukturvorschläge | am 15.09.2026 von Petra freigegeben |
 
 ### Human Design – aktueller Arbeitsstand
 
@@ -74,7 +75,9 @@ Weitere Typen, Autoritäten und Profile bleiben Content Gaps, bis sie separat fa
 
 ### Option Genome – aktueller Arbeitsstand
 
-Das Grundgerüst 0.3 ist freigegeben. Vorhanden sind:
+Das **Framework 0.4** ist der aktuelle freigegebene Fachstand.
+
+Vorhandene Options-Arbeitsfassungen:
 
 1. Teilzeit-/Nebenjob
 2. Freelancing / Done-for-you
@@ -82,6 +85,8 @@ Das Grundgerüst 0.3 ist freigegeben. Vorhanden sind:
 4. Beratung
 
 Nächste fachliche Option: **Coaching**.
+
+Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 
 ---
 
@@ -99,6 +104,7 @@ Nächste fachliche Option: **Coaching**.
 | Datei | Funktion | Status |
 |---|---|---|
 | `arbeitszettel/2026-09-15.md` | Verständlicher Tageszettel: heute erledigt, jetzt offen, exakter nächster Schritt | **aktuell** |
+| `MASTER-TODO.md` | Übergeordnete fachliche Arbeitsliste | **aktuell** |
 
 ---
 
@@ -108,15 +114,24 @@ Nächste fachliche Option: **Coaching**.
 |---|---|---|
 | `system/Ilse-Prinzipien.md` | Verbindliche Dialog-, Sprach- und Begleitprinzipien für Ilse | im Aufbau |
 | `entscheidungen/2026-09-15-option-genome-struktur.md` | Neun freigegebene Strukturregeln für das Option Genome | **PETRA APPROVED** |
-| `entscheidungen/2026-09-15-matching-vorschlaege-priorisierung.md` | Matching-Ausgabe: immer priorisierte, begründete Vorschläge; mehrere Möglichkeiten können gleichzeitig matchen; `unbekannt` bleibt interner Einzelbefund | **PETRA APPROVED** |
+| `entscheidungen/2026-09-15-option-genome-content-gaps-claude-bericht.md` | Klärt die fünf Content Gaps aus der 0.3-Umsetzung: Ebenen/Kategorien, beschreibende Dienstag-Felder, eine Hauptstelle für Recht und Kapital beim Wachstum | **PETRA APPROVED** |
+| `entscheidungen/2026-09-15-matching-vorschlaege-priorisierung.md` | Matching-Ausgabe: priorisierte, begründete Vorschläge; mehrere Möglichkeiten können gleichzeitig matchen | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-architecture-decisions-b4-b7.md` | B4 Dienstag, B5 HD Lens, B6 Realitätscheck, B7 Quality Guard | **PETRA APPROVED** |
-| `entscheidungen/2026-09-15-ilse-systemische-coachingregeln.md` | Systemische Gesprächsregeln: Hypothesen fragen statt behaupten; Fachwissen geben, Entscheidung bei der Frau | **PETRA APPROVED** |
-| `entscheidungen/2026-09-15-hd-manifestor-0.2-freigabe.md` | Fachfreigabe Manifestor 0.2: Hypothesen H-MAN-01–07, sieben Kernfragen, Dialog- und Schutzregeln | **PETRA APPROVED / BUILD READY B5** |
-| `gesetze/2026-09-15-projektregel-github-arbeitsweise.md` | Projektweite Regel: GitHub als Masterquelle; wichtige Inhalte zusätzlich im Chat; fertiger Claude-Befehl bei Übergaben | **PETRA APPROVED** |
-| `berichte-fuer-chatgpt/2026-09-15-ilse-b5-manifestor-0.2-eingebaut-fuer-chatgpt.md` | Claude Code: Manifestor 0.2 (H-MAN-01–07, offene Einstiege Q-MAN-01–07) in die HD Lens eingebaut, live 32/32; ein TECH GAP (Vertiefungen/Gegenproben brauchen eine Schemaentscheidung), Nebenbefund Wächter-Netz | **IMPLEMENTED / Übergabe → CHATGPT + PETRA** |
-| `berichte-fuer-chatgpt/2026-09-15-liveone-lowcost-architektur-tech-check.md` | Technischer Befund zur Low-Cost-Voice-Idee über eigenen ChatGPT-Account, Supabase-Zuordnung und aktuelle Integrationsgrenzen | **TECH FINDING / offen** |
-| `system/Programmarchitektur.md` | Fachliche Arbeitsarchitektur aus den Forschungsergebnissen; Teil A Klarheit, Teil B Möglichkeit, Teil C Umsetzung | vorhanden / Arbeitsmodell |
-| `system/Offene-Forschungsfragen.md` | Systemfragen, die bewusst noch nicht entschieden sind | sinnvoll, noch anzulegen |
+| `entscheidungen/2026-09-15-ilse-systemische-coachingregeln.md` | Systemische Gesprächsregeln für Ilse | **PETRA APPROVED** |
+| `entscheidungen/2026-09-15-hd-manifestor-0.2-freigabe.md` | Fachfreigabe Manifestor 0.2 | **PETRA APPROVED / BUILD READY B5** |
+| `gesetze/2026-09-15-projektregel-github-arbeitsweise.md` | GitHub als Masterquelle; wichtige Inhalte zusätzlich im Chat; fertiger Claude-Befehl bei Übergaben | **PETRA APPROVED** |
+| `system/Programmarchitektur.md` | Fachliche Arbeitsarchitektur | vorhanden / Arbeitsmodell |
+| `system/Offene-Forschungsfragen.md` | Bewusst offene Systemfragen | sinnvoll, noch anzulegen |
+
+---
+
+## Berichte für ChatGPT
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `berichte-fuer-chatgpt/2026-09-15-option-genome-framework-0.3-implementiert.md` | Claude-Code-Bericht zur technischen Umsetzung von Framework 0.3; Datenerhalt, Tests und zurückgegebene Content Gaps | **IMPLEMENTED / geprüft** |
+| `berichte-fuer-chatgpt/2026-09-15-ilse-b5-manifestor-0.2-eingebaut-fuer-chatgpt.md` | Claude Code: Manifestor 0.2 in die HD Lens eingebaut | **IMPLEMENTED** |
+| `berichte-fuer-chatgpt/2026-09-15-liveone-lowcost-architektur-tech-check.md` | Technischer Befund zur Low-Cost-Voice-Idee | **TECH FINDING / offen** |
 
 ---
 
@@ -124,8 +139,9 @@ Nächste fachliche Option: **Coaching**.
 
 | Datei | Funktion | Status |
 |---|---|---|
-| `build-briefs/2026-09-15-option-genome-framework-0.3.md` | Technische Umsetzung der freigegebenen Option-Genome-Struktur | **BUILD READY** |
-| `build-briefs/2026-09-15-matching-priorisierte-vorschlaege.md` | B3-Erweiterung: aus Einzelbefunden begründete, priorisierte Vorschläge erzeugen; `unbekannt` bleibt intern, nicht als Nutzerinnen-Gesamtergebnis | **BUILD READY** |
+| `build-briefs/2026-09-15-option-genome-framework-0.3.md` | Technische Umsetzung der freigegebenen Option-Genome-Struktur 0.3 | **IMPLEMENTED** |
+| `build-briefs/2026-09-15-option-genome-framework-0.4-korrektur.md` | Kleine technische Korrektur: f31–f33 beschreibend, eine Hauptstelle für Recht, f27 Wachstumskapital | **BUILD READY** |
+| `build-briefs/2026-09-15-matching-priorisierte-vorschlaege.md` | B3-Erweiterung: priorisierte Vorschläge erzeugen | **BUILD READY** |
 
 ---
 
@@ -133,7 +149,7 @@ Nächste fachliche Option: **Coaching**.
 
 | Datei | Funktion | Status |
 |---|---|---|
-| `marketing/Marketing-Ideen.md` | Parkplatz für Marketingideen, die strategisch noch nicht bearbeitet werden | anzulegen |
+| `marketing/Marketing-Ideen.md` | Parkplatz für Marketingideen | anzulegen |
 
 ---
 
