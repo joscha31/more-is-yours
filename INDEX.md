@@ -108,3 +108,17 @@ modulares-entscheidungssystem/
 Eine neue Datei entsteht nur, wenn das Wissen dauerhaft gebraucht wird und eine eigene Funktion hat, die nicht sauber von einer bestehenden Datei erfüllt wird.
 
 Jede neue dauerhafte Projektdatei wird anschließend in diesem `INDEX.md` ergänzt.
+
+---
+
+## Seit 15.09.2026: Umbenannt in „More is Yours" — und die Wahrheit des Programms liegt hier
+
+Das Repo hieß früher `modulares-entscheidungssystem-`. Heute heißt das Programm More is Yours, und dieses Repo ist seine Wahrheit. Neu dazu:
+
+| Ordner | Was drin liegt |
+|---|---|
+| `master/` | der **Gesamt-Master 3.0** (14.09.2026) — zentrale Arbeits- und Orientierungsgrundlage für Petra, ChatGPT, Claude Co-Work und Claude Code |
+| `gesetze/` | Regeln für jede Seite und jeden Text — z. B. das **UI-Gesetz** (15.09.): lebendig und spielerisch, nie Formular |
+| `berichte-fuer-chatgpt/` | die Rückmeldungen je Baupaket in der Form von Master §25 (B4 Dienstag · B5 HD Lens · B6 Realitätscheck · B7 Quality Guard · UI-Gesetz) |
+
+**Wo der Code liegt:** Ilse 0.1 (das Haus) im Arbeits-Repo `meine-projekte` unter `outputs/moreisyours-ilse/`, live auf `https://ilse.moreisyours.de`. Landingpage: `https://moreisyours.de`.
