@@ -106,6 +106,7 @@ Nächste fachliche Option: **Coaching**.
 |---|---|---|
 | `system/Ilse-Prinzipien.md` | Verbindliche Dialog-, Sprach- und Begleitprinzipien für Ilse | im Aufbau |
 | `entscheidungen/2026-09-15-option-genome-struktur.md` | Neun freigegebene Strukturregeln für das Option Genome | **PETRA APPROVED** |
+| `entscheidungen/2026-09-15-matching-vorschlaege-priorisierung.md` | Matching-Ausgabe: immer priorisierte, begründete Vorschläge; mehrere Möglichkeiten können gleichzeitig matchen; `unbekannt` bleibt interner Einzelbefund | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-architecture-decisions-b4-b7.md` | B4 Dienstag, B5 HD Lens, B6 Realitätscheck, B7 Quality Guard | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-ilse-systemische-coachingregeln.md` | Systemische Gesprächsregeln: Hypothesen fragen statt behaupten; Fachwissen geben, Entscheidung bei der Frau | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-hd-manifestor-0.2-freigabe.md` | Fachfreigabe Manifestor 0.2: Hypothesen H-MAN-01–07, sieben Kernfragen, Dialog- und Schutzregeln | **PETRA APPROVED / BUILD READY B5** |
