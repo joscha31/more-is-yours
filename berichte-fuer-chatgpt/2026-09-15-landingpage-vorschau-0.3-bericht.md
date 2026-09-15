@@ -55,6 +55,22 @@ Gesperrte Themen: Preis (außer in den Sätzen der Copy selbst), Community, PEMS
 - Keine andere Datei fachlich verändert.
 - Keine Startseiten-Kachel in der Zentrale (braucht Petras Go).
 
+## Nachtrag 15.09., abends: Petras Ansage zum Einstieg
+
+Petra beim Ansehen: „Die erste Seite wollte ich so lassen, wie sie ist, die war gut. So, wie es im Original ist, die Hero."
+
+Umgesetzt: Der Einstieg (Abschnitt 1) ist jetzt 1:1 der Hero der Live-Seite moreisyours.de (Aufbau, Foto, Sätze, Zeile „Am Handy oder am Rechner. In deinem Tempo."). Der Live-Text des Einstiegs ist mit Fassung 0.3 fast wortgleich. Drei Unterschiede zur Copy 0.3, bewusst so gelassen:
+
+| Stelle | Live-Seite (jetzt in der Vorschau) | Copy 0.3 |
+| --- | --- | --- |
+| Kicker | „Für Frauen, die wirtschaftlich auf eigenen Füßen stehen wollen" | „Für Frauen, die beruflich etwas verändern wollen" |
+| Zeile unter den Knöpfen | „Am Handy oder am Rechner. In deinem Tempo." | nicht vorhanden |
+| Erster Knopf | „Mehr über die Pilotphase erfahren" (springt zur Pilotphase) | gleich; auf der Live-Seite steht dort noch der alte Knopf zur gesperrten Unterseite, der darf nicht zurück |
+
+Der NEU-Satz aus 0.3 („Am Ende hast du es schwarz auf weiß …") steht als hervorgehobener Kasten direkt unter der Hero, außerhalb davon. Alles ab Abschnitt 2 bleibt Fassung 0.3.
+
+Offen für Petra oder ChatGPT: Soll der Kicker der Live-Seite bleiben oder der aus 0.3? Eine Zeile genügt.
+
 ## Übergabe
 
 → PETRA: Vorschau am Handy ansehen, Ziel des zweiten Knopfs entscheiden.
