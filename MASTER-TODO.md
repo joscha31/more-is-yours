@@ -1,485 +1,153 @@
 # MORE IS YOURS – MASTER TODO
 
-**Stand:** 27. August 2026  
-**Status:** Lebende Arbeitsliste
+**Stand:** 15. September 2026  
+**Status:** Lebende übergeordnete Arbeitsliste
 
 ## Zweck
 
-Diese Datei beantwortet ausschließlich:
+Diese Datei beantwortet:
 
-> **Was ist als Nächstes zu tun?**
+> **Was ist fachlich als Nächstes zu tun?**
 
-Sie ist getrennt von:
+Die tagesgenaue Klick-/Arbeitsliste liegt zusätzlich unter `arbeitszettel/`.
 
-- **Quelle der Wahrheit** → Was gilt verbindlich?
-- **Entwicklungsprotokollen** → Was haben wir gelernt und wie sind wir dorthin gekommen?
-- **MASTER-TODO** → Was ist offen, was kommt als Nächstes?
+Priorität bei Widersprüchen:
 
-Die MASTER-TODO wird laufend aktualisiert.
-
----
-
-# 🔴 JETZT
-
-## 1. Personal Matching System fachlich entwickeln
-
-**Arbeitstitel:** `Personal Matching System`
-
-Alternativer/bildhafter Arbeitstitel:
-
-> **Mein persönlicher Kompass**
-
-Grundidee:
-
-Die Frau erarbeitet mit Ilse ein umfassendes persönliches Profil. Dieses wird später auf reale Einkommens-, Berufs- oder Geschäftsoptionen „gelegt“, um zu prüfen:
-
-> **Wie gut passt diese Möglichkeit tatsächlich zu dieser Frau und ihrem Leben?**
-
-Das Personal Matching System besteht derzeit aus vier Arbeitsblöcken.
+1. aktueller Gesamt-Master unter `master/`
+2. PETRA-APPROVED-Entscheidungen
+3. dieser MASTER TODO
+4. Tages-Arbeitszettel für die konkrete Reihenfolge
 
 ---
 
-## 1A. Was bringe ich mit?
+# 🔴 AKTUELL PARALLEL
 
-Diesen Block als Nächstes weiterentwickeln und mit Petra als Pilotin 0 testen.
+## 1. Option Genome Lab
 
-Verpflichtend zu berücksichtigen:
+Ziel: Die reale wirtschaftliche Außenwelt so belastbar beschreiben, dass Economic Profile und Option Genome später sauber abgeglichen werden können.
 
-- Vita
-- Ausbildungen
-- Weiterbildungen
-- berufliche Erfahrungen
-- informell erworbene Fähigkeiten
-- Stärken
-- Wissen
-- Interessen
-- Hobbys
-- prägende Erfahrungen
-- Auslandsaufenthalte, soweit relevant
-- Dinge, die sich jemand selbst beigebracht hat
-- Dinge, bei denen andere um Hilfe bitten
-- Tätigkeiten, die leichtfallen
-- Energiegeber
-- Energieräuber
+### Goldstandard-Optionen
 
-### Wichtig: unbezahlte Lebensleistung
+- [x] Framework 0.2 als Fach-Lab-Arbeitsgrundlage
+- [x] Goldstandard 1: Teilzeit/Nebenjob – Arbeitsfassung 0.1
+- [x] Goldstandard 2: Freelancing/Done-for-you – Arbeitsfassung 0.1
+- [ ] **Goldstandard 3: Digitales Produkt**
+- [ ] anschließend Vergleich der drei Goldstandards
+- [ ] prüfen, welche Felder wirklich universell sind
+- [ ] Varianten-/Rollenlogik fachlich schließen
+- [ ] Petra-Review der strukturellen Fach-Lab-Vorschläge
+- [ ] erst danach ggf. BUILD-READY-Übergabe
 
-Vita darf **nicht** mit Erwerbsbiografie gleichgesetzt werden.
+Verbindlich zu berücksichtigen:
 
-Ausdrücklich als wertvolle Erfahrung berücksichtigen:
+- Quellen
+- Prüfdatum
+- Region
+- Unsicherheiten
+- keine erfundenen Zahlen
+- normaler Dienstag
+- Wachstum: „Was passiert, wenn es funktioniert?“
+- Romantisierungen
+- Anfängerfallen
+- kleine Realitätschecks
+- Leistungserbringung/Lieferung
+- Recherche/Vorbereitung
+- Leerlauf/Warten
 
-- Kindererziehung
-- Care-Arbeit
-- Pflege von Angehörigen
-- Familienorganisation
-- Ehrenamt
-- längere Familienphasen
-- andere unbezahlte Verantwortungsbereiche
+Aktueller offener Strukturvorschlag, noch nicht PETRA APPROVED:
 
-Eine Frau, die beispielsweise 20 Jahre Kinder erzogen und eine Familie organisiert hat, hat nicht „20 Jahre nichts gemacht“.
+> **Optionsfamilie → Optionsvariante → Rollen-/Tätigkeits-Overlay**
 
-### Noch zu klären
-
-Nicht die vollständige Biografie soll aufgenommen werden.
-
-Zu entwickeln ist:
-
-> **Welche Informationen aus einer Vita sind tatsächlich relevant für das Personal Matching System?**
-
-Ziel:
-
-So wenig wie möglich erfragen, aber so viel wie nötig, um relevantes Können, Wissen, Erfahrungen, Interessen und wirtschaftliches Rohmaterial sichtbar zu machen.
+Grund: dieselbe Einkommensmechanik kann sehr unterschiedliche reale Arbeitsalltage haben.
 
 ---
 
-## 1B. Spielerische Methode für Stärken und Fähigkeiten entwickeln
+## 2. Human Design Content Lab
 
-Aktueller Ansatz:
-
-### Das Eichhörnchen sammelt
-
-Das Eichhörnchen sammelt kleine konkrete Geschichten und Hinweise aus dem Leben.
-
-Beispielhafte „Schubladen“:
-
-- Etwas, das du dir selbst beigebracht hast.
-- Etwas, wobei andere dich regelmäßig um Hilfe bitten.
-- Etwas, das dir leichtfällt und anderen schwer.
-- Etwas, das du schon als Kind gern gemacht hast.
-- Eine schwierige Situation, in der du etwas besonders gut bewältigt hast.
-- Etwas, worauf du rückblickend stolz bist.
-- Etwas, bei dem du die Zeit vergisst.
-
-### Der Adler schaut von oben
-
-Der Adler bewertet nicht die Frau.
-
-Er sucht Muster:
-
-- Was wiederholt sich?
-- Welche Fähigkeiten tauchen in unterschiedlichen Lebensbereichen auf?
-- Was scheint nur ein Einzelereignis zu sein?
-- Wo braucht es eine konkrete Nachfrage?
-- Was gibt Energie?
-- Was zieht Energie?
-
-### Pilotin-0-Erkenntnisse bisher
-
-Bei Petra sichtbar:
-
-- sehr starkes selbstgesteuertes Lernen
-- hohe Neugier / starkes Bedürfnis, Dinge zu verstehen
-- sich komplexe Themen selbst erschließen
-- KI-Kompetenz selbst aufgebaut
-- Computerkompetenz selbst aufgebaut
-- Buchhaltung / Steuer selbst erarbeitet
-- kreative Fähigkeiten selbst gelernt
-- Organisation unter hohem Druck
-- Gedanken und Probleme strukturieren
-- durch Fragen Klarheit schaffen
-- Hartnäckigkeit bei komplexen Problemen
-- kreative Problemlösung
-- Entwicklungsarbeit mit KI als Energiegeber
-- sichtbare Lösungen / Durchbrüche geben Energie
-- ständige Wiederholung ohne Fortschritt oder Wirkung zieht Energie
-
-### Noch offen
-
-Stoppregel entwickeln:
-
-> **Wann hat das Eichhörnchen genug gesammelt und der Adler genug Muster erkannt?**
-
-Nicht endlos nach weiteren Stärken suchen.
+- [ ] A-light Content Library fachlich weiterentwickeln
+- [ ] erste produktiv nutzbaren Inhalte abschließen
+- [ ] kanonisches Vokabular
+- [ ] nur freigegebene Inhalte an Claude Code
 
 ---
 
-## 2. Was brauche ich, damit Arbeit zu meinem Leben passt?
+## 3. Economic Profile & Matching Lab
 
-Bereits vorhandene Informationen aus Pilotin 0 zuerst vollständig abgleichen.
+- [ ] Konfliktlogik weiter validieren
+- [ ] `unbekannt` vs. `testen` sauber halten
+- [ ] Suchraum weiterentwickeln
+- [ ] Mischmodelle später sauber abbilden
+- [ ] Reality Learning nach echten Tests
 
-**Keine bereits beantworteten Fragen erneut stellen.**
-
-Interne Forschungslandkarte verwenden, unter anderem:
-
-- Sicherheit
-- Selbstbestimmung
-- Flexibilität
-- Planbarkeit
-- Menschenkontakt
-- Team / allein
-- Ortsbindung
-- Sichtbarkeit
-- Verantwortung
-- Sinn
-- Abwechslung
-- Arbeitstempo
-- Belastung
-- Erholung
-- Verkauf
-- Kundenkontakt
-- Kreativität
-- Lernen / Entwicklung
-- Arbeitsumgebung
-
-Nur tatsächliche Lücken nachfragen.
+Keine Match-Prozente.
 
 ---
 
-## 3. Was möchte ich erreichen?
+## 4. Ilse & Quality Lab
 
-Persönliches Zielbild ausreichend konkretisieren.
+- [ ] Gesprächsqualität mit echten Fällen weiter prüfen
+- [ ] harte Fehler aus Golden Negatives beseitigen
+- [ ] positive Golden Cases entwickeln
+- [ ] Methodentreue, Gesprächsqualität und Erkenntnisqualität getrennt prüfen
 
-Nicht nur:
-
-> „Wie viel möchtest du verdienen?“
-
-Sondern unter anderem:
-
-- Was soll sich durch mehr Einkommen verändern?
-- Was soll dadurch möglich werden?
-- Welche Rolle soll Arbeit im gesamten Leben spielen?
-- Welches langfristige Einkommenspotenzial wird gewünscht?
-- Welche Entwicklungsgeschwindigkeit ist wichtig?
-- Was bedeutet persönlicher Erfolg?
-
-Pilotin-0-Hinweise bisher:
-
-- finanzielle Freiheit
-- Reisen
-- Möglichkeit eines eigenen Hauses
-- langfristig deutlich höheres Einkommen
-- fünfstelliges Zielbild
-- Skalierbarkeit wichtig
-- kurzfristig hoher Arbeitseinsatz möglich, wenn er zeitlich begrenzt ist
-- langfristig soll der persönliche Zeitaufwand sinken
+N100 bleibt dauerhafter Regressionstest.
 
 ---
 
-## 4. Wogegen wird gematcht?
+# 🟠 ARCHITEKTUR / CODE
 
-Erst wenn das persönliche Profil ausreichend steht:
+Claude Code darf weiter innerhalb freigegebener Architektur arbeiten.
 
-**Optionsprofil entwickeln.**
+Claude Code darf NICHT:
 
-Für reale Möglichkeiten müssen Fakten erhoben werden, beispielsweise:
+- Option-Genome-Inhalte erfinden
+- wirtschaftliche Zahlen ohne Quelle schätzen
+- HD-Fachwissen erfinden
+- Matchingmethodik ändern
+- Persona eigenmächtig ändern
+- Fachlücken technisch „lösen“
 
-- realistischer Verdienst
-- Zeit bis zu ersten Einnahmen
-- notwendige Arbeitszeit
-- Arbeitszeittyp
-- Ortsbindung
-- Investitionsbedarf
-- Risiko
-- Planbarkeit
-- notwendige Qualifikation
-- Lernaufwand
-- typische Tätigkeiten
-- Verkaufsanforderung
-- Sichtbarkeit
-- Kundenkontakt
-- soziale Absicherung
-- Marktrealität
-- Skalierbarkeit
+Wenn Fachwissen fehlt:
 
-Danach:
-
-> **Personal Matching System ↔ reale Option**
-
----
-
-# 🟠 METHODIK – PARALLEL FESTHALTEN
-
-## A-B-C-Abwägungsfragen
-
-Neue Dialogmethode aus Pilotin 0:
-
-Statt abstrakt zu fragen:
-
-> „Was sind deine Must-haves?“
-
-kleine Entscheidungssituationen anbieten.
-
-Regeln:
-
-1. A und B unterscheiden sich möglichst nur in **einer relevanten Dimension**.
-2. Nicht mehrere Kriterien gleichzeitig verändern.
-3. C ist ausdrücklich erlaubt:
-   > „Wenn sich weder A noch B richtig anfühlt: Wie würde dein eigenes C aussehen?“
-4. C ist kein Scheitern der Frage, sondern wertvolle Information.
-5. Nach der Antwort weiter konkretisieren.
-6. Nicht vorschnell aus einer Antwort ein absolutes Must-have oder No-Go machen.
-7. Bedingungen und Ausnahmen mit erfassen.
-
-Beispiel aus Pilotin 0:
-
-Arbeitszeit ist bei Petra kein starres Maximum.
-
-Richtiger:
-
-> Hoher Arbeitseinsatz ist vorübergehend akzeptabel, wenn er einem überzeugenden Aufbau dient; langfristig soll der Zeitaufwand sinken.
-
----
-
-## Matching-Information ≠ Umsetzungsinformation
-
-Neue methodische Leitlinie:
-
-> **Nicht jede wichtige Information über eine Frau gehört als Kriterium in das Matching.**
-
-Beispiel:
-
-Petra braucht Abwechslung und langweilt sich schnell.
-
-Wenn sie ihren eigenen Arbeitsalltag selbst gestalten kann, kann diese Information später vor allem für die **Gestaltung ihres Geschäfts** wichtig sein und muss nicht zwingend eine Option ausschließen.
-
-Zu entwickeln:
-
-- Was ist Matching-Kriterium?
-- Was ist Kontextinformation?
-- Was ist Ressource?
-- Was ist späterer Umsetzungshinweis?
+> **CONTENT GAP → zurück ins zuständige Fach-Lab**
 
 ---
 
 # 🟡 DANACH
 
-## Grundstruktur des Personal Matching Systems abschließen
+Wenn die drei Option-Genome-Goldstandards fachlich tragen:
 
-Wenn die vier Blöcke ausreichend getestet sind:
-
-- endgültige interne Struktur festlegen
-- Begriffe festlegen
-- entscheiden, was für jede Frau verpflichtend ist
-- optionale Vertiefungen definieren
-- Stoppregeln je Bereich entwickeln
-
-Noch **keine unnötige technische Spezifikation**.
+1. restliche sieben Startoptionen entwickeln
+2. Mischmodelle als Kombinationen prüfen
+3. Optionen mit Economic Profile matchen
+4. normalen Dienstag aus belegten Optionsdaten erzeugen
+5. Wachstumsrealität prüfen
+6. kleinsten sinnvollen Realitätscheck ableiten
+7. mit Frau Nr. 1 komplett durchlaufen
 
 ---
 
-## Alltags- und Realitätscheck entwickeln
+# ⏸️ NOCH NICHT
 
-Begriff statt nur „Alltagstest“:
-
-> **Alltags- und Realitätscheck**
-
-Ziel:
-
-Nicht nur prüfen:
-
-> „Passt diese Option theoretisch?“
-
-Sondern:
-
-> „Will ich den tatsächlichen Alltag, der mit dieser Option verbunden ist?“
-
----
-
-## 14 bestehende Stationen sichten
-
-Erst wenn die neue fachliche Struktur klar genug ist.
-
-Die bestehenden Stationen aus:
-
-> **Die Ideenfinderin / Dein Herzensthema**
-
-nicht automatisch übernehmen.
-
-Jede Station entscheiden:
-
-- bleibt
-- wird verändert
-- wird geteilt
-- wird verschoben
-- wird optional
-- entfällt
-
----
-
-## Kleine bezahlbare Module entwickeln
-
-Nicht künstlich Module erzeugen.
-
-Jedes Modul muss:
-
-- ein konkretes Problem lösen
-- eigenständig Wert besitzen
-- ein sichtbares Ergebnis liefern
-- auch allein sinnvoll sein
-- in das Gesamtsystem passen
-
-Erst Inhalte entwickeln, **danach** sinnvolle Modulgrenzen bestimmen.
-
----
-
-# 🟢 LAUFEND
-
-## Marketing-Fundstücke sammeln
-
-ChatGPT hört während der Entwicklung mit einem zusätzlichen Marketingblick mit.
-
-Wenn ein echter Aha-Moment, Satz, Konflikt oder eine Geschichte entsteht:
-
-1. darauf hinweisen
-2. als Marketing-Fundstück vormerken
-3. beim Tagesabschluss dokumentieren
-
-Aktuelle Fundstücke:
-
-### „Vier Tage und noch kein Geld verdient“
-
-Petra merkt bereits am vierten Entwicklungstag den Impuls:
-
-> „Warum bin ich noch nicht draußen und verdiene Geld?“
-
-Möglicher Content über Ungeduld, Grundlagenarbeit und sichtbaren Fortschritt.
-
-### „Typisch Petra – überholt sich selbst“
-
-Persönliche Geschichte über Geschwindigkeit, Ideen und den Wunsch, schneller zu sein als der eigene Entwicklungsprozess.
-
-### The world needs more you
-
-Inspirierender Satz / Referenz aus Meg Lewis:
-
-> **The world needs more you.**
-
-Nicht ungeprüft als eigener Claim übernehmen. Als Inspiration / Marketinggedanke festhalten.
-
-Eigene mögliche Richtung:
-
-> **Genau so, wie du bist, wirst du gebraucht.**
-
-oder als Frage:
-
-> **Gibt es jemanden, der genau das braucht, was du mitbringst?**
-
----
-
-# 🔵 SYSTEM / ORGANISATION
-
-## MASTER-TODO als feste Projektdatei
-
-Diese Datei soll langfristig in GitHub liegen und dort die Master-To-do-Liste darstellen.
-
-Sie wird getrennt gehalten von:
-
-- Quelle der Wahrheit
-- Entwicklungsprotokollen
-- Forschung
-- Spezifikationen
-
-### Tagesablauf
-
-Bei Arbeitsunterbrechung oder Tagesende:
-
-- Was wurde erledigt?
-- Was ist neu hinzugekommen?
-- Was ist der exakte nächste Einstiegspunkt?
-
-MASTER-TODO aktualisieren.
-
-### PRIME erweitern
-
-Bei `PRIME` zukünftig lesen:
-
-1. aktuelle Quelle der Wahrheit
-2. jüngstes Entwicklungsprotokoll
-3. aktuelle `MASTER-TODO.md`
-4. bei Bedarf referenzierte Forschungs-/Systemdateien
-
-Dann erst inhaltlich arbeiten.
-
----
-
-# 🟣 PARKPLATZ
-
-Nicht jetzt aktiv bearbeiten:
-
-- Gesundheits-Wissensdatenbank
-- neuer Social-Media-Kanal
-- Podcast
-- Buch
+- 150 Optionen aufbauen
 - große Community
-- weitere Spezialagenten ohne konkreten Bedarf
-- endgültige Spracharchitektur von Ilse
-- endgültige Modulpreise
-- internationale Expansion
-
-Ideen dürfen gesammelt werden, werden aber nicht automatisch zu laufenden Projekten.
+- Voll-HD
+- neue große Voice-Infrastruktur
+- Match-Prozente
+- große Umsetzungsplattform
+- automatische Karriereentscheidung
+- Fachlogik aufgrund technischer Bequemlichkeit verkürzen
 
 ---
 
-# NÄCHSTER KONKRETER SCHRITT
+# NÄCHSTER KONKRETER SCHRITT IM OPTION GENOME LAB
 
-> **Personal Matching System – Block 1 „Was bringe ich mit?“ weiterentwickeln.**
+> **Digitales Produkt als Goldstandard 3 entwickeln.**
 
-Dabei:
+Warum genau jetzt:
 
-1. Eichhörnchen-/Adler-Methode weiter testen.
-2. Vita sinnvoll integrieren.
-3. bezahlte **und unbezahlte** Lebensleistung berücksichtigen.
-4. herausarbeiten, welche Vita-Informationen tatsächlich relevant sind.
-5. Stoppregel für diesen Block entwickeln.
+Teilzeit/Nebenjob testet ein Angestelltenmodell.  
+Freelancing testet selbstständige Zeit-/Leistungserbringung.  
+Digitales Produkt testet ein asset-basiertes Modell, bei dem Erstellung und Verkauf zeitlich stärker entkoppelt sein können.
 
-Danach Block 2, 3 und 4 systematisch abschließen.
+Erst nach diesem dritten Belastungstest sollte die Option-Genome-Struktur fachlich weiter verfestigt werden.
