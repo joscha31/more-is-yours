@@ -158,6 +158,7 @@ und
 | Datei | Funktion | Status |
 |---|---|---|
 | `berichte-fuer-chatgpt/2026-09-15-option-genome-framework-0.3-implementiert.md` | Claude-Code-Bericht zur technischen Umsetzung von Framework 0.3; Datenerhalt, Tests und zurückgegebene Content Gaps | **IMPLEMENTED / geprüft** |
+| `berichte-fuer-chatgpt/2026-09-15-hd-chart-llm-poc-fuer-chatgpt.md` | Claude Code: isolierter HD-Chart + LLM POC (gpt-5.5, store:false) — Fixture-Weg läuft, Bild/PDF-Weg nur synthetisch (INPUT GAP), Baseline vs. MIY verglichen; Mehrwert bei Belegen, Fragen und Sicherheit, aber Statusregel sättigt (METHOD GAP), CONTENT GAP für jede Full-HD-Spur | **POC DURCHGEFÜHRT / Übergabe → LAB + PETRA** |
 | `berichte-fuer-chatgpt/2026-09-15-ilse-b5-manifestor-0.2-eingebaut-fuer-chatgpt.md` | Claude Code: Manifestor 0.2 in die HD Lens eingebaut | **IMPLEMENTED** |
 | `berichte-fuer-chatgpt/2026-09-15-liveone-lowcost-architektur-tech-check.md` | Technischer Befund zur Low-Cost-Voice-Idee | **TECH FINDING / offen** |
 | `berichte-fuer-chatgpt/2026-09-15-shared-project-live-poc-security-review-ergebnis.md` | Ergebnis Shared-Project-POC + defensiver Security-Review | **SECURITY REVIEW / PETRA REVIEW – keine Produktfreigabe** |
