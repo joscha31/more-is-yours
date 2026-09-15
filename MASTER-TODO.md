@@ -33,18 +33,22 @@ Ziel: Die reale wirtschaftliche Außenwelt so belastbar beschreiben, dass Econom
 - [x] Goldstandard 2: Freelancing/Done-for-you – Arbeitsfassung 0.1
 - [x] Goldstandard 3: Digitales Produkt – Arbeitsfassung 0.1
 - [x] Vergleich der drei Goldstandards
-- [x] neun Strukturvorschläge entwickelt
-- [x] Petra hat alle neun Strukturvorschläge freigegeben
-- [x] Entscheidung als `PETRA APPROVED` dokumentiert
-- [x] Framework 0.3 als freigegebenes Grundgerüst erstellt
-- [x] Build Brief für Claude Code erstellt
+- [x] neun Strukturvorschläge entwickelt und von Petra freigegeben
+- [x] Framework 0.3 erstellt und technisch umgesetzt
+- [x] Claude-Bericht zur Umsetzung 0.3 dauerhaft gespeichert
+- [x] fünf CONTENT GAPs aus Claudes Bericht geprüft
+- [x] bestehende Entscheidungen bestätigt: Teilzeit/Nebenjob = Familie Anstellung; Kategorien 1–7 = nur Ordnung
+- [x] drei offene Fachfragen von Petra freigegeben
+- [x] Framework 0.4 als aktueller Fachstand erstellt
+- [x] Build Brief 0.4 für die kleine technische Korrektur erstellt
 - [x] Option 4: Beratung – Arbeitsfassung 0.1 erstellt
 
 ### Jetzt
 
+- [ ] Claude Code setzt die kleine Korrektur aus `build-briefs/2026-09-15-option-genome-framework-0.4-korrektur.md` um
+- [ ] Rückmeldung prüfen und als Bericht speichern
 - [ ] **Option 5: Coaching fachlich entwickeln**
 - [ ] danach die weiteren noch offenen Startoptionen
-- [ ] jede Option mit Quellen, normalem Dienstag, Wachstum, Romantisierungen und Realitätschecks ausarbeiten
 
 Verbindlich zu berücksichtigen:
 
@@ -58,9 +62,9 @@ Verbindlich zu berücksichtigen:
 - Romantisierungen
 - Anfängerfallen
 - kleine Realitätschecks
-- Leistungserbringung/Lieferung
-- Recherche/Vorbereitung
-- Leerlauf/Warten
+- Leistungserbringung/Lieferung als beschreibender Text
+- Recherche/Vorbereitung als beschreibender Text
+- Leerlauf/Warten als beschreibender Text
 - Absicherung / soziale Absicherung
 - rechtliche / regulatorische Besonderheiten
 
@@ -74,6 +78,11 @@ Vier Grundfragen jeder Option:
 2. Wofür wird gezahlt?
 3. Wie wird geliefert?
 4. Wie entsteht Zugang zum Zahler?
+
+Rechtliche Inhalte werden künftig nur noch im Hauptfeld `f37_rechtliche_besonderheiten` fachlich gepflegt. Alte Rechtsfelder bleiben nur aus Gründen des Datenerhalts lesbar.
+
+`f6` = Einstiegskosten.  
+`f27` = zusätzlicher Kapitalbedarf beim Wachstum.
 
 ---
 
@@ -111,11 +120,9 @@ N100 bleibt dauerhafter Regressionstest.
 
 # 🟠 ARCHITEKTUR / CODE
 
-Claude Code darf innerhalb der freigegebenen Architektur arbeiten.
+Aktueller Option-Genome-Bauauftrag:
 
-Für Option Genome gilt jetzt der Build Brief:
-
-`build-briefs/2026-09-15-option-genome-framework-0.3.md`
+`build-briefs/2026-09-15-option-genome-framework-0.4-korrektur.md`
 
 Claude Code darf NICHT:
 
@@ -125,6 +132,7 @@ Claude Code darf NICHT:
 - Matchingmethodik ändern
 - Persona eigenmächtig ändern
 - Fachlücken technisch „lösen“
+- alte Daten löschen
 
 Wenn Fachwissen fehlt:
 
@@ -162,4 +170,4 @@ Wenn die Startoptionen fachlich ausreichend beschrieben sind:
 
 > **Coaching als nächste reale wirtschaftliche Option entwickeln.**
 
-Beratung und Coaching bleiben getrennt, weil sie zwar ähnlich verkauft werden können, aber fachlich, rechtlich und im tatsächlichen Alltag nicht automatisch dasselbe sind.
+Parallel darf Claude Code die kleine, bereits freigegebene 0.4-Korrektur umsetzen.
