@@ -6,7 +6,7 @@
 
 ## Ausgangspunkt
 
-Claude Code hat Manifestor 0.2 technisch eingebaut. Der Motor, die sieben freigegebenen Manifestor-Hypothesen und die sieben offenen Kernfragen sind aktiv. Vertiefungen und Gegenproben sind technisch noch nicht abgebildet. Außerdem wurden drei Folgefragen an das Human Design Content Lab übergeben: Bibliotheksform für Vertiefungen/Gegenproben, Erweiterung des technischen Schutznetzes und Du-Fassung der Hypothesen.
+Claude Code hat Manifestor 0.2 technisch eingebaut. Der Motor, die sieben freigegebenen Manifestor-Hypothesen und die sieben offenen Kernfragen sind aktiv. Vertiefungen und Gegenproben sind technisch noch nicht abgebildet. Außerdem wurden drei Folgefragen an das Human Design Content Lab übergeben: Bibliotheksform für Vertiefungen/Gegenproben, Erweiterung des technischen Schutznetzes und Nutzerfassung der Hypothesen.
 
 ## Vorschlag 1 – Bibliotheksform erweitern
 
@@ -48,15 +48,23 @@ Er soll insbesondere offensichtliche verbotene Muster erkennen, z. B.:
 
 Der Quality Guard und menschliche Review bleiben notwendig. Ein grüner Regex-Test beweist keine gute HD-Begleitung.
 
-## Vorschlag 3 – Nutzerhypothesen in Du-Sprache
+## Vorschlag 3 – Nutzerfassung der Hypothesen, aber Frage zuerst
 
-Auf der Nutzeroberfläche sollen Hypothesen nicht in interner dritter Person stehen ("ob die Frau ..."), sondern in einer vorsichtigen Du-Fassung.
+Die interne fachliche Hypothese darf weiterhin in dritter Person gespeichert werden. Für die Frau kann zusätzlich eine vorsichtige Du-Fassung existieren.
+
+**Wichtig:** Die Du-Fassung darf die offene Frage nicht vorwegnehmen oder die Antwort primen.
+
+Deshalb gilt für die Nutzeroberfläche:
+
+> **Frage zuerst. Hypothese erst danach oder optional aufklappbar als „Was wir hier prüfen“.**
+
+Gerade bei H-MAN-07 würde eine vorangestellte Hypothese mit „Respekt, Distanz oder Vorsicht“ die eigentlich offene Frage bereits färben.
 
 Beispiel intern:
 
 > „Es könnte relevant sein zu prüfen, ob die Frau in Arbeitssituationen gern selbst etwas anstößt.“
 
-Empfohlene Nutzerfassung:
+Mögliche Nutzerfassung nach/bei Bedarf:
 
 > „Es könnte interessant sein zu prüfen, ob du bei der Arbeit gern selbst etwas anstößt.“
 
@@ -67,8 +75,12 @@ Sprachregeln:
 - keine Verstärkung durch Typjargon
 - keine wirtschaftliche Schlussfolgerung
 - Inhalt darf gegenüber der freigegebenen Hypothese nicht verändert werden
+- die offene Frage steht vor jeder suggestiveren Erklärung
 
-Intern kann die fachliche Originalform bestehen bleiben; die Du-Fassung ist ein eigenes freigegebenes Ausgabefeld.
+Empfohlene technische Trennung:
+
+- `hypothese_intern`
+- `hypothese_nutzer` – optional, nicht vor der offenen Frage anzeigen
 
 ## Vorschlag 4 – Gesprächseinbindung noch nicht bauen
 
