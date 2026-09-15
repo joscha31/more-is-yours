@@ -1,7 +1,7 @@
 # MORE IS YOURS – Abschluss vor der Reise
 
 **Stand:** 15.09.2026  
-**Zeitraum:** Abschluss heute · Reise ab 16.09. · ruhiger Wiedereinstieg ab ca. 26.09.2026  
+**Zeitraum:** Abschluss heute · Reise 16.–27.09. · Wiedereinstieg ab 28.09.2026  
 **Status:** Arbeitsplan / kein neuer fachlicher Freigabestatus
 
 ## Ziel für heute
@@ -50,10 +50,10 @@ Danach entweder live oder bewusst als Vorschau stehen lassen. Keine Endlosschlei
 
 ## HEUTE – INSTAGRAM
 
-Keine Pflicht, zehn Tage Abwesenheit anzukündigen.
+Keine Pflicht, die komplette Reisezeit oder Abwesenheit anzukündigen.
 
 Empfehlung:
-- kein Satz wie „Ich bin jetzt 10 Tage weg“ und keine Reisedaten/Abwesenheitsdetails öffentlich nennen,
+- kein Satz wie „Ich bin jetzt zwölf Tage weg“ und keine konkreten Reise-/Abwesenheitsdetails öffentlich nennen,
 - stattdessen ein kurzes Lebenszeichen zum Entwicklungsstand.
 
 ### Ein einziges einfaches Story-/Talking-Head-Thema
@@ -62,7 +62,7 @@ Empfehlung:
 
 Kein harter CTA nötig. Optional: „Wenn du neugierig bist: moreisyours.de“ erst wenn die neue Landingpage live ist.
 
-## WÄHREND DER REISE 16.–25.09.
+## WÄHREND DER REISE 16.–27.09.
 
 ### Minimum-Modus – Empfehlung
 
@@ -101,7 +101,7 @@ Aktuelle drei Empfehlungen:
 
 Vor der Reise keine Kursproduktion starten.
 
-## WIEDEREINSTIEG AB CA. 26.09.
+## WIEDEREINSTIEG AB 28.09.
 
 Reihenfolge:
 
@@ -121,4 +121,4 @@ Heute ist genug getan, wenn:
 - Petra höchstens ein einfaches Instagram-Lebenszeichen sendet,
 - alle Minikursideen dokumentiert sind,
 - es für die Reise keine laufende Contentpflicht gibt,
-- der Wiedereinstiegspunkt für den 26.09. feststeht.
+- der Wiedereinstiegspunkt für den 28.09. feststeht.
