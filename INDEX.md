@@ -57,6 +57,7 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `forschung/Option-Genome-01-Teilzeit-Nebenjob-0.1.md` | Goldstandard-Arbeitsfassung Teilzeit/Nebenjob | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-02-Freelancing-Done-for-you-0.1.md` | Goldstandard-Arbeitsfassung Freelancing/Done-for-you | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-03-Digitales-Produkt-0.1.md` | Goldstandard-Arbeitsfassung digitales Produkt | **FACH-LAB-VORSCHLAG** |
+| `forschung/Option-Genome-04-Beratung-0.1.md` | Arbeitsfassung Beratung / Consulting in Deutschland | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-Goldstandard-Vergleich-0.1.md` | Vergleich der ersten drei Goldstandards; neun Strukturvorschläge | Vorschläge am 15.09.2026 von Petra freigegeben |
 
 ### Human Design – aktueller Arbeitsstand
@@ -69,13 +70,14 @@ Weitere Typen, Autoritäten und Profile bleiben Content Gaps, bis sie separat fa
 
 ### Option Genome – aktueller Arbeitsstand
 
-Das Grundgerüst 0.3 ist freigegeben. Die drei Goldstandard-Belastungstests liegen vor:
+Das Grundgerüst 0.3 ist freigegeben. Vorhanden sind:
 
-1. Teilzeit-/Nebenjob – Anstellung
-2. Freelancing / Done-for-you – selbstständige Dienstleistung
-3. Digitales Produkt – digitales Asset
+1. Teilzeit-/Nebenjob
+2. Freelancing / Done-for-you
+3. Digitales Produkt
+4. Beratung
 
-Nächste fachliche Optionen: **Beratung**, danach **Coaching**.
+Nächste fachliche Option: **Coaching**.
 
 ---
 
