@@ -1,4 +1,4 @@
-# INDEX – Modulares Entscheidungssystem
+# INDEX – More is Yours
 
 **Stand:** 15. September 2026  
 **Funktion:** Zentrales Inhaltsverzeichnis des Projekts
@@ -7,25 +7,37 @@
 
 ## Prioritätsregel bei Widersprüchen
 
-1. aktuelle `Quelle-der-Wahrheit-*.md`
-2. ausdrücklich bestätigte spätere strategische Entscheidung
-3. freigegebene Spezifikation
-4. Forschungsberichte
-5. Pilot- und Entwicklungsprotokolle
-6. Marketing-Ideen
-7. ältere Chats / Brainstormings
+1. aktueller Gesamt-Master unter `master/`
+2. ausdrücklich **PETRA APPROVED** Entscheidungen unter `entscheidungen/`
+3. projektweite verbindliche Regeln unter `gesetze/`
+4. freigegebene Spezifikation
+5. Fach-Lab-/Forschungsstände
+6. Pilot- und Entwicklungsprotokolle
+7. ältere Quellen-der-Wahrheit-Fassungen, Chats und Brainstormings
 
 Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 ---
 
-## Strategie
+## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
 |---|---|---|
-| `strategie/Quelle-der-Wahrheit-2.1.md` | Verbindlicher strategischer Stand des Gesamtprojekts | verbindlich |
-| `strategie/Vision.md` | Ausführliche Vision / emotionaler Nordstern | noch aus Visions-Chat zu erstellen |
-| `strategie/Mission.md` | Falls später eine ausführliche Mission außerhalb der Quelle benötigt wird | optional / noch nicht angelegt |
+| `master/2026-09-14-more-is-yours-gesamt-master-3.0.md` | Zentrale Arbeits- und Orientierungsgrundlage für Petra, ChatGPT, Claude Co-Work und Claude Code | **MASTER / aktuell** |
+
+Ältere `Quelle-der-Wahrheit-*`-Fassungen bleiben als Projektgeschichte erhalten. Bei Widerspruch gilt der aktuelle Gesamt-Master zusammen mit späteren PETRA-APPROVED-Entscheidungen.
+
+---
+
+## Strategie / ältere Referenzstände
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `Quelle-der-Wahrheit-3.1.md` | früherer konsolidierter strategischer Stand | historische Referenz |
+| `Quelle-der-Wahrheit-3.0.md` | früherer konsolidierter strategischer Stand | historische Referenz |
+| `strategie/Quelle-der-Wahrheit-2.1.md` | älterer strategischer Stand | historische Referenz |
+| `MEINE-VISION.md` | ausführliche Vision | Referenz |
+| `MORE-IS-YOURS-GRUENDERINNEN-BETRIEBSSYSTEM.md` | Petras Arbeits- und Unternehmensprinzipien | Referenz |
 
 ---
 
@@ -38,6 +50,19 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `forschung/Economic-Profile-Matching-Rule-Library-0.1.md` | Fachliche Regelbibliothek für B3: Grenzen, Präferenzen, Evidenz, Konflikte, unbekannt vs. testen, Zahlenlogik und Reality-Learning-Routing | **FACH-LAB-VORSCHLAG** |
 | `forschung/Human-Design-Dialogregeln-0.1.md` | Methodische Gesprächsregeln für die HD Lens: offen fragen, Hypothesen markieren, Biografie und Gegenbeispiele prüfen | verbindliche Arbeitsregel im HD Content Lab |
 | `forschung/Human-Design-Content-Library-01-Manifestor.md` | Erste HD-Content-Library-Einheit; Manifestor-Typ und Strategie mit MIY-Hypothesen, Sprachschutz und sieben dialogischen Kernfragen | Arbeitsfassung 0.2 / noch nicht BUILD READY |
+| `forschung/Option-Genome-Framework-0.2.md` | Fachliche Vorlage inkl. Evidenz-, Quellen-, Dienstag- und Wachstumslogik für Option Genome | **FACH-LAB-VORSCHLAG** |
+| `forschung/Option-Genome-01-Teilzeit-Nebenjob-0.1.md` | Goldstandard-Arbeitsfassung Teilzeit/Nebenjob | **FACH-LAB-VORSCHLAG** |
+| `forschung/Option-Genome-02-Freelancing-Done-for-you-0.1.md` | Goldstandard-Arbeitsfassung Freelancing/Done-for-you | **FACH-LAB-VORSCHLAG** |
+
+### Option Genome – aktueller Arbeitsauftrag
+
+Gemäß Gesamt-Master zuerst drei Goldstandard-Optionen fachlich fertig entwickeln:
+
+1. Teilzeit-/Nebenjob – Arbeitsfassung vorhanden
+2. Freelancing / Done-for-you – Arbeitsfassung vorhanden
+3. Digitales Produkt – **als Nächstes**
+
+Danach die restlichen sieben Startoptionen.
 
 ---
 
@@ -63,6 +88,7 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | Datei | Funktion | Status |
 |---|---|---|
 | `system/Ilse-Prinzipien.md` | Verbindliche Dialog-, Sprach- und Begleitprinzipien für Ilse | im Aufbau |
+| `entscheidungen/2026-09-15-architecture-decisions-b4-b7.md` | B4 Dienstag, B5 HD Lens, B6 Realitätscheck, B7 Quality Guard | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-ilse-systemische-coachingregeln.md` | Systemische Gesprächsregeln: Hypothesen fragen statt behaupten; Fachwissen geben, Entscheidung bei der Frau | **PETRA APPROVED** |
 | `gesetze/2026-09-15-projektregel-github-arbeitsweise.md` | Projektweite Regel: GitHub als Masterquelle; wichtige Inhalte zusätzlich im Chat; fertiger Claude-Befehl bei Übergaben | **PETRA APPROVED** |
 | `system/Programmarchitektur.md` | Fachliche Arbeitsarchitektur aus den Forschungsergebnissen; Teil A Klarheit, Teil B Möglichkeit, Teil C Umsetzung | vorhanden / Arbeitsmodell |
@@ -100,7 +126,7 @@ Künftige Protokolle werden nach relevantem Arbeitstag ergänzt.
 
 ---
 
-## Empfohlene Repository-Struktur
+## Repository-Struktur
 
 ```text
 more-is-yours/
@@ -129,16 +155,8 @@ Jede neue dauerhafte Projektdatei wird anschließend in diesem `INDEX.md` ergän
 
 ---
 
-## Seit 15.09.2026: Umbenannt in „More is Yours" — und die Wahrheit des Programms liegt hier
+## Wo der Code liegt
 
-Das Repo hieß früher `modulares-entscheidungssystem-`. Heute heißt das Programm More is Yours, und dieses Repo ist seine Wahrheit. Neu dazu:
+Ilse 0.1 liegt im Arbeits-Repo `meine-projekte` unter `outputs/moreisyours-ilse/`, live auf `https://ilse.moreisyours.de`. Landingpage: `https://moreisyours.de`.
 
-| Ordner | Was drin liegt |
-|---|---|
-| `arbeitszettel/` | Tagesaktuelle, verständliche Klick-/Arbeitslisten für Petra; erledigt/offen/nächster Einstieg |
-| `master/` | der **Gesamt-Master 3.0** (14.09.2026) — zentrale Arbeits- und Orientierungsgrundlage für Petra, ChatGPT, Claude Co-Work und Claude Code |
-| `gesetze/` | Projektweite Regeln für jede Seite, jeden Text und die Zusammenarbeit – u. a. UI-Gesetz und GitHub-/Übergaberegel |
-| `entscheidungen/` | verbindliche Architektur- und Fachentscheidungen nach Petra-Freigabe (z. B. B4–B7 und Ilses systemische Coachingregeln, 15.09.) — was Claude Code danach umsetzt |
-| `berichte-fuer-chatgpt/` | die Rückmeldungen je Baupaket in der Form von Master §25 (B4 Dienstag · B5 HD Lens · B6 Realitätscheck · B7 Quality Guard · UI-Gesetz) |
-
-**Wo der Code liegt:** Ilse 0.1 (das Haus) im Arbeits-Repo `meine-projekte` unter `outputs/moreisyours-ilse/`, live auf `https://ilse.moreisyours.de`. Landingpage: `https://moreisyours.de`.
+Claude Code darf fehlende Fachwahrheit nicht selbst erfinden. Fehlende Inhalte werden als **CONTENT GAP** an das zuständige Fach-Lab zurückgegeben.
