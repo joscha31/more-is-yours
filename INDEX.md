@@ -162,6 +162,7 @@ Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 | `berichte-fuer-chatgpt/2026-09-15-option-genome-framework-0.3-implementiert.md` | Claude-Code-Bericht zur technischen Umsetzung von Framework 0.3; Datenerhalt, Tests und zurückgegebene Content Gaps | **IMPLEMENTED / geprüft** |
 | `berichte-fuer-chatgpt/2026-09-15-ilse-b5-manifestor-0.2-eingebaut-fuer-chatgpt.md` | Claude Code: Manifestor 0.2 in die HD Lens eingebaut | **IMPLEMENTED** |
 | `berichte-fuer-chatgpt/2026-09-15-liveone-lowcost-architektur-tech-check.md` | Technischer Befund zur Low-Cost-Voice-Idee | **TECH FINDING / offen** |
+| `berichte-fuer-chatgpt/2026-09-15-shared-project-live-poc-security-review-ergebnis.md` | Ergebnis Shared-Project-POC + defensiver Security-Review: Ilse-Code, Supabase, Live-Adresse, Injection-Lauf, Karten-POC, Datenflusskarte, Kündigungstest-Protokoll; 11 Risiken (3 hoch, 0 kritisch), fünf Bedingungen vor Pilotin 1 | **SECURITY REVIEW / PETRA REVIEW – keine Produktfreigabe** |
 
 ---
 
