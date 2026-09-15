@@ -1,8 +1,8 @@
 # MORE IS YOURS – Human Design Content Library
 ## HD Lens 0.1 – Typ: Manifestor
 
-**Status:** Arbeitsfassung 0.1 – fachlich entwickelt, noch nicht final freigegeben  
-**Datum:** 14.09.2026  
+**Status:** Arbeitsfassung 0.2 – dialogisch geschärft, noch nicht für Claude Code freigegeben  
+**Stand:** 15.09.2026  
 **Bereich:** Human Design Content Lab  
 **Produktive HD-Ebene:** Typ + Strategie; Autorität und Profil werden später separat ergänzt  
 **Nicht produktiv in dieser Einheit:** Zentren-Detailauswertung, Definition, Kanäle, Gates, Variablen, Inkarnationskreuz
@@ -15,7 +15,7 @@ Human Design ist in More is Yours eine zusätzliche Reflexionsebene und keine wi
 
 **Verbindliche Übersetzungskette:**
 
-> Human Design → wirtschaftlich relevante Hypothese → Abgleich mit Selbstaussage und gelebter Biografie → Frage
+> Human Design → wirtschaftlich relevante Hypothese → Selbstaussage → gelebter Beleg → Frage
 
 **Nie:**
 - Typ → Beruf
@@ -30,6 +30,14 @@ Human Design ist in More is Yours eine zusätzliche Reflexionsebene und keine wi
 **Harte Regel:**
 
 > Ein Human-Design-Merkmal darf innerhalb More is Yours niemals allein ein Matching-Kriterium, Ausschlusskriterium oder Entscheidungsgrund sein.
+
+Für den Dialog gilt zusätzlich die freigegebene systemische Ilse-Regel:
+
+> **Über die Welt darf Ilse informieren. Über die Frau muss Ilse fragen, wenn sie es nicht sicher weiß.**
+
+Und für HD speziell:
+
+> **Human Design liefert eine mögliche Frage – keine fertige Aussage über die Frau.**
 
 ---
 
@@ -54,7 +62,9 @@ Wichtig innerhalb der HD-Lehre:
 
 Traditionell wird der Manifestor im Bodygraph über ein undefiniertes Sakralzentrum und eine motorische Verbindung zur Kehle definiert. Die HD-Lehre verbindet damit Initiation und eine sogenannte geschlossene/abweisende Aura.
 
-**Für HD Lens 0.1 wird diese Zentren- und Aura-Logik NICHT produktiv ausgewertet.** Sie bleibt Herkunftswissen zur Typdefinition.
+**Für HD Lens 0.1 wird diese Zentren- und Aura-Logik NICHT als Matchingdaten ausgewertet.** Sie bleibt Hintergrundwissen.
+
+Aura-Themen dürfen nur dann als vorsichtige Beobachtungsfrage auftauchen, wenn daraus eine wirtschaftlich relevante Alltagsspur geprüft wird. Sie werden nie als Tatsache über die Frau gesetzt.
 
 ## 1.3 Nicht produktiv verwendete Typmarker
 
@@ -70,7 +80,8 @@ Diese Marker werden in HD Lens 0.1 zunächst **nicht als wirtschaftliche Datenpu
 - `HD-KERNLEHRE`: Informieren ≠ Erlaubnis erfragen
 - `HD-KERNLEHRE`: Strategie ≠ Autorität
 - `HD-HINTERGRUND`: strukturelle Bodygraph-Definition
-- `NICHT PRODUKTIV 0.1`: Aura, Signatur, Nicht-Selbst-Thema
+- `HD-HINTERGRUND`: Aura-Beschreibung
+- `NICHT PRODUKTIV 0.1`: Aura als Matchingfaktor, Signatur, Nicht-Selbst-Thema
 
 ---
 
@@ -102,7 +113,7 @@ Alle folgenden Aussagen sind **MIY-Hypothesen**, keine Tatsachen über eine Frau
 
 ## H-MAN-03 – Initiieren versus Fortführen differenzieren
 
-**Hypothese:** Es kann sinnvoll sein zu untersuchen, ob die Frau besonders viel Energie oder Freude am **Starten** von Vorhaben erlebt – und ob sich das vom langfristigen Fortführen unterscheidet.
+**Hypothese:** Es kann sinnvoll sein zu untersuchen, ob die Frau besonders viel Freude oder Zug am **Starten** von Vorhaben erlebt – und ob sich das vom langfristigen Fortführen unterscheidet.
 
 **Nicht ableiten:**
 - Manifestorinnen können nichts zu Ende bringen.
@@ -146,6 +157,20 @@ Alle folgenden Aussagen sind **MIY-Hypothesen**, keine Tatsachen über eine Frau
 
 **Mögliche wirtschaftliche Relevanz:** Entscheidungsprozesse, Governance, Partnerschaften, Führung, Rollenklärung.
 
+## H-MAN-07 – Wirkung auf andere vorsichtig beobachten
+
+**Hypothese:** Es kann interessant sein zu prüfen, ob die Frau im Kontakt mit anderen häufiger eine anfängliche Reaktion von Respekt, Distanz oder Vorsicht erlebt, die sie selbst nicht bewusst auslöst.
+
+**Wichtig:** Diese Hypothese stammt aus der HD-Aura-Beschreibung und ist in A-light **kein produktiver Matchingfaktor**. Sie darf nur als Beobachtungsfrage verwendet werden.
+
+**Nicht ableiten:**
+- Andere haben Angst vor Manifestorinnen.
+- Die Frau wirkt einschüchternd.
+- Distanz ist durch den Typ verursacht.
+- Diese Wirkung ist immer vorhanden.
+
+**Mögliche wirtschaftliche Relevanz – nur falls von der Frau selbst bestätigt:** Erstkontakt, Führung, Kundengespräche, Teamdynamik, Sichtbarkeit, Missverständnisse in Kommunikation.
+
 ---
 
 # 3. Was daraus ausdrücklich NICHT folgt
@@ -164,15 +189,16 @@ Aus dem Typ Manifestor folgt in More is Yours **nicht**:
 - Sie ist nicht für Routinen geeignet.
 - Sie kann schlecht langfristig arbeiten.
 - Sie braucht ein Team, das ihre Ideen ausführt.
+- Andere Menschen haben automatisch Respekt oder Angst vor ihr.
 - Widerstand anderer beweist, dass sie ihr Design falsch lebt.
 - Ärger beweist berufliche Fehlpassung.
 - Frieden beweist berufliche Passung.
 
 ---
 
-# 4. Abgleich mit Selbstaussage
+# 4. Abgleich mit Selbstaussage und Statuslogik
 
-Ilse/More is Yours prüft zuerst, was die Frau selbst berichtet.
+Ilse prüft zuerst, was die Frau selbst berichtet.
 
 Mögliche relevante Selbstaussagen:
 - „Ich habe ständig neue Ideen und lege gern los.“
@@ -181,143 +207,308 @@ Mögliche relevante Selbstaussagen:
 - „Ich mag klare Hierarchien, solange mein Bereich eindeutig meiner ist.“
 - „Ich starte gern Dinge, aber ich liebe genauso die jahrelange Weiterentwicklung.“
 - „Ich entscheide lieber gemeinsam.“
-- „Ich brauche erst Austausch, bevor ich weiß, was ich will.“
+- „Menschen wirken am Anfang manchmal vorsichtig bei mir.“
+- „Nein, diese Beschreibung kenne ich überhaupt nicht.“
 
-**Regel:** Keine dieser Aussagen wird aufgrund des Charts korrigiert.
+**Regel:** Keine Selbstaussage wird aufgrund des Charts korrigiert.
 
-Wenn Selbstaussage und HD-Hypothese nicht zusammenpassen, entsteht eine **offene Spannung**, keine Diagnose.
+Für B5 gilt verbindlich:
+- keine Selbstaussage / kein Lebensbeleg → `offen`
+- Selbstaussage dafür oder genau ein Lebensbeleg dafür → `teilweise`
+- mindestens zwei Lebensbelege dafür und kein Widerspruch → `auffällige Übereinstimmung`
+- Selbstaussage dagegen oder mindestens ein Lebensbeleg dagegen → `Spannung`
 
----
+Die Art der Spannung bleibt sichtbar:
+- `selbst_widerspricht`
+- `lebensbeleg_widerspricht`
 
-# 5. Abgleich mit gelebter Biografie
-
-Eine HD-Hypothese wird erst interessant, wenn konkrete Spuren im Leben gesucht werden.
-
-## Gute Biografie-Spuren
-
-Nicht fragen: „Bist du eine Initiatorin?“
-
-Sondern z. B.:
-- Welche Projekte hast du selbst angestoßen, obwohl niemand dich darum gebeten hatte?
-- Wo hast du eine bestehende Situation verändert, weil du etwas anders machen wolltest?
-- Gibt es Beispiele, in denen du eine Idee hattest und andere später dazukamen?
-- Gibt es ebenso Beispiele, in denen du dich am wohlsten gefühlt hast, wenn eine Aufgabe von außen kam?
-- In welchen Rollen hattest du viel Freiheit – und wie ging es dir damit tatsächlich?
-- In welchen Rollen gab es enge Vorgaben – und waren sie störend oder sogar hilfreich?
-
-## Qualitätsregel
-
-Ein einzelnes Beispiel bestätigt keine Typ-Hypothese.
-
-Gesucht werden wiederkehrende Muster über mehrere Lebensbereiche hinweg – und ebenso Gegenbeispiele.
+Ein Lebensbeleg ist ein konkretes Ereignis oder beobachtbares Verhalten aus dem wirklichen Leben, z. B. „Ich habe meine Praxis 30 Jahre geführt.“
 
 ---
 
-# 6. Gute alltagsnahe Reflexionsfragen
+# 5. Dialogmethodik für Manifestor
 
-## 6.1 Initiation
+Die Manifestor-Lens wird **nicht als Fragebogen abgespult**.
 
-**Q-MAN-01**  
-„Wenn dir bei der Arbeit eine neue Idee kommt: Was passiert meistens als Nächstes – legst du selbst los, sprichst du erst mit anderen oder wartest du eher, bis sich ein Anlass ergibt?“
+Ilse arbeitet wie eine gute systemische Business-Coachin:
 
-**Q-MAN-02**  
-„Erzähl mir von etwas, das es nur gibt, weil du irgendwann gesagt hast: Ich fang damit jetzt an.“
+1. offene W-Frage
+2. zuhören
+3. nur bei Bedarf vorsichtige Hypothese anbieten
+4. konkretes Beispiel suchen
+5. Gegenbeispiel zulassen oder aktiv prüfen
+6. wirtschaftliche Bedeutung nur prüfen, wenn das Thema für die Frau tatsächlich relevant ist
+7. vorläufig einordnen – niemals beweisen wollen
 
-**Q-MAN-03**  
-„Und gibt es das Gegenteil auch – Situationen, in denen du lieber auf einen klaren Auftrag reagierst, statt selbst etwas anzustoßen?“
+**Wichtig:** Nicht alle sieben Kernfragen müssen gestellt werden. Die nächste Frage entsteht aus dem Gespräch. Bereits vorhandene Informationen aus dem Economic Profile und der Biografie werden aktiv genutzt und nicht erneut abgefragt.
 
-## 6.2 Gestaltungsspielraum
-
-**Q-MAN-04**  
-„Stell dir zwei Jobs vor: In Job A ist das Ziel klar, aber den Weg bestimmst du selbst. In Job B wird auch der Weg ziemlich genau vorgegeben. Was wäre für dich angenehmer – und woran würdest du das an einem normalen Dienstag merken?“
-
-**Q-MAN-05**  
-„Wie viel Abstimmung tut dir gut – und ab wann fühlt sie sich für dich wie unnötige Kontrolle an?“
-
-## 6.3 Starten und Fortführen
-
-**Q-MAN-06**  
-„Was macht dir bei Projekten mehr Freude: etwas neu in Gang bringen, etwas über längere Zeit verbessern – oder wirklich beides?“
-
-**Q-MAN-07**  
-„Was passiert bei dir nach der ersten Begeisterung? Bleibst du gern dran, veränderst du die Aufgabe oder möchtest du lieber etwas Neues anstoßen?“
-
-## 6.4 Informieren
-
-**Q-MAN-08**  
-„Wenn du etwas entscheidest, das andere Menschen mitbetrifft: Wann erzählst du ihnen normalerweise davon?“
-
-**Q-MAN-09**  
-„Kennst du Situationen, in denen Menschen auf eine Entscheidung von dir vor allem deshalb gereizt reagiert haben, weil sie davon überrascht wurden?“
-
-**Q-MAN-10**  
-„Gab es umgekehrt Situationen, in denen du früh informiert hast und es trotzdem Konflikt gab? Worum ging es dann tatsächlich?“
-
-## 6.5 Arbeitskontext
-
-**Q-MAN-11**  
-„Wenn du in einem Unternehmen arbeitest: Musst du selbst die Richtung bestimmen – oder reicht es dir, innerhalb deines Bereichs echten Spielraum zu haben?“
-
-**Q-MAN-12**  
-„Wie würdest du reagieren, wenn eine wirtschaftlich sehr gute Option klare Regeln und Abstimmungswege hätte, dir aber innerhalb dieser Grenzen viel Freiheit gäbe?“
+Bevorzugte Marker:
+- „Wie ist das bei dir?“
+- „Woran merkst du das?“
+- „Kann es sein, dass …?“
+- „Kennst du das – oder überhaupt nicht?“
+- „Gibt es auch Situationen, in denen es ganz anders ist?“
+- „Hat das für deine Arbeit überhaupt eine Bedeutung?“
 
 ---
 
-# 7. Typische Spannungen zwischen Chart und gelebtem Leben
+# 6. Sieben Kernfragen für Ilse – Arbeitsfassung 0.2
+
+## Q-MAN-01 – Eigenen Anstoß erkunden
+
+**Offener Einstieg:**
+
+> „Wenn bei der Arbeit etwas Neues entsteht: Wie ist das bei dir normalerweise – kommt der erste Anstoß oft von dir, von anderen oder ist das ganz unterschiedlich?“
+
+**Wenn sie Beispiele braucht:**
+
+> „Was hast du in deinem Leben schon einmal selbst angestoßen, obwohl niemand dich darum gebeten hat?“
+
+**Gegenprobe:**
+
+> „Und wo bist du völlig zufrieden damit, einen klaren Auftrag zu bekommen und darauf zu reagieren?“
+
+**Prüft:** H-MAN-01  
+**Wirtschaftliche Dimension:** Initiieren/Reagieren, Rollenautonomie  
+**Warum sicher:** Kein Typbegriff, mehrere Antworten ausdrücklich möglich.
+
+---
+
+## Q-MAN-02 – Spielraum statt pauschaler Freiheitsbehauptung
+
+**Offener Einstieg:**
+
+> „Wie viel eigenen Spielraum brauchst du bei deiner Arbeit, damit du dich wohlfühlst?“
+
+**Vertiefung:**
+
+> „Woran würdest du an einem normalen Dienstag merken: Hier darf ich wirklich meinen eigenen Weg wählen?“
+
+**Gegenprobe:**
+
+> „Und wo tun dir klare Regeln oder Vorgaben sogar gut?“
+
+**Prüft:** H-MAN-02  
+**Wirtschaftliche Dimension:** Autonomie, Struktur, Führungsumfeld  
+**Wichtig:** Ziel ist nicht „Manifestorin braucht Freiheit“, sondern die konkrete Mischung aus Spielraum und Struktur.
+
+---
+
+## Q-MAN-03 – Starten und Dranbleiben differenzieren
+
+**Offener Einstieg:**
+
+> „Welche Phase eines Projekts liegt dir eigentlich am meisten: etwas neu in Gang bringen, es über längere Zeit weiterentwickeln, es stabil am Laufen halten – oder ist das je nach Thema ganz verschieden?“
+
+**Wenn Starten genannt wird:**
+
+> „Was genau macht dir am Anfang Freude?“
+
+**Gegenprobe:**
+
+> „Kennst du auch Dinge, an denen du über Jahre richtig gern drangeblieben bist?“
+
+**Prüft:** H-MAN-03  
+**Wirtschaftliche Dimension:** Aufgabenmix, Aufbau/Optimierung, spätere Rollenverteilung  
+**Schutz:** Ein langjähriges Dranbleiben ist kein Widerspruch, der weginterpretiert werden darf.
+
+---
+
+## Q-MAN-04 – Kontrolle und Einfluss von außen
+
+**Offener Einstieg:**
+
+> „Wie ist das für dich, wenn jemand sehr früh in deine Arbeit hineinredet oder jeden Schritt mit dir abstimmen möchte?“
+
+**Vertiefung:**
+
+> „Was davon ist hilfreiche Zusammenarbeit – und ab wann fühlt es sich für dich nach unnötiger Kontrolle an?“
+
+**Gegenprobe:**
+
+> „Gibt es Situationen, in denen du genau diese enge Abstimmung sogar möchtest?“
+
+**Prüft:** H-MAN-04  
+**Wirtschaftliche Dimension:** Teamkultur, Hierarchie, Freigabeprozesse, Kundenarbeit.
+
+---
+
+## Q-MAN-05 – Informieren im echten Leben prüfen
+
+**Offener Einstieg:**
+
+> „Wenn du eine Entscheidung triffst, die andere Menschen mitbetrifft: Wie machst du das normalerweise – wann und wie erfahren die anderen davon?“
+
+**Wenn Reibung auftaucht:**
+
+> „Kann es sein, dass Überraschung manchmal ein Teil des Konflikts war – oder lag es eher an etwas ganz anderem?“
+
+**Gegenprobe:**
+
+> „Kennst du auch Situationen, in denen du früh und klar informiert hast und es trotzdem Widerstand gab?“
+
+**Prüft:** H-MAN-05  
+**Wirtschaftliche Dimension:** Kommunikation mit Team, Familie, Kunden, Partnern  
+**Schutz:** Widerstand wird niemals automatisch auf „nicht informiert“ zurückgeführt.
+
+---
+
+## Q-MAN-06 – Entscheidung versus Erlaubnis unterscheiden
+
+**Offener Einstieg:**
+
+> „Wenn du vor einer wichtigen beruflichen Entscheidung stehst: Wofür holst du dir andere Menschen dazu?“
+
+**Mögliche Vertiefung, wenn nötig:**
+
+> „Geht es dir dann eher um Informationen, ums gemeinsame Denken, um Rückendeckung, um echte gemeinsame Entscheidung – oder darum, dass jemand sagt: Ja, du darfst?“
+
+**Gegenprobe:**
+
+> „Gibt es Entscheidungen, bei denen du sehr klar selbst entscheidest und die anderen anschließend nur noch informierst?“
+
+**Prüft:** H-MAN-06  
+**Wirtschaftliche Dimension:** Entscheidungsstil, Partnerschaften, Führung, Governance  
+**Schutz:** Rücksprache wird nicht als „falsches Manifestor-Verhalten“ gedeutet.
+
+---
+
+## Q-MAN-07 – Wirkung auf andere / Aura-Thema vorsichtig öffnen
+
+**Offener Einstieg:**
+
+> „Wie reagieren Menschen auf dich, wenn sie dich noch gar nicht gut kennen?“
+
+**Nur wenn die Frau damit zunächst nichts anfangen kann, vorsichtig anbieten:**
+
+> „Kennst du zum Beispiel, dass manche Menschen dir erst einmal mit ziemlich viel Respekt, Distanz oder Vorsicht begegnen – und du selbst gar nicht genau weißt, woher das kommt? Oder kennst du das überhaupt nicht?“
+
+**Wenn sie Ja sagt:**
+
+> „Woran merkst du das konkret?“
+
+Dann:
+
+> „Passiert das häufig oder nur in bestimmten Situationen?“
+
+**Gegenprobe:**
+
+> „Und wo ist es ganz anders – wo kommen Menschen sofort sehr leicht auf dich zu?“
+
+**Wirtschaftlich erst danach:**
+
+> „Hat diese Wirkung für deine Arbeit überhaupt eine Bedeutung – zum Beispiel bei Kundinnen, im Team oder wenn du sichtbar wirst?“
+
+**Prüft:** H-MAN-07  
+**Status:** Beobachtungsfrage aus HD-Hintergrund, **kein produktiver Matchingfaktor in A-light**  
+**Schutz:** Nie „Du hast eine abweisende Aura, deshalb …“ sagen.
+
+---
+
+# 7. Wie Ilse aus Antworten weiterfragt
+
+## Beispiel A – Frau bestätigt die Hypothese
+
+Frau:
+> „Ja, ich stoße eigentlich fast immer selbst neue Sachen an.“
+
+Nicht sofort:
+> „Das passt zu deinem Manifestor-Design.“
+
+Sondern:
+> „Was fällt dir als konkretes Beispiel ein, bei dem genau das passiert ist?“
+
+Danach ggf.:
+> „Und kennst du auch Situationen, in denen du lieber reagierst statt selbst zu starten?“
+
+Erst dann kann eine vorläufige Einordnung entstehen.
+
+## Beispiel B – Frau widerspricht der Hypothese
+
+Frau:
+> „Nee, überhaupt nicht. Ich mag es, wenn jemand anders den Rahmen vorgibt.“
+
+Ilse:
+> „Okay. Was genau daran tut dir gut – dass das Ziel klar ist, der Weg klar ist oder dass die Verantwortung nicht komplett bei dir liegt?“
+
+Das wird als **Spannung** ernst genommen. Ilse sucht nicht nach einer Erklärung, warum die Frau „eigentlich doch“ Manifestorin sei.
+
+## Beispiel C – Aura-Frage wird verneint
+
+Frau:
+> „Nein, eigentlich sind Leute sofort offen mit mir.“
+
+Ilse:
+> „Dann lassen wir diese Spur liegen. Gibt es daran für deine Arbeit irgendetwas, das trotzdem wichtig ist – oder ist das einfach kein Thema?“
+
+Kein Nachbohren, kein Konditionierungsargument.
+
+---
+
+# 8. Typische Spannungen zwischen Chart und gelebtem Leben
 
 ## Spannung A – Manifestor, aber liebt klare Vorgaben
 
 **Nicht sagen:** „Dann bist du wahrscheinlich konditioniert.“
 
-**MIY-Reaktion:** „Spannend. Im Human Design wird bei deinem Typ Initiation betont. Du beschreibst aber klare Vorgaben als angenehm. Lass uns nicht entscheiden, was davon 'richtiger' ist, sondern genauer schauen: Brauchst du Vorgaben beim Ziel, beim Weg oder nur einen klaren Rahmen?“
+**MIY-Reaktion:**
+> „Du beschreibst klare Vorgaben als angenehm. Lass uns genauer schauen: Brauchst du Vorgaben beim Ziel, beim Weg oder nur einen klaren Rahmen?“
 
 ## Spannung B – Manifestor, aber sie erlebt sich nicht als initiierend
 
 **Nicht sagen:** „Du lebst deinen Typ noch nicht.“
 
-**MIY-Reaktion:** „Dann nehmen wir das ernst. Vielleicht zeigt sich dieses Thema bei dir nicht – oder nur in bestimmten Bereichen. Wir suchen nicht nach Beweisen für den Chart, sondern nach dem, was in deinem Leben tatsächlich passiert.“
+**MIY-Reaktion:**
+> „Dann nehmen wir das ernst. Vielleicht zeigt sich dieses Thema bei dir nicht oder nur in bestimmten Situationen. Was kennst du aus deinem wirklichen Leben?“
 
 ## Spannung C – Manifestor und sehr teamorientiert
 
 **Nicht sagen:** „Manifestorinnen sind Einzelgängerinnen.“
 
-**MIY-Reaktion:** „Teamorientierung widerspricht deinem Typ nicht automatisch. Interessanter ist: Welche Rolle möchtest du im Team haben? Möchtest du mitentwickeln, anstoßen, gemeinsam entscheiden, ausführen oder je nach Situation wechseln?“
+**MIY-Reaktion:**
+> „Welche Rolle möchtest du in einem Team haben? Was davon ist dir wichtig?“
 
 ## Spannung D – Informieren führt nicht zu weniger Widerstand
 
 **Nicht sagen:** „Dann hast du falsch informiert.“
 
-**MIY-Reaktion:** „Dann war Überraschung offenbar nicht das eigentliche Problem. Wir schauen, ob Interessen, Ressourcen, Verantwortung, Macht oder sachliche Gründe hinter dem Konflikt standen.“
+**MIY-Reaktion:**
+> „Dann war Überraschung offenbar nicht das ganze Problem. Worum ging es aus deiner Sicht wirklich?“
 
 ## Spannung E – Die Frau möchte vor Entscheidungen Rücksprache halten
 
 **Nicht sagen:** „Als Manifestorin solltest du nicht um Erlaubnis fragen.“
 
-**MIY-Reaktion:** „Rücksprache kann viele Funktionen haben: Information sammeln, Verantwortung teilen, fachliche Abstimmung oder tatsächlich Zustimmung einholen. Wir unterscheiden zuerst, was du in dieser Situation brauchst.“
+**MIY-Reaktion:**
+> „Wofür brauchst du die Rücksprache in solchen Situationen?“
 
 ---
 
-# 8. Erlaubte Formulierungen
+# 9. Erlaubte Formulierungen
 
 ## Sehr gut
 
-- „Im Human-Design-Modell wird beim Manifestor das Initiieren besonders betont. Für uns ist das zunächst nur ein Anlass zu prüfen, ob du davon etwas aus deinem wirklichen Leben kennst.“
-- „Eine mögliche Hypothese wäre, dass eigener Gestaltungsspielraum für dich wichtig sein könnte. Stimmt das – und wenn ja, wie viel?“
+- „Wie ist das bei dir wirklich?“
+- „Woran merkst du das konkret?“
+- „Kann es sein, dass … oder ist es ganz anders?“
+- „Kennst du das – oder überhaupt nicht?“
+- „Gibt es auch Situationen, in denen das Gegenteil stimmt?“
 - „Dein Chart liefert uns hier eine Frage, keine Antwort.“
 - „Lass uns schauen, ob sich dafür konkrete Beispiele in deiner Biografie finden.“
-- „Du beschreibst dich anders, als man es aus der Typbeschreibung vielleicht erwarten würde. Diese Abweichung ist wichtige Information.“
+- „Du beschreibst dich anders, als die HD-Hypothese vermuten lassen könnte. Das ist wichtige Information.“
 - „Das kann eine Spur sein. Es ist noch kein Matching-Kriterium.“
-- „Informieren ist innerhalb der HD-Lehre eine Strategie. Ob und wie sie dir im konkreten Arbeitskontext hilft, prüfen wir an echten Situationen.“
+- „Hat das für deine Arbeit überhaupt eine Bedeutung?“
 
 ## Akzeptabel mit Vorsicht
 
 - „Manifestoren werden im Human Design als initiierend beschrieben.“
-- „Autonomie könnte ein Thema sein, das wir bei dir genauer prüfen.“
-- „Es könnte interessant sein, Starten und langfristiges Fortführen getrennt anzuschauen.“
+- „Eine mögliche Hypothese wäre …“
+- „Ich frage mich gerade, ob …“
+- „Autonomie könnte ein Thema sein, das wir genauer prüfen.“
 
 ---
 
-# 9. Verbotene Formulierungen
+# 10. Verbotene Formulierungen
 
 ## Typ → Persönlichkeit
 
@@ -340,6 +531,13 @@ Gesucht werden wiederkehrende Muster über mehrere Lebensbereiche hinweg – und
 - „Du bist nur zum Starten da.“
 - „Das Fertigstellen sollten andere übernehmen.“
 
+## Aura → Behauptung
+
+- „Du hast eine abweisende Aura.“
+- „Deshalb haben Menschen Respekt vor dir.“
+- „Andere fühlen sich von dir eingeschüchtert.“
+- „Wenn du das nicht kennst, bist du konditioniert.“
+
 ## Strategie → Schuldzuweisung
 
 - „Du hast Widerstand, weil du nicht informiert hast.“
@@ -361,9 +559,7 @@ Gesucht werden wiederkehrende Muster über mehrere Lebensbereiche hinweg – und
 
 ---
 
-# 10. Fachstatus und Freigabelogik
-
-## 10.1 Statuscodes
+# 11. Fachstatus und Freigabelogik
 
 ### `HD-CORE`
 Aussage gehört zur klassischen Human-Design-Typlehre.
@@ -375,7 +571,7 @@ Verbreitete Interpretation innerhalb der Human-Design-Praxis, aber keine direkte
 Von More is Yours entwickelte, bewusst vorsichtige Übersetzung in eine wirtschaftlich relevante Prüffrage.
 
 ### `MIY-QUESTION`
-Freigegebene alltagsnahe Frage zur Prüfung einer Hypothese.
+Alltagsnahe Frage zur Prüfung einer Hypothese. Für produktiven Einsatz braucht sie Petra-Freigabe.
 
 ### `MIY-PROHIBITED`
 Formulierung oder Schlussfolgerung, die im Produkt nicht verwendet werden darf.
@@ -385,17 +581,17 @@ Fachlich noch nicht ausreichend geprüft oder freigegeben. Claude Code darf hier
 
 ---
 
-# 11. Maschinenlesbare Inhaltslogik für spätere technische Umsetzung
+# 12. Maschinenlesbare Inhaltslogik für spätere technische Umsetzung
 
 **Noch keine technische Spezifikation – nur fachliche Struktur.**
 
 Für jede spätere HD-Einheit sollten mindestens getrennt gespeichert werden:
 
-- `hd_element` – z. B. type
-- `hd_value` – z. B. manifestor
-- `source_claims[]` – Aussagen der HD-Lehre
-- `productive_scope[]` – was MIY 0.1 tatsächlich nutzt
-- `excluded_scope[]` – was bewusst nicht genutzt wird
+- `hd_element`
+- `hd_value`
+- `source_claims[]`
+- `productive_scope[]`
+- `excluded_scope[]`
 - `hypotheses[]`
   - `id`
   - `statement`
@@ -406,16 +602,24 @@ Für jede spätere HD-Einheit sollten mindestens getrennt gespeichert werden:
   - `hypothesis_id`
   - `text`
   - `purpose`
+  - `followups[]`
+  - `counterquestion`
 - `tension_patterns[]`
 - `allowed_language[]`
 - `forbidden_language[]`
-- `evidence_required` – immer Selbstaussage + konkrete Lebensspuren, wo sinnvoll
 - `can_exclude_option` – false
 - `can_determine_match_score` – false
 
+B5-technisch gilt bereits:
+- `hd_beleg` verknüpft Hypothese × Zettel × Richtung
+- Selbstaussage dagegen → Spannung
+- Lebensbeleg dagegen → Spannung mit stärkerer Evidenz
+- biografische Erfahrung darf Lebensbeleg sein, auch ohne More-is-Yours-Realitätscheck
+- keine Geburtsdaten in Ilse 0.1 speichern
+
 ---
 
-# 12. Claude-Code-Schutzregel
+# 13. Claude-Code-Schutzregel
 
 > **Claude Code darf aus `HD-CORE` niemals eigenständig `MIY-HYPOTHESIS` erzeugen.**
 
@@ -429,41 +633,46 @@ Keine automatische Ergänzung aus allgemeinem Human-Design-Wissen.
 
 ---
 
-# 13. Quellenbasis für die HD-Kernlehre
+# 14. Quellenbasis innerhalb des Projekts
 
-Für diese Arbeitsfassung wurden zur Trennung von klassischer HD-Lehre und MIY-Eigenentwicklung insbesondere herangezogen:
+Diese Arbeitsfassung richtet sich nach dem aktuellen More-is-Yours-Projektstand:
 
-- Jovian Archive – offizielle Human-Design-Quelle / Type- und Strategy-Material
-- International Human Design School (IHDS) – Grundlagen zu Type, Strategy und Inner Authority
-- ergänzende aktuelle Darstellungen, die sich ausdrücklich auf Ra Uru Hu / Jovian Archive beziehen, nur zur Gegenprüfung der Terminologie
+- Gesamt-Master 3.0, Abschnitt HD Lens A-light
+- PETRA APPROVED Architecture Decisions B4–B7 vom 15.09.2026
+- PETRA APPROVED systemische Coachingregeln für Ilse vom 15.09.2026
+- Human-Design-Dialogregeln 0.1
+- bestehende HD-Kernlehre aus der Arbeitsfassung 0.1
 
-**Wichtig:** Die wirtschaftlichen Hypothesen, Fragen, Sprachregeln und Verbote in diesem Dokument sind More-is-Yours-Entwicklungsarbeit und keine Aussagen der Human-Design-Quellen.
-
----
-
-# 14. Offene Punkte vor Freigabe 0.2
-
-1. Soll „Starten versus Fortführen“ bereits in Typ 0.1 bleiben oder wegen Überinterpretationsgefahr erst später aufgenommen werden?
-2. Soll „Energie in Schüben / nicht-sakrale Dauerenergie“ vollständig aus HD Lens 0.1 herausbleiben, da es faktisch bereits Zentrenlogik berührt?
-3. Wollen wir Signatur „Frieden“ und Nicht-Selbst „Ärger“ nur als Hintergrund speichern oder komplett aus der produktiven Content Library herauslassen?
-4. Welche der zwölf Fragen sind Kernfragen und welche nur optionale Vertiefungen?
-5. Soll die HD Lens im Nutzererlebnis sichtbar sagen „Human-Design-Hypothese“, oder wird die HD-Herkunft nur transparent erläutert und die Frage danach normal gestellt?
+Die wirtschaftlichen Hypothesen, Fragen, Sprachregeln und Verbote sind More-is-Yours-Entwicklungsarbeit und keine Behauptungen der Human-Design-Lehre.
 
 ---
 
-# 15. Vorläufige Qualitätsprüfung
+# 15. Noch offene Punkte vor fachlicher Freigabe
 
-Diese Einheit erfüllt aktuell die MIY-Grundregeln:
+1. Soll „Starten versus Fortführen“ als produktive Typ-Hypothese in A-light bleiben oder nur optionale Vertiefung sein?
+2. „Energie in Schüben / nicht-sakrale Dauerenergie“ bleibt derzeit vollständig draußen, weil es Zentrenlogik berührt. Petra-Freigabe für diese Begrenzung steht noch aus.
+3. Frieden/Ärger bleiben derzeit reines Hintergrundwissen und werden nicht produktiv ausgewertet. Petra-Freigabe für diese Begrenzung steht noch aus.
+4. Die sieben Kernfragen sind jetzt dialogisch geschärft, aber noch nicht als produktive `MIY-QUESTION` für Claude Code freigegeben.
+5. Noch zu entscheiden: Soll Ilse der Frau im Gespräch ausdrücklich sagen, welche Frage aus Human Design kommt, oder nur einmal transparent erklären, dass HD als Zusatzlinse mitläuft?
+
+---
+
+# 16. Vorläufige Qualitätsprüfung 0.2
+
+Diese Einheit erfüllt aktuell:
 
 - kein Typ → Beruf
 - kein Typ → Geschäftsmodell
 - keine Entscheidung für die Frau
 - keine HD-Aussage als wirtschaftliche Tatsache
-- gelebte Realität hat Vorrang vor Chartinterpretation
-- Gegenbeispiele ausdrücklich erlaubt
-- Hypothesen werden in Fragen übersetzt
+- offene Frage vor suggestiver Hypothese
+- Selbstaussage gegen HD wird als Spannung akzeptiert
+- konkrete Biografie als stärkerer Beleg
+- Gegenbeispiele ausdrücklich erwünscht
+- Aura nur als vorsichtige Beobachtungsfrage, nicht als Matchingfaktor
 - keine Prozentwerte
 - keine versteckte Zentren-/Gate-/Kanal-Auswertung
-- klare Trennung zwischen Quellenlehre und MIY-Eigenentwicklung
+- systemisches Prinzip „über die Frau fragen“
+- keine Wiederholungsfragen, wenn die Information bereits aus dem Economic Profile bekannt ist
 
-**Status:** bereit zur gemeinsamen fachlichen Prüfung durch Petra; noch nicht für Claude Code freigegeben.
+**Status:** Arbeitsfassung 0.2 – bereit für Petras fachliche Prüfung; noch nicht BUILD READY.
