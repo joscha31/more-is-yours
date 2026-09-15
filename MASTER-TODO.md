@@ -9,7 +9,7 @@ Diese Datei beantwortet:
 
 > **Was ist fachlich als Nächstes zu tun?**
 
-Die tagesgenaue Klick-/Arbeitsliste liegt zusätzlich unter `arbeitszettel/`.
+Die tagesgenaue Arbeitsliste liegt zusätzlich unter `arbeitszettel/`.
 
 Priorität bei Widersprüchen:
 
@@ -28,22 +28,23 @@ Ziel: Die reale wirtschaftliche Außenwelt so belastbar beschreiben, dass Econom
 
 ### Erledigt
 
-- [x] Framework 0.2 als Fach-Lab-Arbeitsgrundlage
+- [x] Framework 0.2 als erste Arbeitsgrundlage
 - [x] Goldstandard 1: Teilzeit/Nebenjob – Arbeitsfassung 0.1
 - [x] Goldstandard 2: Freelancing/Done-for-you – Arbeitsfassung 0.1
 - [x] Goldstandard 3: Digitales Produkt – Arbeitsfassung 0.1
 - [x] Vergleich der drei Goldstandards
-- [x] universelle vs. modellabhängige Felder geprüft
-- [x] neun Strukturvorschläge dokumentiert
-- [x] zwei neue mögliche Content Gaps identifiziert: Absicherungslogik und regulatorische/rechtliche Besonderheiten
+- [x] neun Strukturvorschläge entwickelt
+- [x] Petra hat alle neun Strukturvorschläge freigegeben
+- [x] Entscheidung als `PETRA APPROVED` dokumentiert
+- [x] Framework 0.3 als freigegebenes Grundgerüst erstellt
+- [x] Build Brief für Claude Code erstellt
 
 ### Jetzt
 
-- [ ] **Petra Review der strukturellen Fach-Lab-Vorschläge**
-- [ ] bestätigte Punkte als PETRA APPROVED dokumentieren
-- [ ] Framework anschließend auf freigegebenen Stand konsolidieren
-- [ ] nur tatsächlich nötige Schemaänderungen als BUILD READY an Architecture Lab / Claude Code übergeben
-- [ ] danach restliche sieben Startoptionen fachlich entwickeln
+- [ ] **Option 4: Beratung fachlich entwickeln**
+- [ ] danach **Option 5: Coaching**
+- [ ] danach die weiteren noch offenen Startoptionen
+- [ ] jede Option mit Quellen, normalem Dienstag, Wachstum, Romantisierungen und Realitätschecks ausarbeiten
 
 Verbindlich zu berücksichtigen:
 
@@ -60,27 +61,26 @@ Verbindlich zu berücksichtigen:
 - Leistungserbringung/Lieferung
 - Recherche/Vorbereitung
 - Leerlauf/Warten
+- Absicherung / soziale Absicherung
+- rechtliche / regulatorische Besonderheiten
 
-### Strukturvorschläge für Petra Review
+Verbindliche Struktur:
 
-1. `Optionsfamilie → Optionsvariante → Rollen-/Tätigkeits-Overlay`
-2. universell `Wer zahlt – und wofür?`
-3. universell `Wie entsteht Zugang zum Einkommen?`
-4. Zahlen nur bei belastbarer Variante/Region/Entwicklungsstufe; sonst unbekannt/kontextabhängig
-5. Einkommensentwicklung von Skalierbarkeit trennen
-6. Kostenstruktur und Marge fachlich trennen; `nicht anwendbar` erlauben
-7. neues Feld `Absicherungslogik / soziale Absicherung` prüfen
-8. neues Feld `rechtliche / regulatorische Besonderheiten` prüfen
-9. wirtschaftliche Grundmechanik explizit über Zahler, Gegenleistung, Lieferung und Einkommenszugang beschreiben
+> **Optionsfamilie → Optionsvariante → Rolle / konkrete Tätigkeit**
 
-Noch **nicht PETRA APPROVED**.
+Vier Grundfragen jeder Option:
+
+1. Wer zahlt?
+2. Wofür wird gezahlt?
+3. Wie wird geliefert?
+4. Wie entsteht Zugang zum Zahler?
 
 ---
 
 ## 2. Human Design Content Lab
 
 - [ ] A-light Content Library fachlich weiterentwickeln
-- [ ] erste produktiv nutzbaren Inhalte abschließen
+- [ ] weitere produktiv nutzbare Inhalte abschließen
 - [ ] kanonisches Vokabular
 - [ ] nur freigegebene Inhalte an Claude Code
 
@@ -111,7 +111,11 @@ N100 bleibt dauerhafter Regressionstest.
 
 # 🟠 ARCHITEKTUR / CODE
 
-Claude Code darf weiter innerhalb freigegebener Architektur arbeiten.
+Claude Code darf innerhalb der freigegebenen Architektur arbeiten.
+
+Für Option Genome gilt jetzt der Build Brief:
+
+`build-briefs/2026-09-15-option-genome-framework-0.3.md`
 
 Claude Code darf NICHT:
 
@@ -130,16 +134,14 @@ Wenn Fachwissen fehlt:
 
 # 🟡 DANACH
 
-Nach Petras Freigabe der Option-Genome-Struktur:
+Wenn die Startoptionen fachlich ausreichend beschrieben sind:
 
-1. Framework konsolidieren
-2. restliche sieben Startoptionen entwickeln
-3. Mischmodelle als Kombinationen prüfen
-4. Optionen mit Economic Profile matchen
-5. normalen Dienstag aus belegten Optionsdaten erzeugen
-6. Wachstumsrealität prüfen
-7. kleinsten sinnvollen Realitätscheck ableiten
-8. mit Frau Nr. 1 komplett durchlaufen
+1. Mischmodelle als Kombinationen prüfen
+2. Optionen mit Economic Profile matchen
+3. normalen Dienstag aus belegten Optionsdaten erzeugen
+4. Wachstumsrealität prüfen
+5. kleinsten sinnvollen Realitätscheck ableiten
+6. mit Frau Nr. 1 komplett durchlaufen
 
 ---
 
@@ -153,12 +155,11 @@ Nach Petras Freigabe der Option-Genome-Struktur:
 - große Umsetzungsplattform
 - automatische Karriereentscheidung
 - Fachlogik aufgrund technischer Bequemlichkeit verkürzen
-- Option-Genome-Schema technisch ändern, bevor Petra die Struktur freigegeben hat
 
 ---
 
 # NÄCHSTER KONKRETER SCHRITT IM OPTION GENOME LAB
 
-> **Petra Review der wenigen Strukturentscheidungen aus den drei Goldstandard-Belastungstests.**
+> **Beratung als nächste reale wirtschaftliche Option entwickeln.**
 
-Erst danach wird das Framework verbindlich konsolidiert und in die Breite weitergebaut.
+Danach Coaching. Beide werden getrennt behandelt, weil Beratung und Coaching zwar ähnlich verkauft werden können, aber fachlich, rechtlich und im tatsächlichen Alltag nicht automatisch dasselbe sind.
