@@ -66,7 +66,8 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `forschung/HD-LLM-Reading-Strategie-0.1.md` | Forschungsstrategie: starken LLM-Chartreader mit MIY-Kontext kombinieren statt generische HD-Texte statisch nachzubauen | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 | `forschung/Option-Genome-Framework-0.2.md` | Frühere Arbeitsfassung des Option-Genome-Grundgerüsts | historische Arbeitsfassung |
 | `forschung/Option-Genome-Framework-0.3.md` | Freigegebener Zwischenstand, technisch umgesetzt | historische freigegebene Fassung |
-| `forschung/Option-Genome-Framework-0.4.md` | Aktuelles fachliches Grundgerüst; Lieferung, Vorbereitung und Leerlauf beschreibend; eine Hauptstelle für Recht; Kapital beim Wachstum geklärt | **PETRA APPROVED / aktuell** |
+| `forschung/Option-Genome-Framework-0.4.md` | Freigegebener Zwischenstand; Lieferung/Vorbereitung/Leerlauf beschreibend, Recht gebündelt, Wachstumskapital geklärt | historische freigegebene Fassung |
+| `forschung/Option-Genome-Framework-0.5.md` | Aktueller Fachstand; zusätzlich „erst hineinzoomen, dann urteilen“ sowie Trennung von Option und Einnahmemechanik | **PETRA APPROVED / aktuell** |
 | `forschung/Option-Genome-01-Teilzeit-Nebenjob-0.1.md` | Goldstandard-Arbeitsfassung Teilzeit/Nebenjob | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-02-Freelancing-Done-for-you-0.1.md` | Goldstandard-Arbeitsfassung Freelancing/Done-for-you | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-03-Digitales-Produkt-0.1.md` | Goldstandard-Arbeitsfassung digitales Produkt | **FACH-LAB-VORSCHLAG** |
@@ -78,7 +79,9 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `forschung/Option-Genome-09-E-Commerce-Onlineshop-0.1.md` | Arbeitsfassung E-Commerce / Onlineshop; Ware, Marge, Logistik, Kapital, Widerruf und Produktsicherheit | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-10-Creator-Content-Business-0.1.md` | Arbeitsfassung Creator-/Content-Business; Contentproduktion, Reichweite, Monetarisierungswege, Plattform- und Personenabhängigkeit | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-Goldstandard-Vergleich-0.1.md` | Vergleich der ersten drei Goldstandards; neun Strukturvorschläge | am 15.09.2026 von Petra freigegeben |
-| `forschung/Option-Genome-Startoptionen-Vergleich-0.1.md` | Vergleich aller zehn Startoptionen; Überlappungen, Matching-Unterschiede und Mischmodell-Befund | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+| `forschung/Option-Genome-Startoptionen-Vergleich-0.1.md` | Vergleich aller zehn Startoptionen; Überlappungen, Matching-Unterschiede und Mischmodell-Befund | **FACH-LAB-VORSCHLAG / Grundlage für spätere Freigaben** |
+| `forschung/Option-Genome-Qualitaetscheck-10-Startoptionen-0.1.md` | Qualitätscheck aller zehn Optionen; identifiziert Zoom-Regel und Trennung Option/Mechanik | **FACH-LAB-REVIEW / daraus Q-OG-1 und Q-OG-2 freigegeben** |
+| `forschung/Option-Genome-Pilotin0-Matching-10-Startoptionen-0.1.md` | Erster manueller Match Pilotin 0 × zehn Startoptionen; Haupt-/Neben-/Übergangsrollen ohne Score | **FACH-LAB-TEST** |
 
 ### Human Design – aktueller Arbeitsstand
 
@@ -92,26 +95,19 @@ Weitere Typen, Autoritäten und Profile bleiben Content Gaps, bis sie separat fa
 
 ### Option Genome – aktueller Arbeitsstand
 
-Das **Framework 0.4** ist der aktuelle freigegebene Fachstand.
+Das **Framework 0.5** ist der aktuelle freigegebene Fachstand.
 
-Alle zehn Startoptionen liegen jetzt als fachliche Arbeitsfassungen vor:
+Alle zehn Startoptionen liegen als fachliche Arbeitsfassungen vor. Qualitätscheck und erster manueller Pilotin-0-Match sind abgeschlossen.
 
-1. Teilzeit-/Nebenjob
-2. Freelancing / Done-for-you
-3. Beratung
-4. Coaching
-5. Digitales Produkt
-6. Onlinekurs / Workshop
-7. Affiliate Marketing
-8. Empfehlungsmarketing / Network Marketing
-9. E-Commerce / Onlineshop
-10. Creator- / Content-Business
+Verbindlich gilt zusätzlich:
 
-Zusätzlich liegt ein Zehnervergleich vor.
+> **Erst hineinzoomen, dann urteilen.**
 
-**Nächster Schritt:** Nicht weitere Optionen sammeln. Die zehn Arbeitsfassungen gegen Framework 0.4 prüfen, entscheidungsrelevante Lücken schließen, technisch übertragen und anschließend erstmals ernsthaft mit einem Economic Profile matchen.
+und
 
-Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
+> **Option und Einnahmemechanik sind nicht dasselbe.**
+
+**Nächster Schritt:** Framework 0.5 technisch anschließen, die zehn Arbeitsfassungen feldgenau in die technische Option-Library übertragen und den technischen Match gegen Pilotin 0 laufen lassen. Danach externe Pilotin.
 
 ---
 
@@ -130,6 +126,7 @@ Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 |---|---|---|
 | `arbeitszettel/2026-09-15.md` | Verständlicher Tageszettel: heute erledigt, jetzt offen, exakter nächster Schritt | **aktuell** |
 | `arbeitszettel/2026-09-15-abschluss-vor-reise.md` | Abschlussplan 15.09.; Reise 16.–27.09.; klarer Wiedereinstieg 28.09. | **aktuell** |
+| `arbeitszettel/2026-09-15-option-genome-checkpoint.md` | Option-Genome-Checkpoint nach Qualitätscheck und erstem Pilotin-0-Match | **aktuell** |
 | `MASTER-TODO.md` | Übergeordnete fachliche Arbeitsliste | **aktuell** |
 
 ---
@@ -141,7 +138,8 @@ Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 | `system/Ilse-Prinzipien.md` | Verbindliche Dialog-, Sprach- und Begleitprinzipien für Ilse | im Aufbau |
 | `entscheidungen/2026-09-15-ergebnisprodukt-mehr-ist-mehr.md` | Ergebnisprodukt bewusst reichhaltig: ausführliches Dossier + Wissenswelt; Karten sind Navigation, nicht der Gegenwert | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-option-genome-struktur.md` | Neun freigegebene Strukturregeln für das Option Genome | **PETRA APPROVED** |
-| `entscheidungen/2026-09-15-option-genome-content-gaps-claude-bericht.md` | Klärt die fünf Content Gaps aus der 0.3-Umsetzung: Ebenen/Kategorien, beschreibende Dienstag-Felder, eine Hauptstelle für Recht und Kapital beim Wachstum | **PETRA APPROVED** |
+| `entscheidungen/2026-09-15-option-genome-content-gaps-claude-bericht.md` | Klärt die fünf Content Gaps aus der 0.3-Umsetzung | **PETRA APPROVED** |
+| `entscheidungen/2026-09-15-option-genome-zoom-und-mechaniken.md` | Erst hineinzoomen, dann urteilen; Option und Einnahmemechanik getrennt; Mischmodelle als Kombination | **PETRA APPROVED / aktuell** |
 | `entscheidungen/2026-09-15-matching-vorschlaege-priorisierung.md` | Grundentscheidung: immer begründete Vorschläge; mehrere Möglichkeiten können gleichzeitig matchen | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-matching-priorisierung-final.md` | Finale Matching-Priorisierung: Gates, Szenario-Rollen, individuelle entscheidende Faktoren, qualitative Dominanz/Trade-offs, Evidenz getrennt von Passung | **PETRA APPROVED / aktuell** |
 | `entscheidungen/2026-09-15-architecture-decisions-b4-b7.md` | B4 Dienstag, B5 HD Lens, B6 Realitätscheck, B7 Quality Guard | **PETRA APPROVED** |
@@ -162,7 +160,7 @@ Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 | `berichte-fuer-chatgpt/2026-09-15-option-genome-framework-0.3-implementiert.md` | Claude-Code-Bericht zur technischen Umsetzung von Framework 0.3; Datenerhalt, Tests und zurückgegebene Content Gaps | **IMPLEMENTED / geprüft** |
 | `berichte-fuer-chatgpt/2026-09-15-ilse-b5-manifestor-0.2-eingebaut-fuer-chatgpt.md` | Claude Code: Manifestor 0.2 in die HD Lens eingebaut | **IMPLEMENTED** |
 | `berichte-fuer-chatgpt/2026-09-15-liveone-lowcost-architektur-tech-check.md` | Technischer Befund zur Low-Cost-Voice-Idee | **TECH FINDING / offen** |
-| `berichte-fuer-chatgpt/2026-09-15-shared-project-live-poc-security-review-ergebnis.md` | Ergebnis Shared-Project-POC + defensiver Security-Review: Ilse-Code, Supabase, Live-Adresse, Injection-Lauf, Karten-POC, Datenflusskarte, Kündigungstest-Protokoll; 11 Risiken (3 hoch, 0 kritisch), fünf Bedingungen vor Pilotin 1 | **SECURITY REVIEW / PETRA REVIEW – keine Produktfreigabe** |
+| `berichte-fuer-chatgpt/2026-09-15-shared-project-live-poc-security-review-ergebnis.md` | Ergebnis Shared-Project-POC + defensiver Security-Review | **SECURITY REVIEW / PETRA REVIEW – keine Produktfreigabe** |
 
 ---
 
@@ -172,6 +170,7 @@ Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 |---|---|---|
 | `build-briefs/2026-09-15-option-genome-framework-0.3.md` | Technische Umsetzung der freigegebenen Option-Genome-Struktur 0.3 | **IMPLEMENTED** |
 | `build-briefs/2026-09-15-option-genome-framework-0.4-korrektur.md` | Kleine technische Korrektur: f31–f33 beschreibend, eine Hauptstelle für Recht, f27 Wachstumskapital | **BUILD READY** |
+| `build-briefs/2026-09-15-option-genome-framework-0.5-zoom-mechaniken.md` | Technische Ergänzung der Zoom-Regel und Nutzung bestehender Einnahmemechaniken ohne neue Optionsschubladen | **BUILD READY / aktuell** |
 | `build-briefs/2026-09-15-matching-priorisierte-vorschlaege.md` | Frühere B3-Vorschlagsfassung | durch finale Matching-Fassung überholt |
 | `build-briefs/2026-09-15-matching-rc2-korrektur.md` | Gezielte RC-2-Korrektur | in finalem Matching-Build-Brief enthalten |
 | `build-briefs/2026-09-15-matching-priorisierung-final.md` | Finale technische Umsetzung der freigegebenen Matching-Priorisierung | **BUILD READY / aktuell** |
