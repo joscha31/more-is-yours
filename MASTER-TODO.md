@@ -42,13 +42,17 @@ Ziel: Die reale wirtschaftliche Außenwelt so belastbar beschreiben, dass Econom
 - [x] Framework 0.4 als aktueller Fachstand erstellt
 - [x] Build Brief 0.4 für die kleine technische Korrektur erstellt
 - [x] Option 4: Beratung – Arbeitsfassung 0.1 erstellt
+- [x] Option 5: Coaching – Arbeitsfassung 0.1 erstellt
 
 ### Jetzt
 
 - [ ] Claude Code setzt die kleine Korrektur aus `build-briefs/2026-09-15-option-genome-framework-0.4-korrektur.md` um
 - [ ] Rückmeldung prüfen und als Bericht speichern
-- [ ] **Option 5: Coaching fachlich entwickeln**
-- [ ] danach die weiteren noch offenen Startoptionen
+- [ ] **Option 6: Onlinekurs / Workshop fachlich entwickeln**
+- [ ] danach Affiliate Marketing
+- [ ] danach Empfehlungsmarketing / Network Marketing
+- [ ] danach E-Commerce / Onlineshop
+- [ ] danach Creator-/Content-Business
 
 Verbindlich zu berücksichtigen:
 
@@ -168,6 +172,6 @@ Wenn die Startoptionen fachlich ausreichend beschrieben sind:
 
 # NÄCHSTER KONKRETER SCHRITT IM OPTION GENOME LAB
 
-> **Coaching als nächste reale wirtschaftliche Option entwickeln.**
+> **Onlinekurs / Workshop als nächste reale wirtschaftliche Option entwickeln.**
 
 Parallel darf Claude Code die kleine, bereits freigegebene 0.4-Korrektur umsetzen.
