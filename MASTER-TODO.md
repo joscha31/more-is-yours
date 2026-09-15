@@ -26,17 +26,24 @@ Priorität bei Widersprüchen:
 
 Ziel: Die reale wirtschaftliche Außenwelt so belastbar beschreiben, dass Economic Profile und Option Genome später sauber abgeglichen werden können.
 
-### Goldstandard-Optionen
+### Erledigt
 
 - [x] Framework 0.2 als Fach-Lab-Arbeitsgrundlage
 - [x] Goldstandard 1: Teilzeit/Nebenjob – Arbeitsfassung 0.1
 - [x] Goldstandard 2: Freelancing/Done-for-you – Arbeitsfassung 0.1
-- [ ] **Goldstandard 3: Digitales Produkt**
-- [ ] anschließend Vergleich der drei Goldstandards
-- [ ] prüfen, welche Felder wirklich universell sind
-- [ ] Varianten-/Rollenlogik fachlich schließen
-- [ ] Petra-Review der strukturellen Fach-Lab-Vorschläge
-- [ ] erst danach ggf. BUILD-READY-Übergabe
+- [x] Goldstandard 3: Digitales Produkt – Arbeitsfassung 0.1
+- [x] Vergleich der drei Goldstandards
+- [x] universelle vs. modellabhängige Felder geprüft
+- [x] neun Strukturvorschläge dokumentiert
+- [x] zwei neue mögliche Content Gaps identifiziert: Absicherungslogik und regulatorische/rechtliche Besonderheiten
+
+### Jetzt
+
+- [ ] **Petra Review der strukturellen Fach-Lab-Vorschläge**
+- [ ] bestätigte Punkte als PETRA APPROVED dokumentieren
+- [ ] Framework anschließend auf freigegebenen Stand konsolidieren
+- [ ] nur tatsächlich nötige Schemaänderungen als BUILD READY an Architecture Lab / Claude Code übergeben
+- [ ] danach restliche sieben Startoptionen fachlich entwickeln
 
 Verbindlich zu berücksichtigen:
 
@@ -54,11 +61,19 @@ Verbindlich zu berücksichtigen:
 - Recherche/Vorbereitung
 - Leerlauf/Warten
 
-Aktueller offener Strukturvorschlag, noch nicht PETRA APPROVED:
+### Strukturvorschläge für Petra Review
 
-> **Optionsfamilie → Optionsvariante → Rollen-/Tätigkeits-Overlay**
+1. `Optionsfamilie → Optionsvariante → Rollen-/Tätigkeits-Overlay`
+2. universell `Wer zahlt – und wofür?`
+3. universell `Wie entsteht Zugang zum Einkommen?`
+4. Zahlen nur bei belastbarer Variante/Region/Entwicklungsstufe; sonst unbekannt/kontextabhängig
+5. Einkommensentwicklung von Skalierbarkeit trennen
+6. Kostenstruktur und Marge fachlich trennen; `nicht anwendbar` erlauben
+7. neues Feld `Absicherungslogik / soziale Absicherung` prüfen
+8. neues Feld `rechtliche / regulatorische Besonderheiten` prüfen
+9. wirtschaftliche Grundmechanik explizit über Zahler, Gegenleistung, Lieferung und Einkommenszugang beschreiben
 
-Grund: dieselbe Einkommensmechanik kann sehr unterschiedliche reale Arbeitsalltage haben.
+Noch **nicht PETRA APPROVED**.
 
 ---
 
@@ -115,15 +130,16 @@ Wenn Fachwissen fehlt:
 
 # 🟡 DANACH
 
-Wenn die drei Option-Genome-Goldstandards fachlich tragen:
+Nach Petras Freigabe der Option-Genome-Struktur:
 
-1. restliche sieben Startoptionen entwickeln
-2. Mischmodelle als Kombinationen prüfen
-3. Optionen mit Economic Profile matchen
-4. normalen Dienstag aus belegten Optionsdaten erzeugen
-5. Wachstumsrealität prüfen
-6. kleinsten sinnvollen Realitätscheck ableiten
-7. mit Frau Nr. 1 komplett durchlaufen
+1. Framework konsolidieren
+2. restliche sieben Startoptionen entwickeln
+3. Mischmodelle als Kombinationen prüfen
+4. Optionen mit Economic Profile matchen
+5. normalen Dienstag aus belegten Optionsdaten erzeugen
+6. Wachstumsrealität prüfen
+7. kleinsten sinnvollen Realitätscheck ableiten
+8. mit Frau Nr. 1 komplett durchlaufen
 
 ---
 
@@ -137,17 +153,12 @@ Wenn die drei Option-Genome-Goldstandards fachlich tragen:
 - große Umsetzungsplattform
 - automatische Karriereentscheidung
 - Fachlogik aufgrund technischer Bequemlichkeit verkürzen
+- Option-Genome-Schema technisch ändern, bevor Petra die Struktur freigegeben hat
 
 ---
 
 # NÄCHSTER KONKRETER SCHRITT IM OPTION GENOME LAB
 
-> **Digitales Produkt als Goldstandard 3 entwickeln.**
+> **Petra Review der wenigen Strukturentscheidungen aus den drei Goldstandard-Belastungstests.**
 
-Warum genau jetzt:
-
-Teilzeit/Nebenjob testet ein Angestelltenmodell.  
-Freelancing testet selbstständige Zeit-/Leistungserbringung.  
-Digitales Produkt testet ein asset-basiertes Modell, bei dem Erstellung und Verkauf zeitlich stärker entkoppelt sein können.
-
-Erst nach diesem dritten Belastungstest sollte die Option-Genome-Struktur fachlich weiter verfestigt werden.
+Erst danach wird das Framework verbindlich konsolidiert und in die Breite weitergebaut.
