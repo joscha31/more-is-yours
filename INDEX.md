@@ -53,6 +53,7 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `system/Ilse-Prinzipien.md` | Verbindliche Dialog-, Sprach- und Begleitprinzipien für Ilse | im Aufbau |
 | `entscheidungen/2026-09-15-ilse-systemische-coachingregeln.md` | Systemische Gesprächsregeln: Hypothesen fragen statt behaupten; Fachwissen geben, Entscheidung bei der Frau | **PETRA APPROVED** |
+| `gesetze/2026-09-15-projektregel-github-arbeitsweise.md` | Projektweite Regel: GitHub als Masterquelle; wichtige Inhalte zusätzlich im Chat; fertiger Claude-Befehl bei Übergaben | **PETRA APPROVED** |
 | `system/Programmarchitektur.md` | Fachliche Arbeitsarchitektur aus den Forschungsergebnissen; Teil A Klarheit, Teil B Möglichkeit, Teil C Umsetzung | vorhanden / Arbeitsmodell |
 | `system/Offene-Forschungsfragen.md` | Systemfragen, die bewusst noch nicht entschieden sind | sinnvoll, noch anzulegen |
 
@@ -119,7 +120,7 @@ Das Repo hieß früher `modulares-entscheidungssystem-`. Heute heißt das Progra
 | Ordner | Was drin liegt |
 |---|---|
 | `master/` | der **Gesamt-Master 3.0** (14.09.2026) — zentrale Arbeits- und Orientierungsgrundlage für Petra, ChatGPT, Claude Co-Work und Claude Code |
-| `gesetze/` | Regeln für jede Seite und jeden Text — z. B. das **UI-Gesetz** (15.09.): lebendig und spielerisch, nie Formular |
+| `gesetze/` | Projektweite Regeln für jede Seite, jeden Text und die Zusammenarbeit – u. a. UI-Gesetz und GitHub-/Übergaberegel |
 | `entscheidungen/` | verbindliche Architektur- und Fachentscheidungen nach Petra-Freigabe (z. B. B4–B7 und Ilses systemische Coachingregeln, 15.09.) — was Claude Code danach umsetzt |
 | `berichte-fuer-chatgpt/` | die Rückmeldungen je Baupaket in der Form von Master §25 (B4 Dienstag · B5 HD Lens · B6 Realitätscheck · B7 Quality Guard · UI-Gesetz) |
 
