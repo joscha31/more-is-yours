@@ -38,11 +38,11 @@ Ziel: Die reale wirtschaftliche Außenwelt so belastbar beschreiben, dass Econom
 - [x] Entscheidung als `PETRA APPROVED` dokumentiert
 - [x] Framework 0.3 als freigegebenes Grundgerüst erstellt
 - [x] Build Brief für Claude Code erstellt
+- [x] Option 4: Beratung – Arbeitsfassung 0.1 erstellt
 
 ### Jetzt
 
-- [ ] **Option 4: Beratung fachlich entwickeln**
-- [ ] danach **Option 5: Coaching**
+- [ ] **Option 5: Coaching fachlich entwickeln**
 - [ ] danach die weiteren noch offenen Startoptionen
 - [ ] jede Option mit Quellen, normalem Dienstag, Wachstum, Romantisierungen und Realitätschecks ausarbeiten
 
@@ -160,6 +160,6 @@ Wenn die Startoptionen fachlich ausreichend beschrieben sind:
 
 # NÄCHSTER KONKRETER SCHRITT IM OPTION GENOME LAB
 
-> **Beratung als nächste reale wirtschaftliche Option entwickeln.**
+> **Coaching als nächste reale wirtschaftliche Option entwickeln.**
 
-Danach Coaching. Beide werden getrennt behandelt, weil Beratung und Coaching zwar ähnlich verkauft werden können, aber fachlich, rechtlich und im tatsächlichen Alltag nicht automatisch dasselbe sind.
+Beratung und Coaching bleiben getrennt, weil sie zwar ähnlich verkauft werden können, aber fachlich, rechtlich und im tatsächlichen Alltag nicht automatisch dasselbe sind.
