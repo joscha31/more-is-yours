@@ -50,7 +50,11 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `forschung/Economic-Profile-Matching-Rule-Library-0.1.md` | Fachliche Regelbibliothek für B3: Grenzen, Präferenzen, Evidenz, Konflikte, unbekannt vs. testen, Zahlenlogik und Reality-Learning-Routing | **FACH-LAB-VORSCHLAG** |
 | `forschung/Economic-Profile-Matching-Crashtest-Petra-0.1.md` | Belastungstest der Matchinglogik mit Petra gegen die drei Goldstandard-Optionen; sechs neue B3-/Matchingbefunde M-C1 bis M-C6 | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 | `forschung/Economic-Profile-Matching-Priorisierung-Review-0.1.md` | Fachreview der implementierten Vorschlags-/Priorisierungsebene; identifiziert RC-2-Bug, unfreigegebene Ranglogik und Empfehlungen zu Szenario-Rolle, Suchraum und wirtschaftlichen Mindestbedingungen | **FACH-LAB-REVIEW / PETRA REVIEW** |
-| `forschung/Preis-und-Community-Stufenplan-0.1.md` | Vorschlag für Preisleiter von Pilot bis Standardpreis sowie freiwillige Community mit Lern-, Umsetzungs- und Reality-Learning-Inhalten | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+| `forschung/Ergebnisdossier-Inhaltsarchitektur-0.1.md` | Ausführliche Inhaltsarchitektur des persönlichen Ergebnisdossiers; lebende HTML-Fassung + Heft/PDF, viele Seiten, „Mehr ist mehr“ strukturiert | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+| `forschung/Preis-und-Community-Stufenplan-0.1.md` | Frühere Preisleiter mit Monatscommunity | **früher FACH-LAB-VORSCHLAG** |
+| `forschung/Preis-und-Community-Stufenplan-0.2-ohne-Abo-und-Minikurse.md` | Aktueller Vorschlag: höherer Einmalpreis, zeitlich begrenzte Folgeprogramme statt Abo-Abhängigkeit, Minikurse als Produktleiter | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+| `forschung/Minikurse-Marktcheck-0.1.md` | Marktcheck + drei empfohlene erste Minikurse: normaler Dienstag, erfolgreiche Version, neutraler Einkommenswege-Vergleich | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+| `forschung/Landingpage-Neuaufstellung-0.1.md` | Fachlicher Neuaufbau für moreisyours.de auf aktuellem Personal-Economic-System-Stand; Dossier, Wissenswelt, Reality Learning, Pilot-CTA | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 | `forschung/Voice-Architektur-Optionen-0.1.md` | Vergleich der aktuellen Voice-Wege inkl. Low-Cost-Live-Hybrid, Supabase-Brücke, Alternativen und winzigem Proof of Concept | **FACH-LAB-/TECH-RESEARCH-VORSCHLAG** |
 | `forschung/Voice-Marktpruefung-0.1.md` | Quellenbasierte Markt- und Architekturprüfung der Voice-Wege | **RESEARCH / PETRA REVIEW – keine Entscheidung** |
 | `forschung/Voice-Zugangsschutz-Shared-Project-0.1.md` | Zugangsschutz-Idee über ein von More is Yours besessenes Shared ChatGPT Project pro Nutzerin | **TECH-RESEARCH / PETRA REVIEW** |
@@ -106,6 +110,7 @@ Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 | Datei | Funktion | Status |
 |---|---|---|
 | `arbeitszettel/2026-09-15.md` | Verständlicher Tageszettel: heute erledigt, jetzt offen, exakter nächster Schritt | **aktuell** |
+| `arbeitszettel/2026-09-15-abschluss-vor-reise.md` | Abschlussplan 15.09.; Reise 16.–27.09.; klarer Wiedereinstieg 28.09. | **aktuell** |
 | `MASTER-TODO.md` | Übergeordnete fachliche Arbeitsliste | **aktuell** |
 
 ---
@@ -115,6 +120,7 @@ Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 | Datei | Funktion | Status |
 |---|---|---|
 | `system/Ilse-Prinzipien.md` | Verbindliche Dialog-, Sprach- und Begleitprinzipien für Ilse | im Aufbau |
+| `entscheidungen/2026-09-15-ergebnisprodukt-mehr-ist-mehr.md` | Ergebnisprodukt bewusst reichhaltig: ausführliches Dossier + Wissenswelt; Karten sind Navigation, nicht der Gegenwert | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-option-genome-struktur.md` | Neun freigegebene Strukturregeln für das Option Genome | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-option-genome-content-gaps-claude-bericht.md` | Klärt die fünf Content Gaps aus der 0.3-Umsetzung: Ebenen/Kategorien, beschreibende Dienstag-Felder, eine Hauptstelle für Recht und Kapital beim Wachstum | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-matching-vorschlaege-priorisierung.md` | Matching-Ausgabe: priorisierte, begründete Vorschläge; mehrere Möglichkeiten können gleichzeitig matchen | **PETRA APPROVED** |
@@ -145,6 +151,7 @@ Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 | `build-briefs/2026-09-15-option-genome-framework-0.4-korrektur.md` | Kleine technische Korrektur: f31–f33 beschreibend, eine Hauptstelle für Recht, f27 Wachstumskapital | **BUILD READY** |
 | `build-briefs/2026-09-15-matching-priorisierte-vorschlaege.md` | B3-Erweiterung: priorisierte Vorschläge erzeugen | **BUILD READY** |
 | `build-briefs/2026-09-15-matching-rc2-korrektur.md` | Gezielte Korrektur: fehlendes Optionswissen darf keinen persönlichen Realitätscheck bzw. keine Prüfenswert-Einstufung allein auslösen | **BUILD READY** |
+| `build-briefs/2026-09-15-landingpage-vorschau-neuaufstellung.md` | Nur eine noindex-Vorschau der neuen Landingpage bauen; Live-Seite unverändert; Datenschutz-/Wartelisten-Gaps nur berichten | **BUILD READY – NUR VORSCHAU** |
 
 ---
 
