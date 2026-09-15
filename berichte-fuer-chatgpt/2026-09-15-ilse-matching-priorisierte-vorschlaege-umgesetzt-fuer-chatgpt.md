@@ -83,3 +83,13 @@ Alle. Konkret, mit Test: Anweisung und Schema der Matcherin (`MATCHER_VERSION 20
 **Lesarten, die ich getroffen habe und die du kippen kannst:** ① die Zuordnung der Genome-Felder zu „Voraussetzungen" (f6–f9, f27) und „wirtschaftlich" (f3–f5, f10, f11, f24–f30, f34–f36); ② „passt" auf einen Beleg der Stufe 1–3 gilt als „trifft etwas, das dir wichtig ist" (eine erfüllte Grenze zählt wie eine starke Präferenz); ③ ein weicher Konflikt an einer starken Präferenz spricht bei Kriterium 2 „dagegen" — stellt hinten an, schließt nie aus; ④ „gemischt" steht gleichauf mit „nichts"; ⑤ bei Gleichstand in allen Kriterien: gleicher Platz, Anzeige alphabetisch. — Die Sätze auf der Seite sind Küchentisch-Deutsch, noch nicht durch Heddas Tor; das UI-Gesetz vom 15.09. (lebendig, spielerisch) ist auf `passung.html` noch nicht angewandt.
 
 Keine weitere fachliche Entscheidung getroffen.
+
+---
+
+## Nachtrag — RC-2-Korrektur (Build Brief `2026-09-15-matching-rc2-korrektur.md`, BUILD READY)
+
+1. **Geänderte Dateien:** `lib/vorschlaege.js` (`VORSCHLAEGE_VERSION 2026-09-15.2`), `test/vorschlaege.test.js`.
+2. **Die geänderte Bedingung:** vorher `pruefenswert = passt-Befund ODER testen-Befund`. Jetzt `pruefenswert = passt-Befund ODER testen-Befund mit mindestens einem belegten Optionsfeld` (`echteTests = tests.filter(t => !t.wissen_fehlt)`). Liegen alle Testfragen eines Weges auf offenen Feldern und gibt es keine Passung, landet der Weg in „Sobald mehr bekannt ist", Klärungsweg Recherche mit den offenen Feldern, der Grund sagt: „Hier fehlt vor allem Wissen über den Weg, nicht über dich." Der nächste Schritt war schon vorher Recherche (die Reihenfolge Realitätscheck → Recherche gab es); neu ist, dass so ein Test die Gruppe nicht mehr trägt. Eine Passung daneben hält den Weg weiter prüfenswert (nicht „allein deshalb").
+3. **Tests:** ein neuer Test mit fünf Lagen — nur testen auf offenem Feld → nicht prüfenswert, Recherche, Testfrage bleibt sichtbar · testen auf belegtem Feld → prüfenswert, Realitätscheck · beides → der belegte trägt, der offene bleibt Recherche-Punkt · Grenz-Konflikt + echter Test → weiter „zurzeit nicht" · Passung + Test auf offenem Feld → prüfenswert mit Recherche. Bestehende Tests unverändert.
+4. **Bestehende Tests:** 112 Tests, 111 grün, 1 übersprungen (der bekannte Guard-Regressionstest). Keine bestehende Erwartung musste angefasst werden, die Reihenfolge-Tests laufen unverändert.
+5. **CONTENT GAPs:** keine neuen. Die offenen Punkte (starre Kriterienfolge, Hauptweg/Nebenweg/Übergang, Suchraum „ausgeschlossen", Mindestbedarf, „gemischt") sind nicht angefasst.
