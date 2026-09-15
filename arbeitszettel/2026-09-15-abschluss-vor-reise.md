@@ -84,6 +84,29 @@ Der ältere Claude-Bericht wird deshalb nicht mehr als offene fachliche Wahrheit
 
 Vor der Reise kein neuer Matching-Auftrag, solange die Landingpage-Abschlussarbeit nicht fertig ist.
 
+## SECURITY / VOICE – FÜR PILOTIN 1, ABER KEINE NEUE BAUSTELLE HEUTE
+
+Der Security-Review liegt vollständig unter:
+`berichte-fuer-chatgpt/2026-09-15-shared-project-live-poc-security-review-ergebnis.md`
+
+Aktueller Stand nach Abgleich mit GitHub:
+
+- [x] `admin.html` Stored-XSS-Fix ist nach dem Bericht auf `main` gemergt.
+- [ ] Zugang vor Pilotin 1 begrenzen: `KOMPASS_ZUGANG` setzen oder Registrierung nur für eingeladene Adressen.
+- [ ] eigener `AUTOMAT_KEY` nur für Ilse.
+- [ ] Datenschutz-/Einwilligung für ChatGPT-Zimmer und Whisper durch Dr. Falk.
+- [ ] methodisch entscheiden: `bestaetigt_von: frau` darf nur durch ausdrückliche Bestätigung/Klick der Frau entstehen; eine KI-Beobachterin darf das nicht selbst autorisieren.
+- [ ] verpflichtender menschlicher Shared-Project-/Kündigungstest mit zwei ChatGPT-Konten vor Produktfreigabe.
+
+Wichtig:
+- Security-Fundament laut Review grundsätzlich pilotfähig **mit Bedingungen**.
+- 0 kritische Risiken im Bericht; drei hohe Risiken wurden benannt.
+- Der zentrale XSS-Fund ist bereits behoben.
+- Start-/Abschlusskarten-POC ist getestet, aber bewusst noch nicht an das Produkt verdrahtet.
+- Voice-Tür / Karten-Brücke erst nach bestandenem Handtest bauen.
+
+Diese Punkte werden nicht heute zwischen Landingpage und Abreise hineingequetscht. Sie bleiben verbindliche Pilot-Voraussetzungen für den Wiedereinstieg.
+
 ## WÄHREND DER REISE 16.–27.09.
 
 Petra muss für More is Yours nichts tun.
@@ -102,9 +125,10 @@ Reihenfolge:
 1. Landingpage / eventuelle Interessen prüfen.
 2. Instagram mit dem echten neuen More-is-Yours-Stand wieder aufnehmen.
 3. Pilotprodukt auf aktuellen BUILD-READY-Stand bringen.
-4. finalen Matching-Buildstand prüfen bzw. umsetzen lassen, falls noch offen.
-5. nächste Pilotinnen / Pilotpreis entscheiden.
-6. erst danach einen der drei Minikurse als kleines Nebenprodukt bauen.
+4. Security-Pilotbedingungen schließen: Zugang, eigener Admin-Schlüssel, Datenschutz/Einwilligung, Bestätigungsregel, Shared-Project-Handtest.
+5. finalen Matching-Buildstand prüfen bzw. umsetzen lassen, falls noch offen.
+6. nächste Pilotinnen / Pilotpreis entscheiden.
+7. erst danach einen der drei Minikurse als kleines Nebenprodukt bauen.
 
 ## Definition „guter Abschluss heute“
 
@@ -116,5 +140,6 @@ Heute ist genug getan, wenn:
 - Instagram bewusst bis 28.09. ruht,
 - alle Minikursideen dokumentiert sind,
 - der eingegangene alte Matching-Bericht korrekt als Zwischenstand eingeordnet ist,
+- der Security-Review als Pilot-Voraussetzung sauber geparkt und der bereits erledigte XSS-Fix erkannt ist,
 - es für die Reise keine laufende Contentpflicht gibt,
 - der Wiedereinstiegspunkt für den 28.09. feststeht.
