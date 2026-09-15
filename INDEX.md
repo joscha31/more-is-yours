@@ -122,6 +122,7 @@ Nächste fachliche Option: **Coaching**.
 | Datei | Funktion | Status |
 |---|---|---|
 | `build-briefs/2026-09-15-option-genome-framework-0.3.md` | Technische Umsetzung der freigegebenen Option-Genome-Struktur | **BUILD READY** |
+| `build-briefs/2026-09-15-matching-priorisierte-vorschlaege.md` | B3-Erweiterung: aus Einzelbefunden begründete, priorisierte Vorschläge erzeugen; `unbekannt` bleibt intern, nicht als Nutzerinnen-Gesamtergebnis | **BUILD READY** |
 
 ---
 
