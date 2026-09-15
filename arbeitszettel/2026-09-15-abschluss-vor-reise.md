@@ -1,7 +1,7 @@
 # MORE IS YOURS – Abschluss vor der Reise
 
 **Stand:** 15.09.2026  
-**Zeitraum:** Abschluss heute · Reise 16.–27.09. · Wiedereinstieg ab 28.09.2026  
+**Zeitraum:** Abschluss heute · Reise 16.–27.09. · Wiedereinstieg am 28.09.2026  
 **Status:** Arbeitsplan / kein neuer fachlicher Freigabestatus
 
 ## Ziel für heute
@@ -10,9 +10,9 @@ Nicht noch zehn neue Baustellen öffnen.
 
 Heute soll More is Yours so hinterlassen werden, dass:
 - die öffentliche Landingpage auf den aktuellen Produktstand vorbereitet ist,
-- Interessentinnen wissen können, worum es geht,
+- Interessentinnen verstehen können, worum es geht,
 - keine falschen alten Produktversprechen öffentlich stehen bleiben,
-- Petra unterwegs keinen täglichen Content liefern muss,
+- Petra unterwegs keinerlei Contentpflicht hat,
 - nach der Reise ein glasklarer Wiedereinstiegspunkt existiert.
 
 ## HEUTE – MUSS
@@ -48,46 +48,14 @@ Fragen:
 
 Danach entweder live oder bewusst als Vorschau stehen lassen. Keine Endlosschleife heute.
 
-## HEUTE – INSTAGRAM
+## INSTAGRAM – FEST ENTSCHIEDEN
 
-Keine Pflicht, die komplette Reisezeit oder Abwesenheit anzukündigen.
+- [x] Heute kein Post.
+- [x] Während der Reise 16.–27.09. keine Contentpflicht.
+- [x] Kein vorbereiteter Reise-Content nötig.
+- [x] Instagram-Neustart am **28.09.2026** mit dem dann aktuellen More-is-Yours-Stand.
 
-Empfehlung:
-- kein Satz wie „Ich bin jetzt zwölf Tage weg“ und keine konkreten Reise-/Abwesenheitsdetails öffentlich nennen,
-- stattdessen ein kurzes Lebenszeichen zum Entwicklungsstand.
-
-### Ein einziges einfaches Story-/Talking-Head-Thema
-
-„Ich hab in den letzten Tagen gemerkt: More is Yours wird gerade viel größer als der Kompass, mit dem ich angefangen habe. Es geht nicht mehr nur darum, herauszufinden, was zu dir passt. Wir schauen inzwischen auch darauf, wie ein Einkommensweg im echten Alltag aussieht – und was passiert, wenn er richtig gut läuft. Ich nehme jetzt ein paar Tage Abstand davon. Danach zeige ich euch, was daraus geworden ist.“
-
-Kein harter CTA nötig. Optional: „Wenn du neugierig bist: moreisyours.de“ erst wenn die neue Landingpage live ist.
-
-## WÄHREND DER REISE 16.–27.09.
-
-### Minimum-Modus – Empfehlung
-
-Petra muss nichts posten.
-
-Kein tägliches Reel.
-Keine künstliche Reise-Contentserie.
-Kein Community-Versprechen.
-Keine neue Produktbaustelle.
-
-Wenn Petra Lust hat, darf spontan etwas Persönliches kommen. Es ist aber kein Projekt-To-do.
-
-### Optional: zwei vorbereitete Inhalte
-
-Nur wenn heute ohne Stress planbar:
-
-1. **„Nicht mehr so ist noch kein Plan.“**
-   - Petras eigener Neustart-Gedanke
-   - Anschluss an More is Yours
-
-2. **„Eine Geschäftsidee kann toll klingen. Aber willst du ihren normalen Dienstag?“**
-   - erster öffentlicher Test des starken MIY-Begriffs
-   - später gleichzeitig Rohstoff für den Minikurs
-
-Wenn nicht vorbereitet: streichen. Die Reise ist wichtiger.
+Bis dahin darf der Kanal bewusst ruhig bleiben.
 
 ## MINIKURSE – NUR PARKEN, NICHT BAUEN
 
@@ -101,15 +69,42 @@ Aktuelle drei Empfehlungen:
 
 Vor der Reise keine Kursproduktion starten.
 
-## WIEDEREINSTIEG AB 28.09.
+## MATCHING – KEINE NEUE BAUSTELLE HEUTE
+
+Der heute eingegangene Claude-Bericht zur ersten Vorschlags-/Priorisierungsebene ist ein Zwischenstand.
+
+Wichtig:
+- RC-2 wurde technisch korrekt behoben: fehlendes Wissen über die Option → Recherche, nicht Test der Frau.
+- Der GitHub-Master ist inzwischen weiter.
+- Maßgeblich ist jetzt `entscheidungen/2026-09-15-matching-priorisierung-final.md` (**PETRA APPROVED**).
+- Dazu existiert `forschung/Economic-Profile-Matching-Rule-Library-0.2.md` (**PETRA APPROVED / aktuell**).
+- Der finale Build Brief liegt unter `build-briefs/2026-09-15-matching-priorisierung-final.md` (**BUILD READY**).
+
+Der ältere Claude-Bericht wird deshalb nicht mehr als offene fachliche Wahrheit behandelt.
+
+Vor der Reise kein neuer Matching-Auftrag, solange die Landingpage-Abschlussarbeit nicht fertig ist.
+
+## WÄHREND DER REISE 16.–27.09.
+
+Petra muss für More is Yours nichts tun.
+
+Kein tägliches Reel.
+Keine künstliche Reise-Contentserie.
+Kein Community-Versprechen.
+Keine neue Produktbaustelle.
+
+Wenn Petra spontan etwas Persönliches posten möchte, ist das privat ihre Entscheidung – aber kein More-is-Yours-To-do.
+
+## WIEDEREINSTIEG AM 28.09.
 
 Reihenfolge:
 
-1. Landingpage / eingegangene Interessen prüfen.
-2. Pilotprodukt auf aktuellen BUILD-READY-Stand bringen.
-3. nächste Pilotinnen / Pilotpreis entscheiden.
-4. erst danach einen der drei Minikurse als kleines Nebenprodukt bauen.
-5. Instagram mit dem echten Entwicklungsstand wieder aufnehmen.
+1. Landingpage / eventuelle Interessen prüfen.
+2. Instagram mit dem echten neuen More-is-Yours-Stand wieder aufnehmen.
+3. Pilotprodukt auf aktuellen BUILD-READY-Stand bringen.
+4. finalen Matching-Buildstand prüfen bzw. umsetzen lassen, falls noch offen.
+5. nächste Pilotinnen / Pilotpreis entscheiden.
+6. erst danach einen der drei Minikurse als kleines Nebenprodukt bauen.
 
 ## Definition „guter Abschluss heute“
 
@@ -118,7 +113,8 @@ Heute ist genug getan, wenn:
 - die neue Landingpage als Vorschau steht,
 - klar ist, ob sie rechtlich/technisch live darf,
 - der alte Datenschutz nicht unbemerkt als Wahrheit weiterläuft,
-- Petra höchstens ein einfaches Instagram-Lebenszeichen sendet,
+- Instagram bewusst bis 28.09. ruht,
 - alle Minikursideen dokumentiert sind,
+- der eingegangene alte Matching-Bericht korrekt als Zwischenstand eingeordnet ist,
 - es für die Reise keine laufende Contentpflicht gibt,
 - der Wiedereinstiegspunkt für den 28.09. feststeht.
