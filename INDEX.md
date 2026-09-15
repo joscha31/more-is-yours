@@ -49,6 +49,7 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `forschung/Pruefung-Forschungsbericht-1.0.md` | Verdichtung des Berichts auf die kleinste testbare Strecke | vorhanden / Referenz |
 | `forschung/Economic-Profile-Matching-Rule-Library-0.1.md` | Fachliche Regelbibliothek für B3: Grenzen, Präferenzen, Evidenz, Konflikte, unbekannt vs. testen, Zahlenlogik und Reality-Learning-Routing | **FACH-LAB-VORSCHLAG** |
 | `forschung/Economic-Profile-Matching-Crashtest-Petra-0.1.md` | Belastungstest der Matchinglogik mit Petra gegen die drei Goldstandard-Optionen; sechs neue B3-/Matchingbefunde M-C1 bis M-C6 | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+| `forschung/Preis-und-Community-Stufenplan-0.1.md` | Vorschlag für Preisleiter von Pilot bis Standardpreis sowie freiwillige Community mit Lern-, Umsetzungs- und Reality-Learning-Inhalten | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 | `forschung/Voice-Architektur-Optionen-0.1.md` | Vergleich der aktuellen Voice-Wege inkl. Low-Cost-Live-Hybrid, Supabase-Brücke, Alternativen und winzigem Proof of Concept | **FACH-LAB-/TECH-RESEARCH-VORSCHLAG** |
 | `forschung/Voice-Marktpruefung-0.1.md` | Quellenbasierte Markt- und Architekturprüfung der Voice-Wege | **RESEARCH / PETRA REVIEW – keine Entscheidung** |
 | `forschung/Voice-Zugangsschutz-Shared-Project-0.1.md` | Zugangsschutz-Idee über ein von More is Yours besessenes Shared ChatGPT Project pro Nutzerin | **TECH-RESEARCH / PETRA REVIEW** |
