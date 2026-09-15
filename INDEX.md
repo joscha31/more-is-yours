@@ -47,6 +47,14 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 ---
 
+## Arbeitssteuerung
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `arbeitszettel/2026-09-15.md` | Verständlicher Tageszettel: heute erledigt, jetzt offen, exakter nächster Schritt | **aktuell** |
+
+---
+
 ## System
 
 | Datei | Funktion | Status |
@@ -92,12 +100,17 @@ Künftige Protokolle werden nach relevantem Arbeitstag ergänzt.
 ## Empfohlene Repository-Struktur
 
 ```text
-modulares-entscheidungssystem/
+more-is-yours/
 ├── INDEX.md
+├── arbeitszettel/
+├── master/
 ├── strategie/
 ├── forschung/
 ├── pilot/
 ├── system/
+├── gesetze/
+├── entscheidungen/
+├── berichte-fuer-chatgpt/
 ├── marketing/
 ├── entwicklungsprotokolle/
 └── specs/
@@ -119,6 +132,7 @@ Das Repo hieß früher `modulares-entscheidungssystem-`. Heute heißt das Progra
 
 | Ordner | Was drin liegt |
 |---|---|
+| `arbeitszettel/` | Tagesaktuelle, verständliche Klick-/Arbeitslisten für Petra; erledigt/offen/nächster Einstieg |
 | `master/` | der **Gesamt-Master 3.0** (14.09.2026) — zentrale Arbeits- und Orientierungsgrundlage für Petra, ChatGPT, Claude Co-Work und Claude Code |
 | `gesetze/` | Projektweite Regeln für jede Seite, jeden Text und die Zusammenarbeit – u. a. UI-Gesetz und GitHub-/Übergaberegel |
 | `entscheidungen/` | verbindliche Architektur- und Fachentscheidungen nach Petra-Freigabe (z. B. B4–B7 und Ilses systemische Coachingregeln, 15.09.) — was Claude Code danach umsetzt |
