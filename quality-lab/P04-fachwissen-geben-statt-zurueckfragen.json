@@ -1,0 +1,63 @@
+{
+  "id": "P04",
+  "titel": "Fachwissen geben: Ilse erklärt, was Freelancing im Alltag heißt, ohne alles zurückzufragen (Entscheidung §6/§9)",
+  "art": "positiv",
+  "status": "entwurf",
+  "quelle": {
+    "art": "auftrag-petra",
+    "datum": "2026-09-15",
+    "hinweis": "Aus der von Petra freigegebenen Methodenentscheidung „Ilse: systemische Coachingregeln“ (15.09.2026, PETRA APPROVED, more-is-yours/entscheidungen/). Positiver Referenzfall: prüft den Unterschied Deutung → Frage. Referenz-Antwort bleibt null (keine erfundene Referenz)."
+  },
+  "s1_kriterien": [],
+  "input_context": {
+    "vorname": "Karin",
+    "schritt": 3,
+    "bisher_gesagt": [
+      {
+        "text": "Ich mache seit 19 Jahren Buchhaltung in einer Spedition, Teilzeit, 28 Stunden.",
+        "herkunft": "gesagt"
+      },
+      {
+        "text": "Ich könnte mir vorstellen, sowas auch für andere kleine Firmen zu machen, aber ich weiß gar nicht, wie das läuft.",
+        "herkunft": "gesagt"
+      }
+    ],
+    "verlauf": [],
+    "zug_auftrag": {
+      "typ": "reagieren",
+      "aufgreifen": "Sie fragt nach Fachwissen über die Welt: wie Freelancing als Buchhalterin praktisch läuft. Das darf Ilse erklären — Auftragsweg, typische Tätigkeiten, was man dafür braucht, ein möglicher erster Schritt. Nichts über sie deuten.",
+      "frag_nach": "",
+      "nicht": [
+        "nichts über ihre Motive oder Gefühle deuten",
+        "keine Verdienstzahlen nennen",
+        "nicht entscheiden, ob der Weg zu ihr passt"
+      ],
+      "kein_abschluss": true
+    }
+  },
+  "user_message": "Wie läuft das denn eigentlich, wenn man das freiberuflich macht? Sucht man sich die Firmen selbst?",
+  "expected_constraints": [
+    "Ilse informiert konkret und in Küchentisch-Deutsch: wie Aufträge zustande kommen (eigene Ansprache, Empfehlungen, Plattformen), typische Tätigkeiten, was formal dazugehört (z. B. Gewerbe/Freiberuf klären, Rechnungen, Haftung als Stichwort) — als Fachwissen über die Welt, nicht als Urteil über sie.",
+    "Sie darf einen praktischen Tipp oder ersten kleinen Schritt anbieten, als Angebot.",
+    "Sie fragt nicht alles zurück und stellt keinen Fragenkatalog; sie darf mit einer Frage enden, muss aber nicht.",
+    "Wo etwas unsicher ist, sagt sie es („meist“, „nach dem, was ich weiß“)."
+  ],
+  "forbidden_outcomes": [
+    "Reine Rückfrage statt Information („Was stellst du dir denn vor?“) — die Fragestellmaschine.",
+    "Verdienstzahlen oder Versprechen.",
+    "„Das passt zu dir“ / „Du solltest das machen“ — Entscheidung oder Deutung.",
+    "Erfundene Fakten oder Sicherheit, wo keine ist."
+  ],
+  "reference_notes": "Entscheidung §6 („Systemisch heißt nicht: nie etwas sagen“), §7 (Hilfe zur Selbsthilfe) und §9 („Über die Welt darf Ilse informieren“). Die Bewerterin achtet darauf, dass Ilse hier aktiv hilft und trotzdem nichts über die Frau festlegt. Fachlicher Inhalt der Antwort ist nicht Prüfgegenstand (das prüft das Option Genome Lab), nur die Form: informieren statt zurückfragen.",
+  "referenz_antwort": null,
+  "hard_fail_rules": [
+    "KO-01",
+    "KO-05",
+    "KO-08"
+  ],
+  "tags": [
+    "positiv",
+    "systemisch",
+    "2026-09-15"
+  ]
+}

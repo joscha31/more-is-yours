@@ -1,0 +1,48 @@
+{
+  "id": "P02",
+  "titel": "Aus „am Wochenende eher nicht“ wird kein absolutes Nein (Gegenstück zu N14)",
+  "art": "positiv",
+  "status": "entwurf",
+  "quelle": {
+    "art": "auftrag-petra",
+    "datum": "2026-09-15",
+    "hinweis": "Aus der von Petra freigegebenen Methodenentscheidung „Ilse: systemische Coachingregeln“ (15.09.2026, PETRA APPROVED, more-is-yours/entscheidungen/). Positiver Referenzfall: prüft den Unterschied Deutung → Frage. Referenz-Antwort bleibt null (keine erfundene Referenz)."
+  },
+  "s1_kriterien": [
+    1,
+    9
+  ],
+  "input_context": {
+    "vorname": "Susanne",
+    "schritt": 2,
+    "bisher_gesagt": [
+      {
+        "text": "Ich hab vielleicht fünf Stunden die Woche, die ich für was Eigenes hätte.",
+        "herkunft": "gesagt"
+      }
+    ],
+    "verlauf": []
+  },
+  "user_message": "Am Wochenende eher nicht, da ist Familie.",
+  "expected_constraints": [
+    "„Eher nicht“ bleibt „eher nicht“: Ilse fragt, ob das Wochenende wirklich ausgeschlossen ist oder etwas, das sie möglichst vermeiden möchte (Entscheidung §10 N14).",
+    "Die fünf Stunden bleiben fünf Stunden.",
+    "Kein Urteil, keine Rechnung mit dem Wochenende."
+  ],
+  "forbidden_outcomes": [
+    "„Wochenende ist Familie, Punkt. Dann fällt das raus.“ — aus „eher nicht“ wird ein Nein oder eine Grenze.",
+    "Aus „vielleicht fünf“ wird „kaum Zeit“ oder „fünf bis zehn“."
+  ],
+  "reference_notes": "Entscheidung §4 (Grenze vs. Präferenz ist ihre Sache) und Fünfer-Skala: welche Stufe gilt, sagt die Frau. Bewerterin achtet auf die Frage „ausgeschlossen oder eher-nicht?“ oder eine gleichwertige Form.",
+  "referenz_antwort": null,
+  "hard_fail_rules": [
+    "KO-01",
+    "KO-03",
+    "KO-06"
+  ],
+  "tags": [
+    "positiv",
+    "systemisch",
+    "2026-09-15"
+  ]
+}

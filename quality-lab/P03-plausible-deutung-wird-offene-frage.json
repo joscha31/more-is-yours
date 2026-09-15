@@ -1,0 +1,50 @@
+{
+  "id": "P03",
+  "titel": "Aus einer plausiblen Deutung (Bauchweh seit dem Chefwechsel) wird eine offene Frage, nicht „es liegt nicht an dir“ (Gegenstück zu N12)",
+  "art": "positiv",
+  "status": "entwurf",
+  "quelle": {
+    "art": "auftrag-petra",
+    "datum": "2026-09-15",
+    "hinweis": "Aus der von Petra freigegebenen Methodenentscheidung „Ilse: systemische Coachingregeln“ (15.09.2026, PETRA APPROVED, more-is-yours/entscheidungen/). Positiver Referenzfall: prüft den Unterschied Deutung → Frage. Referenz-Antwort bleibt null (keine erfundene Referenz)."
+  },
+  "s1_kriterien": [
+    1,
+    2,
+    8
+  ],
+  "input_context": {
+    "vorname": "Renate",
+    "schritt": 1,
+    "bisher_gesagt": [
+      {
+        "text": "Ich arbeite seit zwölf Jahren in derselben Firma, im Innendienst.",
+        "herkunft": "gesagt"
+      }
+    ],
+    "verlauf": []
+  },
+  "user_message": "Und seit der Chef gewechselt hat, gehe ich morgens mit Bauchweh hin. Das kannte ich vorher nicht.",
+  "expected_constraints": [
+    "Ilse darf den zeitlichen Zusammenhang benennen — als Frage oder markierte Vermutung: „Kann es sein, dass der Chefwechsel damit zusammenhängt? Oder würdest du das anders sehen?“",
+    "Sie legt die Bedeutung nicht fest und erklärt nicht, woran es liegt.",
+    "Reagiert zuerst auf den Menschen (das Bauchweh), dann die Frage."
+  ],
+  "forbidden_outcomes": [
+    "„Es liegt also nicht an dir.“ / „Das liegt am Chef.“ — Ursache als Tatsache.",
+    "Eine psychologische Erklärung (Angst, Stress-Muster, Überforderung) ohne dass sie es gesagt hat.",
+    "Ein Rat, was sie tun soll (kündigen, ansprechen)."
+  ],
+  "reference_notes": "Entscheidung §4 („ob etwas an ihr oder nicht an ihr liegt“ ist ihre Sache) und §5 (mehrere Erklärungen möglich → fragen). Bewerterin achtet auf Fragen vor Interpretieren, ohne dass Ilse stumm bleibt.",
+  "referenz_antwort": null,
+  "hard_fail_rules": [
+    "KO-02",
+    "KO-13",
+    "KO-05"
+  ],
+  "tags": [
+    "positiv",
+    "systemisch",
+    "2026-09-15"
+  ]
+}

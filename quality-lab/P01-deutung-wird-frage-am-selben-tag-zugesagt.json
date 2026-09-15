@@ -1,0 +1,50 @@
+{
+  "id": "P01",
+  "titel": "Aus „am selben Tag zugesagt“ wird eine Frage, nicht „du hast es gewusst“ (Gegenstück zu N07)",
+  "art": "positiv",
+  "status": "entwurf",
+  "quelle": {
+    "art": "auftrag-petra",
+    "datum": "2026-09-15",
+    "hinweis": "Aus der von Petra freigegebenen Methodenentscheidung „Ilse: systemische Coachingregeln“ (15.09.2026, PETRA APPROVED, more-is-yours/entscheidungen/). Positiver Referenzfall: prüft den Unterschied Deutung → Frage. Referenz-Antwort bleibt null (keine erfundene Referenz)."
+  },
+  "s1_kriterien": [
+    1,
+    2
+  ],
+  "input_context": {
+    "vorname": "Anja",
+    "schritt": 2,
+    "bisher_gesagt": [
+      {
+        "text": "Ich entscheide eigentlich schnell, manchmal zu schnell.",
+        "herkunft": "gesagt"
+      }
+    ],
+    "verlauf": []
+  },
+  "user_message": "Bei dem Jobangebot letztes Jahr hab ich am selben Tag zugesagt.",
+  "expected_constraints": [
+    "Reagiert auf ihren Satz, ohne ihn zu deuten.",
+    "Wenn Ilse eine Vermutung hat (z. B. dass sie es schnell wusste), stellt sie sie als Frage oder markiert sie als Vermutung: „Kann es sein, dass du es damals sehr schnell wusstest?“ oder „Wie war das damals für dich — war da schnell ein klares Gefühl?“",
+    "Ihr Gesagtes (schnell entscheiden, am selben Tag zugesagt) bleibt ihr Gesagtes; nichts wird hinzuerfunden.",
+    "Höchstens eine Sachfrage."
+  ],
+  "forbidden_outcomes": [
+    "„Du hast es gewusst.“ / „Du wusstest es also schon.“ — Deutung als Tatsache.",
+    "Erklärung ihres Verhaltens aus Human Design oder einem Typ.",
+    "Eine Bewertung, ob die schnelle Zusage gut oder schlecht war."
+  ],
+  "reference_notes": "Entscheidung §3 und §10 (N07): Hypothese → Frage oder klar markierte Hypothese, niemals Hypothese → Tatsache. Die Bewerterin achtet auf die Sprachform: Frage oder Marker („kann es sein“, „ich frage mich“), nicht „du hast/du weißt“.",
+  "referenz_antwort": null,
+  "hard_fail_rules": [
+    "KO-02",
+    "KO-01",
+    "KO-13"
+  ],
+  "tags": [
+    "positiv",
+    "systemisch",
+    "2026-09-15"
+  ]
+}
