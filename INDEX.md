@@ -72,7 +72,13 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `forschung/Option-Genome-03-Digitales-Produkt-0.1.md` | Goldstandard-Arbeitsfassung digitales Produkt | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-04-Beratung-0.1.md` | Arbeitsfassung Beratung / Consulting in Deutschland | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-05-Coaching-0.1.md` | Arbeitsfassung Coaching in Deutschland; inkl. Alltag, Wachstum, Abgrenzung zur Heilkunde und möglicher Rentenversicherungspflicht | **FACH-LAB-VORSCHLAG** |
+| `forschung/Option-Genome-06-Onlinekurs-Workshop-0.1.md` | Arbeitsfassung Onlinekurs / Workshop; Live und Selbstlernen getrennt, inkl. FernUSG-Prüfung | **FACH-LAB-VORSCHLAG** |
+| `forschung/Option-Genome-07-Affiliate-Marketing-0.1.md` | Arbeitsfassung Affiliate Marketing; Provision, Reichweite, Werbekennzeichnung und Plattformabhängigkeit | **FACH-LAB-VORSCHLAG** |
+| `forschung/Option-Genome-08-Empfehlungsmarketing-Network-Marketing-0.1.md` | Arbeitsfassung Empfehlungsmarketing / Network Marketing; Kundenumsatz, Teamlogik, Unternehmensabhängigkeit und Pyramidensystem-Abgrenzung | **FACH-LAB-VORSCHLAG** |
+| `forschung/Option-Genome-09-E-Commerce-Onlineshop-0.1.md` | Arbeitsfassung E-Commerce / Onlineshop; Ware, Marge, Logistik, Kapital, Widerruf und Produktsicherheit | **FACH-LAB-VORSCHLAG** |
+| `forschung/Option-Genome-10-Creator-Content-Business-0.1.md` | Arbeitsfassung Creator-/Content-Business; Contentproduktion, Reichweite, Monetarisierungswege, Plattform- und Personenabhängigkeit | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-Goldstandard-Vergleich-0.1.md` | Vergleich der ersten drei Goldstandards; neun Strukturvorschläge | am 15.09.2026 von Petra freigegeben |
+| `forschung/Option-Genome-Startoptionen-Vergleich-0.1.md` | Vergleich aller zehn Startoptionen; Überlappungen, Matching-Unterschiede und Mischmodell-Befund | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 
 ### Human Design – aktueller Arbeitsstand
 
@@ -88,15 +94,22 @@ Weitere Typen, Autoritäten und Profile bleiben Content Gaps, bis sie separat fa
 
 Das **Framework 0.4** ist der aktuelle freigegebene Fachstand.
 
-Vorhandene Options-Arbeitsfassungen:
+Alle zehn Startoptionen liegen jetzt als fachliche Arbeitsfassungen vor:
 
 1. Teilzeit-/Nebenjob
 2. Freelancing / Done-for-you
-3. Digitales Produkt
-4. Beratung
-5. Coaching
+3. Beratung
+4. Coaching
+5. Digitales Produkt
+6. Onlinekurs / Workshop
+7. Affiliate Marketing
+8. Empfehlungsmarketing / Network Marketing
+9. E-Commerce / Onlineshop
+10. Creator- / Content-Business
 
-Nächste fachliche Option: **Onlinekurs / Workshop**.
+Zusätzlich liegt ein Zehnervergleich vor.
+
+**Nächster Schritt:** Nicht weitere Optionen sammeln. Die zehn Arbeitsfassungen gegen Framework 0.4 prüfen, entscheidungsrelevante Lücken schließen, technisch übertragen und anschließend erstmals ernsthaft mit einem Economic Profile matchen.
 
 Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 
