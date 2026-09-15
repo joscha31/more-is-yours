@@ -53,16 +53,18 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `forschung/Option-Genome-Framework-0.2.md` | Fachliche Vorlage inkl. Evidenz-, Quellen-, Dienstag- und Wachstumslogik für Option Genome | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-01-Teilzeit-Nebenjob-0.1.md` | Goldstandard-Arbeitsfassung Teilzeit/Nebenjob | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-02-Freelancing-Done-for-you-0.1.md` | Goldstandard-Arbeitsfassung Freelancing/Done-for-you | **FACH-LAB-VORSCHLAG** |
+| `forschung/Option-Genome-03-Digitales-Produkt-0.1.md` | Goldstandard-Arbeitsfassung digitales Produkt | **FACH-LAB-VORSCHLAG** |
+| `forschung/Option-Genome-Goldstandard-Vergleich-0.1.md` | Vergleich der ersten drei Goldstandards; neun Strukturvorschläge und zwei neue Content Gaps | **PETRA REVIEW / FACH-LAB-VORSCHLAG** |
 
-### Option Genome – aktueller Arbeitsauftrag
+### Option Genome – aktueller Arbeitsstand
 
-Gemäß Gesamt-Master zuerst drei Goldstandard-Optionen fachlich fertig entwickeln:
+Die drei im Gesamt-Master vorgesehenen Goldstandard-Belastungstests liegen als Arbeitsfassung vor:
 
-1. Teilzeit-/Nebenjob – Arbeitsfassung vorhanden
-2. Freelancing / Done-for-you – Arbeitsfassung vorhanden
-3. Digitales Produkt – **als Nächstes**
+1. Teilzeit-/Nebenjob – Anstellung
+2. Freelancing / Done-for-you – selbstständige Dienstleistung
+3. Digitales Produkt – digitales Asset
 
-Danach die restlichen sieben Startoptionen.
+**Nächster Schritt:** Petra Review der strukturellen Vorschläge aus dem Goldstandard-Vergleich. Erst danach Framework konsolidieren und weitere Optionen befüllen.
 
 ---
 
