@@ -47,9 +47,10 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `forschung/Forschungsbericht-1.0-Bewertungsraster.md` | Fachliche Grundlagen für Bewertungsraster und Entscheidungslogik | vorhanden / Referenz |
 | `forschung/Pruefung-Forschungsbericht-1.0.md` | Verdichtung des Berichts auf die kleinste testbare Strecke | vorhanden / Referenz |
-| `forschung/Economic-Profile-Matching-Rule-Library-0.1.md` | Fachliche Regelbibliothek für B3: Grenzen, Präferenzen, Evidenz, Konflikte, unbekannt vs. testen, Zahlenlogik und Reality-Learning-Routing | **FACH-LAB-VORSCHLAG** |
+| `forschung/Economic-Profile-Matching-Rule-Library-0.1.md` | Frühere Arbeitsfassung der Matching-Regeln | historische Arbeitsfassung |
+| `forschung/Economic-Profile-Matching-Rule-Library-0.2.md` | Konsolidierte Matching-Regeln: Gates, Szenario-Rollen, qualitative Priorisierung ohne Score, Trade-offs, Evidenz, Suchraum und Reality Learning | **PETRA APPROVED / aktuell** |
 | `forschung/Economic-Profile-Matching-Crashtest-Petra-0.1.md` | Belastungstest der Matchinglogik mit Petra gegen die drei Goldstandard-Optionen; sechs neue B3-/Matchingbefunde M-C1 bis M-C6 | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
-| `forschung/Economic-Profile-Matching-Priorisierung-Review-0.1.md` | Fachreview der implementierten Vorschlags-/Priorisierungsebene; identifiziert RC-2-Bug, unfreigegebene Ranglogik und Empfehlungen zu Szenario-Rolle, Suchraum und wirtschaftlichen Mindestbedingungen | **FACH-LAB-REVIEW / PETRA REVIEW** |
+| `forschung/Economic-Profile-Matching-Priorisierung-Review-0.1.md` | Fachreview der ersten Vorschlags-/Priorisierungsebene; Grundlage für die final freigegebene Matchinglogik | historische Review-Grundlage |
 | `forschung/Ergebnisdossier-Inhaltsarchitektur-0.1.md` | Ausführliche Inhaltsarchitektur des persönlichen Ergebnisdossiers; lebende HTML-Fassung + Heft/PDF, viele Seiten, „Mehr ist mehr“ strukturiert | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 | `forschung/Preis-und-Community-Stufenplan-0.1.md` | Frühere Preisleiter mit Monatscommunity | **früher FACH-LAB-VORSCHLAG** |
 | `forschung/Preis-und-Community-Stufenplan-0.2-ohne-Abo-und-Minikurse.md` | Aktueller Vorschlag: höherer Einmalpreis, zeitlich begrenzte Folgeprogramme statt Abo-Abhängigkeit, Minikurse als Produktleiter | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
@@ -128,7 +129,8 @@ Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 | `entscheidungen/2026-09-15-ergebnisprodukt-mehr-ist-mehr.md` | Ergebnisprodukt bewusst reichhaltig: ausführliches Dossier + Wissenswelt; Karten sind Navigation, nicht der Gegenwert | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-option-genome-struktur.md` | Neun freigegebene Strukturregeln für das Option Genome | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-option-genome-content-gaps-claude-bericht.md` | Klärt die fünf Content Gaps aus der 0.3-Umsetzung: Ebenen/Kategorien, beschreibende Dienstag-Felder, eine Hauptstelle für Recht und Kapital beim Wachstum | **PETRA APPROVED** |
-| `entscheidungen/2026-09-15-matching-vorschlaege-priorisierung.md` | Matching-Ausgabe: priorisierte, begründete Vorschläge; mehrere Möglichkeiten können gleichzeitig matchen | **PETRA APPROVED** |
+| `entscheidungen/2026-09-15-matching-vorschlaege-priorisierung.md` | Grundentscheidung: immer begründete Vorschläge; mehrere Möglichkeiten können gleichzeitig matchen | **PETRA APPROVED** |
+| `entscheidungen/2026-09-15-matching-priorisierung-final.md` | Finale Matching-Priorisierung: Gates, Szenario-Rollen, individuelle entscheidende Faktoren, qualitative Dominanz/Trade-offs, Evidenz getrennt von Passung | **PETRA APPROVED / aktuell** |
 | `entscheidungen/2026-09-15-architecture-decisions-b4-b7.md` | B4 Dienstag, B5 HD Lens, B6 Realitätscheck, B7 Quality Guard | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-ilse-systemische-coachingregeln.md` | Systemische Gesprächsregeln für Ilse | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-hd-manifestor-0.2-freigabe.md` | Fachfreigabe Manifestor 0.2 | **PETRA APPROVED / BUILD READY B5** |
@@ -156,8 +158,9 @@ Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 |---|---|---|
 | `build-briefs/2026-09-15-option-genome-framework-0.3.md` | Technische Umsetzung der freigegebenen Option-Genome-Struktur 0.3 | **IMPLEMENTED** |
 | `build-briefs/2026-09-15-option-genome-framework-0.4-korrektur.md` | Kleine technische Korrektur: f31–f33 beschreibend, eine Hauptstelle für Recht, f27 Wachstumskapital | **BUILD READY** |
-| `build-briefs/2026-09-15-matching-priorisierte-vorschlaege.md` | B3-Erweiterung: priorisierte Vorschläge erzeugen | **BUILD READY** |
-| `build-briefs/2026-09-15-matching-rc2-korrektur.md` | Gezielte Korrektur: fehlendes Optionswissen darf keinen persönlichen Realitätscheck bzw. keine Prüfenswert-Einstufung allein auslösen | **BUILD READY** |
+| `build-briefs/2026-09-15-matching-priorisierte-vorschlaege.md` | Frühere B3-Vorschlagsfassung | durch finale Matching-Fassung überholt |
+| `build-briefs/2026-09-15-matching-rc2-korrektur.md` | Gezielte RC-2-Korrektur | in finalem Matching-Build-Brief enthalten |
+| `build-briefs/2026-09-15-matching-priorisierung-final.md` | Finale technische Umsetzung der freigegebenen Matching-Priorisierung | **BUILD READY / aktuell** |
 | `build-briefs/2026-09-15-landingpage-vorschau-neuaufstellung.md` | Nur eine noindex-Vorschau der neuen Landingpage bauen; Live-Seite unverändert; Datenschutz-/Wartelisten-Gaps nur berichten | **BUILD READY – NUR VORSCHAU** |
 | `build-briefs/2026-09-15-hd-chart-llm-poc.md` | Isolierter POC: Chart lesen, strukturieren, Forschungs-Hypothesen gegen Economic Profile/Biografie halten und mit Baseline vergleichen | **BUILD READY – NICHT PRODUKTIV** |
 
