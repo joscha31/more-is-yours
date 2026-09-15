@@ -35,6 +35,7 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `forschung/Forschungsbericht-1.0-Bewertungsraster.md` | Fachliche Grundlagen für Bewertungsraster und Entscheidungslogik | vorhanden / Referenz |
 | `forschung/Pruefung-Forschungsbericht-1.0.md` | Verdichtung des Berichts auf die kleinste testbare Strecke | vorhanden / Referenz |
+| `forschung/Economic-Profile-Matching-Rule-Library-0.1.md` | Fachliche Regelbibliothek für B3: Grenzen, Präferenzen, Evidenz, Konflikte, unbekannt vs. testen, Zahlenlogik und Reality-Learning-Routing | **FACH-LAB-VORSCHLAG** |
 | `forschung/Human-Design-Dialogregeln-0.1.md` | Methodische Gesprächsregeln für die HD Lens: offen fragen, Hypothesen markieren, Biografie und Gegenbeispiele prüfen | verbindliche Arbeitsregel im HD Content Lab |
 | `forschung/Human-Design-Content-Library-01-Manifestor.md` | Erste HD-Content-Library-Einheit; Manifestor-Typ und Strategie mit MIY-Hypothesen, Sprachschutz und sieben dialogischen Kernfragen | Arbeitsfassung 0.2 / noch nicht BUILD READY |
 
