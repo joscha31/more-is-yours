@@ -61,7 +61,8 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `forschung/Voice-Ermittlung-Eigener-ChatGPT-Account-0.2.md` | Systematische Ermittlung der Wege für GPT-Live im eigenen ChatGPT-Konto der Frau | **TECH RESEARCH / PETRA REVIEW** |
 | `forschung/Human-Design-Dialogregeln-0.1.md` | Methodische Gesprächsregeln für die HD Lens | verbindliche Arbeitsregel im HD Content Lab |
 | `forschung/Human-Design-Content-Library-01-Manifestor.md` | Erste HD-Content-Library-Einheit | **PETRA APPROVED / BUILD READY für B5** |
-| `forschung/HD-B5-Folgeentscheidungen-0.1.md` | Vorschlag nach B5-Implementierung | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+| `forschung/HD-B5-Folgeentscheidungen-0.1.md` | Fach-Lab-Entwurf der später freigegebenen B5-Folgeentscheidungen | historische Arbeitsfassung |
+| `forschung/HD-LLM-Reading-Strategie-0.1.md` | Forschungsstrategie: starken LLM-Chartreader mit MIY-Kontext kombinieren statt generische HD-Texte statisch nachzubauen | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 | `forschung/Option-Genome-Framework-0.2.md` | Frühere Arbeitsfassung des Option-Genome-Grundgerüsts | historische Arbeitsfassung |
 | `forschung/Option-Genome-Framework-0.3.md` | Freigegebener Zwischenstand, technisch umgesetzt | historische freigegebene Fassung |
 | `forschung/Option-Genome-Framework-0.4.md` | Aktuelles fachliches Grundgerüst; Lieferung, Vorbereitung und Leerlauf beschreibend; eine Hauptstelle für Recht; Kapital beim Wachstum geklärt | **PETRA APPROVED / aktuell** |
@@ -77,6 +78,8 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 Der Manifestor 0.2 ist für B5 fachlich freigegeben. Maßgebliche Freigabe:
 
 `entscheidungen/2026-09-15-hd-manifestor-0.2-freigabe.md`
+
+Zusätzlich ist das Produktprinzip **Chart → KI-Auswertung → Hypothese → Economic Profile/Biografie/Realität** freigegeben. Ein isolierter HD-Chart-LLM-POC ist BUILD READY. Weitere Full-HD-Inhalte bleiben Forschungsdaten und dürfen nicht produktiv ins Matching einfließen.
 
 Weitere Typen, Autoritäten und Profile bleiben Content Gaps, bis sie separat fachlich entwickelt und von Petra freigegeben sind.
 
@@ -129,6 +132,8 @@ Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 | `entscheidungen/2026-09-15-architecture-decisions-b4-b7.md` | B4 Dienstag, B5 HD Lens, B6 Realitätscheck, B7 Quality Guard | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-ilse-systemische-coachingregeln.md` | Systemische Gesprächsregeln für Ilse | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-hd-manifestor-0.2-freigabe.md` | Fachfreigabe Manifestor 0.2 | **PETRA APPROVED / BUILD READY B5** |
+| `entscheidungen/2026-09-15-hd-b5-folgeentscheidungen.md` | Bibliotheksform mit Vertiefungen/Gegenproben, HD-Schutznetz, Frage vor Hypothese, Gesprächsrouting noch nicht bauen | **PETRA APPROVED / BUILD READY** |
+| `entscheidungen/2026-09-15-hd-chart-integration-prinzip.md` | Vollchart als zusätzliche Datenquelle: KI lesen lassen, mit Economic Profile/Biografie/Realität prüfen; kein Berufsorakel | **PETRA APPROVED** |
 | `gesetze/2026-09-15-projektregel-github-arbeitsweise.md` | GitHub als Masterquelle; wichtige Inhalte zusätzlich im Chat; fertiger Claude-Befehl bei Übergaben | **PETRA APPROVED** |
 | `system/Programmarchitektur.md` | Fachliche Arbeitsarchitektur | vorhanden / Arbeitsmodell |
 | `system/Offene-Forschungsfragen.md` | Bewusst offene Systemfragen | sinnvoll, noch anzulegen |
@@ -154,6 +159,7 @@ Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 | `build-briefs/2026-09-15-matching-priorisierte-vorschlaege.md` | B3-Erweiterung: priorisierte Vorschläge erzeugen | **BUILD READY** |
 | `build-briefs/2026-09-15-matching-rc2-korrektur.md` | Gezielte Korrektur: fehlendes Optionswissen darf keinen persönlichen Realitätscheck bzw. keine Prüfenswert-Einstufung allein auslösen | **BUILD READY** |
 | `build-briefs/2026-09-15-landingpage-vorschau-neuaufstellung.md` | Nur eine noindex-Vorschau der neuen Landingpage bauen; Live-Seite unverändert; Datenschutz-/Wartelisten-Gaps nur berichten | **BUILD READY – NUR VORSCHAU** |
+| `build-briefs/2026-09-15-hd-chart-llm-poc.md` | Isolierter POC: Chart lesen, strukturieren, Forschungs-Hypothesen gegen Economic Profile/Biografie halten und mit Baseline vergleichen | **BUILD READY – NICHT PRODUKTIV** |
 
 ---
 
