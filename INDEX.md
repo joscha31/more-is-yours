@@ -69,6 +69,7 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `forschung/Option-Genome-02-Freelancing-Done-for-you-0.1.md` | Goldstandard-Arbeitsfassung Freelancing/Done-for-you | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-03-Digitales-Produkt-0.1.md` | Goldstandard-Arbeitsfassung digitales Produkt | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-04-Beratung-0.1.md` | Arbeitsfassung Beratung / Consulting in Deutschland | **FACH-LAB-VORSCHLAG** |
+| `forschung/Option-Genome-05-Coaching-0.1.md` | Arbeitsfassung Coaching in Deutschland; inkl. Alltag, Wachstum, Abgrenzung zur Heilkunde und möglicher Rentenversicherungspflicht | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-Goldstandard-Vergleich-0.1.md` | Vergleich der ersten drei Goldstandards; neun Strukturvorschläge | am 15.09.2026 von Petra freigegeben |
 
 ### Human Design – aktueller Arbeitsstand
@@ -89,8 +90,9 @@ Vorhandene Options-Arbeitsfassungen:
 2. Freelancing / Done-for-you
 3. Digitales Produkt
 4. Beratung
+5. Coaching
 
-Nächste fachliche Option: **Coaching**.
+Nächste fachliche Option: **Onlinekurs / Workshop**.
 
 Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 
