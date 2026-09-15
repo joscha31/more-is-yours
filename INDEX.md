@@ -50,12 +50,20 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `forschung/Economic-Profile-Matching-Rule-Library-0.1.md` | Fachliche Regelbibliothek für B3: Grenzen, Präferenzen, Evidenz, Konflikte, unbekannt vs. testen, Zahlenlogik und Reality-Learning-Routing | **FACH-LAB-VORSCHLAG** |
 | `forschung/Voice-Architektur-Optionen-0.1.md` | Vergleich der aktuellen Voice-Wege inkl. Low-Cost-Live-Hybrid, Supabase-Brücke, Alternativen und winzigem Proof of Concept | **FACH-LAB-/TECH-RESEARCH-VORSCHLAG** |
 | `forschung/Human-Design-Dialogregeln-0.1.md` | Methodische Gesprächsregeln für die HD Lens: offen fragen, Hypothesen markieren, Biografie und Gegenbeispiele prüfen | verbindliche Arbeitsregel im HD Content Lab |
-| `forschung/Human-Design-Content-Library-01-Manifestor.md` | Erste HD-Content-Library-Einheit; Manifestor-Typ und Strategie mit MIY-Hypothesen, Sprachschutz und sieben dialogischen Kernfragen | Arbeitsfassung 0.2 / noch nicht BUILD READY |
+| `forschung/Human-Design-Content-Library-01-Manifestor.md` | Erste HD-Content-Library-Einheit; Manifestor-Typ und Strategie mit MIY-Hypothesen, Sprachschutz und sieben dialogischen Kernfragen | **PETRA APPROVED / BUILD READY für B5 gemäß Freigabeentscheidung** |
 | `forschung/Option-Genome-Framework-0.2.md` | Fachliche Vorlage inkl. Evidenz-, Quellen-, Dienstag- und Wachstumslogik für Option Genome | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-01-Teilzeit-Nebenjob-0.1.md` | Goldstandard-Arbeitsfassung Teilzeit/Nebenjob | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-02-Freelancing-Done-for-you-0.1.md` | Goldstandard-Arbeitsfassung Freelancing/Done-for-you | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-03-Digitales-Produkt-0.1.md` | Goldstandard-Arbeitsfassung digitales Produkt | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-Goldstandard-Vergleich-0.1.md` | Vergleich der ersten drei Goldstandards; neun Strukturvorschläge und zwei neue Content Gaps | **PETRA REVIEW / FACH-LAB-VORSCHLAG** |
+
+### Human Design – aktueller Arbeitsstand
+
+Der Manifestor 0.2 ist für B5 fachlich freigegeben. Maßgebliche Freigabe:
+
+`entscheidungen/2026-09-15-hd-manifestor-0.2-freigabe.md`
+
+Weitere Typen, Autoritäten und Profile bleiben Content Gaps, bis sie separat fachlich entwickelt und von Petra freigegeben sind.
 
 ### Option Genome – aktueller Arbeitsstand
 
@@ -93,6 +101,7 @@ Die drei im Gesamt-Master vorgesehenen Goldstandard-Belastungstests liegen als A
 | `system/Ilse-Prinzipien.md` | Verbindliche Dialog-, Sprach- und Begleitprinzipien für Ilse | im Aufbau |
 | `entscheidungen/2026-09-15-architecture-decisions-b4-b7.md` | B4 Dienstag, B5 HD Lens, B6 Realitätscheck, B7 Quality Guard | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-ilse-systemische-coachingregeln.md` | Systemische Gesprächsregeln: Hypothesen fragen statt behaupten; Fachwissen geben, Entscheidung bei der Frau | **PETRA APPROVED** |
+| `entscheidungen/2026-09-15-hd-manifestor-0.2-freigabe.md` | Fachfreigabe Manifestor 0.2: Hypothesen H-MAN-01–07, sieben Kernfragen, Dialog- und Schutzregeln | **PETRA APPROVED / BUILD READY B5** |
 | `gesetze/2026-09-15-projektregel-github-arbeitsweise.md` | Projektweite Regel: GitHub als Masterquelle; wichtige Inhalte zusätzlich im Chat; fertiger Claude-Befehl bei Übergaben | **PETRA APPROVED** |
 | `berichte-fuer-chatgpt/2026-09-15-liveone-lowcost-architektur-tech-check.md` | Technischer Befund zur Low-Cost-Voice-Idee über eigenen ChatGPT-Account, Supabase-Zuordnung und aktuelle Integrationsgrenzen | **TECH FINDING / offen** |
 | `system/Programmarchitektur.md` | Fachliche Arbeitsarchitektur aus den Forschungsergebnissen; Teil A Klarheit, Teil B Möglichkeit, Teil C Umsetzung | vorhanden / Arbeitsmodell |
