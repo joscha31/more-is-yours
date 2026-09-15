@@ -144,6 +144,7 @@ Parallel ist die kleine technische Korrektur von 0.3 auf 0.4 BUILD READY.
 | `build-briefs/2026-09-15-option-genome-framework-0.3.md` | Technische Umsetzung der freigegebenen Option-Genome-Struktur 0.3 | **IMPLEMENTED** |
 | `build-briefs/2026-09-15-option-genome-framework-0.4-korrektur.md` | Kleine technische Korrektur: f31–f33 beschreibend, eine Hauptstelle für Recht, f27 Wachstumskapital | **BUILD READY** |
 | `build-briefs/2026-09-15-matching-priorisierte-vorschlaege.md` | B3-Erweiterung: priorisierte Vorschläge erzeugen | **BUILD READY** |
+| `build-briefs/2026-09-15-matching-rc2-korrektur.md` | Gezielte Korrektur: fehlendes Optionswissen darf keinen persönlichen Realitätscheck bzw. keine Prüfenswert-Einstufung allein auslösen | **BUILD READY** |
 
 ---
 
