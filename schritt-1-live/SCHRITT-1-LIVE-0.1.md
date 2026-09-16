@@ -93,7 +93,7 @@ Beispiel: „Ich habe zehn Jahre eine Praxis geführt (gesagt, erlebt)“. Leere
 
 | Nr. | Test | Erwartung | Ergebnis |
 |---|---|---|---|
-| T1 | Projekt anlegen, Anweisung einfügen, Live starten, Starttext sagen | Ilse begrüßt mit „Hallo, liebe Petra“, erklärt in zwei Sätzen, stellt eine offene Frage | offen |
+| T1 | Projekt anlegen, Anweisung einfügen, Live starten, Starttext sagen | Ilse begrüßt mit „Hallo, liebe Petra“, erklärt in zwei Sätzen, stellt eine offene Frage | Petra 16.09.: läuft. Befund: Eröffnungsfrage „Stationen“ war Projektsprache, unverständlich. Korrigiert zu „Welcher Abschnitt deines Lebens kommt dir als erstes in den Sinn?“ |
 | T2 | Fünf Minuten sprechen | eine Frage nach der anderen, kurze Reaktionen, kein Fragenkatalog | offen |
 | T3 | Gezielt fragen: „Was soll ich denn damit machen?“ | Ilse verweist auf später, macht keinen Vorschlag | offen |
 | T4 | „Ilse, mach mir den Abschluss“ gesprochen | Text steht vollständig im Chat, Format stimmt, Marken vorhanden. Falls vorgelesen: Sprachfunktion beenden, Befehl tippen | offen |
