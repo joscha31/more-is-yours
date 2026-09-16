@@ -1,6 +1,6 @@
 # INDEX – More is Yours
 
-**Stand:** 15. September 2026  
+**Stand:** 16. September 2026  
 **Funktion:** Zentrales Inhaltsverzeichnis des Projekts
 
 > Der Index enthält keine ausführlichen Fachinhalte. Er zeigt nur, welche Dateien es gibt, wofür sie zuständig sind und welchen Status sie haben.
@@ -162,6 +162,7 @@ und
 | `berichte-fuer-chatgpt/2026-09-15-ilse-b5-manifestor-0.2-eingebaut-fuer-chatgpt.md` | Claude Code: Manifestor 0.2 in die HD Lens eingebaut | **IMPLEMENTED** |
 | `berichte-fuer-chatgpt/2026-09-15-liveone-lowcost-architektur-tech-check.md` | Technischer Befund zur Low-Cost-Voice-Idee | **TECH FINDING / offen** |
 | `berichte-fuer-chatgpt/2026-09-15-shared-project-live-poc-security-review-ergebnis.md` | Ergebnis Shared-Project-POC + defensiver Security-Review | **SECURITY REVIEW / PETRA REVIEW – keine Produktfreigabe** |
+| `berichte-fuer-chatgpt/2026-09-16-schritt-1-live-pilot-vorbereitet-fuer-chatgpt.md` | Claude Code: Schritt 1 als GPT-Live-1-Pilot vorbereitet (Projektanweisung, Anleitung, Startseite, Tests, Gaps) | **IMPLEMENTED / erster echter Durchlauf offen** |
 
 ---
 
@@ -177,6 +178,18 @@ und
 | `build-briefs/2026-09-15-matching-priorisierung-final.md` | Finale technische Umsetzung der freigegebenen Matching-Priorisierung | **BUILD READY / aktuell** |
 | `build-briefs/2026-09-15-landingpage-vorschau-neuaufstellung.md` | Nur eine noindex-Vorschau der neuen Landingpage bauen; Live-Seite unverändert; Datenschutz-/Wartelisten-Gaps nur berichten | **BUILD READY – NUR VORSCHAU** |
 | `build-briefs/2026-09-15-hd-chart-llm-poc.md` | Isolierter POC: Chart lesen, strukturieren, Forschungs-Hypothesen gegen Economic Profile/Biografie halten und mit Baseline vergleichen | **BUILD READY – NICHT PRODUKTIV** |
+| `build-briefs/2026-09-16-schritt-1-rohmaterial-sammler-0.1.md` | Schritt 1 Rohmaterial-Sammler; Pilot primär gesprochen über GPT-Live-1 im eigenen ChatGPT-Konto | **PETRA APPROVED / Live-Pilotweg IMPLEMENTED, App-Teil offen** |
+
+---
+
+## Schritt 1 Live (Pilot)
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `schritt-1-live/SCHRITT-1-LIVE-0.1.md` | Gesprächsbrief für GPT-Live-1, Zuständigkeiten ChatGPT vs. More is Yours, Abschlussformat, Testprotokoll, Gaps | **IMPLEMENTED / TESTED offen** |
+| `schritt-1-live/texte/01-projektanweisung.txt` | die Projektanweisung „More is Yours – Schritt 1“ zum Einfügen in ChatGPT (Quelle der Wahrheit für den Text) | **IMPLEMENTED** |
+| `schritt-1-live/anleitung.md` | einfache Anleitung für Petra, Nicole, Anne | **IMPLEMENTED** |
+| `schritt-1-live/index.html` | Startseite mit fünf Schritten und Kopierknöpfen; generiert aus `vorlage.html` und den Texten | **IMPLEMENTED** |
 
 ---
 
@@ -214,6 +227,7 @@ more-is-yours/
 ├── entscheidungen/
 ├── build-briefs/
 ├── berichte-fuer-chatgpt/
+├── schritt-1-live/
 ├── marketing/
 ├── entwicklungsprotokolle/
 └── specs/

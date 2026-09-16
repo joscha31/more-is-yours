@@ -2,6 +2,7 @@
 
 **Stand:** 16.09.2026  
 **Status:** PETRA APPROVED / BUILD READY  
+**Umsetzung 16.09.2026:** Live-Pilotweg IMPLEMENTED in `schritt-1-live/` (Bericht: `berichte-fuer-chatgpt/2026-09-16-schritt-1-live-pilot-vorbereitet-fuer-chatgpt.md`). App-Teil (Supabase, editierbare Ansicht) offen.  
 **Zweck:** Einen kleinen, eigenständig nutzbaren ersten Baustein bauen, mit dem Petra, Nicole und Anne strukturiert erfassen können, was sie mitbringen, behalten wollen, nicht mehr wollen und woraus später Storybank, Positionierung, Angebot und Daily Business Companion entstehen können.
 
 ## Grundsatz

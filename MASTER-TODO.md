@@ -1,6 +1,6 @@
 # MORE IS YOURS – MASTER TODO
 
-**Stand:** 15. September 2026  
+**Stand:** 16. September 2026  
 **Status:** Lebende übergeordnete Arbeitsliste
 
 ## Zweck
@@ -21,6 +21,16 @@ Priorität bei Widersprüchen:
 ---
 
 # 🔴 AKTUELL PARALLEL
+
+## 0. Schritt 1 Rohmaterial-Sammler (Live-Pilot)
+
+- [x] Build Brief freigegeben (16.09.)
+- [x] Projektanweisung, Starttext, Gesprächsregeln, Abschlusslogik, Anleitung, Startseite vorbereitet (`schritt-1-live/`)
+- [ ] Petra macht den ersten echten Durchlauf im eigenen ChatGPT-Plus-Konto (Testprotokoll T1 bis T8)
+- [ ] danach Nicole und Anne
+- [ ] Abschlüsse sammeln und entscheiden, wie sie ins Fach übernommen werden (METHOD GAP)
+- [ ] App-Teil (editierbare Rucksack-Ansicht, Speicherung je Frau) als eigener Bauauftrag im Ilse-Repo
+
 
 ## 1. Option Genome Lab
 
