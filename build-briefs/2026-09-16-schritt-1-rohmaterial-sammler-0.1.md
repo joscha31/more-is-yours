@@ -14,6 +14,47 @@ Technische Leitidee:
 
 Für 0.1 wird nur Schritt 1 gebaut.
 
+## PETRA APPROVED: Sprache zuerst / GPT-Live-1 im Pilot
+
+Für Petra, Nicole und Anne soll Schritt 1 im Pilot **primär gesprochen** funktionieren.
+
+Wichtig: Wir nutzen dafür zunächst **GPT-Live-1 innerhalb des eigenen ChatGPT-Plus-Kontos der jeweiligen Testerin**. ChatGPT-Projekte können Projektanweisungen, Quellen und Voice nutzen. Das ist für den Pilot schneller und natürlicher als jetzt schon eine eigene Voice-Infrastruktur zu programmieren.
+
+**Nicht verwechseln:** Ein ChatGPT-Plus-Abo kann nicht als technische API-Verbindung in die More-is-Yours-App eingebaut werden. ChatGPT-Abo und API werden getrennt abgerechnet. Wenn später eine vollständig eingebettete Voice-Erfahrung in der eigenen App gewünscht ist, braucht es dafür eine separate API-/Realtime-Lösung und eine eigene Kostenentscheidung.
+
+### Pilot-Architektur 0.1
+
+1. Für Schritt 1 existiert ein klarer **Live-1-Gesprächsbrief / Projektanweisung**.
+2. Petra, Nicole und Anne verwenden jeweils ihr eigenes ChatGPT-Konto und einen eigenen More-is-Yours-Projektchat.
+3. Dort starten sie Voice / Live und führen das Gespräch mit Ilse.
+4. Die Unterhaltung bleibt beim jeweiligen Konto getrennt.
+5. Am Ende erzeugt Ilse eine strukturierte Zusammenfassung nach dem in diesem Brief definierten Ergebnisformat.
+6. Für den 0.1-Pilot darf diese Zusammenfassung zunächst manuell zurück in More is Yours übernommen oder separat ausgewertet werden.
+7. Claude soll **keine künstliche direkte Plus-Account-Integration vortäuschen** und keine Zugangsdaten oder Session-Cookies abfragen.
+
+### Was Claude dafür konkret bauen / vorbereiten soll
+
+- eine saubere Projektanweisung für „More is Yours – Schritt 1“
+- einen sehr kurzen Starttext für die Testerin
+- Gesprächsregeln für GPT-Live-1
+- Abschlussbefehl / Abschlusslogik für die strukturierte Zusammenfassung
+- klar verständliche Anleitung: Projekt öffnen → Live starten → sprechen → Zusammenfassung erzeugen
+- falls sinnvoll: eine kleine More-is-Yours-Startseite, die diese Schritte erklärt und die Texte kopierbar macht
+
+### Gesprächsqualität in Voice
+
+Live soll sich wie ein echtes Gespräch anfühlen:
+- eine Frage nach der anderen
+- nachhaken, wenn etwas spannend oder unklar ist
+- Unterbrechungen zulassen
+- keine langen Monologe
+- keine Liste von 20 Fragen vorlesen
+- Zwischensummen nur kurz und natürlich
+- Küchentisch-Deutsch
+- die Frau darf sagen „weiter“, „weiß ich nicht“, „will ich nicht vertiefen“ oder korrigieren
+
+Die fachlichen Grenzen dieses Briefs gelten auch in Voice vollständig.
+
 ## Nutzerziel
 
 Die Frau soll nach Schritt 1 nicht „analysiert“ wirken, sondern selbst klarer sehen:
@@ -120,6 +161,7 @@ Claude Code soll die technisch einfachste Lösung in der bestehenden More-is-You
 Wichtig:
 - kein neues Agenten-Framework nur für diesen Schritt
 - vorhandene Ilse-/Chat-Infrastruktur wiederverwenden
+- **Voice 0.1 primär über ChatGPT Live im Konto der Testerin, nicht über eine neue Realtime-API**
 - Daten strukturiert in bestehende Supabase-Architektur integrieren, wenn passend
 - wenn Schema nicht passt: minimale additive Erweiterung, keine Löschung / Umbenennung bestehender Felder
 - Petra, Nicole und Anne müssen getrennte Profile haben
@@ -155,6 +197,7 @@ Schritt 1 soll sich eher wie „Koffer auspacken“ / „Rucksack leeren“ anf�
 - Human Design
 - Preislogik
 - Community
+- **noch keine eigene Voice-/Realtime-API-Infrastruktur**
 
 ## Akzeptanzkriterien
 
@@ -168,6 +211,8 @@ Schritt 1 ist ausreichend, wenn:
 6. relevante Herkunft/Evidenz intern gespeichert wird
 7. UI lesbar, warm, verständlich und nicht formularartig ist
 8. bestehende Fachlogik nicht überschrieben wird
+9. der Live-1-Pilot mit einem eigenen ChatGPT-Plus-Konto klar und ohne technische Tricks startbar ist
+10. Claude sauber dokumentiert, welche Teile in ChatGPT Live stattfinden und welche in More is Yours selbst
 
 ## Erwartete Rückmeldung
 
@@ -177,7 +222,8 @@ Claude meldet nach Umsetzung nur:
 2. was neu gebaut wurde
 3. geänderte Dateien / Migrationen
 4. Screens / Wege zum Testen
-5. Tests und Ergebnisse
-6. offene TECH GAPS
-7. offene CONTENT / METHOD / DATA GAPS
-8. was bewusst NICHT gebaut wurde
+5. **genaue Schritte für Petra, Nicole und Anne zum Live-1-Start**
+6. Tests und Ergebnisse
+7. offene TECH GAPS
+8. offene CONTENT / METHOD / DATA GAPS
+9. was bewusst NICHT gebaut wurde
