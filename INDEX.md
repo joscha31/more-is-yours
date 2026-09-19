@@ -111,6 +111,8 @@ und
 
 ---
 
+| `forschung/2026-09-19-founding-women-oeffentliche-entwicklungsstaffel-0.1.md` | Founding-Women-Programm: 12-wöchige öffentliche Entwicklungsstaffel mit Petra + 4–6 weiteren Frauen; Produktentwicklung, reale wirtschaftliche Tests und Dokumentation parallel | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+
 ## Pilotierung
 
 | Datei | Funktion | Status |
