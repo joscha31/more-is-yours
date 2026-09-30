@@ -1,7 +1,7 @@
 # MORE IS YOURS – Vision, Mission, drei Zukunftsziele und öffentliche Prozessbegleitung
 
 **Stand:** 30.09.2026  
-**Status:** PETRA APPROVED für Vision, Mission, kurze Mission und Ziel 1; **PETRA REVIEW / DRAFT** für Ziel 2 und Ziel 3 in der hier verdichteten Form sowie für die konkrete Content-Ausgestaltung  
+**Status:** PETRA APPROVED für Vision, Mission, kurze Mission, Markenarchitektur und alle drei Zukunftsziele; **DRAFT / PETRA REVIEW** nur für konkrete Content-Ausgestaltung und spätere Produkte/Werkzeuge  
 **Zweck:** Vollständige Arbeits- und Übergabegrundlage für Claude Code / Claude Co-Work zur weiteren Ausformulierung, Visualisierung und Content-Entwicklung.
 
 ---
@@ -34,7 +34,7 @@ Gleichzeitig soll der reale Entwicklungsprozess öffentlich begleitet werden. Me
 
 ---
 
-# 5. Die drei Zukunftsziele
+\n# 5A. PETRA APPROVED – neue Markenarchitektur\n\n> **More is Yours ist die Marke, die für Petras gesamte Mission steht.**\n\nMore is Yours ist damit ausdrücklich **nicht mehr gleichbedeutend mit einem System für wirtschaftliche Selbstbestimmung**. Die Unterstützung von Frauen beim Erkennen und Nutzen neuer wirtschaftlicher Möglichkeiten bleibt ein wichtiger Bestandteil der Mission, ist aber nicht mehr die Definition der gesamten Marke.\n\nWas konkret unter More is Yours entsteht – Programme, Werkzeuge, Systeme, Medienformate oder andere Angebote – ist bewusst **unknown** und wird im realen Entwicklungsprozess herausgefunden.\n\nInsbesondere gilt: Ob PEMS in seiner bisherigen Form weiterbesteht, verändert wird, Teil eines größeren Systems wird oder entfällt, ist derzeit **offen**. Dasselbe gilt für andere bisher entwickelte Bausteine. Frühere Projektarbeit wird nicht automatisch verworfen, aber sie darf der größeren Mission auch nicht künstlich übergestülpt werden.\n\nDie drei Zukunftsziele gehören unter die Marke More is Yours und beschreiben, wie Petra diese Mission zunehmend in die Welt bringt und lebt.\n\n---\n\n# 5. Die drei Zukunftsziele
 
 ## Ziel 1 – PETRA APPROVED
 ### Spätestens Mitte 2027: More is Yours ist in der Welt und ich lebe meinen neuen Weg.
@@ -49,7 +49,7 @@ Gleichzeitig soll der reale Entwicklungsprozess öffentlich begleitet werden. Me
 
 Zeitanker: spätestens etwa neun Monate ab 30.09.2026, also ungefähr Mitte 2027.
 
-## Ziel 2 – PETRA REVIEW / DRAFT
+## Ziel 2 – PETRA APPROVED
 ### Aus meinem Weg ist etwas Großes geworden.
 
 Aktuell bestätigte Bestandteile des Bildes:
@@ -63,7 +63,7 @@ Aktuell bestätigte Bestandteile des Bildes:
 - Petra konzentriert sich zunehmend auf das, was wirklich sie braucht: Ideen, Entwicklung, Kommunikation, Richtung und öffentliche Stimme.
 - Zwei gut bezahlte Festangestellte wurden zunächst erwogen, dann bei nur etwas über 100.000 Euro Jahresumsatz bewusst als wirtschaftlich unstimmig erkannt. Feste Mitarbeitende sind damit für Ziel 2 **noch nicht bestätigt**.
 
-Vorläufige Meditationsfassung:
+Meditationsfassung:
 
 > **More is Yours ist zu einem wirtschaftlich starken Unternehmen und einer lebendigen Community gewachsen. Meine Arbeit erreicht viele Frauen und bewirkt sichtbar etwas in ihrem Leben. Ich bin mit meiner Botschaft deutlich bekannter und sichtbarer geworden. Ein kleines, starkes Netzwerk aus Freelancern und KI-Systemen trägt den laufenden Betrieb mit, sodass ich mich immer stärker auf Ideen, Entwicklung, Kommunikation und die Richtung von More is Yours konzentrieren kann. Das Unternehmen erwirtschaftet deutlich über 100.000 Euro; die genaue wirtschaftliche Zielgröße schärfe ich noch.**
 
@@ -73,7 +73,7 @@ Noch zu klären:
 - erste Bühnen / Vorträge bereits in Ziel 2?
 - weitere Lebensbestandteile dieses mittleren Zukunftsbildes
 
-## Ziel 3 – PETRA REVIEW für exakte Endformulierung
+## Ziel 3 – PETRA APPROVED
 ### Ich lebe meine große Vision.
 
 Von Petra klar benannte Bestandteile:
@@ -172,7 +172,7 @@ Ein erster konkreter Reel-Gedanke:
 - was bei Pilotinnen gelernt wird
 - welche Annahmen sich als falsch herausstellen
 - warum Produkte oder Ideen verworfen werden
-- wie PEMS, Option Genome, Ilse und weitere Bestandteile entstehen
+- welche konkreten Werkzeuge, Programme und Systeme unter More is Yours entstehen – ausdrücklich offen; PEMS, Option Genome oder Ilse sind keine automatisch gesetzten Bestandteile der neuen Markenarchitektur
 - welche wirtschaftlichen Möglichkeiten für Frauen untersucht werden
 
 ## D. Lernen und Weiterentwicklung
@@ -257,7 +257,7 @@ Content soll möglichst aus **realer Entwicklung** entstehen, nicht aus künstli
 - More is Yours wird nicht zu einem persönlichen Tagebuch ohne Nutzen für andere.
 - More is Yours wird nicht zu einer Dispenza-, Meditations- oder Spiritualitätsmarke.
 - Die wirtschaftliche Mission für Frauen wird nicht entfernt.
-- PEMS, Option Genome und Ilse werden nicht als überholt dargestellt.
+- PEMS, Option Genome und Ilse werden weder automatisch verworfen noch automatisch als künftige Bestandteile gesetzt. Ob und wie sie unter der größeren Mission weiterbestehen, ist bewusst unknown.
 - Ein Social-Media-Kanal darf nicht die Unternehmensstrategie bestimmen.
 - Keine künstlichen Erfolgs- oder Verdienstversprechen.
 - Keine Behauptung, Ziel 2 sei bereits final, solange die offenen Punkte nicht von Petra bestätigt sind.
@@ -282,7 +282,7 @@ Claude darf nicht:
 - Ziel 3 neue Bestandteile hinzufügen und als Petra-Wunsch darstellen
 - einen finalen Claim ohne Petras Freigabe setzen
 - More is Yours auf "wirtschaftliche Unabhängigkeit" verengen
-- umgekehrt die wirtschaftliche Arbeit / PEMS / Option Genome / Ilse entfernen
+- PEMS / Option Genome / Ilse ohne neue fachliche Entscheidung als verbindliche künftige Architektur setzen oder streichen
 - Dispenza als Markenpositionierung von More is Yours verwenden
 - Verdienstversprechen oder garantierte Ergebnisse formulieren
 
@@ -300,4 +300,4 @@ Erwartete Rückmeldung:
 
 # 14. Kurzfassung für Claude
 
-> **Petra kennt ihre Mission, aber die endgültige Form ihres neuen Berufs darf aus "the unknown" entstehen. Genau diesen echten Entwicklungsprozess möchte sie öffentlich dokumentieren. More is Yours ist der stabile Rahmen. Die Menschen sollen verstehen, dass Petra über echte, selbstbestimmte Veränderung, neue Möglichkeiten und besonders wirtschaftliche Möglichkeiten für Frauen spricht – und gleichzeitig selbst sichtbar vorlebt, wie ein neuer Weg entsteht. Ziel 1 beschreibt spätestens Mitte 2027 die erste vollständige Version dieses neuen Lebens. Ziel 2 beschreibt ein bereits deutlich gewachsenes Unternehmen und eine große Community, ist wirtschaftlich aber noch nicht final geschärft. Ziel 3 ist das große Zukunftsbild mit mindestens 1 Mio. Euro Jahresumsatz, gut bezahltem Team, Buch, Bühnen, internationaler Arbeit, Reisen und einem Zuhause auf Mallorca. Der Content soll reale Entwicklung dokumentieren statt künstlich produziert zu werden.**
+> **Petra kennt ihre Mission, aber die endgültige Form ihres neuen Berufs darf aus "the unknown" entstehen. Genau diesen echten Entwicklungsprozess möchte sie öffentlich dokumentieren. More is Yours ist der stabile Rahmen. Die Menschen sollen verstehen, dass Petra über echte, selbstbestimmte Veränderung, neue Möglichkeiten und besonders wirtschaftliche Möglichkeiten für Frauen spricht – und gleichzeitig selbst sichtbar vorlebt, wie ein neuer Weg entsteht. Ziel 1 beschreibt spätestens Mitte 2027 die erste vollständige Version dieses neuen Lebens. Ziel 2 beschreibt ein bereits deutlich gewachsenes Unternehmen, eine große Community und einen wirtschaftlichen Zielanker von über 100.000 Euro. Ziel 3 ist das große Zukunftsbild mit mindestens 1 Mio. Euro Jahresumsatz, gut bezahltem Team, Buch, Bühnen, internationaler Arbeit, Reisen und einem Zuhause auf Mallorca. Der Content soll reale Entwicklung dokumentieren statt künstlich produziert zu werden.**
