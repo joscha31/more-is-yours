@@ -236,3 +236,8 @@ Jede neue dauerhafte Projektdatei wird anschließend in diesem `INDEX.md` ergän
 Ilse 0.1 liegt im Arbeits-Repo `meine-projekte` unter `outputs/moreisyours-ilse/`, live auf `https://ilse.moreisyours.de`. Landingpage: `https://moreisyours.de`.
 
 Claude Code darf fehlende Fachwahrheit nicht selbst erfinden. Fehlende Inhalte werden als **CONTENT GAP** an das zuständige Fach-Lab zurückgegeben.
+
+
+## Live-One Ziel- und Umsetzungsbegleiter – Pilot
+
+- `build-briefs/2026-09-30-live-one-ziel-umsetzungsbegleiter-pilot.md` — **PETRA REVIEW** — vollständige fachliche Arbeitsanweisung für den 4-Wochen-Pilot mit Petra als Pilotin 0: Zielklärung, adaptive Etappenplanung, Morgen-/Abendsteuerung, Zustandsmodell, Coaching- und Content-Intelligenz, Wochenreview, Zielabschluss und Anti-Aktionismus-Regeln. Noch kein App-Bauauftrag.
