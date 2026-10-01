@@ -119,6 +119,7 @@ und
 |---|---|---|
 | `pilot/Kleinste-Strecke-1.0.md` | Drei Ebenen, zehn Fragen – kleinste testbare Entscheidungsstrecke | Arbeitsmodell |
 | `pilot/Pilotin-0-Petra.md` | Petras persönlicher Testdurchlauf | laufend |
+| `pilot/2026-10-01-helga-pilotumgebung-pilotin-0.md` | Saubere Pilot-Hülle für Helgas separaten 4-Wochen-Testraum; trennt Anwendung, Zustandsblatt und Pilotbeobachtungen von der Methodenentwicklung | **PETRA REVIEW** |
 
 ---
 
