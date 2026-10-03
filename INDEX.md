@@ -189,6 +189,7 @@ und
 |---|---|---|
 | `marketing/Marketing-Ideen.md` | Parkplatz für Marketingideen | anzulegen |
 | `marketing/2026-10-03-reel-hook-lab-content-stand.md` | Aktueller Ausgangspunkt für Reel-, Hook- und Content-Fundstück-Arbeit; enthält Arbeitsregeln, erstes Reel, frühe Resonanz und CONTENT-FUNDSTÜCK 001 | **PETRA APPROVED / aktuell** |
+| `marketing/2026-10-03-creative-design-lab-arbeitsregel.md` | Verbindliche Rolle, Abgrenzung, Foto-, Layout- und Experimentierregeln für das Creative & Design Lab | **PETRA APPROVED / aktuell** |
 
 ---
 
