@@ -188,6 +188,7 @@ und
 | Datei | Funktion | Status |
 |---|---|---|
 | `marketing/Marketing-Ideen.md` | Parkplatz für Marketingideen | anzulegen |
+| `marketing/2026-10-03-reel-hook-lab-content-stand.md` | Aktueller Ausgangspunkt für Reel-, Hook- und Content-Fundstück-Arbeit; enthält Arbeitsregeln, erstes Reel, frühe Resonanz und CONTENT-FUNDSTÜCK 001 | **PETRA APPROVED / aktuell** |
 
 ---
 
