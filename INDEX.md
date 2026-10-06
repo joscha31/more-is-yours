@@ -1,6 +1,6 @@
 # INDEX – More is Yours
 
-**Stand:** 15. September 2026  
+**Stand:** 6. Oktober 2026  
 **Funktion:** Zentrales Inhaltsverzeichnis des Projekts
 
 > Der Index enthält keine ausführlichen Fachinhalte. Er zeigt nur, welche Dateien es gibt, wofür sie zuständig sind und welchen Status sie haben.
@@ -75,6 +75,7 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `forschung/Option-Genome-05-Coaching-0.1.md` | Arbeitsfassung Coaching in Deutschland; inkl. Alltag, Wachstum, Abgrenzung zur Heilkunde und möglicher Rentenversicherungspflicht | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-06-Onlinekurs-Workshop-0.1.md` | Arbeitsfassung Onlinekurs / Workshop; Live und Selbstlernen getrennt, inkl. FernUSG-Prüfung | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-07-Affiliate-Marketing-0.1.md` | Arbeitsfassung Affiliate Marketing; Provision, Reichweite, Werbekennzeichnung und Plattformabhängigkeit | **FACH-LAB-VORSCHLAG** |
+| `forschung/2026-10-06-ki-affiliate-lab-nischenpruefung-0.1.md` | Nischenprüfung für Petras separates 30-Tage-KI-Affiliate-Experiment; Nachfrage, Wettbewerb, Suchprobleme, Affiliate-Kandidaten und erster Test CapCut vs. OpusClip vs. Descript | **FACH-LAB-VORSCHLAG / RESEARCH – keine MIY-Entscheidung** |
 | `forschung/Option-Genome-08-Empfehlungsmarketing-Network-Marketing-0.1.md` | Arbeitsfassung Empfehlungsmarketing / Network Marketing; Kundenumsatz, Teamlogik, Unternehmensabhängigkeit und Pyramidensystem-Abgrenzung | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-09-E-Commerce-Onlineshop-0.1.md` | Arbeitsfassung E-Commerce / Onlineshop; Ware, Marge, Logistik, Kapital, Widerruf und Produktsicherheit | **FACH-LAB-VORSCHLAG** |
 | `forschung/Option-Genome-10-Creator-Content-Business-0.1.md` | Arbeitsfassung Creator-/Content-Business; Contentproduktion, Reichweite, Monetarisierungswege, Plattform- und Personenabhängigkeit | **FACH-LAB-VORSCHLAG** |
