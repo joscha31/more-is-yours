@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>DRAFT · Buchwelten-Demonstrator</title>
+<!--
+  STATUS: DRAFT, Demonstrator, kein Produkt, keine Baufreigabe.
+  - Alle Personen, Geschichten und Bilder sind erfunden.
+  - Keine Netzwerkanfragen, kein Mikrofon, keine KI, keine Speicherung, keine Zahlung, keine Bestellung, kein KDP.
+  - Die "KI" ist vorbereitet bzw. regelbasiert und als Simulation gekennzeichnet.
+  - Läuft lokal: Datei doppelklicken.
+  Teil von: forschung/2026-10-08-buchwelten-machbarkeit-claude-code.md
+-->
+<style>
+:root{--nacht:#101c3d;--karte:#16244d;--tief:#0c1530;--kante:#2c3d6b;--hell:#e8ecf2;--leise:#cfd6e0;--orange:#ff7a1a;--gelb:#f2f549;--gruen:#c8f259;--pink:#ff2e88;--mint:#2ee6a8;--flieder:#b98cff;--papier:#fbf6ec;--papier2:#f1e7d3;--tinte:#2b2420;--tinte2:#6b5d52;--rost:#b5562b}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--nacht);color:var(--hell);font:17px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.draft{position:sticky;top:0;z-index:30;background:var(--tief);border-bottom:4px solid var(--pink);padding:8px 16px;font-size:14px}
+.draft b{color:var(--pink)}
+.wrap{max-width:1100px;margin:0 auto;padding:18px 16px 70px}
+h1{color:var(--gelb);font-size:26px;margin:6px 0 0}
+.unter{color:var(--leise);margin:0 0 16px;font-size:15px}
+.leiste{display:flex;gap:6px;overflow-x:auto;padding-bottom:8px;margin-bottom:14px}
+.pill{flex:0 0 auto;background:var(--karte);border:2px solid var(--kante);color:var(--leise);border-radius:999px;padding:5px 12px;font-size:14px;cursor:pointer}
+.pill.aktiv{border-color:var(--orange);color:var(--hell)}.pill.ok{border-color:var(--gruen)}
+.pill.ok::before{content:"✓ ";color:var(--gruen)}
+.buehne{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:18px}
+@media(max-width:880px){.buehne{grid-template-columns:1fr}}
+.geraet{background:var(--papier);color:var(--tinte);border-radius:18px;border:3px solid var(--orange);padding:24px 22px;min-height:520px;font-size:18px;line-height:1.6}
+.geraet h2{font-family:Georgia,serif;font-weight:normal;font-size:27px;margin:0 0 6px;color:var(--tinte)}
+.klein{font-size:15px;color:var(--tinte2)}
+.knopf{display:inline-block;font:inherit;font-size:17px;border:0;border-radius:12px;padding:11px 18px;margin:14px 8px 0 0;cursor:pointer;background:var(--rost);color:#fff}
+.knopf.leise{background:transparent;color:var(--tinte);border:2px solid #d9cdb6}
+.knopf:disabled{opacity:.45;cursor:default}
+.welten{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:14px}
+.welt{background:#fff;border:2px solid #e3d6bd;border-radius:14px;padding:14px;cursor:pointer;text-align:left;font:inherit;color:var(--tinte)}
+.welt:hover,.welt.gewaehlt{border-color:var(--rost)}
+.welt b{display:block;font-family:Georgia,serif;font-size:20px;font-weight:normal}
+.welt span{font-size:14px;color:var(--tinte2)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.chip{border:2px solid #d9cdb6;background:#fff;border-radius:999px;padding:6px 14px;cursor:pointer;font:inherit;font-size:15px;color:var(--tinte)}
+.chip.gewaehlt{border-color:var(--rost);background:#f6e3d6}
+.mic{width:120px;height:120px;border-radius:50%;border:0;background:var(--rost);color:#fff;font-size:15px;cursor:pointer;display:block;margin:18px auto 6px}
+.mic.laeuft{animation:puls 1s infinite}
+@keyframes puls{0%{box-shadow:0 0 0 0 rgba(181,86,43,.55)}100%{box-shadow:0 0 0 22px rgba(181,86,43,0)}}
+.zeit{text-align:center;font-size:15px;color:var(--tinte2)}
+textarea,input[type=text]{width:100%;font:inherit;font-size:17px;padding:10px 12px;border:2px solid #d9cdb6;border-radius:10px;background:#fff;color:var(--tinte)}
+textarea{min-height:150px}
+.roh{background:#fff;border-left:4px solid #d9cdb6;padding:10px 14px;margin:10px 0;font-size:16px;white-space:pre-wrap}
+.frage{display:block;width:100%;text-align:left;background:#fff;border:2px solid #e3d6bd;border-radius:12px;padding:10px 14px;margin:8px 0;cursor:pointer;font:inherit;color:var(--tinte)}
+.frage:hover,.frage.gewaehlt{border-color:var(--rost)}
+.frage small{display:block;color:var(--tinte2);font-size:13px}
+.zwei{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:620px){.zwei{grid-template-columns:1fr}}
+.spalte{background:#fff;border-radius:12px;padding:12px 14px;font-size:16px}
+.spalte h3{margin:0 0 6px;font-size:14px;color:var(--tinte2);font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+mark.stimme{background:#fde2b8;padding:0 2px;border-radius:3px}
+.fakt{display:flex;gap:8px;align-items:flex-start;font-size:15px;margin:4px 0}
+.edit{background:#fff;border:2px dashed #d9cdb6;border-radius:12px;padding:14px 16px;font-family:Georgia,serif;font-size:18px;outline:none}
+.edit:focus{border-color:var(--rost)}
+.mit{display:flex;justify-content:space-between;gap:8px;background:#fff;border-radius:10px;padding:8px 12px;margin:6px 0;font-size:15px}
+.fotos{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.foto{background:#fff;border-radius:12px;padding:8px;font-size:14px;border:2px solid transparent;cursor:pointer}
+.foto.gewaehlt{border-color:var(--rost)}
+.foto svg{width:100%;height:auto;border-radius:6px;display:block}
+.warn{color:#9a3412;font-size:13px}
+.buch{display:grid;grid-template-columns:1fr 1fr;background:#e9dcc3;padding:14px;border-radius:10px;gap:4px;margin-top:10px}
+@media(max-width:620px){.buch{grid-template-columns:1fr}}
+.seite{background:#fffdf7;min-height:380px;padding:26px 24px;font-family:Georgia,serif;font-size:14px;line-height:1.55;color:#2b2420;position:relative;box-shadow:inset 0 0 0 1px #e6dccb}
+.seite .nr{position:absolute;bottom:8px;left:0;right:0;text-align:center;font-size:11px;color:#9a8b7c}
+.seite h4{font-weight:normal;font-size:20px;margin:30px 0 14px;text-align:center}
+.stil-modern .seite{font-family:-apple-system,"Segoe UI",sans-serif}
+.stil-modern .seite h4{text-align:left;font-weight:600;letter-spacing:.02em}
+.stil-album .seite{background:#fbf3e4}
+.stil-album .seite h4{font-style:italic}
+.ziel{background:#fff;border:2px solid #e3d6bd;border-radius:14px;padding:14px;margin:10px 0;cursor:pointer}
+.ziel.gewaehlt{border-color:var(--rost)}
+.ziel b{font-family:Georgia,serif;font-size:20px;font-weight:normal}
+ol.liste{padding-left:22px;font-size:16px}ol.liste li{margin:4px 0}
+.hinweis{background:#f6e3d6;border-radius:10px;padding:10px 14px;font-size:15px;margin-top:12px}
+.kulisse{background:var(--karte);border:2px solid var(--kante);border-radius:16px;padding:14px 16px;font-size:15px;align-self:start;position:sticky;top:56px}
+.kulisse h3{color:var(--flieder);margin:0 0 6px;font-size:16px}
+.kulisse .zeile{margin:8px 0}
+.kulisse .t{display:inline-block;font-size:12px;border-radius:999px;padding:1px 8px;margin-right:6px;color:#101c3d;font-weight:600}
+.t.echt{background:var(--gruen)}.t.sim{background:var(--gelb)}.t.risiko{background:var(--pink);color:#fff}
+.ki-band{display:inline-block;font-size:12px;background:#efe2c9;color:var(--tinte2);border-radius:999px;padding:2px 10px;margin-bottom:8px}
+</style>
+</head>
+<body>
+<div class="draft"><b>DRAFT</b> · Demonstrator mit erfundenen Daten · keine echte KI, kein Mikrofon, keine Speicherung, nichts wird bestellt oder veröffentlicht</div>
+<div class="wrap">
+<h1>Jedes Leben ist ein Buch wert</h1>
+<p class="unter">Klick dich durch, wie ein Mensch zu seinem Buch kommen könnte. Neben dem Buch (am Handy darunter) steht bei jedem Schritt, was dahinter technisch nötig wäre.</p>
+<div class="leiste" id="leiste"></div>
+<div class="buehne">
+<div class="geraet" id="geraet"></div>
+<aside class="kulisse" id="kulisse"></aside>
+</div>
+</div>
+<script>
+const SCHRITTE=["Buchwelt","Anlass","Erzählen","Nachfragen","Kapitel","Bearbeiten","Fotos","Vorschau","Wohin?"];
+const WELTEN=[
+{id:"meine",titel:"Meine Geschichte",kurz:"Die eigene Biografie, von Anfang an",
+ person:"Gisela, 78",anlaesse:["80. Geburtstag","Für die Enkel","Einfach so"],kapitel:"Der Sommer an der Ostsee",
+ roh:"Also, das war … 1962, glaub ich, da sind wir zum ersten Mal an die Ostsee gefahren, mit dem Opel von Onkel Heinz. Wir waren zu fünft drin, die Koffer aufm Dach. Und meine Mutter hat die ganze Fahrt Butterbrote geschmiert, mit Leberwurst, das weiß ich noch genau. Ich hab das Meer gerochen, bevor ich's gesehen hab. Das war so ein Gefühl … wie wenn einer die Tür aufmacht, weißte?",
+ stimme:["wie wenn einer die Tür aufmacht"],
+ fakten:["Jahr: 1962 (du hast „glaub ich“ gesagt)","Auto: der Opel von Onkel Heinz","5 Personen im Auto","Proviant: Butterbrote mit Leberwurst"],
+ glatt:"1962 – so erinnere ich es jedenfalls – fuhren wir zum ersten Mal an die Ostsee. Im Opel von Onkel Heinz saßen wir zu fünft, die Koffer auf dem Dach. Meine Mutter schmierte die ganze Fahrt über Butterbrote mit Leberwurst. Ich habe das Meer gerochen, bevor ich es gesehen habe. Das war ein Gefühl, wie wenn einer die Tür aufmacht.",
+ fragen:[
+  {f:"Wer saß außer dir noch im Opel?",w:"Du hast „zu fünft“ gesagt, aber nur 2 Namen genannt.",a:"Onkel Heinz am Steuer, meine Mutter, mein Bruder Klaus und meine Cousine Rita. Rita hat die ganze Zeit gesungen.",g:"Onkel Heinz saß am Steuer, neben ihm meine Mutter. Hinten mein Bruder Klaus, meine Cousine Rita und ich. Rita hat die ganze Fahrt gesungen."},
+  {f:"Wo genau an der Ostsee wart ihr?",w:"Ein Ort macht die Erinnerung für Leser greifbar.",a:"In Grömitz. Wir hatten ein Zimmer bei einer Fischerfamilie, das roch nach Teer.",g:"Unser Ziel war Grömitz. Wir wohnten bei einer Fischerfamilie, und das Zimmer roch nach Teer."},
+  {f:"Du sagst, es war, wie wenn einer die Tür aufmacht. Welche Tür ging damals für dich auf?",w:"Dein eigenes Bild. Ich frage nach, statt es zu deuten.",a:"Dass es außerhalb von unserem Dorf noch was gibt. Ich war 14 und dachte: da will ich hin, später.",g:"Mit 14 begriff ich, dass es außerhalb unseres Dorfes noch etwas gibt. Da will ich hin, dachte ich. Später."}]},
+{id:"kapitel",titel:"Ein Kapitel meines Lebens",kurz:"Kindheit, Studium, Elternschaft, Neuanfang",
+ person:"Lena, 34",anlaesse:["Das erste Jahr mit Kind","Die Studienzeit","Der Umzug"],kapitel:"Die ersten hundert Nächte",
+ roh:"Ich weiß noch, die erste Nacht zu Hause mit Paul, da hab ich bestimmt zwanzigmal geguckt, ob er noch atmet. Jonas hat geschlafen wie ein Stein, ehrlich. Und irgendwann so um drei hab ich in der Küche gestanden und Toast gegessen und gedacht: okay, das ist jetzt mein Leben. Und das war gar nicht schlimm, das war … irgendwie groß.",
+ stimme:["irgendwie groß","geschlafen wie ein Stein"],
+ fakten:["Kind: Paul","Partner: Jonas","„um drei“ in der Küche, Toast"],
+ glatt:"In der ersten Nacht zu Hause mit Paul habe ich bestimmt zwanzigmal nachgesehen, ob er noch atmet. Jonas schlief wie ein Stein. Gegen drei Uhr stand ich in der Küche, aß Toast und dachte: Okay, das ist jetzt mein Leben. Es war gar nicht schlimm. Es war irgendwie groß.",
+ fragen:[
+  {f:"Was hast du in diesem Moment in der Küche gehört?",w:"Geräusche holen Erinnerungen zurück.",a:"Den Kühlschrank. Und von oben ganz leise Paul, so ein Schnaufen.",g:"Ich hörte den Kühlschrank brummen und von oben, ganz leise, Pauls Schnaufen."},
+  {f:"Wann hast du das erste Mal wieder durchgeschlafen?",w:"Der Titel heißt „hundert Nächte“. Gibt es ein Ende?",a:"Ehrlich? Nach acht Monaten. Ich hab am Morgen fast geweint vor Glück.",g:"Durchgeschlafen habe ich zum ersten Mal nach 8 Monaten. Am Morgen hätte ich fast geweint vor Glück."},
+  {f:"Was würdest du der Lena von damals heute sagen?",w:"Das verbindet das Kapitel mit heute.",a:"Dass sie nicht alles allein schaffen muss. Und dass Toast um drei völlig okay ist.",g:"Der Lena von damals würde ich sagen: Du musst nicht alles allein schaffen. Und Toast um drei ist völlig in Ordnung."}]},
+{id:"unsere",titel:"Unsere Geschichte",kurz:"Freundinnen, Familie, eine Gruppe schreibt gemeinsam",
+ person:"5 Freundinnen, Abi 1996",anlaesse:["30 Jahre Abi","Ein Freundschaftsbuch","Abschied einer Kollegin"],kapitel:"Die Klassenfahrt nach Prag",
+ roh:"Anke hier. Also Prag, 1995, der Bus ist auf der Autobahn liegen geblieben und wir saßen vier Stunden auf so einer Raststätte. Bea hat mit ihrem Walkman Musik für alle gemacht, wir haben getanzt zwischen den LKWs. Herr Dombrowski hat so getan, als würde er's nicht sehen. Das war der beste Teil der ganzen Fahrt, echt.",
+ stimme:["getanzt zwischen den LKWs"],
+ fakten:["Jahr: 1995","4 Stunden Raststätte","Bea mit Walkman","Lehrer: Herr Dombrowski"],
+ glatt:"Prag, 1995: Unser Bus blieb auf der Autobahn liegen, und wir saßen 4 Stunden auf einer Raststätte fest. Bea machte mit ihrem Walkman Musik für alle, und wir tanzten zwischen den LKWs. Herr Dombrowski tat so, als sähe er nichts. Es war der beste Teil der ganzen Fahrt.",
+ fragen:[
+  {f:"Bea, welches Lied lief damals? (Frage an eine Mitschreiberin)",w:"Bei Gruppenbüchern geht die Frage an die Person, die es weiß.",a:"Bea: „Wonderwall“. Dreimal hintereinander, weil die Kassette hing.",g:"Bea erinnert sich: Es lief „Wonderwall“, dreimal hintereinander, weil die Kassette hing."},
+  {f:"Wie ist der Tag zu Ende gegangen?",w:"Die Geschichte hat noch keinen Schluss.",a:"Ein Ersatzbus kam nachts um elf. Wir sind in Prag angekommen, als es hell wurde.",g:"Der Ersatzbus kam nachts um elf. Als wir Prag erreichten, wurde es schon hell."},
+  {f:"Gibt es jemanden, der das anders in Erinnerung hat?",w:"Gemeinsame Bücher brauchen Platz für mehrere Sichten.",a:"Claudia: „Ich war die ganze Zeit sauer, weil ich Hunger hatte.“",g:"Claudia sieht es anders: Sie war die ganze Zeit sauer, weil sie Hunger hatte."}]},
+{id:"weitergeben",titel:"Was ich weitergeben möchte",kurz:"Erkenntnisse, Erfahrungen, Lebensregeln",
+ person:"Karim, 61, Tischlermeister",anlaesse:["Für meine Enkel","Zum Ruhestand","Für meine Auszubildenden"],kapitel:"Was mir das Holz beigebracht hat",
+ roh:"Holz verzeiht nix, wenn du's eilig hast. Das hat mein Meister immer gesagt, der alte Brinkmann. Und ich hab's erst nach zehn Jahren kapiert. Du kannst nicht gegen die Faser arbeiten. Bei Menschen ist das übrigens genauso, find ich.",
+ stimme:["Holz verzeiht nix, wenn du's eilig hast"],
+ fakten:["Meister: Brinkmann","„nach zehn Jahren“ verstanden"],
+ glatt:"„Holz verzeiht nix, wenn du's eilig hast.“ Das sagte mein Meister, der alte Brinkmann, immer wieder. Ich habe es erst nach 10 Jahren verstanden: Du kannst nicht gegen die Faser arbeiten. Bei Menschen ist das übrigens genauso.",
+ fragen:[
+  {f:"Wann hast du es verstanden? Gab es einen bestimmten Tag?",w:"Erkenntnisse werden lebendig, wenn eine Szene dazukommt.",a:"Ein Eichentisch, den ich dreimal neu machen musste. Beim dritten Mal hab ich mir Zeit gelassen.",g:"Verstanden habe ich es an einem Eichentisch, den ich dreimal neu bauen musste. Beim dritten Mal ließ ich mir Zeit."},
+  {f:"Was meinst du mit „bei Menschen genauso“?",w:"Ich frage nach, statt es für dich auszulegen.",a:"Wenn ein Lehrling Angst hat, bringt Druck nix. Erst mal gucken, wie er gewachsen ist.",g:"Wenn ein Lehrling Angst hat, bringt Druck nichts. Erst einmal schauen, wie er gewachsen ist."},
+  {f:"Was soll dein Enkel aus diesem Kapitel mitnehmen?",w:"Das Buch hat einen Empfänger. Ich frage nach ihm.",a:"Dass sich Geduld lohnt. Auch wenn alle anderen schneller sind.",g:"Was ich meinem Enkel mitgeben will: Geduld lohnt sich. Auch wenn alle anderen schneller sind."}]},
+{id:"welt",titel:"Mein Buch für die Welt",kurz:"Ein Buch, das öffentlich erscheinen soll",
+ person:"Mira, 45",anlaesse:["Mein Neuanfang","Ein Ratgeber aus Erfahrung","Ein Erlebnis, das andere ermutigen soll"],kapitel:"Der Tag, an dem ich gekündigt habe",
+ roh:"Ich hab die Kündigung dreimal ausgedruckt und wieder weggeworfen. Beim vierten Mal bin ich einfach rein zu meiner Chefin. Mir haben die Knie gezittert, ehrlich, ich dachte, man sieht's durch die Hose. Und dann sagt sie: Ich hab mich schon gefragt, wann du kommst.",
+ stimme:["ich dachte, man sieht's durch die Hose"],
+ fakten:["3 Ausdrucke weggeworfen","4. Versuch","Chefin (Name bewusst weggelassen)"],
+ glatt:"Dreimal habe ich die Kündigung ausgedruckt und wieder weggeworfen. Beim vierten Mal ging ich einfach zu meiner Chefin hinein. Mir zitterten die Knie, ich dachte, man sieht es durch die Hose. Und dann sagte sie: „Ich habe mich schon gefragt, wann du kommst.“",
+ fragen:[
+  {f:"Was hast du in dem Moment geantwortet?",w:"Der Dialog bricht an der spannendsten Stelle ab.",a:"Gar nichts. Ich hab gelacht. Und sie auch.",g:"Ich habe gar nichts geantwortet. Ich habe gelacht. Und sie auch."},
+  {f:"Darf deine frühere Chefin erkennbar sein?",w:"Öffentliches Buch: Ich prüfe, ob Dritte erkennbar werden.",a:"Nein, lieber nicht. Firma und Stadt bitte weglassen.",g:"(Hinweis vermerkt: Chefin, Firma und Stadt bleiben unkenntlich.)"},
+  {f:"Für wen schreibst du dieses Buch?",w:"Für die Welt heißt: Es braucht eine Leserin vor Augen.",a:"Für Frauen, die schon dreimal ausgedruckt haben.",g:"Ich schreibe dieses Buch für Frauen, die schon dreimal ausgedruckt haben."}]}
+];
+const KULISSE={
+"Buchwelt":[["echt","Auswahl und Texte: einfache Webseite, keine Daten."],["sim","Ob Menschen unter 60 für ein Lebensabschnitts-Buch zahlen, ist nicht belegt."]],
+"Anlass":[["echt","Anlass steuert Fragenkatalog und Buchvorlage. Fragenkataloge sind Petras eigentliche Entwicklungsarbeit."],["risiko","Jede Buchwelt braucht eigene Fragen, eigenen Ton und eigene Vorlage. 5 Welten heißen 5-fache Pflege."]],
+"Erzählen":[["echt","Aufnahme im Browser (MediaRecorder) oder per Telefon, danach Abschrift durch Spracherkennung. Kosten: Cent-Beträge pro Minute."],["sim","Hier läuft keine Aufnahme. Der Text ist vorbereitet."],["risiko","Häufigster Support-Fall: Mikrofon-Rechte, alte Handys, abgebrochene Uploads."]],
+"Nachfragen":[["echt","Ein Sprachmodell liest die Antwort und schlägt Folgefragen vor. Pro Kapitel Cent-Beträge."],["sim","Hier sind die Fragen vorbereitet bzw. regelbasiert, keine echte KI."],["risiko","Die Fragen müssen gut sein, sonst fühlt es sich wie ein Formular an. Das ist Qualitätsarbeit, kein Technikproblem."]],
+"Kapitel":[["echt","Zwei Fassungen nebeneinander: wortwörtlich und geglättet. Fakten werden als Liste zum Abhaken gezeigt. Ihre Wendungen bleiben markiert stehen."],["risiko","KI darf nichts dazuerfinden. Gegenmittel: nur aus der Abschrift arbeiten, jede neue Tatsache als Frage zurückgeben."]],
+"Bearbeiten":[["echt","Einfacher Editor, Freigabe pro Kapitel. Bei Gruppen: Rollen (Herausgeberin, Mitschreibende), Kommentare, Freigabe aller Erwähnten."],["risiko","Gruppenbücher verdoppeln den Aufwand: Einladungen, Erinnerungen, Streit über Erinnerungen, Einwilligungen jeder Person."]],
+"Fotos":[["echt","Hochladen, Auflösung prüfen (für Druck etwa 300 dpi in Endgröße), Bildunterschrift."],["risiko","Unscharfe Fotos sind die häufigste Beschwerde bei bestehenden Anbietern. Fotorechte und Recht am eigenen Bild klären."]],
+"Vorschau":[["echt","Automatischer Satz aus Vorlage zu PDF (z. B. Typst, Paged.js, WeasyPrint). EPUB per Pandoc."],["sim","Hier ist es eine HTML-Vorschau, kein echtes Druck-PDF."],["risiko","Sonderfälle im Satz: sehr lange Kapitel, Hochformat neben Querformat, Sonderzeichen."]],
+"Wohin?":[["echt","Privatbuch: PDF und EPUB zum Herunterladen. Geschenk: Druckpartner mit Schnittstelle. Veröffentlichung: Dateien und Checkliste. Die Autorin lädt selbst bei KDP hoch."],["risiko","Amazon KDP hat keine offizielle Schnittstelle zum Veröffentlichen für Dritte. Wir veröffentlichen nie selbst."]]
+};
+let s={schritt:0,welt:null,anlass:null,roh:"",frage:null,eigen:false,fragenEigen:[],antwort:"",zusatz:"",kapitelText:"",freigegeben:false,fotos:[],stil:"klassisch",ziel:null,fertig:new Set()};
+const $=id=>document.getElementById(id);
+const W=()=>WELTEN.find(w=>w.id===s.welt);
+function leiste(){ $("leiste").innerHTML=SCHRITTE.map((n,i)=>`<button class="pill ${i===s.schritt?"aktiv":""} ${s.fertig.has(i)?"ok":""}" onclick="geh(${i})">${i+1} ${n}</button>`).join(""); const a=document.querySelector(".pill.aktiv"); if(a) a.scrollIntoView({block:"nearest",inline:"center"})}
+function geh(i){ if(i>0&&!s.welt)return; s.schritt=i; zeige() }
+function weiter(){ s.fertig.add(s.schritt); s.schritt=Math.min(s.schritt+1,SCHRITTE.length-1); zeige() }
+function kulisse(){ const k=KULISSE[SCHRITTE[s.schritt]]; const lab={echt:"technisch machbar",sim:"in der Demo simuliert",risiko:"Aufwand/Risiko"};
+ $("kulisse").innerHTML=`<h3>Hinter den Kulissen</h3>`+k.map(([t,x])=>`<div class="zeile"><span class="t ${t}">${lab[t]}</span>${x}</div>`).join("") }
+function esc(t){return t.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function markiere(t,liste){ let h=esc(t); (liste||[]).forEach(p=>{h=h.split(esc(p)).join(`<mark class="stimme">${esc(p)}</mark>`)}); return h }
+function eigeneFragen(t){ const f=[];
+ const jahr=t.match(/\b(19|20)\d\d\b/); if(jahr) f.push({f:`Was war ${jahr[0]} sonst los in deinem Leben?`,w:"Du hast ein Jahr genannt."});
+ const namen=[...t.matchAll(/(?:Tante|Onkel|Oma|Opa|Bruder|Schwester|Cousine|Cousin|Freundin|Freund|Lehrerin|Lehrer|Chefin|Chef|Herr|Frau)\s+([A-ZÄÖÜ][a-zäöüß]+)/g)].map(m=>m[0]);
+ if(namen[0]) f.push({f:`Wer war ${namen[0]} für dich damals?`,w:`Du hast „${namen[0]}“ erwähnt.`});
+ if(/(angst|freu|glück|traurig|wut|sauer|stolz|zitter|wein|lach)/i.test(t)) f.push({f:"Wo hast du dieses Gefühl im Körper gespürt?",w:"Du hast ein Gefühl beschrieben."});
+ f.push({f:"Wie sah es dort aus, wie roch es, was hast du gehört?",w:"Sinne machen eine Szene lebendig."});
+ f.push({f:"Was ist danach passiert?",w:"Die Geschichte braucht noch einen Schluss."});
+ return f.slice(0,3) }
+function glaette(t){ return t.replace(/(^|\s)(ähm|äh|öh|halt|sozusagen|irgendwie so)(?=[\s,.!?]|$),?/gi,"$1").replace(/\s*…\s*/g," ").replace(/\s{2,}/g," ").trim() }
+
+function zeige(){ leiste(); kulisse(); const g=$("geraet"); const w=W();
+ switch(SCHRITTE[s.schritt]){
+ case "Buchwelt":
+  g.innerHTML=`<h2>Worüber möchtest du ein Buch machen?</h2><p class="klein">Jedes Leben ist ein Buch wert. Jeder Lebensabschnitt auch.</p>
+  <div class="welten">${WELTEN.map(x=>`<button class="welt ${s.welt===x.id?"gewaehlt":""}" onclick="waehleWelt('${x.id}')"><b>${x.titel}</b><span>${x.kurz}</span><br><span>Beispiel: ${x.person}</span></button>`).join("")}</div>`;break;
+ case "Anlass":
+  g.innerHTML=`<h2>${w.titel}</h2><p class="klein">Beispielperson: ${w.person} (erfunden)</p><p>Was ist der Anlass?</p>
+  <div class="chips">${w.anlaesse.map(a=>`<button class="chip ${s.anlass===a?"gewaehlt":""}" onclick="s.anlass='${a}';zeige()">${a}</button>`).join("")}</div>
+  <p>Das erste Kapitel heißt: <i>„${w.kapitel}“</i></p>
+  ${w.id==="unsere"?`<div class="hinweis">Bei einem gemeinsamen Buch lädt eine Person die anderen ein. Jede erzählt ihren Teil und gibt frei, was über sie drinsteht.</div>`:""}
+  ${w.id==="welt"?`<div class="hinweis">Ein Buch für die Öffentlichkeit braucht mehr Sorgfalt: Wer darin vorkommt, muss einverstanden sein oder unkenntlich bleiben.</div>`:""}
+  <button class="knopf" ${s.anlass?"":"disabled"} onclick="weiter()">Weiter</button>`;break;
+ case "Erzählen":
+  g.innerHTML=`<h2>Erzähl einfach los</h2><p class="klein">Kein Tippen nötig. Sprich, wie du am Küchentisch erzählen würdest. Pausen und „äh“ sind erlaubt.</p>
+  <span class="ki-band">Simulation: keine echte Aufnahme</span>
+  <button class="mic" id="mic" onclick="aufnahme()">● Erzählen</button><div class="zeit" id="zeit">Thema: ${w.kapitel}</div>
+  <div id="rohbox">${s.roh&&!s.eigen?`<div class="roh">${esc(s.roh)}</div>`:""}</div>
+  <details ${s.eigen?"open":""}><summary class="klein" style="cursor:pointer;margin-top:10px">Oder eine eigene Geschichte eintippen (bleibt nur in diesem Fenster)</summary>
+  <textarea id="eigen" placeholder="Zum Beispiel: Im Sommer 1988 bin ich mit Tante Ruth nach Rom gefahren …">${s.eigen?esc(s.roh):""}</textarea>
+  <button class="knopf leise" onclick="eigenNehmen()">Diesen Text verwenden</button></details>
+  <button class="knopf" ${s.roh?"":"disabled"} onclick="weiter()">Weiter zu den Nachfragen</button>`;break;
+ case "Nachfragen":
+  const fr=s.eigen?eigeneFragen(s.roh):w.fragen;
+  g.innerHTML=`<h2>Darf ich nachfragen?</h2><span class="ki-band">${s.eigen?"Regelbasiert erzeugt, keine echte KI":"Vorbereitet, keine echte KI"}</span>
+  <p class="klein">Ich habe zugehört. Diese 3 Fragen könnten die Geschichte reicher machen. Du wählst, du darfst auch keine nehmen.</p>
+  ${fr.map((x,i)=>`<button class="frage ${s.frage===i?"gewaehlt":""}" onclick="waehleFrage(${i})">${esc(x.f)}<small>Warum ich frage: ${esc(x.w)}</small></button>`).join("")}
+  ${s.frage!==null?`<p style="margin-top:14px"><b>Deine Antwort</b> ${s.eigen?"":'<span class="klein">(Beispielantwort)</span>'}</p>
+   ${s.eigen?`<textarea id="antw">${esc(s.antwort)}</textarea>`:`<div class="roh">${esc(fr[s.frage].a)}</div>`}`:""}
+  <button class="knopf" onclick="antwortNehmen()">${s.frage===null?"Ohne Nachfrage weiter":"Weiter zum Kapitel"}</button>`;break;
+ case "Kapitel":
+  const glatt=s.eigen?glaette(s.roh)+(s.zusatz?" "+s.zusatz:""):w.glatt+(s.zusatz?" "+s.zusatz:"");
+  if(!s.kapitelText) s.kapitelText=glatt;
+  const fakten=s.eigen?((s.roh.match(/\b(19|20)\d\d\b/g)||[]).map(j=>"Jahr: "+j).concat(["Bitte alle Namen und Orte prüfen"])):w.fakten.concat(s.frage!==null?["Neu aus deiner Antwort: siehe letzter Absatz"]:[]);
+  g.innerHTML=`<h2>Dein erstes Kapitel: ${esc(s.eigen?"Meine Geschichte":w.kapitel)}</h2>
+  <p class="klein">Links steht, was du gesagt hast. Rechts die lesbare Fassung. <mark class="stimme">Markiert</mark> sind deine eigenen Wendungen, die bleiben stehen.</p>
+  <div class="zwei"><div class="spalte"><h3>Wortwörtlich</h3>${esc(s.roh)}${s.antwort?"<br><br>"+esc(s.antwort):""}</div>
+  <div class="spalte"><h3>Lesbar, in deiner Stimme</h3>${markiere(glatt,s.eigen?[]:w.stimme)}</div></div>
+  <p style="margin:14px 0 4px"><b>Stimmen diese Fakten?</b> <span class="klein">Ich habe nichts dazuerfunden. Hak ab, was stimmt.</span></p>
+  ${fakten.map(f=>`<label class="fakt"><input type="checkbox"> ${esc(f)}</label>`).join("")}
+  <button class="knopf" onclick="weiter()">Weiter zum Bearbeiten</button>`;break;
+ case "Bearbeiten":
+  g.innerHTML=`<h2>Jetzt ist es dein Text</h2><p class="klein">Klick in den Text und ändere, was du willst. Nichts geht ohne deine Freigabe ins Buch.</p>
+  <div class="edit" contenteditable="true" id="edit" oninput="s.kapitelText=this.innerText;s.freigegeben=false;fg()">${esc(s.kapitelText)}</div>
+  <button class="knopf leise" onclick="s.kapitelText='';zeigeSchritt('Kapitel')">Zurück zur KI-Fassung</button>
+  <button class="knopf leise" onclick="s.kapitelText=s.roh;zeige()">Nur meine Originalworte nehmen</button>
+  ${w&&w.id==="unsere"&&!s.eigen?`<p style="margin:16px 0 4px"><b>Mitschreibende</b> <span class="klein">(erfunden)</span></p>
+   <div class="mit"><span>Anke · hat erzählt</span><span>✓ freigegeben</span></div>
+   <div class="mit"><span>Bea · hat ein Foto und das Lied ergänzt</span><span>✓ freigegeben</span></div>
+   <div class="mit"><span>Claudia · kommt im Text vor</span><span>⏳ muss noch zustimmen</span></div>
+   <div class="mit"><span>Dörte · liest mit</span><span>💬 1 Kommentar: „War es nicht 1996?“</span></div>
+   <div class="mit"><span>Elif · eingeladen</span><span>✉ noch nicht geöffnet</span></div>
+   <div class="hinweis">Ins Buch geht das Kapitel erst, wenn alle zugestimmt haben, die darin vorkommen.</div>`:""}
+  <div id="fgbox"></div>`;fg();break;
+ case "Fotos":
+  const bilder=[["Strand mit Strandkorb","#f2c27b","#5fa3c4",false],["Familie vor dem Auto","#c9b79c","#8a7a66",true],["Postkarte","#e8d5b5","#b5562b",false],["Brief, abfotografiert","#efe6d3","#6b5d52",false]];
+  g.innerHTML=`<h2>Gibt es Bilder dazu?</h2><p class="klein">Fotos vom Handy, abfotografierte Papierbilder, Briefe, Tickets. Alles hier ist erfunden und gezeichnet.</p>
+  <div class="fotos">${bilder.map((b,i)=>`<div class="foto ${s.fotos.includes(i)?"gewaehlt":""}" onclick="foto(${i})">
+   <svg viewBox="0 0 160 110"><rect width="160" height="110" fill="${b[1]}"/><rect y="62" width="160" height="48" fill="${b[2]}" opacity=".7"/><circle cx="120" cy="30" r="14" fill="#fff" opacity=".7"/>${b[3]?'<rect width="160" height="110" fill="#fff" opacity=".35"/>':""}</svg>
+   ${b[0]}${b[3]?'<div class="warn">⚠ zu unscharf für den Druck, besser neu abfotografieren</div>':""}</div>`).join("")}</div>
+  <button class="knopf" onclick="weiter()">Weiter zur Buchvorschau</button>`;break;
+ case "Vorschau":
+  const titel=s.eigen?"Meine Geschichte":(w.id==="unsere"?"Weißt du noch?":w.titel);
+  const saetze=s.kapitelText.split(/(?<=[.!?“])\s+(?=[A-ZÄÖÜ„(0-9])/), absaetze=[];
+  for(let i=0;i<saetze.length;i+=3) absaetze.push(saetze.slice(i,i+3).join(" "));
+  g.innerHTML=`<h2>So könnte dein Buch aussehen</h2>
+  <div class="chips">${[["klassisch","Klassisch"],["modern","Modern"],["album","Album"]].map(([k,n])=>`<button class="chip ${s.stil===k?"gewaehlt":""}" onclick="s.stil='${k}';zeige()">${n}</button>`).join("")}</div>
+  <div class="buch stil-${s.stil}">
+   <div class="seite"><h4>${esc(titel)}</h4><p style="text-align:center;font-style:italic">${esc(s.eigen?"":w.person.split(",")[0])}${s.anlass?"<br><small>"+esc(s.anlass)+"</small>":""}</p>
+    ${s.fotos.length?`<svg viewBox="0 0 160 110" style="width:70%;display:block;margin:30px auto 6px"><rect width="160" height="110" fill="#f2c27b"/><rect y="62" width="160" height="48" fill="#5fa3c4" opacity=".7"/></svg><p style="text-align:center;font-size:11px">Bild aus deinem Fotoschritt</p>`:""}<div class="nr">1</div></div>
+   <div class="seite"><h4>Kapitel 1<br>${esc(s.eigen?"Meine Geschichte":w.kapitel)}</h4>${absaetze.slice(0,7).map(p=>`<p style="margin:0 0 8px">${esc(p)}</p>`).join("")}<div class="nr">2</div></div>
+  </div>
+  <p class="klein">In echt entstünde daraus automatisch ein Druck-PDF und ein E-Book (EPUB). Hier ist es nur eine Vorschau im Browser.</p>
+  <button class="knopf" onclick="weiter()">Weiter: Was soll aus dem Buch werden?</button>`;break;
+ case "Wohin?":
+  g.innerHTML=`<h2>Was soll aus deinem Buch werden?</h2>
+  <div class="ziel ${s.ziel==="privat"?"gewaehlt":""}" onclick="s.ziel='privat';zeige()"><b>Privatbuch</b><br><span class="klein">Für dich oder die Familie. Als PDF und E-Book zum Herunterladen, auf Wunsch gedruckt.</span></div>
+  <div class="ziel ${s.ziel==="geschenk"?"gewaehlt":""}" onclick="s.ziel='geschenk';zeige()"><b>Geschenk</b><br><span class="klein">Gedruckt, gebunden, direkt an die Beschenkte geschickt.</span></div>
+  <div class="ziel ${s.ziel==="welt"?"gewaehlt":""}" onclick="s.ziel='welt';zeige()"><b>Veröffentlichung</b><br><span class="klein">Mit ISBN, im Buchhandel oder bei Amazon. Du veröffentlichst selbst, wir bereiten vor.</span></div>
+  ${s.ziel==="privat"?`<div class="hinweis">In echt: Knopf „PDF herunterladen“ und „E-Book herunterladen“. Die Dateien bleiben bei dir. Danach können wir deine Aufnahmen löschen.<br><b>Demo: Es wird nichts erzeugt.</b></div>`:""}
+  ${s.ziel==="geschenk"?`<div class="hinweis">In echt: Hardcover wählen, Anzahl, Adresse der Beschenkten, Grußkarte. Der Druckpartner druckt ein Einzelstück und verschickt es ohne Rechnung im Paket.<br>Vorher: Du siehst das fertige PDF und gibst es frei. Danach ist es nicht mehr änderbar.<br><b>Demo: Es wird nichts bestellt.</b></div>`:""}
+  ${s.ziel==="welt"?`<div class="hinweis"><b>So läuft eine Veröffentlichung über Amazon KDP</b> (Amazon bietet keine offizielle Schnittstelle, über die ein Dienst für dich veröffentlichen dürfte):
+   <ol class="liste">
+    <li>Wir prüfen mit dir: Kommen erkennbare Personen vor? Haben sie zugestimmt? Fotos mit Rechten?</li>
+    <li>Wir erzeugen für dich: Druck-PDF im KDP-Format, EPUB, Klappentext-Entwurf, Stichwörter-Vorschläge, Checkliste.</li>
+    <li><b>Du</b> legst dein eigenes KDP-Konto an (Steuerangaben, Bankkonto, Identität machst du selbst).</li>
+    <li><b>Du</b> lädst die Dateien hoch, gibst an, dass KI beim Text geholfen hat, legst Preis und Gebiete fest.</li>
+    <li><b>Du</b> klickst auf „Veröffentlichen“. Amazon prüft das Buch, laut KDP-Hilfe meist in 3 bis 10 Werktagen.</li>
+   </ol>Andere Wege: epubli, BoD, tredition, Tolino Media (auch dort lädst du selbst hoch). Gedruckte Bücher mit ISBN müssen an die Deutsche Nationalbibliothek.<br><b>Demo: Es wird nichts veröffentlicht.</b></div>`:""}
+  <button class="knopf leise" onclick="neu()">Noch einmal mit einer anderen Buchwelt</button>`;break;
+ }
+}
+function zeigeSchritt(n){ s.schritt=SCHRITTE.indexOf(n); zeige() }
+function waehleWelt(id){ s={...s,welt:id,anlass:null,roh:"",frage:null,eigen:false,antwort:"",zusatz:"",kapitelText:"",freigegeben:false,fotos:[],ziel:null,fertig:new Set([0])}; s.schritt=1; zeige() }
+function aufnahme(){ const m=$("mic"),w=W(); if(m.classList.contains("laeuft"))return; m.classList.add("laeuft"); m.textContent="hört zu …"; let sek=0;
+ const t=setInterval(()=>{sek++; $("zeit").textContent="0:"+String(sek).padStart(2,"0")+" · Aufnahme läuft (simuliert)"; if(sek>=4){clearInterval(t); m.classList.remove("laeuft"); m.textContent="● Nochmal"; s.roh=w.roh; s.eigen=false; s.kapitelText=""; tippe(w.roh)}},600) }
+function tippe(txt){ const b=$("rohbox"); b.innerHTML='<div class="roh" id="roh"></div>'; let i=0; const r=$("roh");
+ const t=setInterval(()=>{i+=4; r.textContent=txt.slice(0,i); if(i>=txt.length){clearInterval(t); zeige()}},20) }
+function eigenNehmen(){ const v=$("eigen").value.trim(); if(v.length<20){alert("Bitte ein paar Sätze eintippen.");return} s.roh=v; s.eigen=true; s.frage=null; s.antwort=""; s.zusatz=""; s.kapitelText=""; zeige() }
+function waehleFrage(i){ s.frage=i; zeige() }
+function antwortNehmen(){ const w=W();
+ if(s.frage===null){ s.antwort=""; s.zusatz=""; }
+ else if(s.eigen){ const v=($("antw")||{}).value||""; s.antwort=v.trim(); s.zusatz=glaette(s.antwort); }
+ else { s.antwort=w.fragen[s.frage].a; s.zusatz=w.fragen[s.frage].g; }
+ s.kapitelText=""; weiter() }
+function fg(){ const b=$("fgbox"); if(!b)return; b.innerHTML=s.freigegeben?`<p style="color:#3f6212">✓ Kapitel freigegeben</p><button class="knopf" onclick="weiter()">Weiter zu den Fotos</button>`:`<button class="knopf" onclick="s.freigegeben=true;fg()">Kapitel freigeben</button>` }
+function foto(i){ s.fotos=s.fotos.includes(i)?s.fotos.filter(x=>x!==i):[...s.fotos,i]; zeige() }
+function neu(){ s={schritt:0,welt:null,anlass:null,roh:"",frage:null,eigen:false,antwort:"",zusatz:"",kapitelText:"",freigegeben:false,fotos:[],stil:"klassisch",ziel:null,fertig:new Set()}; zeige() }
+zeige();
+</script>
+</body>
+</html>
