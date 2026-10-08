@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>DRAFT · Lebensbuch-Demonstrator</title>
+<!--
+  STATUS: DRAFT — Demonstrator, kein Produkt.
+  - Alle Personen, Geschichten und Bilder sind erfunden.
+  - Keine Netzwerkanfragen, kein Mikrofon, keine Speicherung, keine Zahlung, keine Bestellung.
+  - Zweck: Petra soll den möglichen Ablauf einmal erleben können.
+  Teil von: forschung/2026-10-08-lebensbuch-konzept-ablauf-und-wartung.md
+-->
+<style>
+  :root{
+    --nacht:#101c3d; --karte:#16244d; --tief:#0c1530; --kante:#2c3d6b;
+    --hell:#e8ecf2; --leise:#cfd6e0;
+    --orange:#ff7a1a; --gelb:#f2f549; --gruen:#c8f259; --pink:#ff2e88; --mint:#2ee6a8; --flieder:#b98cff;
+    --papier:#fbf6ec; --papier2:#f3ead8; --tinte:#2b2420; --tinte-leise:#6b5d52; --rost:#b5562b; --salbei:#5f7a5a;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{background:var(--nacht);color:var(--hell);font:17px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  .draft{position:sticky;top:0;z-index:20;background:var(--tief);border-bottom:4px solid var(--pink);padding:8px 16px;font-size:14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .draft b{color:var(--pink);letter-spacing:.08em}
+  .wrap{max-width:1080px;margin:0 auto;padding:20px 16px 60px}
+  h1{color:var(--gelb);font-size:26px;margin:4px 0 2px}
+  .unter{color:var(--leise);margin:0 0 18px;font-size:15px}
+  /* Schrittleiste */
+  .schritte{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;margin-bottom:16px}
+  .schritt{flex:0 0 auto;background:var(--karte);border:2px solid var(--kante);color:var(--leise);border-radius:999px;padding:6px 12px;font-size:14px;cursor:pointer}
+  .schritt.aktiv{border-color:var(--orange);color:var(--hell)}
+  .schritt.fertig{border-color:var(--gruen)}
+  .schritt.fertig::before{content:"✓ ";color:var(--gruen)}
+  .buehne{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:18px}
+  @media (max-width:860px){.buehne{grid-template-columns:1fr}}
+  /* Das "Produkt" — warmes Papier, große Schrift für 70+ */
+  .geraet{background:var(--papier);color:var(--tinte);border-radius:18px;border:3px solid var(--orange);padding:26px 24px;min-height:520px;font-size:19px;line-height:1.6}
+  .geraet h2{font-family:Georgia,"Times New Roman",serif;font-weight:normal;font-size:28px;margin:0 0 6px;color:var(--tinte)}
+  .geraet .klein{font-size:15px;color:var(--tinte-leise)}
+  .geraet label{display:block;font-size:16px;color:var(--tinte-leise);margin:14px 0 4px}
+  .geraet input,.geraet select,.geraet textarea{width:100%;font:inherit;font-size:18px;padding:10px 12px;border:2px solid #d9cdb6;border-radius:10px;background:#fff;color:var(--tinte)}
+  .geraet textarea{min-height:200px;line-height:1.6}
+  .knopf{display:inline-block;font:inherit;font-size:18px;border:0;border-radius:12px;padding:12px 20px;margin:16px 8px 0 0;cursor:pointer;background:var(--rost);color:#fff}
+  .knopf.zweit{background:transparent;color:var(--rost);border:2px solid var(--rost)}
+  .knopf:disabled{opacity:.45;cursor:not-allowed}
+  .wahl{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-top:8px}
+  .wahl button{font:inherit;font-size:17px;text-align:left;background:#fff;border:2px solid #d9cdb6;border-radius:12px;padding:12px;cursor:pointer;color:var(--tinte)}
+  .wahl button.an{border-color:var(--rost);box-shadow:0 0 0 3px rgba(181,86,43,.18)}
+  .wahl small{display:block;color:var(--tinte-leise);font-size:14px}
+  .post{background:#fff;border:1px solid #e3d7c0;border-radius:14px;padding:20px;box-shadow:0 4px 18px rgba(0,0,0,.06)}
+  .frage{font-family:Georgia,serif;font-size:27px;line-height:1.35;margin:10px 0 18px}
+  .mikro{width:132px;height:132px;border-radius:50%;border:0;background:var(--rost);color:#fff;font-size:17px;cursor:pointer;display:block;margin:10px auto;box-shadow:0 6px 20px rgba(181,86,43,.35)}
+  .mikro.laeuft{background:#8f3a17;animation:puls 1.4s infinite}
+  @keyframes puls{0%{box-shadow:0 0 0 0 rgba(181,86,43,.5)}100%{box-shadow:0 0 0 26px rgba(181,86,43,0)}}
+  .welle{display:flex;gap:3px;justify-content:center;height:40px;align-items:center;margin:8px 0}
+  .welle i{width:5px;background:var(--rost);border-radius:3px;height:6px;transition:height .15s}
+  .uhr{text-align:center;font-size:22px;font-variant-numeric:tabular-nums}
+  .zwei{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media (max-width:640px){.zwei{grid-template-columns:1fr}}
+  .roh{background:var(--papier2);border-radius:10px;padding:12px;font-size:16px;color:var(--tinte-leise);white-space:pre-wrap}
+  .fotos{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin-top:10px}
+  .foto{background:#fff;border:2px solid #e3d7c0;border-radius:10px;padding:6px;cursor:pointer;text-align:center;font-size:14px;color:var(--tinte-leise)}
+  .foto.an{border-color:var(--rost)}
+  .foto svg{width:100%;height:auto;display:block;border-radius:6px}
+  /* Buch */
+  .buch{display:grid;grid-template-columns:1fr 1fr;background:#e9dfcc;border-radius:8px;padding:10px;gap:4px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+  @media (max-width:640px){.buch{grid-template-columns:1fr}}
+  .seite{background:#fffdf8;min-height:420px;padding:28px 26px;font-family:Georgia,serif;font-size:15.5px;line-height:1.65;color:#2b2420;position:relative}
+  .seite .nr{position:absolute;bottom:10px;left:0;right:0;text-align:center;font-size:12px;color:#9a8b7d}
+  .seite h3{font-weight:normal;font-size:22px;margin:0 0 10px}
+  .seite .kap{font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--rost)}
+  .cover{background:#3d4f3a;color:#f6efe0;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+  .cover h3{font-size:34px;color:#f6efe0}
+  .qr{width:58px;height:58px;float:right;margin:0 0 8px 10px}
+  .preis td{padding:6px 4px;border-bottom:1px solid #e3d7c0}
+  .preis td:last-child{text-align:right;font-variant-numeric:tabular-nums}
+  .stopp{background:#fff4ec;border:2px dashed var(--rost);border-radius:12px;padding:14px;margin-top:16px}
+  /* Kulisse (Erklärspalte) */
+  .kulisse{background:var(--karte);border:2px solid var(--kante);border-top:6px solid var(--flieder);border-radius:16px;padding:16px;font-size:15px;line-height:1.7}
+  .kulisse h3{color:var(--flieder);margin:0 0 8px;font-size:17px}
+  .kulisse h4{color:var(--gelb);margin:14px 0 4px;font-size:15px}
+  .kulisse ul{padding-left:18px;margin:4px 0}
+  .chip{display:inline-block;border-radius:999px;padding:1px 10px;font-size:13px;margin:2px 4px 2px 0;border:2px solid}
+  .chip.gruen{border-color:var(--gruen);color:var(--gruen)}
+  .chip.gelb{border-color:var(--gelb);color:var(--gelb)}
+  .chip.pink{border-color:var(--pink);color:var(--pink)}
+  .versteckt{display:none}
+</style>
+</head>
+<body>
+
+<div class="draft"><b>DRAFT</b> Demonstrator mit erfundenen Daten · kein Mikrofon, keine Speicherung, keine Zahlung, keine Bestellung · Status FACH-LAB-VORSCHLAG, keine Produktentscheidung</div>
+
+<div class="wrap">
+  <h1>Lebensbuch — einmal durchspielen</h1>
+  <p class="unter">Links siehst du, was die Kundin sieht. Rechts steht, was dahinter laufen müsste und wie viel Pflege das kostet. Die Familie Brandt gibt es nicht.</p>
+
+  <div class="schritte" id="leiste"></div>
+
+  <div class="buehne">
+    <div class="geraet" id="geraet"></div>
+    <aside class="kulisse" id="kulisse"></aside>
+  </div>
+</div>
+
+<script>
+/* ---------- Erfundene Beispieldaten ---------- */
+const DATEN = {
+  schenkerin: "Jana",
+  erzaehlerin: "Gisela",
+  fragen: [
+    "Wie sah die Küche deiner Kindheit aus — und wie roch sie?",
+    "Was war dein erstes eigenes Geld, und wofür hast du es ausgegeben?",
+    "Wie hast du Papa kennengelernt?",
+    "Welcher Tag in deinem Leben war der mutigste?",
+    "Was möchtest du deinen Enkeln unbedingt mitgeben?"
+  ],
+  roh: "ja also die küche äh die war ganz klein, so ein kohleherd stand da, und ähm meine mutter hat da samstags immer immer den hefezopf gemacht und dann roch das ganze haus danach, und ich durfte die rosinen, also die rosinen durfte ich reindrücken, und wehe man hat eine gegessen, ne, dann gabs äh dann gabs nen blick. und am fenster war so ne geranie, die war rot, die hat die meine oma noch gepflanzt glaub ich",
+  glatt: "Unsere Küche war ganz klein. Da stand ein Kohleherd, und samstags machte meine Mutter immer einen Hefezopf. Dann roch das ganze Haus danach. Ich durfte die Rosinen hineindrücken — und wehe, man hat eine gegessen. Dann gab es einen Blick.\n\nAm Fenster stand eine rote Geranie. Die hatte, glaube ich, noch meine Oma gepflanzt."
+};
+
+/* Gezeichnete Platzhalter statt echter Fotos */
+const BILDER = {
+  kueche:`<svg viewBox="0 0 160 110"><rect width="160" height="110" fill="#efe2c8"/><rect x="18" y="52" width="46" height="44" fill="#4a4038"/><rect x="24" y="44" width="34" height="8" fill="#6d5f52"/><circle cx="34" cy="60" r="5" fill="#c9762f"/><circle cx="50" cy="60" r="5" fill="#c9762f"/><rect x="92" y="18" width="48" height="40" fill="#cfe3ee" stroke="#8a7a6a" stroke-width="3"/><line x1="116" y1="18" x2="116" y2="58" stroke="#8a7a6a" stroke-width="3"/><circle cx="104" cy="62" r="7" fill="#c0392b"/><rect x="100" y="66" width="8" height="8" fill="#8a5a3a"/><rect x="0" y="96" width="160" height="14" fill="#c8b48f"/></svg>`,
+  hochzeit:`<svg viewBox="0 0 160 110"><rect width="160" height="110" fill="#e4e0d6"/><circle cx="64" cy="40" r="11" fill="#d9b99b"/><path d="M48 104 L64 52 L80 104 Z" fill="#fff"/><circle cx="98" cy="38" r="11" fill="#d9b99b"/><rect x="86" y="50" width="24" height="54" fill="#33363d"/><path d="M58 34 q6 -14 14 0" fill="#fff" opacity=".8"/></svg>`,
+  fahrrad:`<svg viewBox="0 0 160 110"><rect width="160" height="110" fill="#dde6d4"/><circle cx="50" cy="74" r="20" fill="none" stroke="#3b3b3b" stroke-width="4"/><circle cx="112" cy="74" r="20" fill="none" stroke="#3b3b3b" stroke-width="4"/><path d="M50 74 L76 46 L100 46 L112 74 M76 46 L84 74 L50 74" fill="none" stroke="#b5562b" stroke-width="4"/><rect x="70" y="38" width="14" height="5" fill="#3b3b3b"/></svg>`,
+  laden:`<svg viewBox="0 0 160 110"><rect width="160" height="110" fill="#f0e6d2"/><rect x="24" y="30" width="112" height="70" fill="#a8452a"/><rect x="24" y="22" width="112" height="14" fill="#5f7a5a"/><rect x="38" y="52" width="36" height="48" fill="#f7efe0"/><rect x="86" y="52" width="36" height="28" fill="#cfe3ee"/><text x="80" y="33" font-size="9" text-anchor="middle" fill="#fff" font-family="Georgia">KOLONIALWAREN</text></svg>`
+};
+
+const FOTONAMEN={kueche:"Die Küche in Hohenwerder, 1956",hochzeit:"Hochzeit, Mai 1971",fahrrad:"Das erste Fahrrad",laden:"Der Laden der Großeltern"};
+
+/* ---------- Zustand (nur im Arbeitsspeicher dieser Seite) ---------- */
+const Z = { schritt:0, paket:"buch", kanal:"email", text:DATEN.glatt, ansicht:"glatt", fotos:["kueche"], einband:"hard", stueck:1, aufgenommen:false };
+
+const SCHRITTE = [
+  { name:"1 · Verschenken", bau:schenken, kulisse:`
+    <h3>Was dahinter laufen müsste</h3>
+    <ul><li>Shop-Seite mit 2–3 festen Paketen</li><li>Bezahlung über einen Zahlungsdienst (hier ausgeschaltet)</li><li>Gutschein-Code + Startdatum, oft Wochen vor dem Fest gekauft</li></ul>
+    <h4>Pflege</h4><span class="chip gruen">niedrig</span> wenn ein fertiger Shop/Zahlungsdienst genutzt wird.
+    <h4>Support-Fragen, die hier entstehen</h4><ul><li>„Wann kommt das Buch an?"</li><li>„Kann ich das Startdatum ändern?"</li></ul>` },
+  { name:"2 · Einladung", bau:einladung, kulisse:`
+    <h3>Was dahinter laufen müsste</h3>
+    <ul><li>Einladungs-Mail oder gedruckte Karte an die Erzählerin</li><li>Wöchentlicher Versand einer Frage (Mail, Karte oder Anruf)</li><li>Ausdrückliche Einwilligung der <b>Erzählerin</b> — nicht nur der Käuferin</li></ul>
+    <h4>Pflege</h4><span class="chip gelb">mittel</span> E-Mails landen im Spam, Adressen ändern sich.
+    <h4>Größter Hebel gegen Support</h4>Der Telefon-Weg: Ältere Menschen wählen eine Nummer und erzählen. Kostet aber eine Telefonie-Anbindung — das ist die wartungsintensivste Stelle.` },
+  { name:"3 · Erzählen", bau:erzaehlen, kulisse:`
+    <h3>Was dahinter laufen müsste</h3>
+    <ul><li>Aufnahme im Browser oder per Telefon</li><li>Speicherung der Audiodatei (EU-Server)</li><li>Automatische Abschrift (Spracherkennung)</li></ul>
+    <h4>Pflege</h4><span class="chip pink">hoch</span> Browser-Mikrofone auf alten iPhones und Android-Geräten sind die häufigste Fehlerquelle bei solchen Diensten.
+    <h4>Datenschutz</h4>Stimme + Lebensgeschichte = sehr persönliche Daten, oft mit Gesundheit, Glaube oder Herkunft. Ausdrückliche Einwilligung nötig.
+    <h4>Im Demonstrator</h4>Kein echtes Mikrofon. Der Zähler läuft nur zum Zeigen; die Abschrift ist vorbereitet.` },
+  { name:"4 · Text prüfen", bau:pruefen, kulisse:`
+    <h3>Was dahinter laufen müsste</h3>
+    <ul><li>KI glättet behutsam: Füllwörter raus, Sätze ordnen, <b>Wortwahl und Ton bleiben</b></li><li>Erzählerin oder Angehörige korrigieren</li><li>Alte Fassung bleibt abrufbar</li></ul>
+    <h4>Pflege</h4><span class="chip gelb">mittel</span> Wichtigste Qualitätsfrage des ganzen Produkts: Klingt es noch nach Oma? Zu glatt = fremd. Zu roh = unlesbar.
+    <h4>KI-Kosten</h4>Cent-Beträge je Geschichte; je Buch einstellig.` },
+  { name:"5 · Fotos", bau:fotos, kulisse:`
+    <h3>Was dahinter laufen müsste</h3>
+    <ul><li>Foto-Upload vom Handy, oft abfotografierte Papierbilder</li><li>Prüfung der Auflösung für den Druck</li><li>Bildunterschrift</li></ul>
+    <h4>Pflege</h4><span class="chip gelb">mittel</span> Unscharfe Fotos sind der häufigste Grund für enttäuschte Bücher. Ein Hinweis „zu klein für den Druck" muss automatisch kommen.
+    <h4>Im Demonstrator</h4>Gezeichnete Platzhalter, keine echten Fotos.` },
+  { name:"6 · Buchvorschau", bau:vorschau, kulisse:`
+    <h3>Was dahinter laufen müsste</h3>
+    <ul><li>Automatischer Buchsatz: Text + Fotos → druckfertige PDF (Innenteil + Umschlag)</li><li>Kapitel, Inhaltsverzeichnis, Seitenzahlen</li><li>Optional QR-Code zur Original-Stimme</li></ul>
+    <h4>Pflege</h4><span class="chip gelb">mittel</span> Eine gute Vorlage einmal bauen. Danach läuft sie, solange die Druckerei ihre Vorgaben nicht ändert.
+    <h4>Achtung QR-Code</h4>Eine Stimme im QR-Code heißt: Audio muss <b>jahrelang</b> erreichbar bleiben. Das ist eine dauerhafte Betriebspflicht.` },
+  { name:"7 · Druck (optional)", bau:druck, kulisse:`
+    <h3>Was dahinter laufen müsste</h3>
+    <ul><li>PDF an eine Druckerei mit Schnittstelle</li><li>Druck als Einzelstück, Versand direkt an die Familie</li><li>Sendungsnummer zurück an die Kundin</li></ul>
+    <h4>Pflege</h4><span class="chip gelb">mittel</span> Reklamationen (Druckfehler, Transportschaden) landen bei <b>dir</b>, nicht bei der Druckerei.
+    <h4>Im Demonstrator</h4>Der Weg endet vor der Bestellung. Die Preise sind Rechenbeispiele aus der Wirtschaftlichkeitsdatei, keine Angebote.` }
+];
+
+/* ---------- Hilfen ---------- */
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function leiste(){
+  $("#leiste").innerHTML = SCHRITTE.map((s,i)=>`<button class="schritt ${i===Z.schritt?'aktiv':''} ${i<Z.schritt?'fertig':''}" onclick="geh(${i})">${s.name}</button>`).join("");
+}
+function geh(i){ Z.schritt=i; zeichne(); window.scrollTo({top:0,behavior:"smooth"}); }
+function weiter(){ geh(Math.min(Z.schritt+1, SCHRITTE.length-1)); }
+function zeichne(){ leiste(); $("#geraet").innerHTML = SCHRITTE[Z.schritt].bau(); $("#kulisse").innerHTML = SCHRITTE[Z.schritt].kulisse; }
+
+/* ---------- 1 Verschenken ---------- */
+function schenken(){
+  const p = (id,t,u) => `<button class="${Z.paket===id?'an':''}" onclick="Z.paket='${id}';zeichne()"><b>${t}</b><small>${u}</small></button>`;
+  return `
+    <div class="klein">Für die Schenkende · ${DATEN.schenkerin}</div>
+    <h2>Schenk deiner Mutter ein Jahr voller Erinnerungen</h2>
+    <p>Jede Woche eine Frage. Sie erzählt einfach — am Telefon oder am Handy. Am Ende hältst du ihr Buch in der Hand.</p>
+    <label>Wen beschenkst du?</label>
+    <input value="Gisela Brandt (Mama)" aria-label="Name der Erzählerin">
+    <label>Paket</label>
+    <div class="wahl">
+      ${p("digital","Nur digital","Geschichten + PDF zum Selbstdrucken")}
+      ${p("buch","Mit einem Buch","Hardcover, an euch verschickt")}
+      ${p("familie","Familienpaket","3 Bücher für Geschwister")}
+    </div>
+    <label>Ab wann sollen die Fragen kommen?</label>
+    <input type="date" value="2026-12-24">
+    <label>Dein Gruß an sie</label>
+    <textarea style="min-height:90px">Liebe Mama, ich möchte deine Geschichten nicht vergessen. Erzählst du sie mir? Deine Jana</textarea>
+    <div class="stopp">💳 Hier käme die Bezahlung. <b>Im Demonstrator ausgeschaltet.</b></div>
+    <button class="knopf" onclick="weiter()">Geschenk vorbereiten →</button>`;
+}
+
+/* ---------- 2 Einladung ---------- */
+function einladung(){
+  const k = (id,t,u) => `<button class="${Z.kanal===id?'an':''}" onclick="Z.kanal='${id}';zeichne()"><b>${t}</b><small>${u}</small></button>`;
+  return `
+    <div class="klein">Was ${DATEN.erzaehlerin} bekommt</div>
+    <div class="post">
+      <p class="klein">Post für dich, liebe Gisela</p>
+      <h2>Jana schenkt dir ein Lebensbuch</h2>
+      <p>„Liebe Mama, ich möchte deine Geschichten nicht vergessen. Erzählst du sie mir? Deine Jana"</p>
+      <p>Ab dem 24. Dezember bekommst du jede Woche eine Frage. Du antwortest, wann und wie du magst. Du musst nichts schreiben.</p>
+      <label>Wie möchtest du die Fragen bekommen?</label>
+      <div class="wahl">
+        ${k("email","Per E-Mail","mit einem großen Knopf zum Erzählen")}
+        ${k("telefon","Per Anruf","du wählst eine Nummer und erzählst")}
+        ${k("karte","Als Postkarte","Frage auf Papier, Antwort per Anruf")}
+      </div>
+      <label style="display:flex;gap:10px;align-items:flex-start;font-size:17px;color:var(--tinte)"><input type="checkbox" style="width:auto;margin-top:6px"> Ich bin einverstanden, dass meine Aufnahmen gespeichert und in Text umgewandelt werden, damit mein Buch entsteht. Ich kann jederzeit aufhören und alles löschen lassen.</label>
+    </div>
+    <p class="klein">Die Einwilligung gibt die Erzählerin selbst — nicht die Tochter, die bezahlt hat.</p>
+    <button class="knopf" onclick="weiter()">Erste Frage öffnen →</button>`;
+}
+
+/* ---------- 3 Erzählen ---------- */
+let uhr=null, sek=0;
+function erzaehlen(){
+  const welle = Array.from({length:28},()=>"<i></i>").join("");
+  return `
+    <div class="klein">Frage 1 von 52 · für ${DATEN.erzaehlerin}</div>
+    <div class="frage">${DATEN.fragen[0]}</div>
+    <button class="mikro" id="mikro" onclick="aufnahme()">${Z.aufgenommen?'Nochmal<br>erzählen':'Tippen und<br>erzählen'}</button>
+    <div class="welle" id="welle">${welle}</div>
+    <div class="uhr" id="uhr">0:00</div>
+    <p class="klein" style="text-align:center">Erzähl einfach drauflos. Pausen sind erlaubt. Niemand hört mit, bis du fertig bist.</p>
+    <div id="nach" class="${Z.aufgenommen?'':'versteckt'}" style="text-align:center">
+      <p>✓ Danke, Gisela. Deine Geschichte ist angekommen.</p>
+      <button class="knopf" onclick="weiter()">Text ansehen →</button>
+    </div>
+    <details class="klein" style="margin-top:14px"><summary>Weitere Beispielfragen</summary><ul>${DATEN.fragen.slice(1).map(f=>`<li>${f}</li>`).join("")}</ul></details>`;
+}
+function aufnahme(){
+  const m=$("#mikro");
+  if(uhr){ clearInterval(uhr); uhr=null; m.classList.remove("laeuft"); m.innerHTML="Wird<br>abgeschrieben …"; m.disabled=true;
+    document.querySelectorAll("#welle i").forEach(i=>i.style.height="6px");
+    setTimeout(()=>{ Z.aufgenommen=true; m.disabled=false; m.innerHTML="Nochmal<br>erzählen"; $("#nach").classList.remove("versteckt"); },1400);
+    return; }
+  sek=0; m.classList.add("laeuft"); m.innerHTML="Tippen zum<br>Beenden";
+  let takt=0;
+  uhr=setInterval(()=>{ if(++takt%4===0) sek++; $("#uhr").textContent=Math.floor(sek/60)+":"+String(sek%60).padStart(2,"0");
+    document.querySelectorAll("#welle i").forEach(i=>i.style.height=(6+Math.random()*32)+"px"); },250);
+}
+
+/* ---------- 4 Prüfen ---------- */
+function pruefen(){
+  return `
+    <div class="klein">Für Gisela oder Jana</div>
+    <h2>So steht es jetzt da</h2>
+    <p class="klein">Links, was das Programm gehört hat. Rechts, wie es im Buch stehen könnte. Deine Worte bleiben deine Worte.</p>
+    <div class="zwei">
+      <div><label>Wortwörtlich gehört</label><div class="roh">${esc(DATEN.roh)}</div></div>
+      <div><label>Für das Buch geglättet — du kannst alles ändern</label><textarea id="text" oninput="Z.text=this.value">${esc(Z.text)}</textarea></div>
+    </div>
+    <button class="knopf" onclick="Z.text=$('#text').value;weiter()">So passt es ✓</button>
+    <button class="knopf zweit" onclick="Z.text=DATEN.glatt;zeichne()">Zurück zum Vorschlag</button>`;
+}
+
+/* ---------- 5 Fotos ---------- */
+function fotos(){
+  return `
+    <div class="klein">Fotos ergänzen</div>
+    <h2>Gibt es ein Bild zu dieser Geschichte?</h2>
+    <p class="klein">Ein Papierfoto mit dem Handy abfotografieren reicht. Tippe an, was ins Buch soll.</p>
+    <div class="fotos">${Object.keys(BILDER).map(k=>`<div class="foto ${Z.fotos.includes(k)?'an':''}" onclick="foto('${k}')">${BILDER[k]}${FOTONAMEN[k]}</div>`).join("")}</div>
+    <p class="klein" style="margin-top:12px">⚠️ Beispiel für einen automatischen Hinweis: „Das Hochzeitsfoto ist sehr klein. Im Buch wird es eventuell unscharf."</p>
+    <button class="knopf" onclick="weiter()">Buch ansehen →</button>`;
+}
+function foto(k){ Z.fotos = Z.fotos.includes(k) ? Z.fotos.filter(x=>x!==k) : [...Z.fotos,k]; zeichne(); }
+
+/* ---------- 6 Vorschau ---------- */
+let blatt=0;
+function vorschau(){
+  const absaetze = Z.text.split(/\n\s*\n/).map(a=>`<p>${esc(a)}</p>`).join("");
+  const bild = Z.fotos[0] ? `<div style="margin:6px 0 4px">${BILDER[Z.fotos[0]]}</div><div style="font-size:12px;color:#9a8b7d;text-align:center">${FOTONAMEN[Z.fotos[0]]}</div>` : "";
+  let q=7, zellen="";
+  for(let y=0;y<21;y++) for(let x=0;x<21;x++){ q=(q*1103515245+12345)&0x7fffffff;
+    const ecke=(x<8&&y<8)||(x>12&&y<8)||(x<8&&y>12); if(!ecke && (q>>16)%2) zellen+=`<rect x="${x}" y="${y}" width="1" height="1"/>`; }
+  const marke=(x,y)=>`<rect x="${x}" y="${y}" width="7" height="7"/><rect x="${x+1}" y="${y+1}" width="5" height="5" fill="#fff"/><rect x="${x+2}" y="${y+2}" width="3" height="3"/>`;
+  const qr = `<svg class="qr" viewBox="-1 -1 23 23"><rect x="-1" y="-1" width="23" height="23" fill="#fff"/><g fill="#2b2420">${zellen}${marke(0,0)}${marke(14,0)}${marke(0,14)}</g></svg>`;
+  const doppel = [
+    [`<div class="seite cover"><div class="kap" style="color:#d9c9a8">Ein Lebensbuch</div><h3>Gisela erzählt</h3><div>Geschichten aus 78 Jahren</div><div style="margin-top:30px;font-size:13px">für Jana, Tobias und die Enkel</div></div>`,
+     `<div class="seite"><div class="kap">Inhalt</div><h3>Was in diesem Buch steht</h3><p>1 · Die Küche meiner Kindheit ……… 7</p><p>2 · Mein erstes eigenes Geld ……… 12</p><p>3 · Wie ich euren Vater traf ……… 18</p><p>4 · Der mutigste Tag ……… 25</p><p>5 · Was ich euch mitgeben will ……… 31</p><span class="nr">3</span></div>`],
+    [`<div class="seite"><div class="kap">Kapitel 1</div><h3>Die Küche meiner Kindheit</h3>${qr}${absaetze}<span class="nr">7</span></div>`,
+     `<div class="seite">${bild}<p style="margin-top:14px;font-size:13px;color:#6b5d52">Den QR-Code links mit dem Handy scannen: dann hörst du Gisela selbst erzählen.</p><span class="nr">8</span></div>`]
+  ];
+  blatt = Math.min(blatt, doppel.length-1);
+  return `
+    <div class="klein">Buchvorschau · erzeugt aus deinen Antworten</div>
+    <h2>So könnte das Buch aussehen</h2>
+    <div class="buch">${doppel[blatt].join("")}</div>
+    <button class="knopf zweit" onclick="blatt=Math.max(0,blatt-1);zeichne()" ${blatt===0?'disabled':''}>← Blättern</button>
+    <button class="knopf zweit" onclick="blatt=Math.min(1,blatt+1);zeichne()" ${blatt===1?'disabled':''}>Blättern →</button>
+    <button class="knopf" onclick="weiter()">Weiter zum Druck →</button>`;
+}
+
+/* ---------- 7 Druck ---------- */
+function druck(){
+  // Rechenbeispiele — Quelle: forschung/2026-10-08-lebensbuch-wirtschaftlichkeit.md (vorläufig)
+  const stueck = { soft:24, hard:34 }[Z.einband];
+  const versand = 6;
+  const summe = stueck*Z.stueck + versand;
+  const e = (id,t,u) => `<button class="${Z.einband===id?'an':''}" onclick="Z.einband='${id}';zeichne()"><b>${t}</b><small>${u}</small></button>`;
+  return `
+    <div class="klein">Optional · Buch drucken lassen</div>
+    <h2>Möchtest du das Buch in der Hand halten?</h2>
+    <div class="wahl">${e("soft","Softcover","17 × 24 cm, ca. 120 Seiten")}${e("hard","Hardcover","17 × 24 cm, ca. 120 Seiten, fester Einband")}</div>
+    <label>Wie viele Bücher?</label>
+    <select onchange="Z.stueck=+this.value;zeichne()">${[1,2,3,4,5].map(n=>`<option ${n===Z.stueck?'selected':''}>${n}</option>`).join("")}</select>
+    <table class="preis" style="width:100%;margin-top:14px;border-collapse:collapse">
+      <tr><td>${Z.stueck} × ${Z.einband==="hard"?"Hardcover":"Softcover"}</td><td>${stueck*Z.stueck} €</td></tr>
+      <tr><td>Versand innerhalb Deutschlands</td><td>${versand} €</td></tr>
+      <tr><td><b>Zusammen</b></td><td><b>${summe} €</b></td></tr>
+    </table>
+    <p class="klein">Rechenbeispiel, kein Angebot. Ein Buch ist im Paket „Mit einem Buch" schon enthalten.</p>
+    <div class="stopp">🛑 <b>Hier endet der Demonstrator.</b> Im echten Ablauf würde jetzt die druckfertige Datei an eine Druckerei gehen und das Buch in 5–10 Werktagen ankommen. Es wird nichts bestellt, nichts bezahlt und nichts gespeichert.</div>
+    <button class="knopf zweit" onclick="Object.assign(Z,{schritt:0,aufgenommen:false,text:DATEN.glatt,fotos:['kueche']});blatt=0;zeichne()">Von vorn durchspielen</button>`;
+}
+
+zeichne();
+</script>
+</body>
+</html>
