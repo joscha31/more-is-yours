@@ -254,3 +254,5 @@ Claude Code darf fehlende Fachwahrheit nicht selbst erfinden. Fehlende Inhalte w
 ## Live-One Ziel- und Umsetzungsbegleiter – Pilot
 
 - `build-briefs/2026-09-30-live-one-ziel-umsetzungsbegleiter-pilot.md` — **PETRA REVIEW** — vollständige fachliche Arbeitsanweisung für den 4-Wochen-Pilot mit Petra als Pilotin 0: Zielklärung, adaptive Etappenplanung, Morgen-/Abendsteuerung, Zustandsmodell, Coaching- und Content-Intelligenz, Wochenreview, Zielabschluss und Anti-Aktionismus-Regeln. Noch kein App-Bauauftrag.
+
+| `forschung/2026-10-09-leifi-kreativideen-glueck-freiheit-change.md` | Kreativideen-Auftrag: Glück, Erfüllung, Freiheit, Change; bestätigte positive Erzählhaltung, 30+10 Ideen als Ideenfutter | **FACH-LAB-VORSCHLAG / keine Produktfreigabe** |
