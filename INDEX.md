@@ -1,6 +1,6 @@
 # INDEX – More is Yours
 
-**Stand:** 6. Oktober 2026  
+**Stand:** 9. Oktober 2026  
 **Funktion:** Zentrales Inhaltsverzeichnis des Projekts
 
 > Der Index enthält keine ausführlichen Fachinhalte. Er zeigt nur, welche Dateien es gibt, wofür sie zuständig sind und welchen Status sie haben.
@@ -16,6 +16,14 @@
 7. ältere Quellen-der-Wahrheit-Fassungen, Chats und Brainstormings
 
 Widersprüche werden sichtbar gemacht und bewusst entschieden.
+
+---
+
+## Persönlicher Leifi-Gesprächsstand
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `leifi/LEIFI-ARBEITSGEDAECHTNIS.md` | Lebender persönlicher Stand zu Purpose, Mission, Arbeitswünschen und Wiedereinstieg am 09.10.; keine Produktentscheidung | **Persönlicher Stand / fortzuschreiben** |
 
 ---
 
