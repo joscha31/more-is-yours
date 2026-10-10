@@ -264,3 +264,5 @@ Claude Code darf fehlende Fachwahrheit nicht selbst erfinden. Fehlende Inhalte w
 | `forschung/2026-10-10-113-reale-vorbilder-18-geschaeftsmodelle-cowork.md` | Unabhängige Co-Work-Fassung zum 100-Vorbilder-Brief: 113 reale Vorbilder in 15 Feldern, 3 Warnbeispiele, 25 Steckbriefe, 18 Geschäftsmodelle mit Arbeitswochen-Prüfung (5 HOCH, 8 BEDINGT, 5 GERING), 5 Kombinationen, offene Fragen | **FACH-LAB-VORSCHLAG / PETRA REVIEW – keine Produktfreigabe** |
 
 | `forschung/2026-10-10-gemeinsame-ideenlandkarte-gluecks-studio.md` | Synthese aus Claude Code (108) und Co-Work (113): sechs Ideenwelten für das Glücks-Studio, Arbeitsformfilter, offene Optionen | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+
+| `forschung/2026-10-10-gluecks-studio-methodenbibliothek-recherchebrief.md` | Internationaler Forschungsauftrag: 100 originelle Konzepte/Methoden mit Quellen, Rechte-Vorprüfung, interaktive KI-Formate und Passung zu Petras Arbeitsform | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
