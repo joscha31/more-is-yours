@@ -751,3 +751,23 @@ Jeder Steckbrief beantwortet: Wer bezahlt wofür? Wie gewinnen sie Menschen? Was
 6. Wäre ein Gespräch mit Perspective Daily in Münster als Lernquelle für mitgliederfinanzierte Medien interessant?
 
 **Vergleich mit der parallelen Claude-Code-Fassung:** Beide Fassungen kommen unabhängig auf ein Abendformat mit Ortsteams, ein Jahrbuch oder Archiv der Geschichten und monatliche Fundstücke für lokale Runden als stärkste Passung. Unterschiede: Diese Fassung bewertet die Neugier-Woche als HOCH (dort BEDINGT) und ergänzt die Gästegebühr als Erlösweg, die Gesprächsbox, die Großmütter-Tafel, die Format-Werkstatt, die Leser-Genossenschaft und den Mitsingabend mit Lebensgeschichten.
+
+---
+
+## 9. Nachtrag: Abgleich mit dem Glücks-Studio und der Startform „allein mit KI“ 💡
+
+Am 10.10.2026 hat Petra im Leifi-Arbeitsgedächtnis zwei persönliche Präferenzen bestätigt ✅ (keine Produktfreigabe):
+- Das **Glücks-Studio** als Arbeitsform: „Ein glücklicher Kreislauf der ungeahnten Möglichkeiten“. Erst Unbekanntes entdecken, dann mit KI daraus etwas Schönes erschaffen, das wieder in die Welt geht. Der ganze Kreislauf zählt.
+- Die **Startphase allein mit KI**, ohne vorzeitige bezahlte Strukturen. Freelancer und Team erst bei konkretem Bedarf und Finanzierung.
+
+Die Passungen in Kapitel 6 gelten für den späteren Betrieb. Für die **Startphase** sieht der Abgleich so aus (Hypothese):
+
+| Modell | Passt zum Kreislauf Entdecken → Erschaffen? | Allein mit KI startbar? | Kleinste Startform ohne Fixkosten (Hypothese) |
+|---|---|---|---|
+| M5 Monatsthema für Küchentisch-Runden | ✅ ja, jeden Monat ein ganzer Kreislauf | ✅ ja, sofort | Ein Monatspaket als PDF, in Petras Umfeld getestet |
+| M1 Jahrbuch der Möglichkeiten | ✅ ja, ein Jahr als großer Kreislauf | 🟡 teilweise; Gestaltung mit KI, Druck auf Bestellung | Erst der kostenlose Wochenbrief, das Buch später |
+| M3 Archiv der Lebenslust | ✅ ja, Zuhören → Kuratieren → Weitergeben | 🟡 teilweise; digital zuerst, Box später | Fragekarten als digitale Vorlage, erste Gespräche im eigenen Umfeld |
+| M4 Neugier-Woche zu Gast | ✅ ja, Entdecken der Gäste → Erlebnis | 🟡 mit einem Partnerhaus, nicht mit bezahlten Kräften | Eine einzige Pilotwoche in einem Haus, das Buchung übernimmt |
+| M2 Abend der staunenswerten Lebenswege | ✅ ja | 🟡 eine Stadt ja, ein Netz von Städten nein | Ein Pilotabend in Münster, Petra als Gastgeberin; Ortsteams erst später |
+
+**Ehrlicher Gegenwind:** Die Startform „allein mit KI“ bevorzugt die digitalen, kleinen Modelle (M5, M1 als Wochenbrief, M3 digital). Die Formate, die sich über viele Städte weitertragen (M2), brauchen in der Wachstumsphase zwingend eine Partnerin für die Hosts. Das ist kein Widerspruch zur Startentscheidung, gehört aber in die Planung der zweiten Stufe.
