@@ -1,6 +1,6 @@
 # INDEX – More is Yours
 
-**Stand:** 9. Oktober 2026  
+**Stand:** 10. Oktober 2026  
 **Funktion:** Zentrales Inhaltsverzeichnis des Projekts
 
 > Der Index enthält keine ausführlichen Fachinhalte. Er zeigt nur, welche Dateien es gibt, wofür sie zuständig sind und welchen Status sie haben.
@@ -266,3 +266,4 @@ Claude Code darf fehlende Fachwahrheit nicht selbst erfinden. Fehlende Inhalte w
 | `forschung/2026-10-10-gemeinsame-ideenlandkarte-gluecks-studio.md` | Synthese aus Claude Code (108) und Co-Work (113): sechs Ideenwelten für das Glücks-Studio, Arbeitsformfilter, offene Optionen | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 
 | `forschung/2026-10-10-gluecks-studio-methodenbibliothek-recherchebrief.md` | Internationaler Forschungsauftrag: 100 originelle Konzepte/Methoden mit Quellen, Rechte-Vorprüfung, interaktive KI-Formate und Passung zu Petras Arbeitsform | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+| `forschung/2026-10-10-gluecks-studio-methodenbibliothek-100-entdeckungen-claude-code.md` | Ergebnis Claude Code zum Methodenbibliothek-Brief: 100 neue Entdeckungen in 9 Feldern (Quelle, Evidenzart, Rechte-Ampel UNGEPRÜFT, Erlebnisfunke, Passung je Eintrag; 46 Studien-DOIs maschinell geprüft), 13 Werkzeug-Befunde, 20 Porträts, 14 eigene interaktive KI-Erlebnisformate mit Passung (11 HOCH, 3 BEDINGT), 5 Kombinationen, Rechte-Liste R1–R10 für Dr. Falk | **FACH-LAB-VORSCHLAG / PETRA REVIEW – keine Produktfreigabe, keine Rechtsfreigabe** |
