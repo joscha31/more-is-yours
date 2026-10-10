@@ -40,3 +40,20 @@ Happier App (Gretchen Rubin) – https://thehappierapp.com/
 The Dinner Party – https://www.thedinnerparty.org/ (2026 eingestellt; als Negativbeispiel für Finanzierungsrisiko, NICHT für inhaltliche Ausrichtung)
 
 Diese 16 Kandidaten sind ein **Startbestand**, noch keine fertige 100er-Recherche. Bei zusammengehörigen Organisationen auf Dubletten prüfen.
+
+
+## Verbindliche Ergänzung von Petra: Arbeitsform ist zentraler Auswahlfilter (10.10.2026)
+Petra hat ausdrücklich klargestellt: Alle neu kreierten Geschäftsmodelle müssen mit ihren bestätigten Wünschen für Arbeitsform und Arbeitsgefühl übereinstimmen. Eine inhaltlich faszinierende Idee allein genügt NICHT.
+
+Für jedes vorgeschlagene Modell zwingend prüfen:
+- selbstständig, zeitlich und örtlich flexibel, gelegentliche Reisen statt Dauerreisen
+- Freude an KI, kreativer Konzeption, Geschichten, Kuratieren und Umsetzung, ohne Perfektions-Feinarbeit
+- sympathische Menschen, kleine Gruppen, kreatives Team; Freelancer/Automatisierung denkbar
+- keine bezahlten 1:1-Coachings, keine therapeutische Betreuung, keine dauerhafte Ergebnisverantwortung für andere
+- Abwechslung, interessante längerfristige Projekte möglich, keine eintönige Routine oder ständige Überzeugungsarbeit
+- etwas Bleibendes, eigenständige Marke oder Werk, das ohne permanente persönliche Anwesenheit weiterbestehen kann
+- erlebte Freude, Leichtigkeit, Freiheit, Verbundenheit, Wertschätzung und Dankbarkeit
+
+**Pflicht pro Modell:** Petras konkrete Tätigkeiten in einer typischen Woche; reizvolle Kernarbeit; unvermeidliche Routine; was KI/Freelancer/Partner übernehmen könnten; potenzielle Abhängigkeiten von Kunden/Team; Passung als HOCH / BEDINGT / GERING mit kurzer Begründung und offenem Unsicherheitsgrad. Modelle mit harten Konflikten nicht als Empfehlung darstellen. Wenn das Geschäftsmodell nur nach unrealistischer Delegation passt, als BEDINGT markieren. Unterscheide Petras Wunsch von Hypothesen der Rechercheure.
+
+Diese Ergänzung ist von Petra als Arbeitsregel bestätigt, **keine Freigabe eines konkreten Geschäftsmodells**.
