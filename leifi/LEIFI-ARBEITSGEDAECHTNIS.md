@@ -31,3 +31,6 @@ Wir wollen herausarbeiten: Wie sieht Petras idealer Beruf tatsächlich im Alltag
 
 ## Quellen und Pflege
 Rekonstruiert aus dem Chat-Export 29.09.–09.10.2026 und der aktuellen Zusammenfassung. Originalverlauf liegt im Chat-Export, nicht vollständig in GitHub. Bei jeder relevanten neuen Bestätigung diese Datei aktualisieren; überholte Annahmen explizit markieren. GitHub-Ablage im Unternehmensrepository ist nur organisatorisch; persönliche Erkenntnisse sind keine automatische Unternehmensentscheidung.
+
+## Neigung aus der Entdeckungsreise (10.10.2026)
+Auf die Frage, was sie im Bericht am meisten anzieht, wählte Petra: **C (Formate, die sich selbst weitertragen) und A (Menschen und ihre Geschichten)**. Die Entdeckungen und die Forschung (B) wählte sie nicht. Das ist eine Neigung und keine Entscheidung. Der nächste Schritt bleibt der Dialog über ihren idealen Arbeitsalltag.
