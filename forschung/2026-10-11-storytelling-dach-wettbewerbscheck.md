@@ -23,3 +23,7 @@ StoryTalk ist anderweitig im Storytelling-Kontext in Gebrauch: https://storytalk
 
 ## Nächste Prüfungen
 Pianist und GEMA bei geschütztem Repertoire; offene Auslosung und Umgang mit heftigem Inhalt; Jury-Regeln und freiwilliger Austausch; Ticket-/Raumkonditionen; Vorhandensein konkreter Münster Wettbewerber; Rechte an Aufnahmen; Übertragbarkeit und tatsächliche Arbeitsbelastung. Keine Veröffentlichung oder Buchung.
+
+
+## Sprachkorrektur (11.10.2026)
+Petra weist darauf hin, dass **THE BEAR ebenfalls englischsprachig** ist. Die bisherige Wettbewerbsanalyse hatte die Sprache nicht ausdrücklich ausgewiesen. Diese Information ist als Hinweis von Petra aufgenommen; die aktuelle Sprachpraxis je Standort/Termin muss anhand der Veranstaltungsseiten verifiziert werden. Die **deutschsprachige** Ausrichtung eines eigenen Formats ist damit eine interessante, noch nicht validierte Differenzierungshypothese. Es darf nicht behauptet werden, im DACH-Raum gebe es keine deutschsprachigen Storytelling-Formate.
