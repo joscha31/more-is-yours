@@ -392,7 +392,7 @@ Verkaufte Tickets und Tempo · Erzähl-Anmeldungen · Hut-Meldungen am Abend · 
 4. Falls später umsatzsteuerpflichtig: 7 % für einen Erzählabend (theaterähnlich) oder 19 %?
 
 ### H · Rudelsingen (Interessen und Vertrag)
-1. Petras Beratungsverhältnis mit der Rudelsingen GmbH (Rechnung „betriebswirtschaftliche Beratung für wiederkehrende Veranstaltungsformate") und eine mögliche Gesellschafterrolle: Gibt es **Wettbewerbs-, Geheimhaltungs- oder Treuepflichten**, die ein eigenes Abendformat berühren?
+1. Petras Beratungstätigkeit für die Rudelsingen GmbH (Details nicht im öffentlichen Repo) und eine mögliche Gesellschafterrolle: Gibt es **Wettbewerbs-, Geheimhaltungs- oder Treuepflichten**, die ein eigenes Abendformat berühren?
 2. Darf Petra Pianist und Techniker ansprechen, die sie über Rudelsingen kennt? (Abwerbeklauseln?)
 3. Keine Nutzung von Rudelsingen-Verteilern, -Daten oder -Publikum ohne Vertrag und Rechtsgrundlage (DSGVO).
 4. Was wäre bei einer späteren Partnerschaft zu regeln?
