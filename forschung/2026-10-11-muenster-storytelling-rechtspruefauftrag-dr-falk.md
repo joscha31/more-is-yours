@@ -95,3 +95,22 @@ Hinweis: „StoryTalk“ wird laut Wettbewerbscheck bereits im Storytelling-Kont
 - IHK Ostwestfalen, GEMA (Anmeldung vor Nutzung, Haftung von Veranstalter und Raumgeber): https://www.ihk.de/ostwestfalen/recht-und-steuern/recht-von-a-z/gema-6767956
 - Volksstimme, GEMA-Vermutung und Beweispflicht bei GEMA-freier Musik (Artikel von 2009, Aktualität prüfen): https://www.volksstimme.de/leben/der-verbraucher-ist-in-der-beweispflicht-370932
 - Deutsche Rentenversicherung, Künstlersozialabgabe 2026: https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2025/250724-kuenstlersozialabgabe-sinkt-ab-2026
+
+---
+
+## Ergänzung 11.10.2026: Block G · Regelwerk und Moderation (FACH-LAB-VORSCHLAG)
+
+Bezug: `forschung/2026-10-11-muenster-storytelling-regelwerk-moderation-fach-lab.md`. Das Regelwerk setzt Petras PETRA-APPROVED-Erzählgrenzen um (wahr, respektvoll gegenüber Vorkommenden, Unterhaltungswert; keine Eigentherapie, kein Bashing, keine Abrechnung mit Dritten). Spontane Auslosung, deshalb kein Vorgespräch; Schutz über Regelkarte am Hut, Freigabe-Erklärung, Eingriffs-Treppe der Moderation (Zeichen · Satz · freundlicher Schluss mit Wertungsausschluss · Hausrecht), Ansprechperson, keine Aufnahmen im Pilot.
+
+34. (G1) Darf die Moderation eine Geschichte beenden und außer Wertung setzen? Was muss in die Teilnahmebedingungen? Ticket-Erstattung bei Ausschluss nach Hausrecht?
+35. (G2) Ist eine Freigabe-Erklärung wirksam, die am Hut spontan und ohne Bedenkzeit unterschrieben wird?
+36. (G3) Haftung der Veranstalterin für Live-Äußerungen über erkennbare Dritte **ohne Aufnahme**: Beleidigung, üble Nachrede, Verleumdung, Intimsphäre, Vorwürfe von Straftaten gegen erkennbare Personen, laufende Verfahren, Personen des öffentlichen Lebens. Reichen Regelkarte, Eingriffs-Treppe und Freigabe-Erklärung?
+37. (G4) Verstorbene in Geschichten: Was gilt beim Schutz der Persönlichkeit nach dem Tod?
+38. (G5) Eigene Kinder der Erzählenden in Geschichten: Grenzen?
+39. (G6) Vorfallnotiz (ohne Namen Dritter, ohne Gesundheitsangaben) und Dankesnachricht an Erzählende: Datenschutz, Löschfrist. Wie reagieren, wenn sich eine betroffene dritte Person meldet?
+40. (G7) Zettel im Hut mit Selbsteinschätzung „leicht · bewegend · schwer": sensible Daten? Reicht Vernichten nach dem Abend?
+41. (G8) Pflichten bei Hinweisen auf akute Gefahr für sich selbst oder andere sowie bei geschilderten Straftaten; Pflichten und Grenzen der Ansprechperson.
+42. (G9) Abgrenzung zur Heilkunde: Ansprechperson und Moderation beraten und behandeln nicht. Was folgt daraus, dass die Veranstalterin Heilpraktikerin ist? Welche Wörter in Werbung und Moderation vermeiden?
+43. (G10) Freistellung der Veranstalterin durch die Erzählenden: wirksam, sinnvoll oder abschreckend?
+44. (G11) Hausrecht im gemieteten Raum: Wer darf jemanden hinausbitten?
+45. (G12) Empfehlungen der Suizidprävention zur Darstellung von Suizid (keine Methoden, keine Orte): verbindlich oder Empfehlung? Belastbare Quelle für das Regelwerk.
