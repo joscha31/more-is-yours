@@ -1,6 +1,6 @@
 # INDEX – More is Yours
 
-**Stand:** 10. Oktober 2026  
+**Stand:** 11. Oktober 2026  
 **Funktion:** Zentrales Inhaltsverzeichnis des Projekts
 
 > Der Index enthält keine ausführlichen Fachinhalte. Er zeigt nur, welche Dateien es gibt, wofür sie zuständig sind und welchen Status sie haben.
@@ -268,3 +268,7 @@ Claude Code darf fehlende Fachwahrheit nicht selbst erfinden. Fehlende Inhalte w
 | `forschung/2026-10-10-gluecks-studio-methodenbibliothek-recherchebrief.md` | Internationaler Forschungsauftrag: 100 originelle Konzepte/Methoden mit Quellen, Rechte-Vorprüfung, interaktive KI-Formate und Passung zu Petras Arbeitsform | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 | `forschung/2026-10-10-gluecks-studio-methodenbibliothek-100-entdeckungen-claude-code.md` | Ergebnis Claude Code zum Methodenbibliothek-Brief: 100 neue Entdeckungen in 9 Feldern (Quelle, Evidenzart, Rechte-Ampel UNGEPRÜFT, Erlebnisfunke, Passung je Eintrag; 46 Studien-DOIs maschinell geprüft), 13 Werkzeug-Befunde, 20 Porträts, 14 eigene interaktive KI-Erlebnisformate mit Passung (11 HOCH, 3 BEDINGT), 5 Kombinationen, Rechte-Liste R1–R10 für Dr. Falk | **FACH-LAB-VORSCHLAG / PETRA REVIEW – keine Produktfreigabe, keine Rechtsfreigabe** |
 | `forschung/2026-10-10-gluecks-studio-methodenbibliothek-132-funde-claude-code.md` | Zweite, parallel entstandene Claude-Code-Fassung zum Methodenbibliothek-Brief (Vergleich mit der 100er-Fassung sinnvoll): 132 neue Funde in 10 Clustern (Quelle, Evidenz, Prüfstatus, Rechte-Vorprüfung, KI-Erlebnisfunke, Passung), 20 Vertiefungen, 14 eigene interaktive Erlebnisformate mit Arbeitswunsch-Prüfung, 5 Kombinationen, Gegenwind, Fragenliste für Dr. Falk (alles UNGEPRÜFT) | **FACH-LAB-VORSCHLAG / PETRA REVIEW – keine Produkt- oder Rechtsfreigabe** |
+
+| `forschung/2026-10-11-muenster-storytelling-pilot-petra-entwurf.md` | Petras eigene Formatidee: Live-Storytelling-Abend in Münster, inspiriert von The Moth (10 × 5 Min., sichtbare Uhr, Klavier, Nachbar-Austausch, Jury, Finale nach 10 Abenden) | **PETRA REVIEW / FACH-LAB-VORSCHLAG – keine Veranstaltungsfreigabe** |
+| `forschung/2026-10-11-storytelling-dach-wettbewerbscheck.md` | Petras Festlegungen (Motto „Ich erzähle meine Geschichte!", Arbeitstitel StoryTalk/SecretStorys, spontane Auslosung) und 7 DACH-Wettbewerber (u. a. THE BEAR, Zurich Storytellers, Story Slam Innsbruck) | **FACH-LAB-VORSCHLAG / PETRA REVIEW – keine Marken- oder Produktfreigabe** |
+| `forschung/2026-10-11-muenster-storytelling-pilot-pruefung-claude-code.md` | Fachliche Prüfung + umsetzbarer Pilotvorschlag: Ablauf (120 Min.), Regelvorschläge inkl. ernster Geschichten und Jury, spontane Auslosung mit Erzähl-Werkstatt, Kalkulation 80 Plätze (≈ 880 / 1.295 / 2.170 € je Abend, Gewinnschwellen), delegierbares Veranstaltermodell in 5 Stufen, Positionierung gegenüber The Moth und THE bEAR, Rechtsprüfauftrag an Dr. Falk (A–J: Marken, GEMA bei Improvisation, Persönlichkeitsrechte, Haftung, Aufzeichnungen, Rudelsingen), offene Fragen | **FACH-LAB-VORSCHLAG / PETRA REVIEW – keine Veranstaltungs-, Marken- oder Rechtsfreigabe; nichts gebucht** |
