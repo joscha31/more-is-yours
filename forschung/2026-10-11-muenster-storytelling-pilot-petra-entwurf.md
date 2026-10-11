@@ -20,3 +20,7 @@ Wie werden zehn Erzähler gewonnen und ausgewählt (Los vs. Vorauswahl)? Welche 
 
 ## Nächster Auftrag
 Claude Co-Work/Code sollen diesen PETRA-REVIEW-Entwurf gegen den The-Moth-Recherchebrief und offizielle Quellen prüfen; daraus einen konkreten Pilot-Build-Brief, eine transparente Kalkulation für 80 Plätze, Moderations- und Regelvarianten, eine DACH-Übertragungsstrategie und einen Prüfauftrag für Dr. Falk erstellen. Noch nichts buchen, bewerben oder rechtlich freigeben.
+
+
+## 11.10.2026 – von Petra bestätigte inhaltliche Erzählgrenzen
+**PETRA APPROVED (fachliche Leitlinie, keine Veranstaltungsfreigabe):** Auch traurige, verstörende und intime Geschichten sind ausdrücklich willkommen, solange sie **wahr**, **respektvoll gegenüber anderen und in der Geschichte vorkommenden Personen** sind und **Unterhaltungswert** haben. **Keine Eigentherapie, kein Bashing, keine Bühne zur Abrechnung mit Dritten.** Nicht auf ausschließlich positive Geschichten einschränken. Diese Regeln sind der inhaltliche Kern; operative Regeln wie Auswahl/Moderations-Eingriffe, Anonymisierung, Trigger-Hinweise, Umgang mit schweren Inhalten und rechtliche Einwilligungen sind noch auszuarbeiten und Dr. Falk vorzulegen. Frühere Annahmen eines rein positiven Geschichtenabends gelten nicht für dieses Format. Spontane Auslosung und 10 × 5 Minuten bleiben Petras Konzeptvorgaben.
