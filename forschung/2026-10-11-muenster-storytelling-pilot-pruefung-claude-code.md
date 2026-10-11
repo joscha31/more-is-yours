@@ -17,7 +17,7 @@ Kennzeichnung: **[belegt]** Quelle gelesen · **[plausibel]** Ableitung/Fachwiss
 
 1. **Was trägt:** Petras Entwurf hat bereits alles, was ein wiederholbares Format braucht: eine zählbare Formregel (10 × 5 Minuten, sichtbare Uhr), einen wiedererkennbaren Klang (Klavier nach jeder Geschichte), einen Moment für das Publikum (Austausch mit dem Sitznachbarn) und einen Spannungsbogen über Monate (Finale nach 10 Abenden). Dazu hat Petra Erfahrung mit einem Abendformat, das in vielen Städten läuft (Rudelsingen). Das haben fast keine Gründerinnen in diesem Feld.
 2. **Rechtlich nachahmbar:** The Moth erlaubt eigene, „Moth-inspirierte" Formate ausdrücklich, solange Name und „Moth StorySLAM" nicht verwendet werden [belegt, themoth.org/faq].
-3. **Der wichtigste Marktfund:** **THE bEAR** (Berlin seit 2015, Hamburg seit 2025/26) ist sehr nah dran: wahre Geschichten, 5 Minuten (Berlin), Namen aus dem Eimer, Live-Musik zwischen den Geschichten, Publikumsfavorit, Champions-Abend aus den letzten 10 Shows. Allerdings auf **Englisch**, gemeinnützig, ehrenamtlich, nicht in NRW [belegt]. Dazu kommen englischsprachige Formate in Zürich (Zurich Storytellers) und Innsbruck (Story Slam) sowie verwandte Slams in Wien und Hamburg (Petras Wettbewerbscheck). In Münster wurde kein vergleichbares Format gefunden [plausibel]. Die Eigenständigkeit kommt also nicht aus einem einzelnen Baustein, sondern aus **Sprache, Ort, dem Klavier-Nachklang als Antwort auf genau diese Geschichte, dem Nachbarschaftsmoment und dem Thema „Wendepunkte"** (Kapitel 6).
+3. **Der wichtigste Marktfund:** **THE bEAR** (Berlin seit 2015, Hamburg seit 2025/26) ist sehr nah dran: wahre Geschichten, 5 Minuten (Berlin), Namen aus dem Eimer, Live-Musik zwischen den Geschichten, Publikumsfavorit, Champions-Abend aus den letzten 10 Shows. Allerdings auf **Englisch**, gemeinnützig, ehrenamtlich, nicht in NRW [belegt]. Dazu kommen englischsprachige Formate in Zürich (Zurich Storytellers) und Innsbruck (Story Slam) sowie verwandte Slams in Wien und Hamburg (Petras Wettbewerbscheck). In Münster wurde kein vergleichbares Format gefunden [plausibel]. Die Eigenständigkeit kommt also nicht aus einem einzelnen Baustein, sondern aus **Sprache (Hypothese, noch zu validieren), Ort, dem Klavier-Nachklang als Antwort auf genau diese Geschichte, dem Nachbarschaftsmoment und dem Thema „Wendepunkte"** (Kapitel 6).
 4. **GEMA wird durch die Improvisation klein, verschwindet aber nicht von selbst.** Live-Musik ist meldepflichtig; die GEMA-Vermutung muss widerlegt oder bezahlt werden. Größenordnung bei 80 Plätzen: rund 0 bis 80 € je Abend [belegt Tarif / Rechnung plausibel]. Bandmusik in Einlass und Pause lieber weglassen, der Pianist spielt auch dort.
 5. **Wirtschaftlich ehrlich:** Ein einzelner Abend mit 80 Plätzen trägt sich, verdient aber kaum. In der mittleren Rechnung liegen die Kosten bei rund **1.300 €**, die Gewinnschwelle bei rund **72 Tickets à 18 €** bzw. **59 Tickets à 22 €** (Kapitel 4). Das Geld liegt nicht im Einzelabend, sondern im Modell: Serie, Finale, Firmenabende, Buch, mehrere Städte.
 6. **Empfehlung:** Erst ein **Probeabend im kleinen Kreis (20–30 Gäste)**, danach der erste 80er-Abend. Der Probeabend kostet wenig, liefert in 2–3 Wochen echte Reaktionen und klärt Uhr, Klavier-Nachklang und Austausch-Moment vor dem großen Raum (Kapitel 1).
@@ -259,7 +259,7 @@ Ein roter Faden „Veränderung und Wendepunkte" passt zu Petras Mission (*„Ic
 
 | Merkmal | The Moth (USA, seit 1997) | THE bEAR (Berlin seit 2015, Hamburg) | Petras Münster-Format (Entwurf) |
 |---|---|---|---|
-| Sprache | Englisch | Englisch (Hamburg teils Deutsch) | **Deutsch** |
+| Sprache | Englisch | Englisch (Hamburg laut Ankündigung teils Deutsch, zu verifizieren) | **Deutsch** |
 | Träger | Nonprofit, über 600 Shows/Jahr, Radio, Podcast | Gemeinnützige Initiative, Ehrenamt | Kleinunternehmerin, später Partnermodell |
 | Länge | 5 Min. | Berlin 5 Min., Hamburg 7 Min. | 5 Min., **große sichtbare Uhr** |
 | Auswahl | Namen in den Hut, 10 gezogen | Eimer (offene Bühne) oder kuratiert | Spontane Auslosung (Petras Entscheidung) + Erzähl-Werkstatt vorab |
@@ -275,7 +275,7 @@ Quellen: themoth.org/faq, themoth.org/share-your-story/at-a-live-event, themoth.
 ### 6.2 Ehrlicher Befund
 
 - **Kein Einzelbaustein ist neu.** 5 Minuten, Hut, Jury, Finale nach 10 Abenden und Live-Musik gibt es schon. Besonders THE bEAR liegt nah, inklusive Showcase nach 10 Shows. Im DACH-Raum gibt es zudem Zurich Storytellers (monatlicher StorySLAM, GrandSLAM, Englisch, ca. 25 CHF) und Story Slam Innsbruck (bis 7 Min., Publikumspreis), dazu verwandte Formate wie Tagebuch Slam (Österreich) und Diary Slam (Hamburg). Quellen: Petras Wettbewerbscheck vom 11.10.2026. **Exklusivität darf deshalb nirgends behauptet werden.**
-- **Was im DACH-Raum offen ist:** ein **deutschsprachiges**, übertragbares Netz. Die direkten Wettbewerber laufen auf Englisch und meist ehrenamtlich.
+- **Differenzierungshypothese (noch nicht validiert):** ein **deutschsprachiges**, übertragbares Netz. Die gefundenen direkten Wettbewerber mit Auslosung und Wettbewerb laufen auf Englisch und meist ehrenamtlich (Sprache je Standort und Termin noch auf den Veranstaltungsseiten prüfen). Deutschsprachige Erzählbühnen gibt es durchaus, z. B. KALEIDOSKOP in Köln (offen, ohne Wertung) und die Erzählnachmittage der Studiobühne Münster. Es darf also nicht behauptet werden, es gebe im DACH-Raum keine deutschsprachigen Storytelling-Formate.
 - **Eigenständig wird das Format durch drei Dinge, die zusammen niemand macht:**
   1. **Der Nachklang:** Das Klavier antwortet auf die Geschichte, und in genau diesem Moment spricht das Publikum miteinander. Aus Zuhören wird Begegnung. Das ist das Markenzeichen und gehört in den Namen oder Untertitel.
   2. **Deutschsprachig, lokal verwurzelt, mit Abendgefühl:** eher Rudelsingen-Wärme als Großstadt-Szene; offen für alle Generationen, ausdrücklich auch 50+.
@@ -444,6 +444,7 @@ Verkaufte Tickets und Tempo · Erzähl-Anmeldungen · Hut-Meldungen am Abend · 
 - THE bEAR Storytelling: https://www.thebear-storytelling.de
 - THE bEAR Berlin Open Stage (5 Min., 8 Erzählende, Preis): https://luma.com/kp7dxesm
 - THE bEAR Hamburg (7 Min., Preis): https://eventfrog.ch/en/p/theatre-stage/stage-event/the-bear-hamburg-presents-thaw-true-stories-of-softening-7432766443412823096.html
+- KALEIDOSKOP Erzählbühne Köln: https://rausgegangen.de/en/events/kaleidoskop-offene-erzahlbuhne-in-koln-mulheim-5/
 - Studiobühne Uni Münster, Erzählnachmittag 2026: https://www.uni-muenster.de/Studiobuehne/aktuelles/archiv/2026/erzaehlnachmittag.html
 - Slam im Westen, Münster: https://ms-aktuell.de/?p=84283
 - Hot Comedy Club Münster (Preisreferenz): https://www.mvp.de/muenster/veranstaltungen/hot-comedy-club-hot-jazz-club-muenster/
