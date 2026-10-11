@@ -361,8 +361,10 @@ Die Unterlagen beschreiben Petras Verhältnis zur Rudelsingen GmbH unterschiedli
 |---|---|
 | `forschung/2026-10-11-muenster-storytelling-rechtspruefauftrag-dr-falk.md` | Petra sei **Alleingesellschafterin** |
 | `forschung/2026-10-10-gluecks-studio-methodenbibliothek-132-funde-claude-code.md` (zitiert in der Prüfung, Kap. 8) | Petra habe die GmbH **mit aufgebaut** und berate sie heute |
-| Petras Workspace (nicht im Repo) | Petra ist für die GmbH **beratend tätig** (Vertragsdetails bewusst nicht im öffentlichen Repo); an anderer Stelle: GmbH **gemeinsam mit David** gegründet |
+| Petras eigenes Profil im Workspace (nicht im Repo) | Petra ist **alleinige Gesellschafterin**; die **Geschäftsführung liegt nicht bei ihr**; zusätzlich ist sie für die GmbH **beratend tätig** (Vertragsdetails bewusst nicht im öffentlichen Repo) |
 | Fach-Lab-Fassung, Kap. 8 | „auch wenn Petra Gesellschafterin ist" |
+
+**Nachtrag Hauptsession (11.10.2026):** Petras eigenes Profil spricht klar für **Variante A** (alleinige Gesellschafterin, nicht Geschäftsführerin) plus Beratungstätigkeit. „Mit aufgebaut" widerspricht dem nicht. Vor einer Entscheidung bitte mit Handelsregisterauszug, Gesellschaftsvertrag und Beratungsvertrag bestätigen; die Prüfung nach Variante A ist dann die maßgebliche.
 
 **Dr. Falk löst das nicht auf.** Die rechtlichen Folgen unterscheiden sich je Variante deutlich:
 
