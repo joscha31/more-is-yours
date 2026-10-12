@@ -27,3 +27,7 @@ Masterquelle joscha31/more-is-yours. Zuerst INDEX.md, leifi/LEIFI-ARBEITSGEDAECH
 3. Kurze Erklärung, wie Petra in zwei Minuten testet.
 4. Drei getestete Verläufe und bekannte Grenzen.
 5. Nur eine Frage an Petra: Wie hat es sich beim Spielen angefühlt?
+
+
+## 12.10.2026 – wichtige Kurskorrektur durch Petra (für nächste Iteration, laufenden Prototyp nicht ungefragt umbauen)
+Petra sagt ausdrücklich: **„ich möchte keine Spieleentwicklerin werden. Selbstoptimierung fände ich super. Traue dich mal was.“** Sie möchte, dass die spielerische KI-Erfahrung eine **Brücke zwischen ungeahnten möglichen Lebenswelten und tatsächlicher persönlicher Veränderung** schlägt. Nicht bloß Fantasieunterhaltung, sondern möglicherweise Vorstellungskraft → emotionales Erleben → selbst gewählter konkreter Alltagsversuch → Reflexion und Weiterentwicklung. Dies ist eine **fachliche Entwicklungsrichtung**, keine Freigabe, keinen therapeutischen Wirkanspruch erheben und keine Dispenza-Methode kopieren. Der bestehende zehnminütige Prototyp soll zunächst fertiggestellt/getestet werden; danach diese Richtung als eigene Version B untersuchen. Status: PETRA REVIEW / FACH-LAB-VORSCHLAG.
