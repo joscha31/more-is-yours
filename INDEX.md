@@ -282,3 +282,5 @@ Claude Code darf fehlende Fachwahrheit nicht selbst erfinden. Fehlende Inhalte w
 | `prototypen/2026-10-12-version-b-ein-leben-zum-ausprobieren-ENTWURF.md` | Version B: Brücke von der Fantasiewelt in den Alltag (Tür → Schmuggel eines Mini-Versuchs → Post von drüben → Rückblick), eine Woche in einem Chat; Dramaturgie, Grenzen, ungetesteter Startprompt-Entwurf | **ENTWURF / FACH-LAB-VORSCHLAG / PETRA REVIEW – ungetestet, keine Produktfreigabe** |
 
 | `forschung/2026-10-12-ki-minikurse-wettbewerbsanalyse-und-ideen.md` | Zwölf KI-Personalentwicklungs-Vorbilder, sechs Differenzierungshypothesen und acht kreative KI-Minikurskonzepte mit Arbeitsformfilter | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+
+| `co-work-briefs/2026-10-12-prototyp-2-realistisches-moegliches-leben.md` | Claude-Build-Brief für realistisch überraschendes KI-Erlebnis mit freiwilliger Brücke zu Alltagsexperimenten | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
