@@ -1,6 +1,6 @@
 # INDEX – More is Yours
 
-**Stand:** 11. Oktober 2026  
+**Stand:** 12. Oktober 2026  
 **Funktion:** Zentrales Inhaltsverzeichnis des Projekts
 
 > Der Index enthält keine ausführlichen Fachinhalte. Er zeigt nur, welche Dateien es gibt, wofür sie zuständig sind und welchen Status sie haben.
@@ -277,4 +277,6 @@ Claude Code darf fehlende Fachwahrheit nicht selbst erfinden. Fehlende Inhalte w
 | `forschung/2026-10-11-muenster-storytelling-regelwerk-moderation-fach-lab.md` | Regelwerk für spontan ausgeloste Erzählende + Moderationsregeln auf Basis von Petras PETRA-APPROVED-Erzählgrenzen: Schutz an 3 Stellen (Hut, Bühne, danach), Regelkarte mit 3 Selbstfragen, Auslegungshilfe der Kernbegriffe, 10 Moderationsregeln, Eingriffs-Treppe in 4 Stufen, Umgang mit belastenden Inhalten und identifizierbaren Dritten, Spickzettel, Rechtsfragen G1–G12 (an den Falk-Prüfauftrag angehängt) | **FACH-LAB-VORSCHLAG / PETRA REVIEW – nur der zitierte Kern ist PETRA APPROVED; keine Veranstaltungs- oder Rechtsfreigabe** |
 | `forschung/2026-10-11-muenster-storytelling-rechtliche-vorpruefung-dr-falk.md` | Zusammengeführte rechtliche Vorprüfung (Prüffragen A–J und 1–45 in einer Gliederung, mit Zuordnungstabelle): Formatschutz, Marken (StoryTalk/SecretStorys abgeraten, Register offen), freie Klavierimprovisation/GEMA, Persönlichkeitsrechte bei wahren Geschichten, Veranstalterhaftung, Künstlersozialabgabe, Steuern, Rudelsingen-Verhältnis (CONFLICT, Angaben nötig), Aufzeichnungen, Regelwerk G1–G12; Ampeln je Punkt, Pflichtliste vor dem ersten Ticket | **RECHTLICHE VORPRÜFUNG / PETRA REVIEW – keine Rechtsberatung, keine rechtliche Freigabe** |
 
-| `co-work-briefs/2026-10-12-interaktives-ki-erlebnis-moegliche-leben-prototyp.md` | Kleiner spielbarer KI-Prototyp: alternative mögliche Lebenswelt, 10 Minuten, keine zusätzliche Infrastruktur | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+| `co-work-briefs/2026-10-12-interaktives-ki-erlebnis-moegliche-leben-prototyp.md` | Kleiner spielbarer KI-Prototyp: alternative mögliche Lebenswelt, 10 Minuten, keine zusätzliche Infrastruktur; Nachtrag 12.10.: Petras Kurskorrektur Richtung persönliche Entwicklung (Version B) | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+| `prototypen/2026-10-12-ein-leben-das-du-noch-nicht-kennst/` | Prototyp A, spielbar: Startprompt 0.2, Anleitung für Petra, 3 Blindtests auf 3 Modellen mit Verbesserungen und Gegenprobe | **DRAFT / FACH-LAB-VORSCHLAG / PETRA REVIEW – keine Produktfreigabe** |
+| `prototypen/2026-10-12-version-b-ein-leben-zum-ausprobieren-ENTWURF.md` | Version B: Brücke von der Fantasiewelt in den Alltag (Tür → Schmuggel eines Mini-Versuchs → Post von drüben → Rückblick), eine Woche in einem Chat; Dramaturgie, Grenzen, ungetesteter Startprompt-Entwurf | **ENTWURF / FACH-LAB-VORSCHLAG / PETRA REVIEW – ungetestet, keine Produktfreigabe** |
