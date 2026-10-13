@@ -33,6 +33,10 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `entscheidungen/2026-10-13-name-more-is-yours-the-world-of-the-unknown.md` | Bestätigter Name „MORE IS YOURS – The World of the Unknown“; getrennt von Bau- und Veröffentlichungsfreigabe | **PETRA APPROVED** |
 
+## Elsbeth – Reel-Animation
+
+| `co-work-briefs/2026-10-13-elsbeth-unknown-higgsfield-reel-poc.md` | Storyboard und technische Prüfung eines 20-Sekunden-Reels mit Elsbeth via Higgsfield/Claude; keine Generierung freigegeben | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+
 ## Erlebnisbibliothek – Gastgeberin
 
 | `erlebnisbibliothek/2026-10-13-elsbeth-unknown-gastgeberin.md` | Name der Gastgeberin: Elsbeth Unknown; weitere Gestaltung offen | **PETRA APPROVED (Name)** |
