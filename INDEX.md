@@ -293,3 +293,5 @@ Claude Code darf fehlende Fachwahrheit nicht selbst erfinden. Fehlende Inhalte w
 | `co-work-briefs/2026-10-12-prototyp-2-realistisches-moegliches-leben.md` | Claude-Build-Brief für realistisch überraschendes KI-Erlebnis mit freiwilliger Brücke zu Alltagsexperimenten | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 
 | `entscheidungen/2026-10-13-erlebnisbibliothek-realitaetsbruecke.md` | PETRA APPROVED: jedes KI-Erlebnis bietet freiwillige Brücke von Fiktion zu echten Informationen, Menschen und Erfahrungen; Umsetzung offen | **PETRA APPROVED (Prinzip)** |
+
+| `forschung/2026-10-13-erlebnisbibliothek-gruendungsmanifest-entwurf.md` | Gründungsmanifest „Mehr ist möglich“ auf Basis der aktuellen Erlebnisbibliothek und PETRA-APPROVED-Realitätsbrücke | **DRAFT / PETRA REVIEW** |
