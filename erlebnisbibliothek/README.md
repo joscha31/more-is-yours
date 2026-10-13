@@ -2,7 +2,7 @@
 
 **Stand:** 13.10.2026 · **Status:** FACH-LAB-VORSCHLAG / PETRA REVIEW · kein Produkt freigegeben, nichts veröffentlicht
 
-**Die Idee:** Petra ist Herausgeberin einer wachsenden Sammlung außergewöhnlicher KI-Erlebnisse. Menschen entdecken darin ungeahnte Möglichkeiten, erleben sie interaktiv und probieren freiwillig etwas davon im echten Leben aus.
+**Die Idee:** Probierräume fürs Leben. Über KI können neugierige Erwachsene ungeahnte Möglichkeiten erst erleben und dann frei entscheiden, was sie davon in die Wirklichkeit tragen. Petra ist die kreative Herausgeberin. Die Realitätsbrücke ist das Herzstück, kein Zusatz (PETRA APPROVED 13.10.2026). *(Leitzeile angeglichen am 13.10.2026; vorher: „Sammlung außergewöhnlicher KI-Erlebnisse".)*
 
 **Wie ein Erlebnis gebaut ist:** Jedes Erlebnis ist ein Startprompt, der in jeder normalen KI läuft (ChatGPT, Claude). Es gibt keine App, keine Datenbank, keine laufenden Kosten und keinen Betrieb. Das entspricht der PETRA-APPROVED-Regel `entscheidungen/2026-10-08-keine-wartungsintensive-spezialsoftware.md`.
 
@@ -30,7 +30,7 @@
 |---|---|---|
 | [Realitätsbrücke](bausteine/REALITAETSBRUECKE-ENTWURF.md) | 2 klar gekennzeichnete Modi `▸ UNKNOWN` / `▸ REAL WORLD`, jederzeit wechselbar; Ehrlichkeitszeichen ● ◐ ○; Türen-Prinzip (kein Wunsch endet in einer Sackgasse); Umsetzung der PETRA-APPROVED-Entscheidung vom 13.10.2026 | ENTWURF, intern getestet |
 
-In Arbeit: `001-…/STARTPROMPT-2.0-ENTWURF.md` (Fassung 2.2 mit Realitätsbrücke und Türen-Prinzip). Die geteilte Fassung 1.1 bleibt unverändert, bis Petra entscheidet.
+In Arbeit: `001-…/STARTPROMPT-2.0-ENTWURF.md` (Fassung 2.2, getestet) und `001-…/STARTPROMPT-2.3-ENTWURF.md` (Fassung 2.3 mit Probe-Moment, Brücke als zweitem Kapitel und Mitbringsel, ungetestet). Die geteilte Fassung 1.1 bleibt unverändert, bis Petra entscheidet.
 
 Vorläufer (Entwicklungsgeschichte): `prototypen/2026-10-12-ein-leben-das-du-noch-nicht-kennst/` (Fantasie) · `prototypen/2026-10-12-prototyp-2-das-leben-das-du-noch-nicht-kennst/` (realistisch) · `prototypen/2026-10-12-version-b-ein-leben-zum-ausprobieren-ENTWURF.md` (Wochenform, ungetestet).
 
