@@ -58,3 +58,7 @@ Petra lehnt den Namen **Glücks-Studio** ausdrücklich ab. Nicht als künftigen 
 
 ## 12.10.2026 – Reaktion auf acht KI-Minikursideen
 Petra reagiert auf **alle acht** Konzepte aus `forschung/2026-10-12-ki-minikurse-wettbewerbsanalyse-und-ideen.md` mit „alle“ als Antwort auf die Frage, welche sie spannend findet. Alle acht bleiben als begeisternde **Ideenkandidaten** erhalten, nicht als acht Bauaufträge oder verbindliche Produktentscheidungen. Der laufende erste KI-Prototyp bleibt der einzige aktive Build. Präferenz: kreative, abwechslungsreiche, abgeschlossene KI-Minikurse und interaktive persönliche Entwicklung; keine neue Veranstaltungsorganisation, keine Spieleentwicklerinnenrolle. Status: bestätigte spontane Begeisterung, keine Produktfreigabe.
+
+
+## 13.10.2026 – PETRA APPROVED: Zielgruppe der neuen Erlebnisbibliothek
+Petra entscheidet ausdrücklich: **„für alle neugierigen Erwachsenen!!!“** Die neue Bibliothek interaktiver KI-Erlebnisse soll **nicht** auf Frauen oder Menschen in der zweiten Lebenshälfte begrenzt werden. Verbindliche breite Zielgruppe: alle neugierigen Erwachsenen, die neue Seiten an sich, Erfahrungen und ungeahnte Möglichkeiten des Lebens entdecken und gegebenenfalls im Alltag ausprobieren möchten. Dies ist eine Zielgruppen-Grundentscheidung, **keine** abschließende Positionierung, Produkt-, Marken- oder Plattformfreigabe. Andere bestehende Projekte/Zielgruppen nicht automatisch ändern. Berufliche Rolle: kreative Herausgeberin. Unerwünschten Namen „Glücks-Studio“ nicht verwenden.
