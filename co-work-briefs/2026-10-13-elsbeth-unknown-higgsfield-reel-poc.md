@@ -2,7 +2,7 @@
 Stand 13.10.2026 · Status: FACH-LAB-VORSCHLAG / PETRA REVIEW – keine kostenpflichtige Generierung freigegeben.
 
 ## Auftrag
-Heute einen kurzen 9:16-Reel-Test für „MORE IS YOURS – The World of the Unknown“ mit Elsbeth Unknown vorbereiten. ChatGPT-Konzept + vorhandene Elsbeth-/Bibliothek-Bilder als visuelle Referenz. Claude Code prüft Higgsfield Image-to-Video (offizielle API oder Weboberfläche) und liefert 4 Shot-Prompts, Schnitt- und Tonkonzept.
+Heute einen kurzen 9:16-Reel-Test für „MORE IS YOURS – The World of the Unknown“ mit Elsbeth Unknown vorbereiten. ChatGPT-Konzept + ausschließlich die von Petra ausgewählten und kopierten oberen Elsbeth-/Bibliothek-Bilder als visuelle Referenz. Das von Petra ausdrücklich abgelehnte spätere Foto DARF NICHT übermittelt, als Referenz verwendet oder animiert werden. Claude Code prüft Higgsfield Image-to-Video (offizielle API oder Weboberfläche) und liefert 4 Shot-Prompts, Schnitt- und Tonkonzept.
 
 ## Quellen / Priorität
 - INDEX.md (aktuelle Prioritäten)
@@ -30,3 +30,6 @@ Heute einen kurzen 9:16-Reel-Test für „MORE IS YOURS – The World of the Unk
 
 ## Lieferung
 Zeige Petra direkt im Chat den fertigen Storyboard-Text, alle Higgsfield-Prompts, vorgeschlagene Einstellungen, exakte nötige Handlung und Kosten vor Ausführung. Status PETRA REVIEW. Kein finales Reel oder Plattform freigegeben.
+
+## 13.10.2026 – Petras ausdrückliche Bildauswahl (PETRA APPROVED)
+Petra hat die oberen Bilder bereits kopiert. Das später gezeigte Foto gefällt ihr nicht. **Dieses Foto nicht an Claude, Higgsfield oder andere Dienste übermitteln.** Nur die von Petra ausdrücklich ausgewählten oberen Bilder verwenden; bei Unklarheit über eine konkrete Datei vor Verwendung fragen. Keine bisherige Übermittlung an Higgsfield behaupten.
