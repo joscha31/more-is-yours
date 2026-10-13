@@ -42,3 +42,15 @@ Petra entscheidet ausdrücklich: **„und dann komme auch ich noch ins Bild!!!�
 7–11 s: Elsbeth: „Manche glauben, irgendwann sei es zu spät …“
 11–19 s: Schnitt auf echte Petra: „Ich bin Petra, 59. Und ich habe gerade beschlossen, eine ganze Welt voller ungeahnter Möglichkeiten zu erschaffen!“
 19–25 s: Goldene Tür, Titel, ggf. Elsbeth trocken: „Na endlich. Ich dachte schon, du fängst nie an!“
+
+## 13.10.2026 – PETRA APPROVED: kreatives Reel-Skript (noch keine Produktionsfreigabe)
+Petra bestätigte die Variante, in der Elsbeth Petra vorstellt, mit „perfekt!“ und bat um den Claude-Auftrag.
+
+### Dialog & Schnitt (ca. 32 Sekunden)
+1. Elsbeth: „Ich bin Elsbeth Unknown. Achtzig Jahre alt. Und ich mache gerade meinen Flugschein.“
+2. Elsbeth: „Und jetzt möchte ich Ihnen jemanden vorstellen. Eine Frau, die mit 59 beschlossen hat, dass ein ganzes Leben voller Möglichkeiten noch vor ihr liegt.“
+3. Schnitt auf echtes Video von Petra: „Und ich habe beschlossen, eine Welt zu erschaffen, in der auch du entdecken kannst, was noch alles möglich ist.“
+4. Goldene Tür und Titel: MORE IS YOURS / The World of the Unknown / MEHR IST MÖGLICH.
+5. Elsbeth aus dem Hintergrund: „So. Und jetzt entschuldigen Sie mich bitte. Meine Flugstunde beginnt in zwanzig Minuten.“ Blick über die Brille.
+
+**Unverändert:** Nur Petras ausgewählte obere Referenzbilder. Das abgelehnte spätere Bild nicht übermitteln oder verwenden. Kein synthetisches Petra-Bild, keine Klonstimme. Das Skript ist kreativ bestätigt; Higgsfield-Generierung, Kosten, Datenübermittlung, Veröffentlichung und Plattformbau sind NICHT freigegeben. Claude soll Machbarkeit, Assets und Kosten zuerst vorlegen.
