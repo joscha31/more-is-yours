@@ -1,7 +1,7 @@
 # MEHR IST MÖGLICH.
 **Gründungsmanifest der Erlebnisbibliothek – Version 2.0**
 
-Stand: 13.10.2026 · Status: **PETRA REVIEW / DRAFT**. Nicht als PETRA APPROVED kennzeichnen ohne ausdrückliche Freigabe.
+Stand: 13.10.2026 · Status: **PETRA APPROVED** – von Petra am 13.10.2026 auf die direkte Freigabefrage mit „es ist meeeeeegaaaaaa“ bestätigt. Freigabe gilt für den Manifesttext, nicht für Plattformbau oder Produktversprechen.
 Grundlagen: `forschung/2026-10-13-erlebnisbibliothek-gruendungsmanifest-entwurf.md`, `entscheidungen/2026-10-13-erlebnisbibliothek-realitaetsbruecke.md` (PETRA APPROVED), `erlebnisbibliothek/README.md` (FACH-LAB-VORSCHLAG / PETRA REVIEW).
 
 **Was wäre, wenn dein Leben noch viel mehr bereithält, als du heute für möglich hältst?**
