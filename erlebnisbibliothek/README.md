@@ -23,6 +23,7 @@
 | Nr. | Erlebnis | Kern | Fassung | Status |
 |---|---|---|---|---|
 | 001 | [Das Leben, das du noch nicht kennst](001-das-leben-das-du-noch-nicht-kennst/) | Eine realistische, überraschende Version des eigenen Lebens, an einer von 12 möglichen Stellen abgebogen; danach freiwillig ein Mini-Versuch; beliebig oft neu spielbar | 1.1 | DRAFT, intern getestet (5 Verläufe), bereit für erste Testpersonen |
+| MÖG-002 | [Der Nachtzug ins Unbekannte](002-der-nachtzug-ins-unbekannte/) | Ein Nachtzug, jeder Wagen eine echte andere Art zu leben (12 Wagen + Wagen 0 mit eigenem Wunsch); man wacht als man selbst darin auf, mit Probe-Moment; der Bahnsteig an der „Wirklichkeit" ist der Realitätscheck (`▸ REAL WORLD`), „einsteigen" führt zurück; Speisewagen, Türen-Prinzip, Mitbringsel; beliebig oft neu spielbar | 1.1 | ENTWURF / FACH-LAB-VORSCHLAG / PETRA REVIEW, intern getestet (3 Blindtests + 1 Gegenprobe), Kopier-Seite versteckt in der Zentrale |
 
 ## Bausteine für alle Erlebnisse
 
