@@ -16,13 +16,21 @@
 | `TESTVERLAEUFE.md` | interne Blindtests, Befunde, Änderungen, Grenzen |
 | `README.md` | Steckbrief, Fassung und Status |
 
-**Die gemeinsamen Gesetze aller Erlebnisse:** fiktiv und als Fiktion gekennzeichnet · keine Vorhersage, keine Deutung, keine Beratung · freie Antworten statt Auswahlfragen · die Brücke ins echte Leben ist freiwillig und klein · Schutzregel für echte Not · „Stopp" beendet sofort · keine Dispenza-Inhalte.
+**Die gemeinsamen Gesetze aller Erlebnisse:** jedes Erlebnis bietet eine freiwillige Brücke in die wirkliche Welt (PETRA APPROVED 13.10.2026) · Fiktion ist als Fiktion gekennzeichnet · keine Vorhersage, keine Deutung, keine Beratung · freie Antworten statt Auswahlfragen · die Brücke ins echte Leben ist freiwillig und klein · Schutzregel für echte Not · „Stopp" beendet sofort · keine Dispenza-Inhalte.
 
 ## Der Bestand
 
 | Nr. | Erlebnis | Kern | Fassung | Status |
 |---|---|---|---|---|
 | 001 | [Das Leben, das du noch nicht kennst](001-das-leben-das-du-noch-nicht-kennst/) | Eine realistische, überraschende Version des eigenen Lebens, an einer von 12 möglichen Stellen abgebogen; danach freiwillig ein Mini-Versuch; beliebig oft neu spielbar | 1.1 | DRAFT, intern getestet (5 Verläufe), bereit für erste Testpersonen |
+
+## Bausteine für alle Erlebnisse
+
+| Baustein | Was | Status |
+|---|---|---|
+| [Realitätsbrücke](bausteine/REALITAETSBRUECKE-ENTWURF.md) | 2 klar gekennzeichnete Modi `▸ UNKNOWN` / `▸ REAL WORLD`, jederzeit wechselbar; Ehrlichkeitszeichen ● ◐ ○; Türen-Prinzip (kein Wunsch endet in einer Sackgasse); Umsetzung der PETRA-APPROVED-Entscheidung vom 13.10.2026 | ENTWURF, intern getestet |
+
+In Arbeit: `001-…/STARTPROMPT-2.0-ENTWURF.md` (Fassung 2.2 mit Realitätsbrücke und Türen-Prinzip). Die geteilte Fassung 1.1 bleibt unverändert, bis Petra entscheidet.
 
 Vorläufer (Entwicklungsgeschichte): `prototypen/2026-10-12-ein-leben-das-du-noch-nicht-kennst/` (Fantasie) · `prototypen/2026-10-12-prototyp-2-das-leben-das-du-noch-nicht-kennst/` (realistisch) · `prototypen/2026-10-12-version-b-ein-leben-zum-ausprobieren-ENTWURF.md` (Wochenform, ungetestet).
 
