@@ -27,6 +27,10 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 ---
 
+## Erlebnisbibliothek – Gastgeberin
+
+| `erlebnisbibliothek/2026-10-13-elsbeth-unknown-gastgeberin.md` | Name der Gastgeberin: Elsbeth Unknown; weitere Gestaltung offen | **PETRA APPROVED (Name)** |
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
