@@ -1,6 +1,6 @@
 # INDEX – More is Yours
 
-**Stand:** 12. Oktober 2026  
+**Stand:** 13. Oktober 2026  
 **Funktion:** Zentrales Inhaltsverzeichnis des Projekts
 
 > Der Index enthält keine ausführlichen Fachinhalte. Er zeigt nur, welche Dateien es gibt, wofür sie zuständig sind und welchen Status sie haben.
@@ -281,6 +281,8 @@ Claude Code darf fehlende Fachwahrheit nicht selbst erfinden. Fehlende Inhalte w
 | `prototypen/2026-10-12-ein-leben-das-du-noch-nicht-kennst/` | Prototyp A, spielbar: Startprompt 0.2, Anleitung für Petra, 3 Blindtests auf 3 Modellen mit Verbesserungen und Gegenprobe | **DRAFT / FACH-LAB-VORSCHLAG / PETRA REVIEW – keine Produktfreigabe** |
 | `prototypen/2026-10-12-version-b-ein-leben-zum-ausprobieren-ENTWURF.md` | Version B: Brücke von der Fantasiewelt in den Alltag (Tür → Schmuggel eines Mini-Versuchs → Post von drüben → Rückblick), eine Woche in einem Chat; Dramaturgie, Grenzen, ungetesteter Startprompt-Entwurf | **ENTWURF / FACH-LAB-VORSCHLAG / PETRA REVIEW – ungetestet, keine Produktfreigabe** |
 | `prototypen/2026-10-12-prototyp-2-das-leben-das-du-noch-nicht-kennst/` | Prototyp 2, spielbar: realistische, überraschende Version des eigenen Lebens (eine Abzweigung) mit freiwilliger Verbindung und Realitätsfunke; Startprompt 0.2, Anleitung, 3 Blindtests gegen die 6 Prüffragen, Gegenprobe | **DRAFT / FACH-LAB-VORSCHLAG / PETRA REVIEW – keine Produktfreigabe** |
+| `erlebnisbibliothek/README.md` | Die Erlebnisbibliothek: Petras wachsende Sammlung von KI-Erlebnissen als Startprompts ohne Infrastruktur; Bauform (5 Dateien je Erlebnis), gemeinsame Gesetze, Bestand | **FACH-LAB-VORSCHLAG / PETRA REVIEW – kein Produkt freigegeben** |
+| `erlebnisbibliothek/001-das-leben-das-du-noch-nicht-kennst/` | Erlebnis 001, Fassung 1.1: realistisches mögliches Leben über ein Zahlenrad (12 Abzweigungen), Postkarte zum Abschluss, freiwilliger Funke, beliebig oft spielbar; Startprompt, Anleitung, Text für Testpersonen, 5 Blindtests + 2 Gegenproben | **DRAFT / FACH-LAB-VORSCHLAG / PETRA REVIEW – bereit für erste Testpersonen, keine Produktfreigabe** |
 
 | `forschung/2026-10-12-ki-minikurse-wettbewerbsanalyse-und-ideen.md` | Zwölf KI-Personalentwicklungs-Vorbilder, sechs Differenzierungshypothesen und acht kreative KI-Minikurskonzepte mit Arbeitsformfilter | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 
