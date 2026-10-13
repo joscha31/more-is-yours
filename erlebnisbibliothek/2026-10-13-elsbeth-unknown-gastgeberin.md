@@ -9,3 +9,6 @@ Offen / FACH-LAB-VORSCHLAG: ihre konkrete Persönlichkeit, Dialoge, visuelle Ges
 
 ## Gestaltung – von Petra bestätigt, 13.10.2026
 Elsbeth soll eine **ältere Dame** sein; ihr Alter soll **Weisheit** ausstrahlen. Das genaue Alter, Gesicht, Kleidung und weitere Charakterdetails sind kreative Vorschläge, nicht separat freigegeben.
+
+## Charakterdetail – Petra bestätigt, 13.10.2026
+Elsbeth Unknown macht **gerade ihren Flugführerschein**. Dieses charmante Detail gehört zu ihrer fiktiven Figur: Weisheit und Alter schließen Mut, Neugier und neue Anfänge nicht aus. Keine Aussage über eine reale Person und keine Festlegung auf ein konkretes Alter.
