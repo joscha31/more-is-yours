@@ -27,6 +27,12 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 ---
 
+## Name der Erlebniswelt
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `entscheidungen/2026-10-13-name-more-is-yours-the-world-of-the-unknown.md` | Bestätigter Name „MORE IS YOURS – The World of the Unknown“; getrennt von Bau- und Veröffentlichungsfreigabe | **PETRA APPROVED** |
+
 ## Erlebnisbibliothek – Gastgeberin
 
 | `erlebnisbibliothek/2026-10-13-elsbeth-unknown-gastgeberin.md` | Name der Gastgeberin: Elsbeth Unknown; weitere Gestaltung offen | **PETRA APPROVED (Name)** |
