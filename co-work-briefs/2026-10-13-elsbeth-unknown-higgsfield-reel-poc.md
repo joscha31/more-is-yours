@@ -73,3 +73,10 @@ Nichts generiert, nichts an Higgsfield übermittelt, nichts bezahlt. Dialoge unv
 **Schutz:** Petras Video/Stimme gehen nie an Higgsfield (Hilfeseiten: Uploads dürfen zum Training genutzt werden). Beim Posten Instagram „KI-Info“ + Hinweis „erfundene Figur“ (EU-Transparenzpflicht). Beide Abos direkt nach Buchung kündigen.
 
 **Petra muss:** Bildwahl + Übermittlungs-Go · Anpassungen freigeben · Stimme wählen · Higgsfield-Konto selbst anlegen und Tarif buchen · eigene Aufnahme drehen.
+
+## 13.10.2026 – PETRA APPROVED: Bild, Anpassungen, Stimme
+Petra: „Bild 2 passt, Anpassungen ok, Stimme A“.
+- **Bild 2** (stehende Elsbeth, Lesebrille; lokal auf 9:16 zugeschnitten) ist das Startbild für alle Elsbeth-Szenen. Bild 1 wird nicht animiert.
+- **Anpassungen freigegeben:** Elsbeth nimmt die Fliegerbrille vom Tisch hoch; Szene 1 und 2 je Bewegungs- + Sprechclip; Schlusssatz aus dem Off.
+- **Stimme A:** ElevenLabs Voice Design, erfundene Stimme (kein Klon), ältere Dame, warm, leicht rauchig. Petra wählt aus Proben.
+Weiter NICHT freigegeben: kostenpflichtige Generierung, Abo-Buchung, Veröffentlichung. Upload von Bild 2 an Higgsfield erst mit dem Go zum 5-Sekunden-Test.
