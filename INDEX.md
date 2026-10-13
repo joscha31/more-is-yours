@@ -296,3 +296,5 @@ Claude Code darf fehlende Fachwahrheit nicht selbst erfinden. Fehlende Inhalte w
 
 | `forschung/2026-10-13-erlebnisbibliothek-gruendungsmanifest-entwurf.md` | Gründungsmanifest „Mehr ist möglich“ auf Basis der aktuellen Erlebnisbibliothek und PETRA-APPROVED-Realitätsbrücke | **DRAFT / PETRA REVIEW** |
 | `forschung/2026-10-13-erlebnisbibliothek-ideenfeuerwerk-discover.md` | DISCOVER & CREATE: Rahmenidee „Bibliothek, aus der man etwas mitbringt“ (Leseausweis, Signaturen, Rückgabe = Mitbringsel aus der echten Welt) und 7 neue Bände: Nachtzug ins Unbekannte, Hotel der ungelebten Entscheidungen, Werkstatt der unbekannten Berufe, Küchentisch der drei Leben, Möglichkeiten-Detektivin, Zu zweit abbiegen, Dorf der späten Funken, dazu die Mutprobe aus dem Hut | **IDEENFUTTER / PETRA REVIEW – keine Bauentscheidung** |
+
+| `forschung/2026-10-13-erlebnisbibliothek-gruendungsmanifest-2.0-review.md` | Manifest V2 „Mehr ist möglich“: Probe-Erleben, Türen statt Sackgassen, Brücke in die Wirklichkeit | **DRAFT / PETRA REVIEW** |
