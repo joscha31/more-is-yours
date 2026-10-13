@@ -54,3 +54,22 @@ Petra bestätigte die Variante, in der Elsbeth Petra vorstellt, mit „perfekt!�
 5. Elsbeth aus dem Hintergrund: „So. Und jetzt entschuldigen Sie mich bitte. Meine Flugstunde beginnt in zwanzig Minuten.“ Blick über die Brille.
 
 **Unverändert:** Nur Petras ausgewählte obere Referenzbilder. Das abgelehnte spätere Bild nicht übermitteln oder verwenden. Kein synthetisches Petra-Bild, keine Klonstimme. Das Skript ist kreativ bestätigt; Higgsfield-Generierung, Kosten, Datenübermittlung, Veröffentlichung und Plattformbau sind NICHT freigegeben. Claude soll Machbarkeit, Assets und Kosten zuerst vorlegen.
+
+## 13.10.2026 – Claude Code: Machbarkeit, Assets, Kosten (FACH-LAB-VORSCHLAG / PETRA REVIEW)
+Nichts generiert, nichts an Higgsfield übermittelt, nichts bezahlt. Dialoge unverändert.
+
+**Vorgeschlagene technische Anpassungen (zur Freigabe):**
+1. Bild 2 (stehende Elsbeth, Lesebrille, 4:5, lokal auf 9:16 zugeschnitten) als einziges Startbild für alle Elsbeth-Szenen → Wiedererkennbarkeit. Bild 1 nicht als Startbild (eingebrannte Schrift „Meet Elsbeth Unknown“, abweichendes Gesicht).
+2. Szene 1: Elsbeth nimmt die Fliegerbrille vom Tisch hoch (statt „richtet“ – im Bild trägt sie eine Lesebrille). Schlussblick „über die Brille“ = Lesebrille.
+3. Szene 1 und 2 je in Bewegungsclip (Kling 3.0) + Sprechclip (Lipsync Studio) geteilt. Schlusssatz aus dem Off → keine Lippensynchronisation nötig.
+4. Titel, Untertitel, Musik als Overlay im lokalen Schnitt (Lotta), nie im generierten Bild.
+
+**Lippensynchronisation:** Higgsfield Lipsync Studio (Bild + eigene Tonspur). Machbar, aber erst ein 5-s-Test (≈ 20–40 Credits) entscheidet. Fallback: Voiceover, Elsbeth mit geschlossenem Mund.
+
+**Stimme Elsbeth:** A ElevenLabs Voice Design (Empfehlung; erfundene Stimme, kein Klon; Starter 6 $/Monat mit gewerblicher Lizenz) · B Higgsfield Audio · C echte ältere Sprecherin mit Einwilligung.
+
+**Kosten (abgelesen 13.10.2026):** Higgsfield Plus 1 Monat 59 € + MwSt. = 70,21 € (1.200 Credits; Bedarf ≈ 300) · ElevenLabs Starter 6 $ (1 $ Aktion bis 18.10.) · Musik Lyria wenige Cent · gesamt ≈ 72–77 €. Starter 22,61 € nur, falls Lipsync enthalten.
+
+**Schutz:** Petras Video/Stimme gehen nie an Higgsfield (Hilfeseiten: Uploads dürfen zum Training genutzt werden). Beim Posten Instagram „KI-Info“ + Hinweis „erfundene Figur“ (EU-Transparenzpflicht). Beide Abos direkt nach Buchung kündigen.
+
+**Petra muss:** Bildwahl + Übermittlungs-Go · Anpassungen freigeben · Stimme wählen · Higgsfield-Konto selbst anlegen und Tarif buchen · eigene Aufnahme drehen.
