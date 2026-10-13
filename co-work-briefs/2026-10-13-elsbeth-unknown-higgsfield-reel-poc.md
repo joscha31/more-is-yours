@@ -33,3 +33,12 @@ Zeige Petra direkt im Chat den fertigen Storyboard-Text, alle Higgsfield-Prompts
 
 ## 13.10.2026 – Petras ausdrückliche Bildauswahl (PETRA APPROVED)
 Petra hat die oberen Bilder bereits kopiert. Das später gezeigte Foto gefällt ihr nicht. **Dieses Foto nicht an Claude, Higgsfield oder andere Dienste übermitteln.** Nur die von Petra ausdrücklich ausgewählten oberen Bilder verwenden; bei Unklarheit über eine konkrete Datei vor Verwendung fragen. Keine bisherige Übermittlung an Higgsfield behaupten.
+
+## 13.10.2026 – PETRA APPROVED: Petra tritt im ersten Reel selbst auf
+Petra entscheidet ausdrücklich: **„und dann komme auch ich noch ins Bild!!!“**. Das Reel zeigt also zuerst die fiktive Gastgeberin Elsbeth Unknown und danach Petra als echte Gründerin/kreative Herausgeberin. Der genaue Dialog, die Bildfolge und das Timing bleiben **FACH-LAB-VORSCHLAG / PETRA REVIEW**. Für Petras Auftritt nur eigenes von Petra freigegebenes Video/Foto benutzen; keine synthetische Darstellung ihres Gesichts oder Klonstimme ohne ausdrückliche Freigabe. Ausgeschlossenes späteres Elsbeth-Foto weiterhin nicht verwenden. Keine Animation oder Veröffentlichung ohne gesonderte Freigabe.
+
+### Neuer Storyboard-Vorschlag (20–25 Sekunden)
+0–7 s: Elsbeth mit Fliegerbrille und ihrem Flugschein-Satz.
+7–11 s: Elsbeth: „Manche glauben, irgendwann sei es zu spät …“
+11–19 s: Schnitt auf echte Petra: „Ich bin Petra, 59. Und ich habe gerade beschlossen, eine ganze Welt voller ungeahnter Möglichkeiten zu erschaffen!“
+19–25 s: Goldene Tür, Titel, ggf. Elsbeth trocken: „Na endlich. Ich dachte schon, du fängst nie an!“
