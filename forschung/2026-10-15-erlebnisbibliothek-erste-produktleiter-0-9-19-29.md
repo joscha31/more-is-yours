@@ -21,3 +21,6 @@ Wertdifferenz nicht über Tokenlänge, sondern eigene Dramaturgie/Ergebnisse. Pr
 
 ## Nächster Test
 Zuerst kostenlosen Ablauf mit 3–5 fremden Erwachsenen händisch durchspielen. Erleben sie Überraschung, Selbstbeteiligung und verständliche freiwillige Realitätsbrücke? Danach eine 9-€-Reise als Prototyp und eine ehrliche Zahlungsbereitschaftsfrage. Kein großer Shop-Bau vorher.
+
+## 15.10.2026 – Petras Rückmeldung zu den ursprünglichen 20 Ideen
+Petra hat die vollständigen 20 Erlebnisideen aus fünf Welten erneut eingebracht und ausdrücklich gesagt: „Die fand ich super super super“. Diese fünf Welten und 20 Ideen bleiben als kreatives Konzept/Ideenarchiv erhalten; die 0/9/19/29-Euro-Produktleiter darf sie nicht stillschweigend ersetzen, verengen oder nach Preisen umsortieren. Die Preisleiter bleibt FACH-LAB-VORSCHLAG / PETRA REVIEW, keine einzelnen Produktfreigaben. Für die Originalbeschreibungen gilt Petras eingebrachtes Original bzw. die vorhandene Ideenfeuerwerk-Datei.
