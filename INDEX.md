@@ -45,6 +45,12 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 | `erlebnisbibliothek/2026-10-13-elsbeth-unknown-gastgeberin.md` | Name der Gastgeberin: Elsbeth Unknown; weitere Gestaltung offen | **PETRA APPROVED (Name)** |
 
+## Erlebnisbibliothek – erste Produktideen
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `forschung/2026-10-15-erlebnisbibliothek-erste-produktleiter-0-9-19-29.md` | Kostenloses Einstiegserlebnis und drei eigenständige Produkte für 9, 19 und 29 Euro | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
