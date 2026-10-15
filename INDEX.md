@@ -63,6 +63,12 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `erlebnisbibliothek/2026-10-15-elsbeth-empfang-vor-tueren.md` | Elsbeth plaudert zuerst mit dem Gast und schlägt danach eine Tür vor; Entscheidung bleibt beim Gast | **PETRA APPROVED** |
 
+## Elsbeth – erster Dialogkanal
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `entscheidungen/2026-10-15-elsbeth-nur-text-erste-version.md` | Erste Plattformversion: Elsbeth kommuniziert ausschließlich per Text; keine Live-Sprache | **PETRA APPROVED** |
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
