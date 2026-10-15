@@ -57,6 +57,12 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `forschung/2026-10-15-erlebniswelten-41-60-reale-minikurse-entwurf.md` | Neue Ideen 41–60 in fünf Welten mit möglichen realen Minikursen | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 
+## Empfang und Türvorschlag
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `erlebnisbibliothek/2026-10-15-elsbeth-empfang-vor-tueren.md` | Elsbeth plaudert zuerst mit dem Gast und schlägt danach eine Tür vor; Entscheidung bleibt beim Gast | **PETRA APPROVED** |
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
