@@ -33,6 +33,10 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `entscheidungen/2026-10-13-name-more-is-yours-the-world-of-the-unknown.md` | Bestätigter Name „MORE IS YOURS – The World of the Unknown“; getrennt von Bau- und Veröffentlichungsfreigabe | **PETRA APPROVED** |
 
+## Animation der Eingangshalle
+
+| `co-work-briefs/2026-10-15-higgsfield-hallenanimation-vorschlag.md` | Drei animierte Szenen für bestehende Vercel-Eingangshalle; Higgsfield + Claude-Code-Machbarkeit | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+
 ## Elsbeth – Reel-Animation
 
 | `co-work-briefs/2026-10-13-elsbeth-unknown-higgsfield-reel-poc.md` | Storyboard und technische Prüfung eines 20-Sekunden-Reels mit Elsbeth via Higgsfield/Claude; keine Generierung freigegeben | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
