@@ -51,6 +51,12 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `forschung/2026-10-15-erlebnisbibliothek-erste-produktleiter-0-9-19-29.md` | Kostenloses Einstiegserlebnis und drei eigenständige Produkte für 9, 19 und 29 Euro | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 
+## Erlebnisbibliothek – neue Erlebnisideen und Minikurse
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `forschung/2026-10-15-erlebniswelten-41-60-reale-minikurse-entwurf.md` | Neue Ideen 41–60 in fünf Welten mit möglichen realen Minikursen | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
