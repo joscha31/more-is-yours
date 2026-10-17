@@ -101,6 +101,11 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `entscheidungen/2026-10-17-elsbeth-erlaubnis-vor-tieferen-themen.md` | Verborgene Themen nur auf Initiative des Gastes und mit Erlaubnis vertiefen; neue Türen auf Wunsch anbieten | **PETRA APPROVED (Gesprächsregel)** |
 
+
+## Elsbeth – Sicherheit und neue Türen
+
+`entscheidungen/2026-10-17-elsbeth-sicherheitsgrenzen-und-neue-tueren.md` – bestätigte Schutzrichtung und kombinierte Türidee; technische Details PETRA REVIEW.
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
