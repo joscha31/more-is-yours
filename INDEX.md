@@ -110,6 +110,11 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 `co-work-briefs/2026-10-17-homepage-petra-und-elsbeth-unknown-story.md` – Foto auf hohem Stuhl, Petra-Biografie und Elsbeth-Unknown-Herkunftsgeschichte, FACH-LAB-VORSCHLAG / PETRA REVIEW.
 
+
+## Launch-Sperre bis Elsbeth Unknown überzeugt
+
+`entscheidungen/2026-10-17-kein-launch-vor-elsbeth-qualitaetsfreigabe.md` – Kein öffentlicher Start oder Instagram-Marketing vor ausdrücklicher Petra-Qualitätsfreigabe; kein Zeitdruck. Status: **PETRA APPROVED**.
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
