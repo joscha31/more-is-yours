@@ -106,6 +106,10 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 `entscheidungen/2026-10-17-elsbeth-sicherheitsgrenzen-und-neue-tueren.md` – bestätigte Schutzrichtung und kombinierte Türidee; technische Details PETRA REVIEW.
 
+## Gründerin Petra und Elsbeth Unknown – Homepage
+
+`co-work-briefs/2026-10-17-homepage-petra-und-elsbeth-unknown-story.md` – Foto auf hohem Stuhl, Petra-Biografie und Elsbeth-Unknown-Herkunftsgeschichte, FACH-LAB-VORSCHLAG / PETRA REVIEW.
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
