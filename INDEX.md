@@ -81,6 +81,12 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `forschung/2026-10-17-positionierung-nicht-abtauchen-sondern-moeglichkeiten-entwurf.md` | Menschen in Veränderung oder mit unklaren Wünschen: über Erleben echte Lebensmöglichkeiten entdecken, nicht Fantasy-Eskapismus | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 
+## Persönlichkeitsentwicklung – verbindliche Positionierung
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `entscheidungen/2026-10-17-positionierung-persoenlichkeitsentwicklung-klare-grenzen.md` | Entdecken ungeahnter Fähigkeiten und Wünsche durch Erleben; keine Sexspiele/erotischen Rollenspiele, keine Diagnostik | **PETRA APPROVED (Leitlinie)** |
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
