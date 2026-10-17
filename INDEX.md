@@ -75,6 +75,12 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `co-work-briefs/2026-10-16-claude-code-instagram-open-house-beta.md` | Claude-Code-Brief: erst kostenlose Nachfrage testen, Elsbeth-Dialog, drei Atmosphären, kontrollierte Textkosten, Instagram-Vorbereitung | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 
+## Erlebnisbibliothek – präzisierte Positionierung
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `forschung/2026-10-17-positionierung-nicht-abtauchen-sondern-moeglichkeiten-entwurf.md` | Menschen in Veränderung oder mit unklaren Wünschen: über Erleben echte Lebensmöglichkeiten entdecken, nicht Fantasy-Eskapismus | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
