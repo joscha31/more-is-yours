@@ -87,6 +87,13 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `entscheidungen/2026-10-17-positionierung-persoenlichkeitsentwicklung-klare-grenzen.md` | Entdecken ungeahnter Fähigkeiten und Wünsche durch Erleben; keine Sexspiele/erotischen Rollenspiele, keine Diagnostik | **PETRA APPROVED (Leitlinie)** |
 
+
+## Spielend Persönlichkeitsentwicklung entdecken
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `forschung/2026-10-17-spielerisch-ans-eingemachte-persoenlichkeitsentwicklung.md` | Sieben Entdeckungsräume und erlebnisbasierte tiefere Themen ohne Diagnostik/Prüfungsgefühl | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
