@@ -94,6 +94,13 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `forschung/2026-10-17-spielerisch-ans-eingemachte-persoenlichkeitsentwicklung.md` | Sieben Entdeckungsräume und erlebnisbasierte tiefere Themen ohne Diagnostik/Prüfungsgefühl | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 
+
+## Elsbeth – persönliche Vertiefung nur mit Einwilligung
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `entscheidungen/2026-10-17-elsbeth-erlaubnis-vor-tieferen-themen.md` | Verborgene Themen nur auf Initiative des Gastes und mit Erlaubnis vertiefen; neue Türen auf Wunsch anbieten | **PETRA APPROVED (Gesprächsregel)** |
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
