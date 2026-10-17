@@ -45,3 +45,15 @@ Und ihr Nachname? **Unknown. Das Unbekannte.** Genau darum geht es bei More is Y
 
 ## Grenzen
 Keine Veröffentlichung/Deployment oder PETRA-APPROVED-Status ohne Petras ausdrückliche Freigabe. Bestehende Freigaben und Sicherheitsregeln bleiben verbindlich. Datenschutz/Impressum/KI-Hinweis für spätere Insta-Verlinkung prüfen.
+
+## 17.10.2026 – Petra korrigiert die tatsächliche Entstehungsgeschichte (maßgeblich für neues Copy-Review)
+
+Petra sagt ausdrücklich: „systemische Coachin. Und ich habe Dr. Joe Dispenza und die Meditation mit dem Unknown entdeckt. Die KI hat hier nichts zu suchen. Sie ist ja nur mein Werkzeug. Aber was wäre, wenn die Leute sich ins Unbekannte wagen, so wie ich es auch gerade mache?“
+
+**Korrektur des älteren Homepage-Entwurfs:** „systemischer Coach“ bei Petra zu **systemische Coachin**. Die KI NICHT als Auslöser, Sinn oder Protagonist der Gründungsgeschichte darstellen; lediglich technisches Werkzeug zur Umsetzung, falls an anderer Stelle eine sachliche Funktionsbeschreibung nötig ist. Tatsächlicher Impuls: Petras eigene Arbeit mit Dr. Joe Dispenza, den Meditationen und dem Unknown, parallel zu ihrem selbst gewählten unbekannten Lebensabschnitt nach Praxisschließung. Diese persönliche Inspiration wahrheitsgemäß benennen; kein offizielles Dispenza-Angebot, keine Methode oder geschützte Begriffe als Eigentum darstellen, keine behaupteten Wirkungen.
+
+**Neue vorgeschlagene Storyline (Copy noch PETRA REVIEW):** „Hi, ich bin Petra. 59. Und ich wage gerade etwas Neues.“ Nach fast drei Jahrzehnten Heilpraktikerpraxis und Arbeit als systemische Coachin sowie unternehmerischer Aufbauarbeit entschied Petra, die Praxis zu schließen und sich für einen anderen Lebensabschnitt zu öffnen. In der Beschäftigung mit Joe Dispenza und Meditationen zum Unknown wurde für sie die Frage lebendig, was entstehen kann, wenn man unbekannte Möglichkeiten überhaupt erst zulässt. Diese Neugier möchte Petra weitergeben: Menschen dürfen sich andere Lebensmöglichkeiten vorstellen und erproben, bevor sie etwas davon freiwillig im Alltag prüfen. „Ich wage mich ins Unbekannte. Vielleicht hast du Lust, mitzukommen.“ Die KI ist Werkzeug, nicht Hauptgeschichte.
+
+**Elsbeth Unknown:** personifiziert die Neugier und lebenslange Offenheit für Unbekanntes; ältere Gastgeberin, macht ihren Flugschein. Den historischen Detailhergang ihrer Erfindung nicht erfinden. Originalfoto von Petra auf dem hohen Stuhl bleibt verbindlicher Bildwunsch.
+
+Status: Petras autobiografische Korrekturen sind maßgeblich; konkrete hier vorgeschlagene Homepage-Formulierungen bleiben **PETRA REVIEW**. Noch nicht live schalten.
