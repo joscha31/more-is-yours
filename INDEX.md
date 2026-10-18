@@ -115,6 +115,11 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 `entscheidungen/2026-10-17-kein-launch-vor-elsbeth-qualitaetsfreigabe.md` – Kein öffentlicher Start oder Instagram-Marketing vor ausdrücklicher Petra-Qualitätsfreigabe; kein Zeitdruck. Status: **PETRA APPROVED**.
 
+
+## Offener Proberaum – neue fachliche Reichweite
+
+`entscheidungen/2026-10-18-more-is-yours-offener-proberaum.md` – Erlebnisse reichen weit über alternative Lebensläufe hinaus; Coming-out als nicht-erotische Gesprächsprobe möglich. **PETRA APPROVED (fachliche Richtung)**, konkrete Umsetzung PETRA REVIEW.
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
