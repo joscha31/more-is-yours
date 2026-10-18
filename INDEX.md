@@ -120,6 +120,12 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 `entscheidungen/2026-10-18-more-is-yours-offener-proberaum.md` – Erlebnisse reichen weit über alternative Lebensläufe hinaus; Coming-out als nicht-erotische Gesprächsprobe möglich. **PETRA APPROVED (fachliche Richtung)**, konkrete Umsetzung PETRA REVIEW.
 
+
+## Erlebnisbibliothek: ursprüngliche 20 als fester Kern, 20 neue Entwürfe
+
+- `entscheidungen/2026-10-18-erlebnisbibliothek-20-plus-20-als-produktkern.md` – Originale 20 in fünf Welten sind verpflichtender Produktkern, Erweiterung durch neue Mechaniken, Variation durch Elsbeth Unknown. **PETRA APPROVED (strategische Regel)**.
+- `forschung/2026-10-18-erlebnisbibliothek-neue-ideen-21-40-entwurf.md` – konkrete neue Vorschläge 21–40, zu prüfen auf Dopplungen. **FACH-LAB-VORSCHLAG / PETRA REVIEW**.
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
