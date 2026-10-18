@@ -126,6 +126,10 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 - `entscheidungen/2026-10-18-erlebnisbibliothek-20-plus-20-als-produktkern.md` – Originale 20 in fünf Welten sind verpflichtender Produktkern, Erweiterung durch neue Mechaniken, Variation durch Elsbeth Unknown. **PETRA APPROVED (strategische Regel)**.
 - `forschung/2026-10-18-erlebnisbibliothek-neue-ideen-21-40-entwurf.md` – konkrete neue Vorschläge 21–40, zu prüfen auf Dopplungen. **FACH-LAB-VORSCHLAG / PETRA REVIEW**.
 
+## Neue Erlebnisideen – Film, Podcast, Buch und Perspektivwechsel
+
+`forschung/2026-10-18-erlebnisbibliothek-medien-perspektiven-neue-tueren-review.md` – Entwurf mit Erlebnisideen und ausdrücklich markierten Überschneidungen zu den ursprünglichen 20. **FACH-LAB-VORSCHLAG / PETRA REVIEW**.
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
