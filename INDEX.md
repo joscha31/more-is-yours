@@ -130,6 +130,10 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 `forschung/2026-10-18-erlebnisbibliothek-medien-perspektiven-neue-tueren-review.md` – Entwurf mit Erlebnisideen und ausdrücklich markierten Überschneidungen zu den ursprünglichen 20. **FACH-LAB-VORSCHLAG / PETRA REVIEW**.
 
+## Elsbeth Unknown – schrittweise Entwicklung
+
+`co-work-briefs/2026-10-18-elsbeth-entwicklungsprotokoll-schrittweise.md` – sieben Qualitätsstationen, gemeinsame Rollen von Petra, ChatGPT und Claude Code, Start nur mit Schritt 1. **FACH-LAB-VORSCHLAG / PETRA REVIEW**.
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
