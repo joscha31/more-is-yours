@@ -80,6 +80,17 @@ Keine weitere Flickversion. 0.8 wird **neu geschrieben**, nicht ergänzt, mit un
 2. **Der Name:** Petras Begrüßungsbeispiel sagt „Ich bin Elsbeth". Laut PETRA APPROVED stellt sie sich immer mit vollem Namen vor, als „Elsbeth Unknown". Gilt das weiter?
 3. **Der Widerspruch zum Lob-Absatz (Runde 3):** „Neugierige Menschen mag ich" lobt eine Gruppe, und genau das schließt der Lob-Absatz aus. Für 0.8 schlage ich vor, Petras Beispiel gelten zu lassen und den Lob-Absatz nicht zu übernehmen, weil Teil A ohnehin nur Haltung enthält.
 
-4. **`KANON-ELSBETH.md` gibt es noch nicht (CONTENT GAP).** Weder in `more-is-yours` noch im Arbeits-Repo liegt eine Datei mit diesem Namen. Mein Vorschlag: Ich trage als ersten Schritt von 0.8 nur zusammen, was schon PETRA APPROVED ist (voller Name, ältere Dame mit Weisheit, duzt alle, lernt fliegen, nur Text, Gastgeberin der Erlebnisbibliothek), und markiere alles andere aus 0.6/0.7 (68er-Haltung, Anläufe, Hildegard, Konrad) als Vorschlag. Oder Petra und ChatGPT liefern die Datei.
+4. **Erledigt: Petra hat `KANON-ELSBETH.md` geliefert, sie liegt im Hauptverzeichnis.** Ursprünglicher Stand: **`KANON-ELSBETH.md` gab es noch nicht (CONTENT GAP).** Weder in `more-is-yours` noch im Arbeits-Repo liegt eine Datei mit diesem Namen. Mein Vorschlag: Ich trage als ersten Schritt von 0.8 nur zusammen, was schon PETRA APPROVED ist (voller Name, ältere Dame mit Weisheit, duzt alle, lernt fliegen, nur Text, Gastgeberin der Erlebnisbibliothek), und markiere alles andere aus 0.6/0.7 (68er-Haltung, Anläufe, Hildegard, Konrad) als Vorschlag. Oder Petra und ChatGPT liefern die Datei.
 
 **Kosten des Abnahmetests 0.8:** Fünf Fälle mal fünf Läufe ergibt 25 Antworten. Mit 600 Wörtern Stimme plus festem Block kostet das mit Haiku rund **1,5 US-Cent** und mit Sonnet rund **30 US-Cent**. Welches Modell getestet wird, entscheidet Petra.
+
+## Nachtrag: Abgleich von `KANON-ELSBETH.md` mit den späteren Erkenntnissen (19.10.)
+
+Der Kanon ist unverändert übernommen. Beim Bau von 0.8 stoßen drei Stellen auf spätere Festlegungen (**CONFLICT**, nicht eigenmächtig aufgelöst):
+1. **Teil 2 enthält den Käfervergleich** („so wie eine Naturforscherin Käfer interessant findet"). Petras Erkenntnis zu 0.7 und der 0.8-Auftrag schließen Käfer und Naturforscherin ausdrücklich aus.
+2. **Teil 2 nennt die Kauf-Frage als Beispiel** („was jemand zuletzt gekauft oder weggeworfen hat"). Sie kam in 0.7 siebenmal als Schablone, und Teil A von 0.8 soll keine konkreten Gegenstände enthalten.
+3. **Lob an eine Kategorie:** Teil 2 nennt „ich liebe neugierige Menschen" als das, was Elsbeth nicht sagt. Petras Sprachbeispiel lautet „Neugierige Menschen mag ich".
+
+Vorschlag für 0.8: Teil A übernimmt die Haltung aus Teil 2 ohne diese drei Stellen. Teil 1 und Teil 3 kommen als kurze Weltliste getrennt dazu, mit der Regel „höchstens ein kleines Detail pro Gespräch". Der Kanon selbst bleibt unverändert, ändern darf ihn nur Petra.
+
+Was der Kanon klärt: Hildegard ist 82, sie haben sich in der Krabbelgruppe kennengelernt, und sie lernt Kontrabass. Weitere Figuren gibt es nicht. Damit sind der Kanon-Vorschlag aus 0.7 (Hildegard als Konditorin und Busfahrerin, Fluglehrer Konrad, Studium und Buchladen) **überholt**. Neu ist die Sprachfarbe: Münchnerin, ein, zwei typische Wörter, kein Dialekt.

@@ -11,6 +11,7 @@
 |---|---|---|
 | `STATUS.md` | Die erste Datei für jede KI: Datum, Phase, aktueller Schritt, Elsbeth-Version, der eine nächste Schritt, was auf Petra wartet. Claude Code zieht sie nach jeder Arbeitsrunde nach | **LEBENDER STAND** |
 | `PROZESS.md` | Überbau: wozu More is Yours da ist (spielerische Persönlichkeitsentwicklung, Übungsraum statt Diagnostik), die fünf Phasen mit ihren Toren, Regeln der Zusammenarbeit, Rollen, Definition von STATUS.md | **LEBENDES DOKUMENT / von Petra vorgelegt 19.10.2026** |
+| `KANON-ELSBETH.md` | Figurenkanon Elsbeth Unknown: feste Eckdaten (Jahrgang 1946, Münchnerin, lebt in Münster, drei Kinder, lernt fliegen), Hildegard, Haltung und Sprechweise, Umgang mit dem Hintergrund (Reservoir statt Gesprächsstoff), offene Punkte. Grundlage für Teil A von 0.8. Ersetzt den Kanon-Vorschlag von Claude Code aus 0.7 (Hildegard als Konditorin, Fluglehrer Konrad) | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 
 ---
 
@@ -366,6 +367,7 @@ more-is-yours/
 ├── INDEX.md
 ├── STATUS.md
 ├── PROZESS.md
+├── KANON-ELSBETH.md
 ├── arbeitszettel/
 ├── master/
 ├── strategie/
