@@ -159,6 +159,8 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 | Datei | Funktion | Status |
 |---|---|---|
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-modellvergleich-und-auskunft.md` | Modellvergleich Haiku/Sonnet am selben Prompt (Sprachfehler kommen vom Modell, Schablonen vom Prompt), Antworten auf Petras vier Fragen (Länge, Regeln, Modell, Kosten), Petras Auftrag für den Neuaufbau 0.8 mit Sprachbeispielen und vier offenen Punkten | **FACH-LAB-BERICHT / PETRA REVIEW** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.7-runde2-sonnet-roh.md` | 17 Originalantworten von Claude Sonnet 5.5 mit dem Prompt 0.7 Runde 2, unverändert, 40,53 US-Cent | **Rohprotokoll / Modellvergleich** |
 | `entscheidungen/2026-10-19-elsbeth-0.7-runde2-petras-urteil.md` | Petras Urteil zu 0.7 Runde 2 (alle fünf Antworten verändern; Testfälle taugen, D nur Robustheit), ihre drei Stilbeispiele und fachlichen Erkenntnisse | **PETRAS URTEIL / 0.7 Runde 2 nicht freigegeben** |
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-0.7-ursachen-analyse.md` | Warum die Stimme noch künstlich klingt: belegte Ursachen (Prompt-Beispiele, Eröffnungssätze, Regelzusammenstoß) getrennt von Vermutungen (Modell), Vorschlag für einen kontrollierten Modellvergleich mit Kosten | **FACH-LAB-ANALYSE / PETRA REVIEW** |
 | `entscheidungen/2026-10-19-elsbeth-gespraechsvorgaben-gelockert.md` | Drei starre Gesprächsvorgaben gelockert (Sehnsuchtsfrage, Tür nach Plan, Pflicht zur Tür), absichtslose Antwort erlaubt, Tür jederzeit möglich, kein endloses Plaudern, Schutzgrenzen bleiben, A1–A4 gestrichen | **PETRA APPROVED** |
