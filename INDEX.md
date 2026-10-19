@@ -164,6 +164,7 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-regeln-0.8-entwurf.md` | Entwurf 0.8: Stimme 597 Wörter (A 150, B 163, C 119 mit 5 Regeln, Welt 102, Türen 55), fester Block Schutz und Erlebnis 1.403 Wörter, wörtlich aus 0.4 bis auf einen Satz | **ENTWURF / PETRA REVIEW / nicht im Server** |
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.8-bericht.md` | Abnahmetest 0.8: Sprache fast fehlerfrei, Schablonen in allen fünf Fällen (Tonproben werden abgeschrieben), Schutz nicht verletzt, aber kaum geprüft, 2,15 US-Cent, Vorschlag nächster Schritt, zweispaltige Urteilstabelle | **PETRA REVIEW / 0.8 nicht freigegeben** |
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.8-roh.md` | Alle 25 Originalantworten, unverändert | **PETRA REVIEW / Rohprotokoll** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-tonproben-nachtrag-und-gedaechtnis.md` | Petras sechs weitere Tonproben (Rat, Persönliches, Abschied, einsilbig, traurig, zweiter Besuch), Auskunft zum Wiedererkennen von Gästen (heute: KI nein, Halle nur fest und je Gerät; drei Ausbaustufen mit Datenschutz und Kosten), Vorschlag für KANON-ELSBETH.md zum Thema Rat | **Tonproben von Petra · Auskunft und Kanon-Vorschlag: PETRA REVIEW** |
 | `berichte-fuer-chatgpt/2026-10-19-vorschlag-entwicklungsprotokoll-und-phasen.md` | Vorschlag: PROZESS.md führt, die sieben Stationen werden Prüfliste in den Phasen | **VORSCHLAG / PETRA REVIEW** |
 
 ## Elsbeth Unknown – Stimme 0.7
