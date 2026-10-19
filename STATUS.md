@@ -5,14 +5,14 @@
 
 ## 2. WO WIR STEHEN
 - **Phase:** 2 – Elsbeth spricht (siehe `PROZESS.md`, Abschnitt 2)
-- **Aktueller Schritt:** Schritt 1 des Elsbeth-Entwicklungsprotokolls. 0.7 ist abgeschlossen (5 × verändern, nicht freigegeben). **Es gibt keine Flickversion mehr.** Die Anweisung wird als **0.8 neu geschrieben**, aus Petras eigenen Elsbeth-Sätzen, mit unter 600 Wörtern.
-- **Elsbeth-Version:** live läuft weiterhin **0.4** mit Claude Haiku 5.5, unverändert. Es gibt keinen Entwurf 0.8.
-- Modellvergleich (freigegeben, 40,53 US-Cent): Mit demselben Prompt schreibt Sonnet 5.5 fehlerfreies Deutsch, die Schablonen bleiben aber. Belegt heißt das: Die Sprachfehler kommen vom Modell, die Schablonen vom Prompt. Bericht und Auskunft zu Länge, Regeln, Modell und Kosten: `berichte-fuer-chatgpt/2026-10-19-elsbeth-modellvergleich-und-auskunft.md`
-- `KANON-ELSBETH.md` liegt jetzt im Hauptverzeichnis (von Petra, FACH-LAB-VORSCHLAG / PETRA REVIEW). Darin stehen noch zwei Stellen, die späteren Erkenntnissen widersprechen: der Käfervergleich und die Kauf-Frage als Beispiel (siehe Abgleich im Bericht).
-- Vorgemerkt für Phase 3: wechselnde Auswahl aus der Erlebnisbibliothek; Modellwahl in der Produktion.
+- **Aktueller Schritt:** Neuaufbau 0.8 der Elsbeth-Stimme. Petra hat ihn freigegeben (`entscheidungen/2026-10-19-elsbeth-0.8-neuaufbau-freigabe.md`, PETRA APPROVED). Der Entwurf ist geschrieben und getestet.
+- **Elsbeth-Version:** live läuft weiterhin **0.4** mit Claude Haiku 5.5, unverändert. **0.8** ist ein Entwurf, nicht im Server: Stimme 597 Wörter, fester Schutzblock 1.403 Wörter (wörtlich aus 0.4).
+- **Abnahmetest 0.8** (Haiku, 5 Fälle × 5 Läufe, 2,15 US-Cent): Das Deutsch ist fast fehlerfrei. **Der Schablonentest ist in allen fünf Fällen nicht bestanden.** Vier Tonproben decken genau die Testlagen ab und werden fast wörtlich abgeschrieben, und ohne Tonprobe (Fall A) kommt die Coach-Frage zurück. Bericht: `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.8-bericht.md`
+- Offen, nur als Vorschlag: `berichte-fuer-chatgpt/2026-10-19-vorschlag-entwicklungsprotokoll-und-phasen.md` (7 Stationen und 5 Phasen zusammenführen).
+- Vorgemerkt für Phase 3: wechselnde Auswahl aus der Erlebnisbibliothek; Schutzfälle testen; Modellwahl.
 
 ## 3. DER EINE NÄCHSTE SCHRITT
-Petra gibt den Neuaufbau 0.8 frei und klärt dabei die offenen Punkte aus dem Bericht: Schutzblock fest daneben, Vorstellung mit vollem Namen, Lob-Widerspruch. Außerdem wählt sie das Testmodell (Abnahmetest 5 × 5 Läufe: Haiku rund 1,5 US-Cent, Sonnet rund 30 US-Cent).
+Petra beurteilt 0.8 zweispaltig (Antwort · Testfall) und entscheidet über den Vorschlag im Bericht: Tonproben für Lagen, die nicht getestet werden, dazu die zwei fehlenden Kanon-Regeln (kein Überbieten, Alter kein Thema).
 
 ## 4. WARTET AUF PETRA
-- Freigabe des Neuaufbaus 0.8 samt Testmodell und den vier offenen Punkten
+- Qualitätsentscheidung zu 0.8 (Tabelle im Testbericht 0.8)
