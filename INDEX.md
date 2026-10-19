@@ -148,6 +148,13 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 `master/2026-10-19-elsbeth-unknown-chat-uebergabe-und-entwicklungsstand.md` – umfassende konsolidierte Arbeitsübergabe: Ursprung, Original-20, neue Ideen, fachliche Regeln, No-Gos, Technikstand laut Bericht und aktueller Schritt 1 (0.5 Review → 0.6 Entwurf). **ARBEITSGEDÄCHTNIS / keine neue PETRA APPROVED-Freigabe**.
 
+## Elsbeth Unknown – Stimme 0.6, Testbericht
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.6-bericht.md` | Testbericht von Claude Code zu Entwurf 0.6 der Schreibstimme: was neu ist, fünf Testfälle, Kosten, die besten und die misslungenen Antworten, Tabelle für Petras Urteil. Die Pfade im Bericht beziehen sich auf das Arbeits-Repo `meine-projekte` | **PETRA REVIEW / 0.6 nicht freigegeben** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.6-roh.md` | Alle 17 Originalantworten wörtlich und unverändert, einschließlich der misslungenen | **PETRA REVIEW / Rohprotokoll** |
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
