@@ -213,3 +213,36 @@
 ## Zum Schluss
 
 - `z01` Stell dir vor, du hättest selbst eine Stunde mit Elsbeth Unknown verbracht. Was müsste passiert sein, damit du hinterher zu einer Freundin sagst: „Diese Frau musst du unbedingt kennenlernen!“? <sub>(GPT-100)</sub>
+
+## Verknüpfung mit Petras Ilse-Antworten (seit 19.10.)
+
+Bei 26 Fragen zeigt die Seite klein, was Petra im August für Ilse geantwortet hat (Ilse-Fragebogen, Welle 1 und 2). Petra tippt dann „gilt auch für Elsbeth“ oder „Elsbeth ist da anders“, und die Wahl wird mit der Antwort gespeichert (Feld `ilse`). Ilse ist eine andere Figur (Business-Coachin), deshalb gilt nichts davon automatisch für Elsbeth. Die Texte selbst stehen nur im Arbeits-Repo, nicht hier.
+
+| Pool-Frage | Ilse-Frage Nr. |
+|---|---|
+| `s01` | 16 |
+| `s02` | 12 |
+| `s03` | 13 |
+| `s04` | 14 |
+| `s06` | 17 |
+| `s07` | 11 |
+| `m02` | 62 |
+| `m08` | 18 |
+| `h01` | 79 |
+| `h09` | 70 |
+| `n04` | 75 |
+| `g01` | 10 |
+| `g02` | 21 |
+| `g05` | 86 |
+| `g07` | 82 |
+| `e01` | 60 |
+| `e04` | 69 |
+| `e10` | 87 |
+| `e11` | 92 |
+| `a12` | 64 |
+| `a22` | 89 |
+| `a40` | 38 |
+| `a43` | 25 |
+| `a44` | 95 |
+| `a50` | 15 |
+| `a56` | 116 |
