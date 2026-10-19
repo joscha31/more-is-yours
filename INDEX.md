@@ -160,10 +160,11 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 | Datei | Funktion | Status |
 |---|---|---|
+| `entscheidungen/2026-10-19-elsbeth-0.8-und-0.9-petras-urteil.md` | Petras Urteil: 0.8 nicht freigegeben (durch 0.9 überholt); 0.9 verändern (A nein, B und D verändern, C und E passt; Testfälle taugen, D nur Robustheit) | **PETRAS URTEIL / nicht freigegeben** |
 | `entscheidungen/2026-10-19-elsbeth-testkriterium-fall-c.md` | Testkriterium Fall C: Aufbau „zwei Türen, dann Wahlfrage" ist gewollt; gemessen wird nur, ob Wortlaut und Türen wechseln | **PETRA APPROVED** |
 | `entscheidungen/2026-10-19-elsbeth-0.9-auftrag-und-kanon-rat.md` | 0.8 nicht freigegeben; Auftrag 0.9 (Teil B ausgetauscht, zwei Kanon-Regeln in Teil C); Kanon-Ergänzung „Rat" | **PETRA APPROVED** (Auftrag und Kanon-Ergänzung; der Entwurf selbst nicht) |
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-regeln-0.9-entwurf.md` | Entwurf 0.9: A 150, B 188 (5 Tonproben für ungetestete Lagen), C 128 (5 Regeln), Stimme 599 Wörter, fester Block 1.403 | **ENTWURF / PETRA REVIEW / nicht im Server** |
-| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.9-bericht.md` | Abnahmetest 0.9: kein Abschreiben mehr, Deutsch korrekt, Alter 0-mal; Schablonen aus Teil A, dem Schutzblock und Modell-Standard; bei A fünfmal ins Problem; 2,18 US-Cent; ein Vorschlag | **PETRA REVIEW / 0.9 nicht freigegeben** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.9-bericht.md` | Abnahmetest 0.9: kein Abschreiben mehr, Deutsch korrekt, Alter 0-mal; Schablonen aus Teil A, dem Schutzblock und Modell-Standard; bei A fünfmal ins Problem; 2,18 US-Cent; ein Vorschlag | **VON PETRA BEURTEILT / 0.9 verändern** |
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.9-roh.md` | Alle 25 Originalantworten, unverändert | **PETRA REVIEW / Rohprotokoll** |
 
 ## Elsbeth Unknown – Neuaufbau 0.8
@@ -172,7 +173,7 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `entscheidungen/2026-10-19-elsbeth-0.8-neuaufbau-freigabe.md` | Petras Freigabe des Neuaufbaus: Aufbau A/B/C unter 600 Wörtern, kein Coach, Kanon unverändert, voller Name, Lobregel, Schutzblock wörtlich und separat, Haiku bleibt, Abnahmetest 5 × 5 | **PETRA APPROVED** (Auftrag und Entscheidungen; der Entwurf selbst nicht) |
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-regeln-0.8-entwurf.md` | Entwurf 0.8: Stimme 597 Wörter (A 150, B 163, C 119 mit 5 Regeln, Welt 102, Türen 55), fester Block Schutz und Erlebnis 1.403 Wörter, wörtlich aus 0.4 bis auf einen Satz | **ENTWURF / PETRA REVIEW / nicht im Server** |
-| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.8-bericht.md` | Abnahmetest 0.8: Sprache fast fehlerfrei, Schablonen in allen fünf Fällen (Tonproben werden abgeschrieben), Schutz nicht verletzt, aber kaum geprüft, 2,15 US-Cent, Vorschlag nächster Schritt, zweispaltige Urteilstabelle | **PETRA REVIEW / 0.8 nicht freigegeben** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.8-bericht.md` | Abnahmetest 0.8: Sprache fast fehlerfrei, Schablonen in allen fünf Fällen (Tonproben werden abgeschrieben), Schutz nicht verletzt, aber kaum geprüft, 2,15 US-Cent, Vorschlag nächster Schritt, zweispaltige Urteilstabelle | **VON PETRA BEURTEILT / 0.8 nicht freigegeben** |
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.8-roh.md` | Alle 25 Originalantworten, unverändert | **PETRA REVIEW / Rohprotokoll** |
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-tonproben-nachtrag-und-gedaechtnis.md` | Petras sechs weitere Tonproben (Rat, Persönliches, Abschied, einsilbig, traurig, zweiter Besuch), Auskunft zum Wiedererkennen von Gästen (heute: KI nein, Halle nur fest und je Gerät; drei Ausbaustufen mit Datenschutz und Kosten), Vorschlag für KANON-ELSBETH.md zum Thema Rat | **Tonproben von Petra · Auskunft und Kanon-Vorschlag: PETRA REVIEW** |
 | `berichte-fuer-chatgpt/2026-10-19-vorschlag-entwicklungsprotokoll-und-phasen.md` | Vorschlag: PROZESS.md führt, die sieben Stationen werden Prüfliste in den Phasen | **VORSCHLAG / PETRA REVIEW** |

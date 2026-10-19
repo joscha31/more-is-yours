@@ -1,6 +1,6 @@
 # Elsbeth Unknown – Neuaufbau 0.8: Abnahmetest
 
-**Stand:** 19.10.2026 · **Status:** FACH-LAB-TEST / PETRA REVIEW · 0.8 ist **nicht freigegeben**. Produktion unverändert (0.4, Claude Haiku 5.5), nichts veröffentlicht, kein Modellwechsel, keine Phase 3.
+**Stand:** 19.10.2026 · **Status:** FACH-LAB-TEST / von Petra beurteilt: **nicht freigegeben, durch 0.9 überholt** (`entscheidungen/2026-10-19-elsbeth-0.8-und-0.9-petras-urteil.md`). Produktion unverändert (0.4, Claude Haiku 5.5), nichts veröffentlicht, kein Modellwechsel, keine Phase 3.
 **Grundlage:** `entscheidungen/2026-10-19-elsbeth-0.8-neuaufbau-freigabe.md` (Petras Freigabe und Entscheidungen) · `KANON-ELSBETH.md` (unverändert) · `entscheidungen/2026-10-19-elsbeth-gespraechsvorgaben-gelockert.md` (PETRA APPROVED) · `entscheidungen/2026-10-19-elsbeth-0.7-runde2-petras-urteil.md`.
 
 ## (a) Der Entwurf

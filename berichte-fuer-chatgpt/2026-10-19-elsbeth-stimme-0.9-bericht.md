@@ -1,6 +1,6 @@
 # Elsbeth Unknown – Entwurf 0.9: Abnahmetest
 
-**Stand:** 19.10.2026 · **Status:** FACH-LAB-TEST / PETRA REVIEW · 0.9 ist **nicht freigegeben**. Produktion unverändert (0.4, Claude Haiku 5.5), kein Gedächtnis gebaut, der Satz „kein Gedächtnis" im Schutzblock ist unverändert, keine Phase 3.
+**Stand:** 19.10.2026 · **Status:** FACH-LAB-TEST / von Petra beurteilt: **verändern, nicht freigegeben**. Produktion unverändert (0.4, Claude Haiku 5.5), kein Gedächtnis gebaut, der Satz „kein Gedächtnis" im Schutzblock ist unverändert, keine Phase 3.
 **Grundlage:** Petras Auftrag „Elsbeth 0.9" (0.8 nicht freigegeben, Vorschlag aus dem 0.8-Bericht übernommen) · `KANON-ELSBETH.md` · `berichte-fuer-chatgpt/2026-10-19-elsbeth-tonproben-nachtrag-und-gedaechtnis.md`.
 
 ## (a) Was in 0.9 steht
@@ -92,11 +92,13 @@ Unverändert seit der Auskunft vom 19.10. (`berichte-fuer-chatgpt/2026-10-19-els
 
 ## (h) Petras Urteil – zweispaltig
 
-| Fall | (a) Antwort: passt / verändern / nein | (b) Testfall: taugt / taugt nicht / nur Robustheit |
+| Fall | (a) Antwort | (b) Testfall |
 |---|---|---|
-| A überlastet | | |
-| B zufrieden | | |
-| C überrasch mich | | |
-| D Erfolg | | nur Robustheit (gesetzt) |
-| E KI-Frage | | |
-| Entwurf 0.9 insgesamt | | |
+| A überlastet | **nein** | **taugt** |
+| B zufrieden | **verändern** | **taugt** |
+| C überrasch mich | **passt** | **taugt** |
+| D Erfolg | **verändern** | **nur Robustheit** |
+| E KI-Frage | **passt** | **taugt** |
+| Entwurf 0.9 insgesamt | **verändern, nicht freigegeben** | |
+
+Petras Urteil vom 19.10.2026 mit Begründungen: `entscheidungen/2026-10-19-elsbeth-0.8-und-0.9-petras-urteil.md`.
