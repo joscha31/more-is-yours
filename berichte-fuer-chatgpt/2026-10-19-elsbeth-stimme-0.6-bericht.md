@@ -92,4 +92,4 @@ Petras Urteil, übermittelt am 19.10.2026. Ihre Hinweise dazu:
 - Elsbeth Unknown soll nicht wie eine gewöhnliche Coaching-KI klingen, keine Probleme suchen, nicht alles psychologisch aufladen und nicht reflexartig Standardfragen stellen.
 - Bei „Überrasch mich" muss die Vielfalt der Erlebnisse spürbar werden.
 
-Daraus folgt Entwurf 0.7 (`2026-10-19-elsbeth-stimme-0.7-bericht.md`). Schritt 2 beginnt erst nach Petras Freigabe.
+Daraus folgt Entwurf 0.7 (`2026-10-19-elsbeth-stimme-0.7-bericht.md`; ein Vorlauf davor wird nicht beurteilt). Schritt 2 beginnt erst nach Petras Freigabe.

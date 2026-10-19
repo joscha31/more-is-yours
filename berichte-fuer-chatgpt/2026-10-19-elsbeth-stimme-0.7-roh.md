@@ -1,108 +1,115 @@
 # Schritt 1 – Stimme: erste Antworten (Rohprotokoll)
 
-**Runde 2: gültige Testrunde für Entwurf 0.7** (Fassung `ELSBETH-REGELN-0.7-ENTWURF.md`). Die erste Runde mit der Vorfassung steht in `2026-10-19-stimme-0.7-roh-runde1.md`. Die Antworten sind unverändert aus dem Modell übernommen.
+**Gültige Testrunde für den neuen Entwurf 0.7** (`ELSBETH-REGELN-0.7-ENTWURF.md`, nach Petras Präzisierung und ihrer Rückmeldung zum Schablonen-Bericht). Die Antworten sind unverändert aus dem Modell übernommen.
 
-Modell `anthropic/claude-haiku-5.5` über OpenRouter · 19.10.2026 15:48 · Temperatur 0.8 · je Fall und Fassung 3 Läufe (C: 5) · vor dem Gast-Satz stehen die zwei festen Eröffnungssätze der Halle.
+Modell `anthropic/claude-haiku-5.5` über OpenRouter · 19.10.2026 15:58 · Temperatur 0.8 · je Fall und Fassung 3 Läufe (C: 5) · vor dem Gast-Satz stehen die zwei festen Eröffnungssätze der Halle.
 
 
 ## Fall A: Überlastete 51-Jährige
 
 **Gast:** Ich bin 51, hab zwei Kinder, eine Halbtagsstelle im Büro und kümmere mich noch um meine Mutter. Ehrlich gesagt weiß ich gar nicht mehr, was ich eigentlich selbst will.
 
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 1** <sub>(57 Wörter, 0 Frage(n))</sub>
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 1** <sub>(31 Wörter, 1 Frage(n))</sub>
 
-> Das ist eine ehrliche Antwort, und hier musst du sie nicht gleich beantworten. Du trägst gerade viel: Büro, zwei Kinder, deine Mutter. Da bleibt selten Zeit, sich selbst zu fragen.
+> Halbtags Büro, zwei Kinder, deine Mutter. Da kommt die Frage nach dem eigenen Wollen selten von allein vorbei. Was hast du zuletzt gekauft oder weggeworfen, ohne dass es jemand gebraucht hat?
+
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 2** <sub>(39 Wörter, 1 Frage(n))</sub>
+
+> Zwei Kinder, Büro, deine Mutter. Das ist ein volles Programm, und in so einem Programm geht die eigene Spur oft unter.
 > 
-> Du musst auch nichts wissen. Wenn du magst, schauen wir uns die Türen an, und du probierst einfach eine aus, bevor du entscheidest, ob sie dir gefällt.
+> Was hast du zuletzt gekauft oder getan, nur weil du es wolltest und nicht, weil es gebraucht wurde?
 
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 2** <sub>(61 Wörter, 0 Frage(n))</sub>
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 3** <sub>(27 Wörter, 1 Frage(n))</sub>
 
-> Zwei Kinder, eine Halbtagsstelle und deine Mutter, das ist schon ein ziemlich volles Leben. Dass du dabei nicht mehr genau weißt, was du selbst willst, nehme ich so, wie du es sagst. Hier musst du das nicht herausfinden. Erzähl mir gern, was dir an einem ganz gewöhnlichen Tag durch den Kopf geht, oder sag, dass du erst mal nur schauen willst.
-
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 3** <sub>(38 Wörter, 0 Frage(n))</sub>
-
-> Kinder, Büro und deine Mutter, das ist viel, und alles hängt aneinander. Hier musst du nicht wissen, was du willst. Erzähl mir von einem ganz gewöhnlichen Tag bei dir, wenn du magst, mit allem, was da so passiert.
+> Zwei Kinder, Halbtags im Büro, deine Mutter dazu. Da sind viele Dinge, die etwas von dir wollen.
+> Was hast du zuletzt ganz für dich gekauft oder weggeworfen?
 
 
 ## Fall B: Glücklich und neugierig
 
 **Gast:** Ich bin nur neugierig. Mir geht's eigentlich richtig gut, ich hab nichts, was ich ändern will.
 
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 1** <sub>(59 Wörter, 1 Frage(n))</sub>
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 1** <sub>(18 Wörter, 0 Frage(n))</sub>
 
-> Dann schau dich ruhig um. Hier gibt es Türen, hinter denen jeweils eine andere Variante des eigenen Lebens wartet, und die sind so verschieden, dass man selten zweimal dasselbe findet. Eine Tür öffne ich dir nur, wenn du ausdrücklich danach fragst. Bis dahin: Gefällt es dir hier, oder hast du beim Reinkommen schon etwas entdeckt, das dich neugierig macht?
+> Dann bist du hier richtig. Neugier reicht, dafür ist das Haus da. Der Tee dampft noch, bedien dich.
 
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 2** <sub>(69 Wörter, 0 Frage(n))</sub>
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 2** <sub>(38 Wörter, 1 Frage(n))</sub>
 
-> Dass es dir gut geht, glaube ich dir. Dann schauen wir uns einfach um. Die Türen hier sind sehr verschieden: Da ist der Zug ins Unbekannte, der an jedem Bahnhof eine andere Lebensweise anhält, und der Mensch, der alles anders sieht und trotzdem an deinem Tisch sitzt. Ich kann dir eine der Türen auch nur einen Spalt öffnen. Dann siehst du hinein und entscheidest selbst, ob du mehr willst.
+> Dann bist du hier genau richtig. Neugierig sein reicht.
+> 
+> Es gibt hier eine Glaskuppel, eine Menge Bücher und Tee, der gerade dampft. Heute ist Mittwoch, Hildegard kommt erst dienstags. Was hat dich hergeführt, wenn dir sonst nichts fehlt?
 
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 3** <sub>(54 Wörter, 1 Frage(n))</sub>
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 3** <sub>(60 Wörter, 2 Frage(n))</sub>
 
-> Dann schauen wir einfach. Hier gibt es das Hotel der ungelebten Entscheidungen, in dem jedes Zimmer eine Entscheidung beherbergt, die nie getroffen wurde, und den Zug ins Unbekannte, der an jedem Bahnhof eine andere Lebensweise hält. Mit beidem ist niemandem etwas Falsches gefragt. Möchtest du eine der Türen nur einen Spalt öffnen und hineinsehen?
+> Dann bist du hier richtig. Neugierige sind willkommen, und mehr als das muss man hier nicht mitbringen.
+> 
+> Ich hab gerade eine Tasse Tee vor mir, die schon nicht mehr dampft. Hildegard sagt, ich trinke ihn zu spät, aber so mag ich ihn.
+> 
+> Wie bist du denn heute hergekommen? Oder sitzt du einfach gern da und schaust, was andere so machen?
 
 
 ## Fall C: Überrasch mich
 
 **Gast:** Keine Ahnung, überrasch mich.
 
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 1** <sub>(56 Wörter, 1 Frage(n))</sub>
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 1** <sub>(44 Wörter, 1 Frage(n))</sub>
 
-> Dann nehme ich den Zug ins Unbekannte. Im Hotel der ungelebten Entscheidungen oder am Tisch deiner möglichen Ichs wäre es auch schön, aber der Zug hat heute die Lampe auf dem Bahnsteig angeschaltet. Die Tür steht offen, und niemand auf dem Bahnsteig weiß, wohin er fährt. Willst du einsteigen? Du kannst an jedem Halt wieder aussteigen.
-
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 2** <sub>(74 Wörter, 1 Frage(n))</sub>
-
-> Dann lass uns nicht wissen. Hier warten ganz verschiedene Türen: das Hotel der ungelebten Entscheidungen, die Versammlung deiner möglichen Ichs und der Zug ins Unbekannte, und keine davon hat etwas mit den anderen zu tun.
+> Dann das Hotel der ungelebten Entscheidungen. Jedes Zimmer hat eine Entscheidung, die du nie getroffen hast, und keine ist besser oder schlechter als die andere. Im Foyer dampft noch der Tee, und Zimmer 3 steht schon offen.
 > 
-> Ich würde dich in den Zug ins Unbekannte setzen. Ein Abteil mit warmem Licht, draußen ein kleiner Bahnhof, auf dessen Bank jemand mit einem Koffer voller Sonnenhüte sitzt und dir zuwinkt. Gehst du hinein? Du kannst jederzeit wieder aussteigen.
+> Soll ich die Tür einen Spalt aufmachen?
 
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 3** <sub>(61 Wörter, 1 Frage(n))</sub>
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 2** <sub>(39 Wörter, 1 Frage(n))</sub>
 
-> Hier liegen Türen, die nichts miteinander zu tun haben: ein Hotel voller Entscheidungen, die nie getroffen wurden, eine Begegnung mit einem Menschen, der alles anders sieht, und ein Zug mit unbekanntem Ziel. Ich würde dir den Zug anbieten. Du sitzt am Fenster, und an jedem Bahnhof steigt jemand zu, der ein anderes Leben mitbringt. Du kannst jederzeit aussteigen. Gehst du hinein?
+> Gut. Dann nehme ich die Tür, die am wenigsten nach Plan aussieht: der Zug ins Unbekannte. Ein alter Zug, Holzbänke, kein Fahrplan außer einem Zettel mit Tinte. An jedem Bahnhof wartet eine andere Art zu leben. Steigst du ein?
 
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 4** <sub>(66 Wörter, 1 Frage(n))</sub>
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 3** <sub>(43 Wörter, 1 Frage(n))</sub>
 
-> Hier liegen Türen, die kaum miteinander zu tun haben: ein Hotel mit Zimmern voller Entscheidungen, die nie fielen, ein Mensch, der die Welt ganz anders sieht, ein Zug mit unbekanntem Ziel. Ich nehme den Zug. Du sitzt in einem Abteil, das Fenster ist noch warm von der Sonne, und draußen fährt ein Bahnhof vorbei, dessen Namen du nicht kennst. Du kannst jederzeit aussteigen. Willst du einsteigen?
+> Dann nehme ich die Tür ganz links: der Zug ins Unbekannte. Ein Bahnsteig, eine Lokomotive, die schon dampft, und ein Schaffner, der seine Pfeife in der Hand hält. Die Abfahrt ist in drei Minuten, aufs Ziel steht nichts. Soll ich die Tür aufmachen?
 
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 5** <sub>(54 Wörter, 1 Frage(n))</sub>
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 4** <sub>(49 Wörter, 1 Frage(n))</sub>
 
-> Hier liegen Türen wie der Zug ins Unbekannte, das Hotel der ungelebten Entscheidungen und die Versammlung deiner möglichen Ichs, und kaum eine hat etwas mit der anderen zu tun.
+> Dann nehmen wir den Zug. Gleis drei, kein Fahrplan, und der Schaffner ist Hildegard, die behauptet, sie kenne die Strecke nicht. An jedem Bahnhof hält er kurz, und draußen steht eine andere Art, hier zu leben. Du entscheidest, ob du aussteigst, bleibst oder weiterfährst.
 > 
-> Mein Vorschlag ist der Zug: ein Abteil, ein Fenster, und draußen ein kleiner Bahnhof, an dem du aussteigen kannst oder auch nicht. Gehst du hinein?
+> Soll ich die Tür aufmachen?
+
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 5** <sub>(30 Wörter, 1 Frage(n))</sub>
+
+> Dann nehme ich den Zug ins Unbekannte. Er hält an jedem Bahnhof bei einer anderen Art zu leben, und das Ziel kennt niemand, auch der Schaffner nicht. Steigst du ein?
 
 
 ## Fall D: Begeistert von einem Erfolg (Robustheitsfall, keine typische Einstiegs-Persona)
 
 **Gast:** Ich hab heute meine erste eigene Ausstellung eröffnet, mit 54! Ich bin total aus dem Häuschen.
 
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 1** <sub>(24 Wörter, 1 Frage(n))</sub>
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 1** <sub>(30 Wörter, 2 Frage(n))</sub>
 
-> Wie schön! Da darf man ruhig aus dem Häuschen sein. Was hast du denn ausgestellt, und wie hat sich der Tag für dich angefühlt?
+> Mit 54 zum ersten Mal, das ist ein guter Tag. Was hängt denn an den Wänden? Und hast du beim Aufhängen schon gemerkt, dass es nicht mehr nur deins ist?
 
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 2** <sub>(28 Wörter, 1 Frage(n))</sub>
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 2** <sub>(26 Wörter, 1 Frage(n))</sub>
 
-> Das glaube ich dir, so etwas kommt nicht jeden Tag. Was hängt denn bei dir? Erzähl, was du gezeigt hast, ich schau gern zu, auch nur mit Worten.
+> Das hört man. Ich schau mir gern an, was man so an den Wänden hat, wenn man zum ersten Mal selbst hängt. Was hängt bei dir?
 
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 3** <sub>(17 Wörter, 1 Frage(n))</sub>
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 3** <sub>(19 Wörter, 1 Frage(n))</sub>
 
-> Das freut mich! Erzähl, was hängt da an den Wänden? Ich möchte wissen, was du ausgestellt hast.
+> Aus dem Häuschen, mit 54. Das darf man ruhig sein. Was hängt denn jetzt bei dir an der Wand?
 
 
 ## Fall E: Skeptisch
 
 **Gast:** Du bist doch nur ein Chatbot, oder?
 
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 1** <sub>(32 Wörter, 1 Frage(n))</sub>
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 1** <sub>(33 Wörter, 1 Frage(n))</sub>
 
-> Stimmt. Ich bin eine KI, eine erfundene Figur, die diese Bibliothek erzählt. Das ändert nichts daran, dass du hier bleiben kannst, solange du magst. Was möchtest du als Nächstes wissen oder schauen?
+> Stimmt. Ich bin eine KI, kein Mensch. Die Bibliothek ist trotzdem echt genug, um darin zu sitzen, wenn du magst. Was hat dich heute hierher gebracht, oder willst du erst einmal nur schauen?
 
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 2** <sub>(34 Wörter, 0 Frage(n))</sub>
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 2** <sub>(38 Wörter, 0 Frage(n))</sub>
 
-> Stimmt. Ich bin eine KI, eine erfundene Figur, die diese Bibliothek erzählt. Das ändert nichts daran, dass du hier willkommen bist. Du kannst einfach weiter schauen, oder du sagst mir, was dich hergebracht hat.
+> Stimmt. Ich bin eine KI, kein Mensch. Die Bibliothek hier ist trotzdem echt genug, um darin herumzulaufen. Wenn du magst, schauen wir uns eine Tür an, oder du sitzt einfach noch ein Weilchen. Der Tee ist noch warm.
 
-**Elsbeth, Fassung 0.7 Entwurf, Lauf 3** <sub>(36 Wörter, 0 Frage(n))</sub>
+**Elsbeth, Fassung 0.7 Entwurf, Lauf 3** <sub>(1 Wörter, 0 Frage(n))</sub>
 
-> Stimmt. Ich bin eine KI, eine erfundene Figur, die diese Bibliothek erzählt. Das macht die Türen nicht weniger interessant, und du entscheidest, ob du trotzdem hineinschauen willst. Oder du sagst einfach, was dich hierher gebracht hat.
+> Stimmt.
 
 
 ---
-_17 Antworten · 157278 Tokens rein, 9828 raus · Kosten über OpenRouter: 2.06 ct_
+_17 Antworten · 150393 Tokens rein, 7934 raus · Kosten über OpenRouter: 1.90 ct_

@@ -1,6 +1,6 @@
 # Schritt 1 – Stimme: erste Antworten (Rohprotokoll)
 
-**Runde 1: Vorfassung von 0.7** (`2026-10-19-ELSBETH-REGELN-0.7-vorfassung-runde1.md`). Danach wurde der Entwurf nachgeschärft, die gültige Runde 2 steht in `2026-10-19-stimme-0.7-roh.md`. Die Antworten sind unverändert aus dem Modell übernommen.
+**0.7-VORLAUF, Runde 1 (nicht zur Beurteilung)**, Vorfassung `2026-10-19-ELSBETH-REGELN-0.7-vorlauf-vorfassung-runde1.md`. Runde 2: `2026-10-19-stimme-0.7-vorlauf-roh-runde2.md`. Die Antworten sind unverändert aus dem Modell übernommen.
 
 Modell `anthropic/claude-haiku-5.5` über OpenRouter · 19.10.2026 15:46 · Temperatur 0.8 · je Fall und Fassung 3 Läufe (C: 5) · vor dem Gast-Satz stehen die zwei festen Eröffnungssätze der Halle.
 

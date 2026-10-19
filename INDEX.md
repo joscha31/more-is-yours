@@ -155,20 +155,15 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.6-bericht.md` | Testbericht von Claude Code zu Entwurf 0.6 der Schreibstimme: was neu ist, fünf Testfälle, Kosten, die besten und die misslungenen Antworten, Petras ausgefüllte Urteilstabelle. Die Pfade im Bericht beziehen sich auf das Arbeits-Repo `meine-projekte` | **VON PETRA BEURTEILT / 0.6 nicht freigegeben** |
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.6-roh.md` | Alle 17 Originalantworten wörtlich und unverändert, einschließlich der misslungenen | **Rohprotokoll / 0.6 nicht freigegeben** |
 
-## Elsbeth Unknown – Schablonen-Bericht und 0.7-Vorlauf
+## Elsbeth Unknown – Stimme 0.7
 
 | Datei | Funktion | Status |
 |---|---|---|
-| `berichte-fuer-chatgpt/2026-10-19-elsbeth-schablonen-bericht.md` | Antwort auf Punkt 0 der Präzisierung: alle Satzabfolgen, Antwortbaupläne und Pflichtbausteine in der Elsbeth-Anweisung, sortiert nach Wirkung; offener Punkt Erlebnisvielfalt für Phase 3 | **FACH-LAB-BERICHT / PETRA REVIEW** |
-
-
-| Datei | Funktion | Status |
-|---|---|---|
-| `entscheidungen/2026-10-19-elsbeth-0.6-petras-urteil.md` | Petras fünf Urteile zu 0.6 (A, B, C verändern · D, E nein) und ihre vier Hinweise | **PETRAS URTEIL / 0.6 nicht freigegeben** |
-| `berichte-fuer-chatgpt/2026-10-19-elsbeth-regeln-0.7-entwurf.md` | Vorlauf-Fassung 0.7 des Elsbeth-Prompts (vor der Präzisierung); wird durch den neuen 0.7 ersetzt | **VORLAUF / nicht im Server** |
-| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.7-bericht.md` | Testbericht zum 0.7-Vorlauf (vor Petras Präzisierung): zwei Testrunden, 4,21 ct, beste und misslungene Antworten. Pfade im Bericht beziehen sich auf `meine-projekte` | **VORLAUF / nicht zur Beurteilung** |
-| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.7-roh.md` | Vorlauf, Runde 2: 17 Originalantworten, unverändert | **VORLAUF / Rohprotokoll** |
-| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.7-roh-runde1.md` | Vorlauf, Runde 1: 17 Originalantworten, unverändert | **VORLAUF / Rohprotokoll** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-regeln-0.7-entwurf.md` | Entwurf 0.7 des Elsbeth-Prompts: Figurenkern als Fließtext, Kanon „Deine Welt" (Hildegard, Konrad, eigene Anläufe; Vorschlag von Claude Code), Erlaubnis zur absichtslosen Antwort, Baupläne A1–A4 gestrichen, drei feste Absichten gelockert, „jederzeit raus" einmal zu Beginn des Erlebnisses | **ENTWURF / PETRA REVIEW / nicht im Server** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.7-bericht.md` | Testbericht 0.7: was neu ist, 17 Antworten, 1,90 ct, was trägt, was misslungen ist, zweispaltige Urteilstabelle (Antwort · Testfall) | **PETRA REVIEW / 0.7 nicht freigegeben** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.7-roh.md` | Alle 17 Originalantworten zu 0.7, unverändert | **PETRA REVIEW / Rohprotokoll** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-schablonen-bericht.md` | Antwort auf Punkt 0 der Präzisierung: Satzabfolgen, Antwortbaupläne und Pflichtbausteine in der Anweisung; offener Punkt Erlebnisvielfalt für Phase 3 | **FACH-LAB-BERICHT / von Petra beantwortet: A1–A4 streichen, drei Absichten lockern** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.7-vorlauf-bericht.md` · `…-0.7-vorlauf-roh-runde1.md` · `…-0.7-vorlauf-roh-runde2.md` · `…-regeln-0.7-vorlauf.md` | 0.7-Vorlauf vor Petras Präzisierung: Prompt, zwei Testrunden (34 Antworten, 4,21 ct), Bericht | **VORLAUF / nicht zur Beurteilung** |
 
 ## Aktuelle Masterquelle
 
