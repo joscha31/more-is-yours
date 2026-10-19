@@ -11,7 +11,7 @@
 |---|---|---|
 | `STATUS.md` | Die erste Datei für jede KI: Datum, Phase, aktueller Schritt, Elsbeth-Version, der eine nächste Schritt, was auf Petra wartet. Claude Code zieht sie nach jeder Arbeitsrunde nach | **LEBENDER STAND** |
 | `PROZESS.md` | Überbau: wozu More is Yours da ist (spielerische Persönlichkeitsentwicklung, Übungsraum statt Diagnostik), die fünf Phasen mit ihren Toren, Regeln der Zusammenarbeit, Rollen, Definition von STATUS.md | **LEBENDES DOKUMENT / von Petra vorgelegt 19.10.2026** |
-| `KANON-ELSBETH.md` | Figurenkanon Elsbeth Unknown: feste Eckdaten (Jahrgang 1946, Münchnerin, lebt in Münster, drei Kinder, lernt fliegen), Hildegard, Haltung und Sprechweise, Umgang mit dem Hintergrund (Reservoir statt Gesprächsstoff), offene Punkte. Grundlage für Teil A von 0.8. Ersetzt den Kanon-Vorschlag von Claude Code aus 0.7 (Hildegard als Konditorin, Fluglehrer Konrad) | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+| `KANON-ELSBETH.md` | Figurenkanon Elsbeth Unknown: feste Eckdaten (Jahrgang 1946, Münchnerin, lebt in Münster, drei Kinder, lernt fliegen), Hildegard, Haltung und Sprechweise, Umgang mit dem Hintergrund (Reservoir statt Gesprächsstoff), offene Punkte. Grundlage für Teil A von 0.8. Ersetzt den Kanon-Vorschlag von Claude Code aus 0.7 (Hildegard als Konditorin, Fluglehrer Konrad) | **FACH-LAB-VORSCHLAG / PETRA REVIEW**; Ergänzung „Rat" am 19.10. PETRA APPROVED |
 
 ---
 
@@ -155,6 +155,15 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.6-bericht.md` | Testbericht von Claude Code zu Entwurf 0.6 der Schreibstimme: was neu ist, fünf Testfälle, Kosten, die besten und die misslungenen Antworten, Petras ausgefüllte Urteilstabelle. Die Pfade im Bericht beziehen sich auf das Arbeits-Repo `meine-projekte` | **VON PETRA BEURTEILT / 0.6 nicht freigegeben** |
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.6-roh.md` | Alle 17 Originalantworten wörtlich und unverändert, einschließlich der misslungenen | **Rohprotokoll / 0.6 nicht freigegeben** |
+
+## Elsbeth Unknown – Entwurf 0.9
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `entscheidungen/2026-10-19-elsbeth-0.9-auftrag-und-kanon-rat.md` | 0.8 nicht freigegeben; Auftrag 0.9 (Teil B ausgetauscht, zwei Kanon-Regeln in Teil C); Kanon-Ergänzung „Rat" | **PETRA APPROVED** (Auftrag und Kanon-Ergänzung; der Entwurf selbst nicht) |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-regeln-0.9-entwurf.md` | Entwurf 0.9: A 150, B 188 (5 Tonproben für ungetestete Lagen), C 128 (5 Regeln), Stimme 599 Wörter, fester Block 1.403 | **ENTWURF / PETRA REVIEW / nicht im Server** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.9-bericht.md` | Abnahmetest 0.9: kein Abschreiben mehr, Deutsch korrekt, Alter 0-mal; Schablonen aus Teil A, dem Schutzblock und Modell-Standard; bei A fünfmal ins Problem; 2,18 US-Cent; ein Vorschlag | **PETRA REVIEW / 0.9 nicht freigegeben** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.9-roh.md` | Alle 25 Originalantworten, unverändert | **PETRA REVIEW / Rohprotokoll** |
 
 ## Elsbeth Unknown – Neuaufbau 0.8
 
