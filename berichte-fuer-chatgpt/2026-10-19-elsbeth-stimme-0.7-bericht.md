@@ -1,6 +1,6 @@
 # Elsbeth Unknown – Schritt 1, dritte Runde: Entwurf 0.7 der Schreibstimme (Testbericht)
 
-**Stand:** 19.10.2026 · **Status:** FACH-LAB-TEST / PETRA REVIEW · 0.7 ist **nicht freigegeben**. Produktion unverändert (live läuft weiter 0.4), nichts veröffentlicht, nichts als PETRA APPROVED markiert. Kein Wechsel zu Schritt 2, keine Phase 3.
+**Stand:** 19.10.2026 · **Status:** VORLAUF, NICHT ZUR BEURTEILUNG · 0.7 ist **nicht freigegeben**. Dieser Lauf entstand vor Petras Präzisierung des Auftrags (Figurenkern, absichtslose Antwort, Schablonen zuerst berichten) und wird nicht beurteilt. Erkenntnisse daraus: `2026-10-19-elsbeth-schablonen-bericht.md`. Produktion unverändert (live läuft weiter 0.4), nichts veröffentlicht, nichts als PETRA APPROVED markiert. Kein Wechsel zu Schritt 2, keine Phase 3.
 **Grundlage:** Petras Urteil zu 0.6 (A, B, C verändern · D, E nein · gesamt nicht freigegeben) und ihre vier Hinweise · Neugier statt Leidensverstärkung (PETRA APPROVED) · selbst entdecken statt Lösungen vorschlagen (PETRA APPROVED) · Erlebnisbibliothek als Produktkern (PETRA APPROVED).
 
 ## (a) Aufgabe
@@ -91,6 +91,9 @@ Alle Antworten stehen wörtlich in `elsbeth/tests/2026-10-19-stimme-0.7-roh.md` 
 Wieder dieselben fünf Fälle, rund 2 Cent.
 
 ## (e) Petras Urteil
+
+Entfällt: Dieser Vorlauf wird nicht beurteilt. Das nächste Urteil gilt dem neuen Entwurf 0.7 nach Petras Rückmeldung zum Schablonen-Bericht.
+
 
 | Fall | passt / verändern / nein |
 |---|---|
