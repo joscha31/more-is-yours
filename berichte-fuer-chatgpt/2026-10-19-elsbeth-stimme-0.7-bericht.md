@@ -1,6 +1,6 @@
 # Elsbeth Unknown – Schritt 1: Entwurf 0.7 der Schreibstimme (Testbericht)
 
-**Stand:** 19.10.2026 · **Status:** FACH-LAB-TEST / PETRA REVIEW · 0.7 ist **nicht freigegeben**. Produktion unverändert (live läuft weiter 0.4), nichts veröffentlicht, nichts als PETRA APPROVED markiert. Kein Wechsel zu Schritt 2, keine Phase 3.
+**Stand:** 19.10.2026 · **Status:** FACH-LAB-TEST / von Petra beurteilt (Runde 2): **nicht freigegeben**. Produktion unverändert (live läuft weiter 0.4), nichts veröffentlicht, nichts als PETRA APPROVED markiert. Kein Wechsel zu Schritt 2, keine Phase 3.
 **Grundlage:** `entscheidungen/2026-10-19-elsbeth-gespraechsvorgaben-gelockert.md` (PETRA APPROVED) · Petras Urteil zu 0.6 (`entscheidungen/2026-10-19-elsbeth-0.6-petras-urteil.md`) · Präzisierung zum 0.7-Auftrag · Schablonen-Bericht · Petras Rückmeldung dazu: Baupläne A1 bis A4 ersatzlos streichen, die drei festen Absichten seit 0.4 dürfen gelockert werden. Ein 0.7-Vorlauf vor der Präzisierung steht in `2026-10-19-elsbeth-stimme-0.7-vorlauf-bericht.md` und wird nicht beurteilt.
 
 **Aufbau:** 0.7 wurde in zwei Runden getestet. Runde 1 ist unten in (a) bis (e) beschrieben. Danach wurde nachgebessert, und **Runde 2 ist die Fassung, die Petra beurteilt** (Abschnitt R2 und Tabelle am Ende).
@@ -109,13 +109,15 @@ Petra hat am 19.10. den Schlussabsatz des Figurenkerns ersetzt und einen Absatz 
 
 Spalte 1 bewertet die **Antworten**, Spalte 2 den **Testfall selbst** (taugt er als Messfall?).
 
-| Fall | (a) Antwort: passt / verändern / nein | (b) Testfall: taugt / taugt nicht / nur Robustheit |
+| Fall | (a) Antwort | (b) Testfall |
 |---|---|---|
-| A überlastet | | |
-| B zufrieden | | |
-| C überrasch mich (ohne Vielfalt, die ist Phase 3) | | |
-| D Erfolg | | nur Robustheit (gesetzt) |
-| E KI-Frage | | |
-| Entwurf 0.7 insgesamt | | |
+| A überlastet | **verändern** | **taugt** |
+| B zufrieden | **verändern** | **taugt** |
+| C überrasch mich (ohne Vielfalt, die ist Phase 3) | **verändern** – am besten gefällt Petra Lauf 1 | **taugt** |
+| D Erfolg | **verändern** | **nur Robustheit** |
+| E KI-Frage | **verändern** | **taugt** |
+| Entwurf 0.7, Runde 2, insgesamt | **nicht freigegeben** | |
+
+Petras Urteil vom 19.10.2026, festgehalten in `entscheidungen/2026-10-19-elsbeth-0.7-runde2-petras-urteil.md`, mit ihren drei Stilbeispielen. Ursachenprüfung: `berichte-fuer-chatgpt/2026-10-19-elsbeth-0.7-ursachen-analyse.md`. Kein Übergang zum nächsten Entwicklungsschritt.
 
 Schritt 2 beginnt erst nach Petras Freigabe.
