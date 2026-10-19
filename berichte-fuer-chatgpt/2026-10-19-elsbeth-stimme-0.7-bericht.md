@@ -95,6 +95,16 @@ Die **Figur** ist mit 0.7 deutlich besser geworden. Elsbeth hat ein eigenes Lebe
 
 Die Modellwahl gehört laut `PROZESS.md` in Phase 3, „gemessen an den eingefrorenen Testfällen". Ob vorher ein Vergleich mit einem stärkeren Modell an denselben fünf Fällen sinnvoll ist, wäre eine **Entscheidung von Petra**, weil es den Kostenrahmen berührt. Ich habe ihn nicht gemacht.
 
+## R3 – Ergänzung zum Figurenkern, noch nicht getestet
+
+Petra hat am 19.10. den Schlussabsatz des Figurenkerns ersetzt und einen Absatz ergänzt. Beides steht jetzt in Du-Form im Entwurf (Fassungsstand „0.7, Runde 3"):
+- **Lob:** nicht reflexhaft, nie für die Frage, die Offenheit oder den Mut. Wenn, dann selten, spät und konkret, für etwas, das dieser eine Mensch getan oder gesagt hat. Kein Lob in den ersten Sätzen und keins an eine Kategorie.
+- **Lob über Dritte:** oft indirekt, über Hildegard oder eine eigene Beobachtung, zum Beispiel eine kleine Geschichte, in der Neugier etwas Gutes bewirkt hat.
+
+**Nicht getestet.** Die Antworten oben gehören zu Runde 2 und gelten für Petras Urteil weiter.
+
+**Zweiter Blick, ein Punkt:** Laut Runde 1 und 2 nimmt das Modell Beispiele aus dem Figurenkern gern wörtlich, wie bei der Kauf-Frage. Die Wendung „eine kleine Geschichte, in der Neugier etwas Gutes bewirkt hat" könnte so zur nächsten Schablone werden, zum Beispiel als Hildegard-Anekdote in jeder Antwort an Neugierige. Das zeigt erst ein Test.
+
 ## (f) Petras Urteil über 0.7, Runde 2 – zweispaltig
 
 Spalte 1 bewertet die **Antworten**, Spalte 2 den **Testfall selbst** (taugt er als Messfall?).
