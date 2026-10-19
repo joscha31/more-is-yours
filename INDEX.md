@@ -135,6 +135,10 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 `co-work-briefs/2026-10-18-elsbeth-entwicklungsprotokoll-schrittweise.md` – sieben Qualitätsstationen, gemeinsame Rollen von Petra, ChatGPT und Claude Code, Start nur mit Schritt 1. **FACH-LAB-VORSCHLAG / PETRA REVIEW**.
 
+## Aktuelle Chat-Übergabe Elsbeth Unknown
+
+`master/2026-10-19-elsbeth-unknown-chat-uebergabe-und-entwicklungsstand.md` – umfassende konsolidierte Arbeitsübergabe: Ursprung, Original-20, neue Ideen, fachliche Regeln, No-Gos, Technikstand laut Bericht und aktueller Schritt 1 (0.5 Review → 0.6 Entwurf). **ARBEITSGEDÄCHTNIS / keine neue PETRA APPROVED-Freigabe**.
+
 ## Aktuelle Masterquelle
 
 | Datei | Funktion | Status |
