@@ -1,9 +1,11 @@
 # Elsbeth Unknown – Schritt 1: Entwurf 0.7 der Schreibstimme (Testbericht)
 
 **Stand:** 19.10.2026 · **Status:** FACH-LAB-TEST / PETRA REVIEW · 0.7 ist **nicht freigegeben**. Produktion unverändert (live läuft weiter 0.4), nichts veröffentlicht, nichts als PETRA APPROVED markiert. Kein Wechsel zu Schritt 2, keine Phase 3.
-**Grundlage:** Petras Urteil zu 0.6 (`entscheidungen/2026-10-19-elsbeth-0.6-petras-urteil.md`) · Präzisierung zum 0.7-Auftrag · Schablonen-Bericht · Petras Rückmeldung dazu: Baupläne A1 bis A4 ersatzlos streichen, die drei festen Absichten seit 0.4 dürfen gelockert werden. Ein 0.7-Vorlauf vor der Präzisierung steht in `2026-10-19-elsbeth-stimme-0.7-vorlauf-bericht.md` und wird nicht beurteilt.
+**Grundlage:** `entscheidungen/2026-10-19-elsbeth-gespraechsvorgaben-gelockert.md` (PETRA APPROVED) · Petras Urteil zu 0.6 (`entscheidungen/2026-10-19-elsbeth-0.6-petras-urteil.md`) · Präzisierung zum 0.7-Auftrag · Schablonen-Bericht · Petras Rückmeldung dazu: Baupläne A1 bis A4 ersatzlos streichen, die drei festen Absichten seit 0.4 dürfen gelockert werden. Ein 0.7-Vorlauf vor der Präzisierung steht in `2026-10-19-elsbeth-stimme-0.7-vorlauf-bericht.md` und wird nicht beurteilt.
 
-## (a) Was im Entwurf 0.7 neu ist
+**Aufbau:** 0.7 wurde in zwei Runden getestet. Runde 1 ist unten in (a) bis (e) beschrieben. Danach wurde nachgebessert, und **Runde 2 ist die Fassung, die Petra beurteilt** (Abschnitt R2 und Tabelle am Ende).
+
+## (a) Was im Entwurf 0.7 neu ist (Runde 1)
 
 Datei: `outputs/world-of-the-unknown/elsbeth/ELSBETH-REGELN-0.7-ENTWURF.md` (nicht im Server).
 
@@ -19,7 +21,7 @@ Datei: `outputs/world-of-the-unknown/elsbeth/ELSBETH-REGELN-0.7-ENTWURF.md` (nic
 
 ## (b) Testfälle und Kosten
 
-Es sind dieselben eingefrorenen fünf Gäste mit demselben ersten Satz, davor die zwei festen Eröffnungssätze der Halle. **D** läuft als Robustheitsfall. Getestet wurde mit Claude Haiku 5.5 über OpenRouter bei Temperatur 0.8, A, B, D und E je dreimal, C fünfmal. **17 Antworten, 1,90 ct.** Alle wörtlich in `elsbeth/tests/2026-10-19-stimme-0.7-roh.md`.
+Es sind dieselben eingefrorenen fünf Gäste mit demselben ersten Satz, davor die zwei festen Eröffnungssätze der Halle. **D** läuft als Robustheitsfall. Getestet wurde mit Claude Haiku 5.5 über OpenRouter bei Temperatur 0.8, A, B, D und E je dreimal, C fünfmal. **17 Antworten, 1,90 ct.** Alle wörtlich in `elsbeth/tests/2026-10-19-stimme-0.7-roh-runde1.md`.
 
 Kosten heute für Schritt 1 zusammen: 0.6 2,13 ct · 0.7-Vorlauf 4,21 ct · 0.7 1,90 ct.
 
@@ -51,13 +53,49 @@ Und bei der KI-Frage, in einem Wort (E, Lauf 3):
 5. **Kanon im Erlebnis:** Bei „überrasch mich" ist Hildegard einmal die Schaffnerin im Zug. Ob die Menschen aus Elsbeths Welt hinter den Türen mitspielen dürfen, ist nicht geklärt (**DECISION GAP**).
 6. **Alle fünf „Überrasch mich"-Antworten beginnen mit „Dann …"/„Gut. Dann …".** Das ist ein Rest des alten Bauplans, wenn auch viel schwächer.
 
-## (e) Vorschlag für die nächste Runde, falls Petra „verändern" sagt
+## (e) Was daraus für Runde 2 wurde
 
 1. Das Beispiel „zuletzt gekauft oder weggeworfen" aus dem Figurenkern behalten, aber dazuschreiben, dass es ein Beispiel für die Art der Fragen ist und keine Frage zum Wiederholen.
 2. Die Alters-Regel wieder einsetzen.
 3. Eine kurze Liste der drei Floskeln, die nachweislich zurückkommen („genau richtig", „hier musst du nicht …", „was hat dich hergeführt"), als einzige Ausnahme vom Prinzip „Haltung statt Verbot".
 
-## (f) Petras Urteil – zweispaltig
+## R2 – Runde 2: nachgebessert und noch einmal getestet
+
+**Was geändert wurde** (Petras Auftrag und die Schwächen aus Runde 1):
+1. Der Käfervergleich ist raus. Menschen sind keine Forschungsobjekte und werden nie mit Tieren, Pflanzen oder Fundstücken verglichen.
+2. Kein endloses Plaudern. Wer erkennbar etwas ausprobieren will, bekommt ohne Umweg eine Tür, und anbieten darf Elsbeth sie jederzeit.
+3. Die Beispielfragen im Figurenkern sind als Beispiele markiert und nicht zum Wiederholen gedacht.
+4. Drei Wendungen, die nachweislich wiederkommen, sind gestrichen („hier richtig", „hier nicht wissen müssen", „was hat dich hergeführt").
+5. Die Alters-Regel ist wieder drin. Aus einem Oberbegriff wird nichts geschlossen, und kein Satzanfang soll zur Formel werden.
+6. Hildegard und Konrad spielen vorerst nicht hinter den Türen mit. Das ist ein vorsichtiger Vorschlag, bis Petra das entscheidet.
+
+Wieder dieselben fünf Fälle: **17 Antworten, 2,00 ct.** Wörtlich in `elsbeth/tests/2026-10-19-stimme-0.7-roh.md`. Kosten für 0.7 insgesamt: 3,90 ct.
+
+### Was in Runde 2 trägt
+
+- **Das Alter ist kein Thema mehr.** Beim Erfolg kommt keinmal „mit 54" (Runde 1: zweimal).
+- **„Stimmt" kommt dreimal von drei**, und ein Käfer kommt nicht vor.
+- **Eigenleben und Humor aus Widerstand,** die beste Antwort der Runde (B, Lauf 2, ohne die letzte Zeile):
+  > Ich trinke gerade Pfefferminztee, der Zucker steht daneben, und Hildegard hat letzten Dienstag behauptet, Glaskuppeln seien nur Regenfänger mit Ambitionen. Ich fand das ungerecht, habe aber nicht widersprochen.
+- **Ein Lebensmuster statt eines Rats** (A, Lauf 3): „Ich habe mich auch schon mehrmals gefragt, was ich eigentlich will, und manchmal erst beim Ausprobieren gemerkt, dass es nicht passt."
+- **„Jederzeit raus" kommt nur noch dort, wo es hingehört:** einmal zu Beginn des Erlebnisses (C, Lauf 5) und nie in einer Einladung.
+
+### Was in Runde 2 misslungen ist
+
+1. **Die gestrichenen Wendungen kommen trotzdem.** „Dann bist du hier (genau) richtig" zweimal von drei, „Das muss man hier nicht wissen" einmal, „was dich hergebracht hat" einmal, dazu schiefe Ausweichformen: „Was hat dich heute hierher geschaut, außer Neugier?" und „was dich hierhergespült hat". Das Verbot allein reicht nicht.
+2. **Die Kauf-Frage bleibt.** Viermal kommt „Was hast du zuletzt (nur für dich) gekauft …?", dreimal bei der Belasteten und einmal beim Zufriedenen, obwohl sie als Beispiel markiert ist.
+3. **Ein neues Motiv wird zur Schablone: der Tee.** Er kommt in vier von 17 Antworten vor, oft als Füller („Tee, der inzwischen kalt ist, weil ich beim Zuhören vergessen hab").
+4. **Beim Erfolg dreimal „Was hängt denn an den Wänden?"**, obwohl ein Oberbegriff jetzt ausdrücklich nichts verrät. D, Lauf 3 hat zwei Fragen.
+5. **„Überrasch mich", Lauf 5, springt ohne Ja direkt ins Erlebnis.** Das widerspricht der Regel. Die Türwahl (fünfmal der Zug) wird nicht bewertet, sie ist Phase 3.
+6. **Bei der KI-Frage erklärt Elsbeth einmal zu viel** (E, Lauf 1: „Die Bücher hier sind Varianten, die du anprobieren kannst, und das Gespräch mit mir ist der Eingang dazu").
+
+### Kurzes Qualitätsurteil von Claude Code
+
+Die **Figur** ist mit 0.7 deutlich besser geworden. Elsbeth hat ein eigenes Leben, eine Freundin mit Meinung und trockenen Humor, sie sagt souverän „Stimmt", und das Alter kommentiert sie nicht mehr. Die **Sprache** überzeugt noch nicht. Das Modell wiederholt Beispiele und Lieblingswendungen, auch wenn sie verboten sind, und zwischen Runde 1 und 2 hat Nachschärfen daran wenig geändert. Für mich ist das ein Zeichen, dass weitere Prompt-Runden mit Claude Haiku 5.5 an eine Grenze stoßen.
+
+Die Modellwahl gehört laut `PROZESS.md` in Phase 3, „gemessen an den eingefrorenen Testfällen". Ob vorher ein Vergleich mit einem stärkeren Modell an denselben fünf Fällen sinnvoll ist, wäre eine **Entscheidung von Petra**, weil es den Kostenrahmen berührt. Ich habe ihn nicht gemacht.
+
+## (f) Petras Urteil über 0.7, Runde 2 – zweispaltig
 
 Spalte 1 bewertet die **Antworten**, Spalte 2 den **Testfall selbst** (taugt er als Messfall?).
 
