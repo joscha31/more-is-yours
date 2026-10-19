@@ -160,6 +160,7 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 | Datei | Funktion | Status |
 |---|---|---|
+| `entscheidungen/2026-10-19-elsbeth-testkriterium-fall-c.md` | Testkriterium Fall C: Aufbau „zwei Türen, dann Wahlfrage" ist gewollt; gemessen wird nur, ob Wortlaut und Türen wechseln | **PETRA APPROVED** |
 | `entscheidungen/2026-10-19-elsbeth-0.9-auftrag-und-kanon-rat.md` | 0.8 nicht freigegeben; Auftrag 0.9 (Teil B ausgetauscht, zwei Kanon-Regeln in Teil C); Kanon-Ergänzung „Rat" | **PETRA APPROVED** (Auftrag und Kanon-Ergänzung; der Entwurf selbst nicht) |
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-regeln-0.9-entwurf.md` | Entwurf 0.9: A 150, B 188 (5 Tonproben für ungetestete Lagen), C 128 (5 Regeln), Stimme 599 Wörter, fester Block 1.403 | **ENTWURF / PETRA REVIEW / nicht im Server** |
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.9-bericht.md` | Abnahmetest 0.9: kein Abschreiben mehr, Deutsch korrekt, Alter 0-mal; Schablonen aus Teil A, dem Schutzblock und Modell-Standard; bei A fünfmal ins Problem; 2,18 US-Cent; ein Vorschlag | **PETRA REVIEW / 0.9 nicht freigegeben** |
