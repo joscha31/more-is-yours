@@ -1,9 +1,18 @@
 # INDEX – More is Yours
 
-**Stand:** 13. Oktober 2026  
+**Stand:** 19. Oktober 2026  
 **Funktion:** Zentrales Inhaltsverzeichnis des Projekts
 
 > Der Index enthält keine ausführlichen Fachinhalte. Er zeigt nur, welche Dateien es gibt, wofür sie zuständig sind und welchen Status sie haben.
+
+## Zuerst lesen – Überbau und Stand
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `STATUS.md` | Die erste Datei für jede KI: Datum, Phase, aktueller Schritt, Elsbeth-Version, der eine nächste Schritt, was auf Petra wartet. Claude Code zieht sie nach jeder Arbeitsrunde nach | **LEBENDER STAND** |
+| `PROZESS.md` | Überbau: wozu More is Yours da ist (spielerische Persönlichkeitsentwicklung, Übungsraum statt Diagnostik), die fünf Phasen mit ihren Toren, Regeln der Zusammenarbeit, Rollen, Definition von STATUS.md | **LEBENDES DOKUMENT / von Petra vorgelegt 19.10.2026** |
+
+---
 
 ## Prioritätsregel bei Widersprüchen
 
@@ -331,6 +340,8 @@ Künftige Protokolle werden nach relevantem Arbeitstag ergänzt.
 ```text
 more-is-yours/
 ├── INDEX.md
+├── STATUS.md
+├── PROZESS.md
 ├── arbeitszettel/
 ├── master/
 ├── strategie/
