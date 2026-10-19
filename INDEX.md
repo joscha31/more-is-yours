@@ -152,8 +152,18 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 | Datei | Funktion | Status |
 |---|---|---|
-| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.6-bericht.md` | Testbericht von Claude Code zu Entwurf 0.6 der Schreibstimme: was neu ist, fünf Testfälle, Kosten, die besten und die misslungenen Antworten, Tabelle für Petras Urteil. Die Pfade im Bericht beziehen sich auf das Arbeits-Repo `meine-projekte` | **PETRA REVIEW / 0.6 nicht freigegeben** |
-| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.6-roh.md` | Alle 17 Originalantworten wörtlich und unverändert, einschließlich der misslungenen | **PETRA REVIEW / Rohprotokoll** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.6-bericht.md` | Testbericht von Claude Code zu Entwurf 0.6 der Schreibstimme: was neu ist, fünf Testfälle, Kosten, die besten und die misslungenen Antworten, Petras ausgefüllte Urteilstabelle. Die Pfade im Bericht beziehen sich auf das Arbeits-Repo `meine-projekte` | **VON PETRA BEURTEILT / 0.6 nicht freigegeben** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.6-roh.md` | Alle 17 Originalantworten wörtlich und unverändert, einschließlich der misslungenen | **Rohprotokoll / 0.6 nicht freigegeben** |
+
+## Elsbeth Unknown – Stimme 0.7, Testbericht
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `entscheidungen/2026-10-19-elsbeth-0.6-petras-urteil.md` | Petras fünf Urteile zu 0.6 (A, B, C verändern · D, E nein) und ihre vier Hinweise | **PETRAS URTEIL / 0.6 nicht freigegeben** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-regeln-0.7-entwurf.md` | Entwurf 0.7 des Elsbeth-Prompts: Haltungen und Gesprächsprinzipien statt Mustersätzen, „Stimmt" bei der KI-Frage, Vielfalt bei „überrasch mich"; ab „WOFÜR DAS HAUS DA IST" wörtlich 0.4 | **ENTWURF / PETRA REVIEW / nicht im Server** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.7-bericht.md` | Testbericht 0.7: was neu ist, zwei Testrunden, 4,21 ct, beste und misslungene Antworten, Tabelle für Petras Urteil. Pfade im Bericht beziehen sich auf `meine-projekte` | **PETRA REVIEW / 0.7 nicht freigegeben** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.7-roh.md` | Runde 2 (gültiger Entwurf 0.7): 17 Originalantworten, unverändert | **PETRA REVIEW / Rohprotokoll** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.7-roh-runde1.md` | Runde 1 (Vorfassung): 17 Originalantworten, unverändert, mit den Fehlern, die zur Nachschärfung führten | **PETRA REVIEW / Rohprotokoll** |
 
 ## Aktuelle Masterquelle
 

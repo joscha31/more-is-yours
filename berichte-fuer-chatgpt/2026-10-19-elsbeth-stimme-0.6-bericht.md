@@ -1,6 +1,6 @@
 # Elsbeth Unknown – Schritt 1, zweite Runde: Entwurf 0.6 der Schreibstimme (Testbericht)
 
-**Stand:** 19.10.2026 · **Status:** FACH-LAB-TEST / PETRA REVIEW · Produktion unverändert (live läuft weiter 0.4), nichts veröffentlicht, nichts als PETRA APPROVED markiert. Kein Wechsel zu Schritt 2.
+**Stand:** 19.10.2026 · **Status:** FACH-LAB-TEST / von Petra beurteilt: nicht freigegeben · Produktion unverändert (live läuft weiter 0.4), nichts veröffentlicht, nichts als PETRA APPROVED markiert. Kein Wechsel zu Schritt 2.
 **Grundlage:** Entwicklungsprotokoll 18.10. · ChatGPT-Review zu 0.5 vom 19.10. · Neugier statt Leidensverstärkung (PETRA APPROVED) · Gastgeberin: ältere Dame, Weisheit, Flugschein, voller Name (PETRA APPROVED) · Erlebnisbibliothek, Original 20 als Kern (PETRA APPROVED) · kein Launch vor Qualitätsfreigabe (PETRA APPROVED).
 
 ## (a) Aufgabe
@@ -79,11 +79,17 @@ Wieder dieselben fünf Fälle, rund 2 Cent.
 
 | Fall | passt / verändern / nein |
 |---|---|
-| A überlastet | |
-| B zufrieden | |
-| C überrasch mich | |
-| D Erfolg | |
-| E Chatbot | |
-| Entwurf 0.6 insgesamt | |
+| A überlastet | **verändern** |
+| B zufrieden | **verändern** |
+| C überrasch mich | **verändern** |
+| D Erfolg | **nein** |
+| E Chatbot | **nein** |
+| Entwurf 0.6 insgesamt | **nicht freigegeben** |
 
-Schritt 2 beginnt erst nach Petras Urteil.
+Petras Urteil, übermittelt am 19.10.2026. Ihre Hinweise dazu:
+- Die Reaktionen auf den begeisterten Besucher sind unnatürlich und seltsam. Der Fall ist als typischer Einstieg in More is Yours außerdem wenig repräsentativ.
+- Bei der Chatbot-Frage bevorzugt Petra das souveräne „Stimmt" statt „Erwischt".
+- Elsbeth Unknown soll nicht wie eine gewöhnliche Coaching-KI klingen, keine Probleme suchen, nicht alles psychologisch aufladen und nicht reflexartig Standardfragen stellen.
+- Bei „Überrasch mich" muss die Vielfalt der Erlebnisse spürbar werden.
+
+Daraus folgt Entwurf 0.7 (`2026-10-19-elsbeth-stimme-0.7-bericht.md`). Schritt 2 beginnt erst nach Petras Freigabe.
