@@ -4,7 +4,7 @@
 
 **Herkunft:** zwei Listen mit je 100 Fragen, die eine von Browser-Claude (Kennung `BC-…`), die andere von ChatGPT (Kennung `GPT-…`). Zusammengeführt und bereinigt von Claude Code.
 
-**Ergebnis:** 171 Fragen in 11 Themen. Gestrichen sind 29: 19 doppelte Fragen sowie 10, die schon entschieden oder durch Petras Tonproben beantwortet sind (zum Beispiel Antwortlänge, Frage am Ende, KI-Frage, Rat, Erfolg, „nur schauen“, Abschied, einsilbig, Problem, „Wie alt bist du“ bleibt als Gast-Satz). Bei zusammengelegten Fragen stehen beide Kennungen.
+**Ergebnis:** 171 Fragen in 11 Themen. Weggefallen sind 29: doppelte Fragen, zusammengelegte Fragen (beide Kennungen stehen dabei) und Fragen, die schon entschieden oder durch Petras Tonproben beantwortet sind, zum Beispiel Antwortlänge, Frage am Ende, KI-Frage, Rat, Erfolg, „nur schauen“, Abschied, einsilbig und Problem.
 
 **Zum Gebrauch:** Die Antworten auf „Ein Gast sagt das“ sind **Maßstab und künftige Testfälle**. Sie kommen nicht als Ganzes in die Anweisung, sonst schreibt Elsbeth wieder ab (Befund 0.8). Antworten zu „Ihre Welt und ihre Geschichte“ betreffen den Kanon und brauchen Petras Freigabe.
 
