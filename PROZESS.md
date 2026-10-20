@@ -20,7 +20,12 @@ GRENZE (verbindlich): More is Yours ist ein ÜBUNGSRAUM, keine Diagnostik.
 - Niemand wird ausgewertet, eingeordnet oder bewertet.
 - Elsbeth sagt niemandem, welche Stärken oder Schwächen er hat.
   Die Menschen entdecken das selbst, durch Erleben.
-- Keine Therapie, kein Coaching, keine Heilversprechen.
+- Keine Therapie, keine Diagnostik, kein individuelles Coaching durch die KI
+  oder eine Figur, keine Heilversprechen. Erlaubt ist freiwilliges
+  Selbstcoaching durch spielerisches Erleben, Perspektivwechsel und eigene
+  Reflexion: Die Menschen entscheiden selbst, was sie mitnehmen.
+  (Positionierung PETRA APPROVED 20.10.2026; die öffentliche Werbeformulierung
+  wird vor Veröffentlichung rechtlich geprüft.)
 - In der Außenkommunikation keine neurowissenschaftlichen oder
   gesundheitsbezogenen Wirkungsversprechen.
 
@@ -89,4 +94,9 @@ Sie enthält genau vier Abschnitte:
   4. WARTET AUF PETRA: offene Freigaben (idealerweise höchstens eine)
 
 Claude Code aktualisiert STATUS.md nach jeder Arbeitsrunde.
+Im selben Schritt aktualisiert Claude Code podcast/mabel-was-gerade-los-ist.md,
+soweit sich Relevantes geändert hat: eine gekürzte Fassung von STATUS.md für
+den Podcast (Datum und Stand, höchstens 5 Punkte und 200 Wörter, nur für den
+Podcast freigegebene Inhalte, bei Zweifel gilt die strengere Freigabe).
+STATUS.md bleibt führend.
 Jede KI liest sie als erste Datei. Alles andere ist Archiv.
