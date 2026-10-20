@@ -506,3 +506,4 @@ Claude Code darf fehlende Fachwahrheit nicht selbst erfinden. Fehlende Inhalte w
 
 | `erlebnisbibliothek/DENKARIUM-IDEENARCHIV.md` | Fortlaufendes Denkarium: Petras Originalideen, KI-Ergänzungen, offene Möglichkeiten und kurze Wettbewerbschecks; Start mit personalisierten Mut-, Geschenk- und Erstlesebüchern | **IDEENSAMMLUNG / PETRA REVIEW – keine Baufreigabe** |
 | `forschung/2026-10-20-podcast-live-mabel-machbarkeit.md` | Machbarkeit Live-Podcast „The World of the Unknown“ mit Mabel: ChatGPT-Live-Original vs. eigene Mabel über GPT-Live-API, Zwei-Spur-Aufnahme, Kosten, Recht, Zwei-Knopf-Ablauf; Petras Erzählregel E | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+| `forschung/2026-10-20-podcast-mabel-charakter-vorschlag.md` | Mabels Charakter und zwei Ansagesätze (ChatGPT, unverändert) mit Prüfung durch Claude Code: passt zu Erzählregel E und Kanon, Empfehlung Variante 1 in Ich-Form | **VORSCHLAG CHATGPT / PETRA REVIEW – kein Kanon** |
