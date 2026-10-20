@@ -22,22 +22,24 @@ Dazu kommt etwas, das die Sache sehr leicht macht: **OpenAI liefert die Aufnahme
 | Live mit Mabel sprechen | ✅ ja, gleiche Live-Technik wie in ChatGPT | ✅ ja, das Original |
 | Beide Stimmen sofort aufnehmen | ✅ ja, zwei getrennte Spuren | ⚠️ nur mit Kopfhörern und einem Zusatzprogramm, das den Ton des Macs mitschneidet; QuickTime allein nimmt nur dein Mikrofon auf |
 | Fertige Datei am Ende | ✅ ja, automatisch | ⚠️ ja, aber von Hand zusammenzufügen |
-| Rechtmäßig veröffentlichen | ✅ ja, mit klarer KI-Kennzeichnung | ⚠️ grundsätzlich ja, aber ohne ausdrückliche Stimmenlizenz (siehe Frage 4) |
+| Rechtmäßig veröffentlichen | ⚠️ voraussichtlich ja, mit klarer KI-Kennzeichnung; eine ausdrückliche Stimmenlizenz gibt es auch hier nicht, Dr. Falk prüft | ⚠️ grundsätzlich ja, aber ohne ausdrückliche Stimmenlizenz (siehe Frage 4) |
 
-**Empfehlung: Lösung 1.** Sie ist die einzige, die alle vier Wünsche ohne Umweg erfüllt. Lösung 2 ist gut für eine allererste Hörprobe, aber nicht für eine Serie.
+**Empfehlung: Lösung 1.** Sie erfüllt die ersten drei Wünsche ohne Umweg. Beim vierten ist sie die besser abgesicherte der beiden Lösungen, eine endgültige Antwort gibt aber erst Dr. Falk. Lösung 2 ist gut für eine allererste Hörprobe, aber nicht für eine Serie.
 
 ### 2. Was kostet eine Folge?
 
 Bei GPT-Live wird nach **Gesprächszeit** abgerechnet, sekundengenau: **0,05 US-Dollar pro Minute**. Es zählt die ganze Zeit, in der die Verbindung offen ist, also auch Pausen.
 
-| Aufnahme | Nur die Stimme | Mit einer Wiederholung |
-| --- | --- | --- |
-| Probe, 5 Minuten | 0,25 $ | 0,50 $ |
-| Folge, 15 Minuten | 0,75 $ | 1,50 $ |
-| Folge, 30 Minuten | 1,50 $ | 3,00 $ |
-| Monat: 4 Folgen à 20 Minuten | 4,00 $ | 9,00 $ (mit je einer Probe und einer Wiederholung) |
+Bezahlt wird die **Verbindungszeit**, nicht die fertige Folgenlänge. Mit Anlauf, Denkpausen und Schnittmaterial ist man für eine fertige Folge von 20 Minuten realistisch 30 bis 40 Minuten verbunden.
 
-Eine Folge von 20 Minuten kostet also **rund einen Dollar**, mit Probe und zweitem Anlauf etwa zwei. Es gibt kein Abo. Ein OpenAI-Konto mit Schlüssel hast du bereits (für die Diktat-Technik).
+| Aufnahme | Reine Gesprächszeit | Realistisch verbunden | Mit abgebrochenem Versuch |
+| --- | --- | --- | --- |
+| Probe, 5 Minuten | 0,25 $ | 0,40 $ (8 Min.) | 0,65 $ |
+| Folge, 15 Minuten | 0,75 $ | 1,25 $ (25 Min.) | 2,00 $ |
+| Folge, 30 Minuten | 1,50 $ | 2,50 $ (50 Min.) | 4,00 $ |
+| Monat: 4 Folgen à 20 Minuten | 4,00 $ | 6,00–8,00 $ (30–40 Min. je Folge) | bis 12,00 $ |
+
+Eine fertige Folge von 20 Minuten kostet also **realistisch 1,50 bis 2 $**, mit einem abgebrochenen Versuch bis 3 $. Wird die Verarbeitung in Europa gewählt, kommen 10 % dazu. Falls Dr. Falk sie verlangt, ist dieser Aufschlag Pflicht. Es gibt kein Abo. Ein OpenAI-Konto mit Schlüssel hast du bereits (für die Diktat-Technik).
 
 **Was sicher begrenzt werden kann:** Weil nur die Zeit zählt, legt die Aufnahmeseite eine Höchstdauer fest, zum Beispiel 35 Minuten. Danach endet das Gespräch von selbst, und mehr als 1,75 $ kann diese Folge dann nicht kosten. Zusätzlich lädt man bei OpenAI ein festes Guthaben ohne automatisches Nachladen auf. Ist es verbraucht, hört alles auf. Das ist die härteste Bremse, die es gibt.
 
@@ -49,15 +51,17 @@ Zwei ehrliche Einschränkungen: ChatGPT bekommt neue Versionen manchmal etwas fr
 
 ### 4. Darf der Podcast veröffentlicht werden?
 
-**Ja, wenn deutlich gesagt wird, dass Mabel eine KI ist.** Das verlangen die OpenAI-Regeln, und für veröffentlichte KI-Stimmen verlangt es seit August 2026 auch das europäische KI-Gesetz.
+**Voraussichtlich ja, wenn deutlich gesagt wird, dass Mabel eine KI ist. Die endgültige Antwort gibt Dr. Falk.** Die Kennzeichnung verlangen die OpenAI-Regeln, und für veröffentlichte KI-Stimmen verlangt es seit August 2026 auch das europäische KI-Gesetz.
 
 - Was die KI erzeugt, gehört laut OpenAI-Bedingungen **dir**, soweit das Gesetz das zulässt.
 - OpenAI erlaubt ausdrücklich, eigene Ergebnisse zu veröffentlichen und die eigene Nutzung live zu zeigen, wenn **unübersehbar** gekennzeichnet ist, dass es KI ist, und klar ist, dass es von dir kommt.
 - Verboten ist, eine KI-Stimme als Menschen auszugeben.
 
-**Zur ChatGPT-Originalstimme (Prüfauftrag A):** Eine **ausdrückliche Stimmenlizenz für Podcasts, ein Creator-Programm oder einen schriftlichen Genehmigungsweg habe ich auf den offiziellen Seiten nicht gefunden.** Die allgemeinen Regeln erlauben das Veröffentlichen mit Kennzeichnung, sie nennen Stimmen aber nicht eigens. Bei Lösung 1 ist die Lage klarer, weil die Entwickler-Schnittstelle für eigene Anwendungen gedacht ist.
+**Zur ChatGPT-Originalstimme (Prüfauftrag A):** Eine **ausdrückliche Stimmenlizenz für Podcasts, ein Creator-Programm oder einen schriftlichen Genehmigungsweg habe ich auf den offiziellen Seiten nicht gefunden.** Die allgemeinen Regeln erlauben das Veröffentlichen mit Kennzeichnung, sie nennen Stimmen aber nicht eigens. Das gilt für beide Lösungen. Bei Lösung 1 spricht dafür, dass die Entwickler-Schnittstelle für eigene Anwendungen gedacht ist. Das ist ein gutes Argument, aber noch keine ausdrückliche Erlaubnis.
 
-**Der zweite Blick:** Vor der ersten echten Veröffentlichung schaut Dr. Falk noch auf drei Dinge: das KI-Gesetz, die Regeln der Podcast-Plattform zu KI-Stimmen und den Titel „The World of the Unknown“. Außerdem gilt für Mabels Sätze das Gleiche wie für deine: keine Heilversprechen.
+**Der zweite Blick:** Vor der ersten echten Veröffentlichung prüft Dr. Falk: die Stimmen-Frage, das KI-Gesetz, die Regeln der Podcast-Plattform zu KI-Stimmen, den Titel „The World of the Unknown“, den Vertrag zur Auftragsverarbeitung mit OpenAI und den Verarbeitungsort (deine Stimme läuft in jedem Fall über OpenAIs Server, auch wenn dort nichts gespeichert wird) sowie das Impressum für den veröffentlichten Podcast.
+
+**Vorschlag für eine feste Regel (deine Entscheidung):** Der Podcast wird nie live gesendet. Es gilt immer: aufnehmen, anhören, bei Bedarf schneiden, dann veröffentlichen. Außerdem gilt für Mabels Sätze das Gleiche wie für deine: keine Heilversprechen.
 
 ### Deine Erzählregel E (von dir entschieden, 20.10.2026, wörtlich übernommen)
 
@@ -101,7 +105,7 @@ Eine Umgehung von Nutzungsbedingungen wird hier ausdrücklich nicht vorgeschlage
 | Echtzeitgespräch | WebRTC aus dem Browser: Mikrofon rein, Lautsprecher raus. Ein kleiner Server erzeugt die Sitzung. |
 | Natürliche Stimme | Feste Stimme pro Sitzung. Deutsche Natural-Stimmen: `nuri`, `juni` (weiblich), `flitz` (männlich). Eigene Stimmen nur mit Freigabe (Custom Voices), hier nicht nötig. |
 | Charakter | `instructions` bis 16.384 Tokens. Begrüßung kann über eine Developer-Nachricht beim Start ausgelöst werden. |
-| Gleichzeitige Aufnahme, getrennte Spuren | **Weg 1 (eingebaut):** `store: true` → nach Sitzungsende `GET /v1/live/sessions/{id}/content` → **Stereo-WAV, links Petra, rechts Mabel.** Die Aufnahme liegt 30 Tage bei OpenAI. **Weg 2 (lokal):** Der Browser schneidet Mikrofon und Mabels Ton selbst mit und speichert zwei Dateien auf dem Mac. Nichts bleibt bei OpenAI liegen. Empfehlung: Weg 2 als Standard, Weg 1 als Sicherung. Datenschutz: Bei Weg 1 vorher Dr. Falk fragen. |
+| Gleichzeitige Aufnahme, getrennte Spuren | **Weg 1 (eingebaut):** `store: true` → nach Sitzungsende `GET /v1/live/sessions/{id}/content` → **Stereo-WAV, links Petra, rechts Mabel.** Die Aufnahme liegt 30 Tage bei OpenAI. **Weg 2 (lokal):** Der Browser schneidet Mikrofon und Mabels Ton selbst mit und speichert zwei Dateien auf dem Mac. Gespeichert wird bei OpenAI nichts, übertragen wird die Stimme aber trotzdem über OpenAIs Server, sonst könnte Mabel nicht antworten. Empfehlung: Weg 2 als Standard, Weg 1 als Sicherung. Datenschutz: Bei Weg 1 vorher Dr. Falk fragen. |
 | Export WAV | Weg 1 liefert WAV direkt. Bei Weg 2 wird im Browser in WAV umgewandelt. |
 | Text dazu | Die Sitzung liefert für beide Stimmen laufend eine Abschrift mit Zeitstempeln. Das ergibt Material für Shownotes. |
 | Kennzeichnung | Fester Ansagesatz am Anfang (am sichersten als vorab geprüfte Audiodatei), dazu Kennzeichnung im Folgentitel und in den Shownotes. Auf der Seite selbst steht ein deutliches Schild „KI-Stimme“. |
@@ -147,6 +151,8 @@ Eine Euro-Umrechnung wurde nicht frisch abgerufen. Die Beträge stehen deshalb i
 ```
 
 **Empfehlung: eine kleine Webseite, die lokal auf dem Mac läuft und per Doppelklick startet.**
+- Hinter der Seite muss ein kleines Programm laufen, sonst bleibt sie tot. Deshalb gilt: **ein einziges Symbol** startet beides, es gibt keinen zweiten Schritt.
+- **Die Aufnahme wird laufend auf die Festplatte geschrieben**, nicht erst am Ende. Wenn das Netz abbricht, ist alles bis dahin gesichert. Die gespeicherte Aufnahme bei OpenAI (Weg 1) wäre eine zweite Sicherung.
 - Gegen ein fertiges Werkzeug spricht: OpenAIs Beispiel-App „Live Console“ ist eine Entwicklerkonsole mit vielen Reglern, keine Oberfläche mit zwei Knöpfen.
 - Gegen eine Seite in der Zentrale (Vercel) spricht: Dort sind 10 von 12 Funktionen belegt, und der Schlüssel müsste ins Netz. Das kann später kommen, wenn du vom iPhone aus aufnehmen willst.
 - Gegen eine echte Desktop-App spricht: Sie bringt gegenüber der lokalen Seite nichts Zusätzliches und braucht mehr Bauaufwand.
@@ -156,7 +162,16 @@ Eine Euro-Umrechnung wurde nicht frisch abgerufen. Die Beträge stehen deshalb i
 - **DECISION GAP:** Lösung 1 oder 2, und wann gebaut wird. Das entscheidet Petra.
 - **CONTENT GAP:** Mabels Charakter und Stimme (Nuri oder Juni) stehen noch nicht fest.
 - **Reihenfolge:** Laut PROZESS.md Regel 3 wird nichts Neues begonnen, solange Petras Urteil zu Elsbeth 0.11 aussteht. Dieser Bericht beginnt nichts, er liegt bereit.
-- **Recht (Dr. Falk, vor der ersten Veröffentlichung):** Art. 50 KI-Verordnung (Transparenz bei synthetischem Audio, gilt seit 02.08.2026; mögliche Übergangsregeln prüfen), Plattformregeln, Titel/Marke, Datenschutz bei gespeicherter Aufnahme (Weg 1), später bei Gästen deren Einwilligung.
+- **Recht (Dr. Falk, vor der ersten Veröffentlichung):** Stimmen-Frage (keine ausdrückliche Lizenz gefunden), Vertrag zur Auftragsverarbeitung mit OpenAI, Verarbeitungsort (EU-Aufschlag 10 %), Impressumspflicht für den Podcast, Art. 50 KI-Verordnung (Transparenz bei synthetischem Audio, gilt seit 02.08.2026; mögliche Übergangsregeln prüfen), Plattformregeln, Titel/Marke, Datenschutz bei gespeicherter Aufnahme (Weg 1), später bei Gästen deren Einwilligung.
+
+### Nachtrag 20.10.2026: Prüfung durch Claude im Browser
+
+Claude im Browser hat die Preisseite selbst aufgerufen und bestätigt, dass die Preise stimmen. Übernommen wurden fünf Punkte:
+1. Das Häkchen bei „rechtmäßig veröffentlichen“ war zu stark. Es steht jetzt auf ⚠️, bis Dr. Falk geprüft hat.
+2. Abgerechnet wird die Verbindungszeit. Die Tabelle rechnet jetzt mit 30 bis 40 Minuten Verbindung je fertiger Folge von 20 Minuten. Die Schätzung von Claude im Browser (2 bis 4 $ je Folge) ist für den Normalfall etwas hoch, denn 4 $ entsprächen 80 Minuten Verbindung. Sie stimmt aber, wenn ein Versuch abbricht.
+3. Datenschutz: Speichern und Übertragen werden jetzt getrennt behandelt. Neu auf Dr. Falks Liste stehen der Vertrag zur Auftragsverarbeitung, der Verarbeitungsort und das Impressum.
+4. Neu als Vorschlag für Petra: Der Podcast wird nie live gesendet.
+5. Neu beim Ablauf: ein Symbol startet alles, und die Aufnahme wird laufend gespeichert.
 
 ### Drei-Brillen-Protokoll (Grundregel 9)
 

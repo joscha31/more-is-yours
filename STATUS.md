@@ -12,7 +12,7 @@
 - **Noch nicht freigegeben:** Vorfragen je Erlebnis, Intensität, Übergabeformat, Erlebnisanweisungen, der vollständige Ersatz von Teil A durch den Zwecktext. Für 0.10 hat Petra den Teil A selbst gewählt.
 - **0.10:** Teil A = Zwecktext + vier Sätze (Petras Wahl 20.10.), A bis C 515 Wörter. Fall A: 5 von 5 ins Problem. Bei E zerfällt die Figur („ich spiele sie“), belegte Ursache ist die dritte Person im Zwecktext.
 - **Fragenpool, Fassung 2:** 127 Fragen, in der Zentrale per Mikro und im Spaziergang-Modus beantwortbar (`berichte-fuer-chatgpt/2026-10-19-elsbeth-fragenpool.md`). Antworten sind Rohmaterial.
-- **Nebenbei, außerhalb von Phase 2 (20.10.):** Prüfbericht zum Podcast mit Mabel liegt bereit (`forschung/2026-10-20-podcast-live-mabel-machbarkeit.md`, FACH-LAB-VORSCHLAG / PETRA REVIEW). Empfehlung: GPT-Live über die API, ca. 1 $ je 20-Minuten-Folge. Nichts gebaut. Petras Erzählregel E für den Podcast steht darin; Elsbeths Anweisung bleibt unverändert.
+- **Nebenbei, außerhalb von Phase 2 (20.10.):** Prüfbericht zum Podcast mit Mabel liegt bereit (`forschung/2026-10-20-podcast-live-mabel-machbarkeit.md`, FACH-LAB-VORSCHLAG / PETRA REVIEW). Empfehlung: GPT-Live über die API, realistisch 1,50–2 $ je 20-Minuten-Folge; Recht prüft Dr. Falk vor der ersten Veröffentlichung. Nichts gebaut. Petras Erzählregel E für den Podcast steht darin; Elsbeths Anweisung bleibt unverändert.
 - Vorgemerkt für Phase 3: eigene Erlebnisanweisungen mit Schutzblock, Moduswechsel im bestehenden Server, Rückkehr zu Elsbeth, wechselnde Türauswahl, Schutzfälle, Modellwahl.
 
 ## 3. DER EINE NÄCHSTE SCHRITT
