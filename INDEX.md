@@ -156,6 +156,12 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.6-bericht.md` | Testbericht von Claude Code zu Entwurf 0.6 der Schreibstimme: was neu ist, fünf Testfälle, Kosten, die besten und die misslungenen Antworten, Petras ausgefüllte Urteilstabelle. Die Pfade im Bericht beziehen sich auf das Arbeits-Repo `meine-projekte` | **VON PETRA BEURTEILT / 0.6 nicht freigegeben** |
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.6-roh.md` | Alle 17 Originalantworten wörtlich und unverändert, einschließlich der misslungenen | **Rohprotokoll / 0.6 nicht freigegeben** |
 
+## Elsbeth Unknown – Zweck und Arbeitsteilung
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `co-work-briefs/2026-10-20-elsbeth-zweck-und-arbeitsteilung-vorlage.md` | Zwecktext „Wofür Elsbeth da ist", Arbeitsteilung Elsbeth/Erlebnis, Regeln für Vorfragen, Übergabe, keine Methodennamen; mit Prüfung, was aus Teil A wegfiele | **VORSCHLAG / wartet auf Petras Freigabe** |
+
 ## Elsbeth Unknown – Fragenpool an Petra
 
 | Datei | Funktion | Status |
