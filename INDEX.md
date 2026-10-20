@@ -136,6 +136,7 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 - `entscheidungen/2026-10-18-erlebnisbibliothek-20-plus-20-als-produktkern.md` – Originale 20 in fünf Welten sind verpflichtender Produktkern, Erweiterung durch neue Mechaniken, Variation durch Elsbeth Unknown. **PETRA APPROVED (strategische Regel)**.
 - `forschung/2026-10-18-erlebnisbibliothek-neue-ideen-21-40-entwurf.md` – konkrete neue Vorschläge 21–40, zu prüfen auf Dopplungen. **FACH-LAB-VORSCHLAG / PETRA REVIEW**.
 - `entscheidungen/2026-10-19-versammlung-moeglicher-ichs-in-welt-4.md` – Original Nr. 04 „Die Versammlung deiner möglichen Ichs“ wandert von Welt 1 in Welt 4; neue Idee Nr. 25 „Die Premiere deines Lebens“ steht in Welt 1. **PETRA APPROVED (19.10.2026)**.
+- `forschung/2026-10-20-erlebnis-fuenf-von-dir-an-einem-tisch.md` – Erlebnisentwurf „Fünf von dir an einem Tisch“: Versprechen, Ablauf, Regeln für die fünf Ichs, Petra-Beispiel, Brücke, kleinste erste Version („Tischprobe“), drei offene Entscheidungen (u. a. Abgrenzung zu Nr. 04). **FACH-LAB-VORSCHLAG / PETRA REVIEW**.
 
 ## Neue Erlebnisideen – Film, Podcast, Buch und Perspektivwechsel
 
