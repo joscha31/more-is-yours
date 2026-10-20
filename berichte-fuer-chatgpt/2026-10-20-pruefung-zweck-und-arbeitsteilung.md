@@ -44,3 +44,5 @@ Petra hat entschieden: Die Grenze gilt für die ganze Stimme. Mit der neuen Tonp
 ## Nachtrag 20.10.: Petras Rückmeldung zu „aus dem Alltag geholt"
 
 Petra (wörtlich): „aus dem Alltag geholt werden empfinde ich ja auch schön formuliert, als abtauchen." Die Formulierung im Zwecktext gefällt ihr also. Ob damit „Abtauchen" im Sinn von Eskapismus gemeint ist oder nur ein schönes Wort für das Herausholen aus dem Alltag, ist noch eine Rückfrage, weil die PETRA-APPROVED-Positionierung die Welten als „Mittel, nicht Selbstzweck oder Eskapismus" beschreibt.
+
+**Petras Klarstellung 20.10.:** „abtauchen finde ich schöner formuliert als aus dem Alltag geholt werden. Aus dem Alltag in Elsbeth Unknowns Welt abtauchen." Der Zwecktext in der Vorlage ist so angepasst. Er nennt jetzt auch „Elsbeth Unknown" mit vollem Namen. Er steht direkt neben „Hier wird geübt" und „Was jemand mitnimmt, findet er selbst heraus", deshalb bleibt im Text klar, dass das Abtauchen zum Ausprobieren dient. Das passt zur Positionierung „Mittel, nicht Selbstzweck".
