@@ -104,3 +104,19 @@ Sie sollen das Gefühl haben, bei einem ungewöhnlichen, echten Gespräch dabei 
 - Ist Mabel die Tochter von Elsbeth? Das ist eine Kanon-Entscheidung, `KANON-ELSBETH.md` Zeile 154. Sie wurde hier nicht eingetragen.
 - Welcher Ansagesatz, und wer spricht ihn?
 - Welche Stimme: Nuri oder Juni (das zeigt die Probe von fünf Minuten).
+
+---
+
+## Teil 3 – Erster Hörtest (20.10.2026, Petra im Playground)
+
+**Aufbau:** OpenAI-Playground „Realtime“, Modell `gpt-realtime-2.1` (GPT-Live ist dort nicht verfügbar), Stimme Marin. Nuri und Juni waren nicht auswählbar.
+
+**Ohne Anweisung:** Petras Urteil: „Marin klingt gut, aber sie liest nur ab.“
+
+**Mit dieser Kurz-Anweisung von Claude Code:**
+
+> Du bist Mabel. Du sprichst lockeres, natürliches Deutsch, so wie in einem Gespräch am Küchentisch. Du antwortest kurz, meistens in ein oder zwei Sätzen. Du darfst „hm“, „na ja“ oder „warte mal“ sagen, du darfst lachen, widersprechen und einen Gedanken abbrechen. Du stellst nicht nach jeder Antwort eine Frage. Du bist neugierig, schlagfertig und trocken im Humor. Du bist keine Moderatorin, du bist eine Gesprächspartnerin.
+
+**Petras Urteil:** „Jetzt klingt sie viel natürlicher.“
+
+**Lehre:** Ob es natürlich klingt, entscheidet vor allem die Sprechanweisung (kurze Beiträge, Füllwörter erlaubt, nicht nach jeder Antwort eine Frage). Die Stimme allein entscheidet es nicht. Für die Probe mit GPT-Live wird ChatGPTs Charakter (Teil 1) mit diesen Sprechregeln verbunden. Noch nicht getestet: Vollduplex mit GPT-Live, Nuri und Juni.
