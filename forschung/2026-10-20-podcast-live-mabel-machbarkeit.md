@@ -113,6 +113,8 @@ Eine Umgehung von Nutzungsbedingungen wird hier ausdrücklich nicht vorgeschlage
 | Kostenstopp | ① Höchstdauer in der Seite (die Sitzung wird nach z. B. 35 Minuten geschlossen). ② Projekt-Ausgabenlimit (blockiert neue Anfragen; laut Doku nicht sekundengenau, kann leicht überschritten werden). ③ **Prepaid-Guthaben ohne automatisches Nachladen** = harte Obergrenze. |
 | Kopfhörer | Pflicht, damit Mabels Stimme nicht in Petras Mikrofon zurückläuft. |
 
+**Beobachtung 20.10.2026 (Petra im Playground):** Im Realtime-Playground von OpenAI sind Nuri und Juni nicht auswählbar. Die deutschen Stimmen sind laut Doku nur für `gpt-live-1` vorgesehen und wurden erst am 16.10.2026 freigegeben. Hören kann man sie deshalb nur in einer echten API-Sitzung, also in der Probe von 5 Minuten. Ein Forenbericht von Anfang Oktober meldete, dass die API diese Namen ablehnte. Bei der Probe wird zuerst geprüft, ob die Stimme angenommen wird. Wenn nicht, ist die Ersatzlösung eine Standardstimme wie Marin, die Deutsch spricht.
+
 **Nicht geklärt:** Eine Höchstdauer je API-Sitzung nennt die gelesene Doku nicht ausdrücklich (es gibt nur den Abschlussgrund `expired`). Für ChatGPT berichten Drittquellen von 2 Stunden. Vor dem Bau einmal prüfen.
 
 **Qualität im Vergleich zu ChatGPT:** Gleiche Modellfamilie. Laut einer unbestätigten Drittquelle bekam ChatGPT am 15.10.2026 bereits eine Version 1.1, die Doku für Entwickler zeigt `gpt-live-1`. Der Unterschied ist also höchstens eine Version.
