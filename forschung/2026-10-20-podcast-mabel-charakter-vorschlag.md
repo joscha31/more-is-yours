@@ -120,3 +120,22 @@ Sie sollen das Gefühl haben, bei einem ungewöhnlichen, echten Gespräch dabei 
 **Petras Urteil:** „Jetzt klingt sie viel natürlicher.“
 
 **Lehre:** Ob es natürlich klingt, entscheidet vor allem die Sprechanweisung (kurze Beiträge, Füllwörter erlaubt, nicht nach jeder Antwort eine Frage). Die Stimme allein entscheidet es nicht. Für die Probe mit GPT-Live wird ChatGPTs Charakter (Teil 1) mit diesen Sprechregeln verbunden. Noch nicht getestet: Vollduplex mit GPT-Live, Nuri und Juni.
+
+---
+
+## Teil 4 – Erste echte Probe im Mabel-Studio (20.10.2026, 13:40 UTC)
+
+**Aufbau:** `gpt-live-1`, Stimme Nuri, Anweisung Mabel 0.1 (Charakter aus Teil 1 in Du-Form, dazu Sprechregeln, Erzählregel E, Rollen-Entscheidung). Aufnahme 2:47 Minuten, abgerechnet 182 Sekunden (0,15 $).
+
+**Technik:** gut.
+- Saubere Trennung der Spuren: Wenn Mabel spricht, liegt Petras Spur bei −80 bis −90 dB, es läuft also nichts über. Die Kopfhörer haben gewirkt.
+- Mabels Hörsignale („Mhm“) und das Überlappen klingen natürlich. Mabel lacht ([laugh]).
+- Petras Spur ist an der Spitze leicht übersteuert (9 Samples bei 0 dBFS). Das ist unkritisch.
+- Bei ca. 2:00 hat Mabel etwa 20 Sekunden lang nichts von Petra gehört. Petra: „Jetzt bist du weggeschneit.“ Mabel: „Du warst weg.“ Die Ursache ist unklar (Netz oder Modell). Die Aufnahme selbst ist vollständig, denn Wanduhr und Aufnahmelänge stimmen überein.
+
+**Inhalt:** Das ist noch nicht Mabel.
+- Petras Urteil im Gespräch: „Also im Moment hörst du dich noch 'n bisschen verschnarcht an.“
+- Mabel beginnt fast jede Antwort mit „Ja, genau“ oder „Ja, das stimmt“. Sie sichert sich ab („wenn es passt“, „wenn sich das so ergibt“), bringt nichts Eigenes mit und nutzt den Bau-Stand nicht.
+- Sie folgt Petras Rahmung „wir kennen uns ja noch gar nicht“, obwohl sie laut Rollen-Entscheidung Petra von Anfang an kennt.
+
+**Folgerung und nächster Schritt (Mabel 0.2, noch nicht getestet):** OpenAIs Anleitung empfiehlt für GPT-Live eine kurze Anweisung mit festen Abschnitten (Backchannel policy, Interruption policy, Delegation policy). Mabel 0.2 ist deshalb von 731 auf 455 Wörter gekürzt und gibt Verhalten statt Beschreibung vor: etwas Eigenes mitbringen, Petra aufziehen, widersprechen, kein „Ja, genau“ am Anfang, kein „wenn es passt“. Der Bau-Stand enthält jetzt die Pannen der ersten Probe. Die Begrüßung soll frech sein und gleich etwas aus dem Bau-Stand mitbringen. Die Fassung 0.1 ist im Studio als `mabel-anweisung-0.1.md` aufbewahrt.
