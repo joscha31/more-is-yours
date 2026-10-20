@@ -160,8 +160,10 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 | Datei | Funktion | Status |
 |---|---|---|
+| `entscheidungen/2026-10-20-elsbeth-arbeitsteilung-gastgeberin-erlebnis.md` | Elsbeth Unknown empfängt und öffnet die Tür; das Erlebnis ist ein eigener Übungsraum mit eigener Anweisung; Rückkehr ohne Abfrage und Deutung; Einordnung in den Entwicklungsplan | **PETRA APPROVED** |
+| `entscheidungen/2026-10-20-elsbeth-wortgrenze-600.md` | 600 Wörter gelten nur für Teil A bis C; Welt, Türnamen, Schutzblock und Erlebnisanweisungen zählen nicht | **PETRA APPROVED** |
 | `berichte-fuer-chatgpt/2026-10-20-pruefung-zweck-und-arbeitsteilung.md` | Prüfbericht zur Vorlage: was passt, was Regeln widerspricht (Erlaubnis, Intensität, Namen Dritter, Transparenz, Name), kleinste Änderungen, was erst Phase 3 braucht, 600-Wörter-Lage | **PRÜFBERICHT / PETRA REVIEW** |
-| `co-work-briefs/2026-10-20-elsbeth-zweck-und-arbeitsteilung-vorlage.md` | Zwecktext „Wofür Elsbeth da ist", Arbeitsteilung Elsbeth/Erlebnis, Regeln für Vorfragen, Übergabe, keine Methodennamen; mit Prüfung, was aus Teil A wegfiele | **VORSCHLAG / wartet auf Petras Freigabe** |
+| `co-work-briefs/2026-10-20-elsbeth-zweck-und-arbeitsteilung-vorlage.md` | Zwecktext „Wofür Elsbeth da ist", Arbeitsteilung, Vorfragen, Übergabe, keine Methodennamen; mit Prüfung und Petras Rückmeldungen (Abschnitt 9: CONFLICT zwischen zwei Rückmeldungen) | **VORSCHLAG / teils PETRA APPROVED, Rest offen** |
 
 ## Elsbeth Unknown – Fragenpool an Petra
 

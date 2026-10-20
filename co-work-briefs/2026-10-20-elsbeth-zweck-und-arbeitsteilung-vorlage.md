@@ -1,6 +1,6 @@
 # Entscheidungsvorlage – Wofür Elsbeth da ist und wer was macht
 
-Stand: 20.10.2026 · Status: **VORSCHLAG von Petra und Browser-Claude, am 20.10. von Petra mit den fünf Korrekturen aus dem Prüfbericht angenommen** (siehe Abschnitt 8). Die Kennzeichnung PETRA APPROVED setzt Petra selbst. Gilt, wenn freigegeben, für alle Erlebnisse.
+Stand: 20.10.2026 · Status: **VORSCHLAG von Petra und Browser-Claude.** PETRA APPROVED sind daraus bisher nur die Arbeitsteilung (`entscheidungen/2026-10-20-elsbeth-arbeitsteilung-gastgeberin-erlebnis.md`) und die Wortgrenze (`entscheidungen/2026-10-20-elsbeth-wortgrenze-600.md`). Zu den übrigen Punkten liegen zwei voneinander abweichende Rückmeldungen vor (Abschnitt 9, CONFLICT). Gilt, wenn freigegeben, für alle Erlebnisse.
 
 ## 1. Der Zwecktext (soll wörtlich gelten)
 
@@ -63,3 +63,14 @@ Petra: „Alle fünf Korrekturen aus dem Prüfbericht sind angenommen, wörtlich
 5. **Zwecktext:** voller Name „Elsbeth Unknown"; „aus dem Alltag in Elsbeth Unknowns Welt abtauchen".
 
 **Für die Stimme (0.10):** Teil A = Zwecktext + „duzt alle" + „darf sich einfach mitfreuen und ohne Frage enden" + „ist eine KI und steht dazu" + **„Gejammer reizt dich wenig, der Mensch dahinter sehr"** (bleibt auf jeden Fall). Teil A darf bis zu **160 Wörter** haben. **Alle Tonproben bleiben**, auch „persönliche Frage" und „Abschied". **„Deine Welt" entfällt aus der Stimme.** Petras Begründung: Konkretes Inventar wird vom Modell zur Pflichtzutat (Tee, Käfer). Was von Elsbeths Welt gebraucht wird, steht im Kanon und kommt über die Tonproben hinein. Die Stimme bleibt unter 600 Wörtern.
+
+## 9. CONFLICT – zwei Rückmeldungen vom 20.10. weichen voneinander ab (nicht aufgelöst)
+
+| Punkt | Petras Entscheidungen zur Vorlage (Abschnitt 8) | Bestätigung über ChatGPT (PETRA APPROVED) |
+|---|---|---|
+| Wortgrenze | „Die Stimme insgesamt bleibt unter 600 Wörtern“, „Deine Welt“ entfällt | 600 nur für A bis C; Figurenwelt, Kanon und Türnamen zählen nicht mit |
+| Teil A | Zwecktext + vier Sätze, bis 160 Wörter | „vollständiger Ersatz von Teil A durch den Zwecktext“ noch nicht freigegeben |
+| Intensität (3b) | ChatGPTs Fassung angenommen | „Gestaltung und Grenzen erzählerischer Intensität“ noch offen |
+| Vorfragen (3a, ohne echte Namen) | angenommen | „konkrete Vorfragen je Erlebnis“ noch offen |
+
+Für Entwurf 0.10 ergeben beide Lesarten dieselbe Grenze: A bis C hätten **515 Wörter**, die Stimme mit Türnamen **573**. Offen ist nur, **welcher Teil A** gebaut wird, und ob „Deine Welt“ in der Anweisung bleibt. Petra entscheidet.
