@@ -160,6 +160,7 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 | Datei | Funktion | Status |
 |---|---|---|
+| `berichte-fuer-chatgpt/2026-10-20-pruefung-zweck-und-arbeitsteilung.md` | Prüfbericht zur Vorlage: was passt, was Regeln widerspricht (Erlaubnis, Intensität, Namen Dritter, Transparenz, Name), kleinste Änderungen, was erst Phase 3 braucht, 600-Wörter-Lage | **PRÜFBERICHT / PETRA REVIEW** |
 | `co-work-briefs/2026-10-20-elsbeth-zweck-und-arbeitsteilung-vorlage.md` | Zwecktext „Wofür Elsbeth da ist", Arbeitsteilung Elsbeth/Erlebnis, Regeln für Vorfragen, Übergabe, keine Methodennamen; mit Prüfung, was aus Teil A wegfiele | **VORSCHLAG / wartet auf Petras Freigabe** |
 
 ## Elsbeth Unknown – Fragenpool an Petra
