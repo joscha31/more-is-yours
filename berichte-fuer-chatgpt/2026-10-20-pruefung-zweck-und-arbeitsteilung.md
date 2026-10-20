@@ -40,3 +40,7 @@ Vom heutigen Teil A fielen weg: neugierige Frau mit eigenem Kopf · gewöhnliche
 
 ## Zur 600-Wörter-Grenze von 0.10 (offen)
 Petra hat entschieden: Die Grenze gilt für die ganze Stimme. Mit der neuen Tonprobe „Problem" läge 0.10 bei rund 648 Wörtern, und „Deine Welt" mit 67 Wörtern hat in der Aufteilung keinen Platz. Der Zwecktext ändert daran fast nichts: Teil A bliebe mit den drei Zusätzen bei rund 146 statt 150 Wörtern. Mit einem Satz Eigensinn wären es rund 160, also über 150. Offen bleibt also: entweder die zwei Tonproben „Persönliche Frage" und „Abschied" herausnehmen (dann rund 592) oder „Deine Welt" kürzen. Zusätzlich müsste Petra entscheiden, ob Teil A für den Eigensinn begründet etwas mehr als 150 Wörter bekommt.
+
+## Nachtrag 20.10.: Petras Rückmeldung zu „aus dem Alltag geholt"
+
+Petra (wörtlich): „aus dem Alltag geholt werden empfinde ich ja auch schön formuliert, als abtauchen." Die Formulierung im Zwecktext gefällt ihr also. Ob damit „Abtauchen" im Sinn von Eskapismus gemeint ist oder nur ein schönes Wort für das Herausholen aus dem Alltag, ist noch eine Rückfrage, weil die PETRA-APPROVED-Positionierung die Welten als „Mittel, nicht Selbstzweck oder Eskapismus" beschreibt.
