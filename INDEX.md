@@ -160,7 +160,7 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 | Datei | Funktion | Status |
 |---|---|---|
-| `berichte-fuer-chatgpt/2026-10-19-elsbeth-fragenpool.md` | 171 Fragen aus den Listen von Browser-Claude und ChatGPT, bereinigt, in 11 Themen; in der Zentrale beantwortbar (elsbeth-fragen.html) | **ROHMATERIAL / PETRA REVIEW** |
+| `berichte-fuer-chatgpt/2026-10-19-elsbeth-fragenpool.md` | Fassung 2 (20.10.): 127 Fragen in 12 Themen (Coworks Kürzung + 5 aus ChatGPTs 72), 57 zurückgestellt mit Begründung, 15 für Phase 3 vorgemerkt; in der Zentrale beantwortbar, auch per Vorlesen | **ROHMATERIAL / PETRA REVIEW** |
 
 ## Elsbeth Unknown – Entwurf 0.9
 
