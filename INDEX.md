@@ -156,6 +156,14 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.6-bericht.md` | Testbericht von Claude Code zu Entwurf 0.6 der Schreibstimme: was neu ist, fünf Testfälle, Kosten, die besten und die misslungenen Antworten, Petras ausgefüllte Urteilstabelle. Die Pfade im Bericht beziehen sich auf das Arbeits-Repo `meine-projekte` | **VON PETRA BEURTEILT / 0.6 nicht freigegeben** |
 | `berichte-fuer-chatgpt/2026-10-19-elsbeth-stimme-0.6-roh.md` | Alle 17 Originalantworten wörtlich und unverändert, einschließlich der misslungenen | **Rohprotokoll / 0.6 nicht freigegeben** |
 
+## Elsbeth Unknown – Entwurf 0.11
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `berichte-fuer-chatgpt/2026-10-20-elsbeth-regeln-0.11-entwurf.md` | Entwurf 0.11: Teil A = Petras diktierte Fassung in Du-Form mit Variante 1 zum Problem (186), B 235, C 127, A–C 548; „Deine Welt“ wieder drin | **ENTWURF / PETRA REVIEW / nicht im Server** |
+| `berichte-fuer-chatgpt/2026-10-20-elsbeth-stimme-0.11-bericht.md` | Abnahmetest 0.11: Figur wieder stabil, Petras E-Satz zurück; A weiter 5 von 5 mit Freiraum-Frage; 2,20 US-Cent; Vorschlag (kostenlos) | **PETRA REVIEW / 0.11 nicht freigegeben** |
+| `berichte-fuer-chatgpt/2026-10-20-elsbeth-stimme-0.11-roh.md` | Alle 25 Originalantworten, unverändert | **Rohprotokoll** |
+
 ## Elsbeth Unknown – Entwurf 0.10
 
 | Datei | Funktion | Status |
