@@ -4,6 +4,12 @@ Stand: 20.10.2026 · Status: **FACH-LAB-VORSCHLAG / PETRA REVIEW** · nichts dav
 Auftrag: Petra über ChatGPT, 20.10.2026 · geschrieben von Claude Code
 Grundlage: `STATUS.md`, `PROZESS.md`, `entscheidungen/2026-10-20-elsbeth-arbeitsteilung-gastgeberin-erlebnis.md`, `entscheidungen/2026-10-20-positionierung-selbstcoaching.md`, `erlebnisbibliothek/bausteine/REALITAETSBRUECKE-ENTWURF.md`
 
+> **Petras Rückmeldung nach dem ersten Ausprobieren (20.10.2026, übermittelt über ChatGPT):** Das Erlebnis war nett, aber langweilig und zu willkürlich. Aus dem Zusammensitzen wurde ein beliebiges Bus-Reisespiel, das nichts mehr mit persönlicher Selbstentdeckung zu tun hatte.
+>
+> **Ihr fachlicher Änderungswunsch:** Elsbeth Unknown fragt vor diesem Erlebnis nach dem Thema, das der Gast spielerisch betrachten möchte. Aus diesem Thema entstehen fünf unterschiedliche mögliche Perspektiven. Sie sind erfundene Figuren und keine psychologische Diagnose. Handlung, Konflikte und Überraschungen hängen mit dem Thema zusammen, ohne beliebige Abenteuer, künstliche Aufgaben oder erzwungene Entscheidungen. Der Gast behält die Freiheit, selbst zu reagieren und eigene Schlüsse zu ziehen.
+>
+> **Folge:** Diese Fassung 1 ist überholt. Der überarbeitete Vorschlag steht in `forschung/2026-10-20-erlebnis-fuenf-von-dir-an-einem-tisch-fassung-2.md` (ebenfalls FACH-LAB-VORSCHLAG / PETRA REVIEW). Fassung 1 bleibt zum Nachlesen unverändert stehen.
+
 > Hinweis zur Einordnung: Das ist ein Entwurf auf Papier. Es wird nichts gebaut, keine Erlebnisanweisung geschrieben und Phase 3 nicht begonnen. Elsbeth 0.11 bleibt davon unberührt.
 
 ---
