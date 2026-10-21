@@ -529,3 +529,4 @@ Claude Code darf fehlende Fachwahrheit nicht selbst erfinden. Fehlende Inhalte w
 | `entscheidungen/2026-10-21-mabel-frech-und-unterbrechen.md` | Mabel darf frech sein, Petra unterbrechen und macht aus trockenen Fakten überraschende Fragen (drei Sätze in Mabel 0.3) | **PETRA APPROVED 21.10.** |
 | `podcast/mabel-petras-weg.md` · `entscheidungen/2026-10-21-mabel-petras-weg.md` | Petras Entstehungsgeschichte (Werdegang, KI-Start 16.06., Dispenza und das „Unknown“) als Mabels vierter Hintergrund | **PETRA APPROVED 21.10.** |
 | `entscheidungen/2026-10-21-mabel-ist-elsbeths-tochter-im-podcast.md` | Im Podcast ist Elsbeth Mabels Mutter, ohne Spiel-Kommentar; Kanon und Plattform unberührt | **PETRA APPROVED 21.10.** |
+| `entscheidungen/2026-10-21-mabel-nach-probe-1.md` | Mabel nach Probe 1: frecher Einstieg statt Interview, spricht ohne um Erlaubnis zu fragen, spielt statt zu analysieren | **PETRA APPROVED 21.10.** |
