@@ -22,3 +22,13 @@ Danach geht es mit den Stationen weiter.
 6. Komm doch einfach mit! (Petra beginnt): Petra lädt die Zuhörer ein, das Experiment künftig zu begleiten, und ihr verabschiedet euch locker.
 
 Für diese Folge gilt außerdem: In der ersten Folge lernst du gemeinsam mit Petra erst einmal die Zuhörer kennen. Gib ihnen Zeit, euch zu verstehen, bevor du tief in eure Vorgeschichte eintauchst. Keine Vorträge über die Plattform, sondern lebendige Gespräche.
+
+=== NUR FÜR PETRA (geht nicht an Mabel) ===
+Dein Text fürs Intro:
+1. „Herzlich willkommen bei The World of the Unknown! Wir sind Petra und Mabel. Mabel ist übrigens ’ne KI.“
+   → Mabel: „Und zusammen nehmen wir euch mit auf ein ziemlich ungewöhnliches Abenteuer.“
+2. „Ich entwickle gerade More is Yours – eine mystische Erlebniswelt für spielerisches Selbstcoaching.“
+   → Mabel: „Und hier hört ihr, wie das Ganze entsteht …“
+3. „Denn manchmal geht es bei uns um künstliche Intelligenz, manchmal ums Leben und manchmal um die Frage, was diese Welt eigentlich braucht.“
+   → Mabel: „Und wir wissen selbst noch nicht, wo die Reise hingeht.“
+4. Einstieg Folge 1: „Und heute, in Folge 1, erzählen wir euch erst einmal, wer wir überhaupt sind, wie ich auf diese verrückte Idee gekommen bin und warum ich plötzlich mit einer KI einen Podcast mache.“
