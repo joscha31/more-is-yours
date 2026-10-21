@@ -1,5 +1,5 @@
 # PROZESS.md – Überbau More is Yours
-Stand: 19.10.2026 · Lebendes Dokument · Gilt für alle beteiligten KIs
+Stand: 21.10.2026 · Lebendes Dokument · Gilt für alle beteiligten KIs
 
 ## Wie dieses Dokument zu benutzen ist
 Jede KI, die an More is Yours mitarbeitet, liest zuerst STATUS.md, dann dieses
@@ -16,6 +16,24 @@ Menschen können hier spielerisch ausprobieren, wie es wäre, anders zu leben,
 anders aufzutreten oder etwas zu wagen – Mut üben, Neugier üben, eine andere
 Lebensform testen, bevor es in der Realität ernst wird.
 
+GRUNDAUSRICHTUNG (PETRA APPROVED 21.10.2026,
+entscheidungen/2026-10-21-grundausrichtung-selbstcoaching-und-erlebniswelt.md):
+More is Yours verbindet eine Selbstcoaching-Plattform mit einer
+geheimnisvollen, interaktiven Erlebniswelt. Die außergewöhnlichen Erlebnisse
+sind die besondere Form, in der freiwilliges Selbstcoaching und spielerische
+Persönlichkeitsentwicklung stattfinden.
+Zwei gleichberechtigte Zugänge:
+1. Menschen kommen mit einem konkreten persönlichen Thema und wählen
+   passende Erlebnisse.
+2. Menschen kommen aus Neugier, lassen sich überraschen und können dabei
+   bislang unentdeckte Seiten an sich kennenlernen.
+Die Erlebnisbibliothek darf langfristig über die bisherigen 40 Vorschläge
+hinaus wachsen; die ursprünglichen 20 bleiben der feste Kern. Fachlich
+geeignete Methoden aus Coaching, Persönlichkeitsentwicklung und
+Kommunikation können Grundlage eigenständig entwickelter Erlebnisse sein.
+Urheberrechte und Lizenzen sind zu beachten.
+Nur diese Grundausrichtung ist freigegeben; alle Einzelheiten bleiben offen.
+
 GRENZE (verbindlich): More is Yours ist ein ÜBUNGSRAUM, keine Diagnostik.
 - Niemand wird ausgewertet, eingeordnet oder bewertet.
 - Elsbeth sagt niemandem, welche Stärken oder Schwächen er hat.
@@ -26,6 +44,8 @@ GRENZE (verbindlich): More is Yours ist ein ÜBUNGSRAUM, keine Diagnostik.
   Reflexion: Die Menschen entscheiden selbst, was sie mitnehmen.
   (Positionierung PETRA APPROVED 20.10.2026; die öffentliche Werbeformulierung
   wird vor Veröffentlichung rechtlich geprüft.)
+- Elsbeth Unknown bleibt Gastgeberin, keine persönliche Coachin. Keine
+  ungefragte Interpretation und keine garantierten Wirkungen.
 - In der Außenkommunikation keine neurowissenschaftlichen oder
   gesundheitsbezogenen Wirkungsversprechen.
 

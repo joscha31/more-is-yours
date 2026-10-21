@@ -1,6 +1,6 @@
 # INDEX – More is Yours
 
-**Stand:** 19. Oktober 2026  
+**Stand:** 21. Oktober 2026  
 **Funktion:** Zentrales Inhaltsverzeichnis des Projekts
 
 > Der Index enthält keine ausführlichen Fachinhalte. Er zeigt nur, welche Dateien es gibt, wofür sie zuständig sind und welchen Status sie haben.
@@ -10,7 +10,7 @@
 | Datei | Funktion | Status |
 |---|---|---|
 | `STATUS.md` | Die erste Datei für jede KI: Datum, Phase, aktueller Schritt, Elsbeth-Version, der eine nächste Schritt, was auf Petra wartet. Claude Code zieht sie nach jeder Arbeitsrunde nach | **LEBENDER STAND** |
-| `PROZESS.md` | Überbau: wozu More is Yours da ist (spielerische Persönlichkeitsentwicklung, Übungsraum statt Diagnostik), die fünf Phasen mit ihren Toren, Regeln der Zusammenarbeit, Rollen, Definition von STATUS.md | **LEBENDES DOKUMENT / von Petra vorgelegt 19.10.2026** |
+| `PROZESS.md` | Überbau: wozu More is Yours da ist (spielerische Persönlichkeitsentwicklung, Übungsraum statt Diagnostik; seit 21.10. mit der Grundausrichtung Selbstcoaching-Plattform + Erlebniswelt und zwei Zugängen), die fünf Phasen mit ihren Toren, Regeln der Zusammenarbeit, Rollen, Definition von STATUS.md | **LEBENDES DOKUMENT / von Petra vorgelegt 19.10.2026** |
 | `KANON-ELSBETH.md` | Figurenkanon Elsbeth Unknown: feste Eckdaten (Jahrgang 1946, Münchnerin, lebt in Münster, drei Kinder, lernt fliegen), Hildegard, Haltung und Sprechweise, Umgang mit dem Hintergrund (Reservoir statt Gesprächsstoff), offene Punkte. Grundlage für Teil A von 0.8. Ersetzt den Kanon-Vorschlag von Claude Code aus 0.7 (Hildegard als Konditorin, Fluglehrer Konrad) | **FACH-LAB-VORSCHLAG / PETRA REVIEW**; Ergänzung „Rat" am 19.10. PETRA APPROVED |
 
 ---
@@ -90,6 +90,12 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | Datei | Funktion | Status |
 |---|---|---|
 | `forschung/2026-10-17-positionierung-nicht-abtauchen-sondern-moeglichkeiten-entwurf.md` | Menschen in Veränderung oder mit unklaren Wünschen: über Erleben echte Lebensmöglichkeiten entdecken, nicht Fantasy-Eskapismus | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+
+## Grundausrichtung – Selbstcoaching-Plattform und Erlebniswelt
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `entscheidungen/2026-10-21-grundausrichtung-selbstcoaching-und-erlebniswelt.md` | Selbstcoaching-Plattform + geheimnisvolle, interaktive Erlebniswelt; zwei gleichberechtigte Zugänge (mit Thema / aus Neugier); Bibliothek darf über 40 hinaus wachsen, Methoden aus Coaching, Persönlichkeitsentwicklung und Kommunikation als Grundlage eigenständiger Erlebnisse (Rechte und Lizenzen beachten); Elsbeth bleibt Gastgeberin; alle Grenzen bleiben | **PETRA APPROVED 21.10. (nur Grundausrichtung, Einzelheiten offen)** |
 
 ## Persönlichkeitsentwicklung – verbindliche Positionierung
 
@@ -516,6 +522,6 @@ Claude Code darf fehlende Fachwahrheit nicht selbst erfinden. Fehlende Inhalte w
 | `forschung/2026-10-20-mabel-0.3-entwurf.md` | Petras Rückmeldung zur ersten Mabel-Probe (zu nett, zu viel Zustimmung) und kurzer Entwurf Mabel 0.3: eigener Beitrag, begründeter Widerspruch, Humor nur wenn er sich ergibt; Studio wieder auf 0.1 | **PETRA REVIEW – nicht freigegeben, nicht getestet** |
 | `forschung/2026-10-20-mabel-umsetzungsvorschlag.md` | ChatGPTs Gesamtübergabe geprüft: zwei Widersprüche („Selbstcoaching“ gegen „kein Coaching“, Freigabe gegen einfache Bedienung), Mabel 0.3 mit drei Präzisierungen, Schublade 2 gekürzt, Pflege von Schublade 3 und Karte „Das weiß Mabel heute“ | **FACH-LAB-VORSCHLAG / PETRA REVIEW – nichts aktiviert** |
 | `forschung/2026-10-20-mabel-vorschlag-fassung-2.md` | Fassung 2 nach den fünf Einwänden von Claude im Browser: Mabel 0.3 ohne englische Blöcke (411 Wörter), ein eigener Gedanke pro Folge, Tochter als Running Gag, strenger Veröffentlichungsschutz, mabel-aktuell.md im selben Schritt wie STATUS.md; drei Entscheidungen | **FACH-LAB-VORSCHLAG / PETRA REVIEW – nichts aktiviert** |
-| `entscheidungen/2026-10-20-positionierung-selbstcoaching.md` | Petra: „Selbstcoaching behalten“; CONFLICT mit PROZESS.md („kein Coaching“) offen, Vorschlag für neuen Satz liegt vor | **PETRA-ENTSCHEIDUNG 20.10. (wörtlich), CONFLICT offen** |
+| `entscheidungen/2026-10-20-positionierung-selbstcoaching.md` | Petra: „Selbstcoaching behalten“; CONFLICT mit PROZESS.md („kein Coaching“) am 20.10. aufgelöst, PROZESS.md angepasst; weitergeführt in der Grundausrichtung vom 21.10. | **PETRA-ENTSCHEIDUNG 20.10. (wörtlich), CONFLICT aufgelöst** |
 | `entscheidungen/2026-10-20-mabel-fuenf-entscheidungen.md` | Petras fünf Entscheidungen: Selbstcoaching bleibt, Mabel 0.3 mit Änderungen A und B, Projektwissen kurz, Claude Code pflegt den aktuellen Stand, Karte „Das weiß Mabel heute“ | **PETRA APPROVED 20.10.** |
 | `podcast/` | Mabels drei Wissensdateien (Anweisung 0.3, Was wir bauen, Was gerade los ist), Mabels Bild, README | **PETRA APPROVED (Inhalte 1 und 2); Schublade 3 wird von Claude Code gepflegt** |
