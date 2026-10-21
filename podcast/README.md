@@ -6,6 +6,7 @@
 | `mabel-was-wir-bauen.md` | Schublade 2: dauerhaftes Projektwissen | nur mit Petras Ja |
 | `mabel-petras-weg.md` | Petras Werdegang und Entstehungsgeschichte (PETRA APPROVED 21.10.2026) | nur mit Petras Ja |
 | `mabel-was-gerade-los-ist.md` | Schublade 3: aktueller Stand, gekürzt aus STATUS.md | Claude Code, zusammen mit STATUS.md (PROZESS.md, Abschnitt 5) |
+| `mabel-fahrplan.md` | Fahrplan der nächsten Folge (wechselt je Folge, im Studio abschaltbar) | Petra und ChatGPT, Claude Code trägt ein |
 | `mabel-bild.png` | So sieht Mabel aus. Von Petra am 20.10.2026 geliefert. | Petra |
 
-Das Mabel-Studio auf Petras Mac lädt die vier Textdateien beim Öffnen von hier. Entscheidungen: `entscheidungen/2026-10-20-mabel-fuenf-entscheidungen.md`.
+Das Mabel-Studio auf Petras Mac lädt die fünf Textdateien beim Öffnen von hier. Entscheidungen: `entscheidungen/2026-10-20-mabel-fuenf-entscheidungen.md`.

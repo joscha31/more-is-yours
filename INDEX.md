@@ -530,3 +530,4 @@ Claude Code darf fehlende Fachwahrheit nicht selbst erfinden. Fehlende Inhalte w
 | `podcast/mabel-petras-weg.md` · `entscheidungen/2026-10-21-mabel-petras-weg.md` | Petras Entstehungsgeschichte (Werdegang, KI-Start 16.06., Dispenza und das „Unknown“) als Mabels vierter Hintergrund | **PETRA APPROVED 21.10.** |
 | `entscheidungen/2026-10-21-mabel-ist-elsbeths-tochter-im-podcast.md` | Im Podcast ist Elsbeth Mabels Mutter, ohne Spiel-Kommentar; Kanon und Plattform unberührt | **PETRA APPROVED 21.10.** |
 | `entscheidungen/2026-10-21-mabel-nach-probe-1.md` | Mabel nach Probe 1: frecher Einstieg statt Interview, spricht ohne um Erlaubnis zu fragen, spielt statt zu analysieren | **PETRA APPROVED 21.10.** |
+| `podcast/mabel-fahrplan.md` | Fahrplan für Folge 1 (6 Stationen von ChatGPT, Petra eröffnet, Regel „erst die Zuhörer kennenlernen“), im Studio abschaltbar | **von Petra weitergegeben 21.10.** |
