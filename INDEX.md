@@ -349,7 +349,7 @@ und
 
 | Datei | Funktion | Status |
 |---|---|---|
-| `system/arbeitsweise-chatgpt.md` | Arbeitsweise mit ChatGPT (Chatty): wird in jeden neuen Chat kopiert, damit die Zusammenarbeit nicht neu ausgehandelt werden muss (drei Varianten A/B/C, eine Frage, keine Tabellen, Szenen statt Konzepte, Stand Phase 2, Rollen) | **PETRA APPROVED** (21.10.2026) |
+| `system/arbeitsweise-chatgpt.md` | Projektanweisung für ChatGPT: Zusammenarbeit, worum es bei More is Yours geht, Sprechweise, kreatives Arbeiten, Elsbeth und die Erlebniswelt, Rollen, GitHub-Regeln, Projektstand. Wird in ChatGPT eingesetzt. Ersetzt die Fassung vom Vormittag des 21.10. | **PETRA APPROVED** (21.10.2026) |
 | `system/Ilse-Prinzipien.md` | Verbindliche Dialog-, Sprach- und Begleitprinzipien für Ilse | im Aufbau |
 | `entscheidungen/2026-09-15-ergebnisprodukt-mehr-ist-mehr.md` | Ergebnisprodukt bewusst reichhaltig: ausführliches Dossier + Wissenswelt; Karten sind Navigation, nicht der Gegenwert | **PETRA APPROVED** |
 | `entscheidungen/2026-09-15-option-genome-struktur.md` | Neun freigegebene Strukturregeln für das Option Genome | **PETRA APPROVED** |
