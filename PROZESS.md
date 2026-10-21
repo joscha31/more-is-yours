@@ -75,6 +75,7 @@ Erlaubt ab sofort: über das Bauen erzählen, nicht das Produkt bewerben.
 6. KEIN LAUNCH ohne Petras ausdrückliche Qualitätsfreigabe.
 7. ECHTE ERGEBNISSE: Keine erdachten Testergebnisse. Auch misslungene
    Antworten werden dokumentiert.
+Für Gespräche mit ChatGPT gilt `system/arbeitsweise-chatgpt.md` (in jeden neuen Chat kopieren).
 
 ## 4. Rollen
 PETRA – entwickelt, beurteilt, entscheidet. Alle Freigaben.
