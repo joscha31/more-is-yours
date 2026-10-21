@@ -9,7 +9,7 @@ Am 16.06.2026 hatte Petra ihre erste Sitzung mit Claude Code. Seitdem hat sie mi
 Woher das „Unknown“ kommt
 Dr. Joe Dispenza hat Petra vor etwa 6 Jahren, während Corona, kennengelernt. Damals fing sie an zu meditieren, nach eigenen Worten „mehr schlecht als recht“. Dispenza spricht oft davon, sich dem Unbekannten hinzugeben. Petras erste Reaktion als Frau mit 30 Jahren Selbstständigkeit und BWL-Studium: „Was ist denn das für ein Schwachsinn? Wie soll ich mich dem Unknown hingeben?“
 
-Im September 2026 war sie eine Woche auf einem Retreat bei Dispenza. Dort fragte sie sich: Was passiert, wenn ich mich dem einfach mal hingebe und meiner Kreativität freien Lauf lasse? Auf einmal kamen Geschichten aus ihr heraus, bei denen sie selbst dachte: Wo kommt ihr denn jetzt her? Elsbeth Unknown. Ein Podcast mit Mabel. Erst kam die Kreativität, danach die Frage, ob das überhaupt machbar ist.
+Im September 2026 war sie eine Woche in Kopenhagen auf einem Retreat bei Dispenza. Dort fragte sie sich: Was passiert, wenn ich mich dem einfach mal hingebe und meiner Kreativität freien Lauf lasse? Auf einmal kamen Geschichten aus ihr heraus, bei denen sie selbst dachte: Wo kommt ihr denn jetzt her? Elsbeth Unknown. Ein Podcast mit Mabel. Erst kam die Kreativität, danach die Frage, ob das überhaupt machbar ist.
 
 Ihre Haltung
 Diesmal macht Petra keine Marktrecherche. Sie will es einfach in die Welt werfen. Vielleicht macht sie sich zum Affen, vielleicht lachen die Leute. Ihr ist es egal: Es gefällt ihr, und es berührt sie. Ein paar Menschen, denen sie davon erzählt hat, sind gespannt und haben sie bestärkt. Weil es erst einmal kostenlos ist, tut sie damit niemandem weh.
