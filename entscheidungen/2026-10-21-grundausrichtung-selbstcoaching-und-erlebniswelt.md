@@ -24,7 +24,6 @@ Elsbeth Unknown bleibt Gastgeberin, keine persönliche Coachin. Keine Diagnostik
 
 - **Alle bisherigen Sicherheitsgrenzen** aus `PROZESS.md`, Abschnitt 1 (Übungsraum statt Diagnostik, niemand wird ausgewertet, keine Heilversprechen, keine neurowissenschaftlichen oder gesundheitsbezogenen Wirkungsversprechen) und aus den Entscheidungen vom 17.10. (Erlaubnis vor tieferen Themen, Sicherheitsgrenzen, klare Grenzen der Persönlichkeitsentwicklung).
 - **Phase 2 – Elsbeth spricht** und der vereinbarte nächste Schritt in `STATUS.md`.
-- **Die ursprünglichen 20 Erlebnisse** bleiben der feste Kern (`entscheidungen/2026-10-18-erlebnisbibliothek-20-plus-20-als-produktkern.md`). Wachstum über 40 hinaus ergänzt diesen Kern und ersetzt ihn nicht. Die Regel gegen Dopplungen und bloße Umbenennungen gilt weiter.
 - **Phase 3** baut weiterhin genau EIN Erlebnis vollständig. Das Wachstum der Bibliothek ist langfristig gemeint.
 - **Geschäftsstand:** More is Yours verkauft derzeit nichts.
 - **Arbeitsteilung:** Elsbeth Unknown empfängt und öffnet die Tür, das Erlebnis ist ein eigener Übungsraum (`entscheidungen/2026-10-20-elsbeth-arbeitsteilung-gastgeberin-erlebnis.md`).

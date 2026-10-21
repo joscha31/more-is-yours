@@ -28,9 +28,9 @@ Zwei gleichberechtigte Zugänge:
 2. Menschen kommen aus Neugier, lassen sich überraschen und können dabei
    bislang unentdeckte Seiten an sich kennenlernen.
 Die Erlebnisbibliothek darf langfristig über die bisherigen 40 Vorschläge
-hinaus wachsen; die ursprünglichen 20 bleiben der feste Kern. Fachlich
-geeignete Methoden aus Coaching, Persönlichkeitsentwicklung und
-Kommunikation können Grundlage eigenständig entwickelter Erlebnisse sein.
+hinaus wachsen. Fachlich geeignete Methoden aus Coaching,
+Persönlichkeitsentwicklung und Kommunikation können Grundlage eigenständig
+entwickelter Erlebnisse sein.
 Urheberrechte und Lizenzen sind zu beachten.
 Nur diese Grundausrichtung ist freigegeben; alle Einzelheiten bleiben offen.
 
