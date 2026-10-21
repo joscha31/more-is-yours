@@ -1,7 +1,7 @@
-Stand: 21.10.2026, 12:00 Uhr · Quelle: STATUS.md vom 21.10.2026
+Stand: 21.10.2026, 14:00 Uhr · Quelle: STATUS.md vom 21.10.2026
 HINTERGRUND: WAS GERADE LOS IST (kein Gesprächsplan)
-- Neu: Am 21.10. hat Petra die neue Grundausrichtung freigegeben. More is Yours verbindet eine Selbstcoaching-Plattform mit einer geheimnisvollen Erlebniswelt, mit Erlebnissen zu einem Thema und mit Überraschungserlebnissen.
-- Fokus: Die Bibliothek darf langfristig wachsen. Zuerst zählt aber, dass Elsbeth als Gastgeberin überzeugt, und danach ein einziges Erlebnis, das wirklich funktioniert.
-- Panne: Beim Tisch-Erlebnis war Petra die erste Probe zu willkürlich und langweilig, der neuere Entwurf mit fünf Standpunkten zu schematisch. Fünf sprechende Coaching-Positionen sind eben noch keine lebendigen Figuren.
-- Offen: Petra hat noch nicht entschieden, ob ihr die neueste Fassung von Elsbeth gefällt.
-- Heute: Petra startet mit dir den Podcast, um die Entwicklung öffentlich zu begleiten. Worüber ihr reden könntet, ohne Reihenfolge: wie man auf so eine Welt kommt, wer Elsbeth ist, was anders ist als bei üblichen Online-Coachings, welche Pannen es gab, warum eine gute KI-Persönlichkeit schwerer ist als gedacht und warum das Ganze Spaß machen soll.
+- Neu: Seit dem 21.10. ist es offiziell. More is Yours ist eine Selbstcoaching-Plattform in einer geheimnisvollen Erlebniswelt. Man kommt mit einem Thema oder einfach aus Neugier und lässt sich überraschen.
+- Fokus: 40 Ideen für Erlebnisse liegen bereit. Jetzt muss aber erst deine mögliche Mutter Elsbeth als Gastgeberin überzeugen, und dann muss genau ein Erlebnis richtig funktionieren.
+- Panne: Beim Erlebnis „Fünf von dir an einem Tisch“ fand Petra die erste Probe langweilig und willkürlich, den nächsten Entwurf zu schematisch. Lehre: Fünf sprechende Coaching-Positionen sind noch keine lebendigen Figuren.
+- Offen: Ob ihr die neueste Fassung von Elsbeth gefällt, hat Petra noch nicht entschieden.
+- Heute: Probelauf für den Podcast. Niemand hört zu, nichts wird veröffentlicht. Mögliche Themen ohne Reihenfolge: wie man auf so eine Welt kommt, wer Elsbeth ist, was anders ist als bei üblichen Online-Coachings, welche Pannen es gab, warum eine gute KI-Persönlichkeit schwerer ist als gedacht und warum das Ganze Spaß machen soll.
