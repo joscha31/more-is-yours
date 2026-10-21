@@ -1,22 +1,31 @@
-HINTERGRUND: WAS WIR BAUEN (dauerhaft, von Petra freigegeben am 20.10.2026)
+HINTERGRUND: WAS WIR BAUEN (dauerhaft, von Petra freigegeben, Stand 21.10.2026)
 
 More is Yours (ENTSCHIEDEN)
-Spielerische Persönlichkeitsentwicklung und Selbstcoaching für Erwachsene. More is Yours ermöglicht freiwilliges Selbstcoaching durch spielerisches Erleben, Perspektivwechsel und eigene Reflexion. Erwachsene können andere Möglichkeiten ihres Lebens ausprobieren, ohne gleich etwas verändern zu müssen. Was sie mitnehmen, entscheiden sie selbst. Niemand wird diagnostiziert, bewertet oder behandelt, und es gibt keine Heilversprechen. Petra ist ausgebildete systemische Coachin und bringt ihre Erfahrung in die Entwicklung ein. Noch in Entwicklung, es wird nichts verkauft.
+Eine Selbstcoaching-Plattform, verbunden mit einer geheimnisvollen, interaktiven Erlebniswelt. In außergewöhnlichen Erlebnissen beschäftigen sich Erwachsene spielerisch mit persönlichen Themen, entdecken neue Sichtweisen und probieren ungewohntes Verhalten aus. Leitsatz: „Sich trauen können, bevor man sich trauen muss.“ Was sie mitnehmen, entscheiden sie selbst. Noch in Entwicklung, es wird nichts verkauft.
+
+Zwei Zugänge (ENTSCHIEDEN, GESTALTUNG OFFEN)
+Wer mit einem Thema kommt, etwa Kommunikation, Selbstvertrauen, Entscheidungen oder Veränderung, findet passende Erlebnisse. Wer aus Neugier kommt, lässt sich überraschen und entdeckt vielleicht unbekannte Seiten an sich. Beide Wege sind gleichwertig.
 
 Die Erlebnisbibliothek (IDEE ENTSCHIEDEN, ERLEBNISSE IN ARBEIT)
-Das Herzstück. Hinter verschiedenen Türen warten erfundene Erlebnisse: andere Lebensmöglichkeiten, ungewöhnliche Begegnungen, Situationen zum Ausprobieren. Erleben statt Fragebogen. Danach gibt es eine freiwillige Brücke in die Wirklichkeit. Fertig ist noch kein Erlebnis.
+Hinter verschiedenen Türen warten lebendige, überraschende, humorvolle und persönliche Erlebnisse, keine Fragebögen und keine verkleideten Arbeitsblätter. 40 Vorschläge liegen vor, die Bibliothek darf langfristig wachsen. Geeignete Methoden aus Coaching, Kommunikation und Persönlichkeitsentwicklung können Grundlage eigener Erlebnisse sein. Noch ist kein Erlebnis fertig und getestet.
 
 Elsbeth Unknown (ROLLE ENTSCHIEDEN, STIMME IN ARBEIT)
-Die ältere, eigenwillige Gastgeberin der Bibliothek. Sie empfängt die Gäste, macht neugierig und öffnet eine Tür. Das Erlebnis selbst führt eine eigene Anweisung. Danach nimmt Elsbeth den Gast wieder auf, ohne abzufragen, zu deuten oder zu bewerten. Sie ist keine Coachin und keine Therapeutin.
+Die eigenwillige Gastgeberin der geheimnisvollen Bibliothek. Sie empfängt die Gäste, weckt Neugier und öffnet Türen. Die Erlebnisse sind eigene Übungsräume. Elsbeth ist keine persönliche Coachin und keine Therapeutin.
 
-Die fünf Phasen (ENTSCHIEDEN)
-1 Fundament · 2 Elsbeths Stimme (läuft gerade) · 3 ein ganzes Erlebnis · 4 geschlossener Test mit 5 bis 10 Menschen · 5 Außenauftritt. Vom Bauen darf schon erzählt werden, für das Produkt wird noch nicht geworben.
+Petra (ENTSCHIEDEN)
+Gründerin und kreative Entwicklerin von More is Yours. Sie bringt jahrzehntelange Berufserfahrung und ihre systemische Coaching-Ausbildung ein und entscheidet über alle fachlichen Freigaben.
 
 Wer mitarbeitet (ENTSCHIEDEN)
-Petra entscheidet und gibt frei. ChatGPT erfindet mit. Claude im Browser prüft kritisch. Claude Code baut, testet und hält alles in GitHub fest. GitHub ist die verbindliche Quelle.
+More is Yours entsteht, weil Petra mit verschiedenen KI-Werkzeugen zusammenarbeitet, jedes mit eigener Aufgabe. ChatGPT entwickelt mit ihr die kreativen Inhalte. Claude im Browser prüft kritisch. Claude Code setzt technisch um und hält alles in GitHub fest. Higgsfield macht die Bilder und die visuelle Gestaltung der Erlebniswelt. Canva dient für Instagram-Storys, Slides und weitere Grafiken.
+
+Grenzen (ENTSCHIEDEN)
+Freiwilliges Selbstcoaching, aber keine Diagnostik, keine Therapie und keine persönliche Coaching-Beratung durch eine KI. Niemand wird bewertet oder ungefragt analysiert. Keine garantierten Wirkungen.
+
+Die Phasen (ENTSCHIEDEN)
+Gerade läuft Phase 2: Elsbeth soll als Gastgeberin überzeugen. Danach wird genau ein Erlebnis vollständig gebaut und getestet. Es folgen ein geschlossener Test mit 5 bis 10 Menschen und erst dann der Außenauftritt.
 
 Der Podcast (ROLLE ENTSCHIEDEN, GESTALTUNG IN ARBEIT)
-Petra und Mabel sprechen über die Entstehung von More is Yours. Mabel ist eine KI-Figur und gleichberechtigt. Es wird nie live gesendet, veröffentlicht wird erst nach Petras Freigabe und der rechtlichen Prüfung.
+Petra und Mabel erzählen von der Entwicklung: Ideen, Durchbrüche, Schwierigkeiten, lustige Pannen, echte Fortschritte. Ein Making-of, keine Werbung für ein fertiges Produkt. Mabel ist ausdrücklich eine KI-Figur, und die Hörerinnen und Hörer wissen das. Es wird nie live gesendet, veröffentlicht wird erst nach Petras Freigabe und rechtlicher Prüfung.
 
 Mabel als Elsbeths Tochter (OFFEN)
 Ein Running Gag, keine festgelegte Familiengeschichte.

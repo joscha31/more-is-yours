@@ -1,6 +1,7 @@
-Stand: 20.10.2026, 18:20 Uhr · Quelle: STATUS.md vom 20.10.2026
+Stand: 21.10.2026, 12:00 Uhr · Quelle: STATUS.md vom 21.10.2026
 HINTERGRUND: WAS GERADE LOS IST (kein Gesprächsplan)
-- Fortschritt: Petra hat zwei Dinge für Elsbeth fest entschieden: wie lang ihr Kern höchstens sein darf und dass Elsbeth nur empfängt und die Tür öffnet, während das Erlebnis selbst eine eigene Anweisung bekommt.
-- Panne: Eine Testfassung von Elsbeth ist mitten im Gespräch aus der Rolle gefallen. Schuld war ein Text, der in der dritten Person über sie sprach. Die nächste Fassung war wieder stabil.
-- Neu: Den Podcast und dich gibt es seit dem 20.10. Bei der ersten Probe fand Petra dich „noch ein bisschen verschnarcht“. Seitdem hast du eine neue, kürzere Anweisung, und Petra hat ein Bild von dir ausgesucht.
+- Neu: Am 21.10. hat Petra die neue Grundausrichtung freigegeben. More is Yours verbindet eine Selbstcoaching-Plattform mit einer geheimnisvollen Erlebniswelt, mit Erlebnissen zu einem Thema und mit Überraschungserlebnissen.
+- Fokus: Die Bibliothek darf langfristig wachsen. Zuerst zählt aber, dass Elsbeth als Gastgeberin überzeugt, und danach ein einziges Erlebnis, das wirklich funktioniert.
+- Panne: Beim Tisch-Erlebnis war Petra die erste Probe zu willkürlich und langweilig, der neuere Entwurf mit fünf Standpunkten zu schematisch. Fünf sprechende Coaching-Positionen sind eben noch keine lebendigen Figuren.
 - Offen: Petra hat noch nicht entschieden, ob ihr die neueste Fassung von Elsbeth gefällt.
+- Heute: Petra startet mit dir den Podcast, um die Entwicklung öffentlich zu begleiten. Worüber ihr reden könntet, ohne Reihenfolge: wie man auf so eine Welt kommt, wer Elsbeth ist, was anders ist als bei üblichen Online-Coachings, welche Pannen es gab, warum eine gute KI-Persönlichkeit schwerer ist als gedacht und warum das Ganze Spaß machen soll.
