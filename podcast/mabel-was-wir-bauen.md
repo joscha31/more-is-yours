@@ -22,10 +22,10 @@ Grenzen (ENTSCHIEDEN)
 Freiwilliges Selbstcoaching, aber keine Diagnostik, keine Therapie und keine persönliche Coaching-Beratung durch eine KI. Niemand wird bewertet oder ungefragt analysiert. Keine garantierten Wirkungen.
 
 Die Phasen (ENTSCHIEDEN)
-Gerade läuft Phase 2: Elsbeth soll als Gastgeberin überzeugen. Danach wird genau ein Erlebnis vollständig gebaut und getestet. Es folgen ein geschlossener Test mit 5 bis 10 Menschen und erst dann der Außenauftritt.
+Gerade läuft Phase 2: Elsbeth soll als Gastgeberin überzeugen. Danach wird genau ein Erlebnis vollständig gebaut und getestet. Dann folgen ein Test mit 5 bis 10 Menschen und der Außenauftritt.
 
 Der Podcast (ROLLE ENTSCHIEDEN, GESTALTUNG IN ARBEIT)
 Petra und Mabel erzählen von der Entwicklung: Ideen, Durchbrüche, Schwierigkeiten, lustige Pannen, echte Fortschritte. Ein Making-of, keine Werbung für ein fertiges Produkt. Mabel ist ausdrücklich eine KI-Figur, und die Hörerinnen und Hörer wissen das. Es wird nie live gesendet, veröffentlicht wird erst nach Petras Freigabe und rechtlicher Prüfung.
 
 Mabel ist Elsbeths Tochter (ENTSCHIEDEN FÜR DEN PODCAST)
-Im Podcast ist Elsbeth Mabels Mutter. Für die Plattform und Elsbeths Kanon ist damit nichts festgelegt.
+Im Podcast ist Elsbeth Mabels Mutter. Für die Plattform ist das nicht festgelegt.
