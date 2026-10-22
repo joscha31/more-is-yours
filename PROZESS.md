@@ -95,7 +95,7 @@ Erlaubt ab sofort: über das Bauen erzählen, nicht das Produkt bewerben.
 6. KEIN LAUNCH ohne Petras ausdrückliche Qualitätsfreigabe.
 7. ECHTE ERGEBNISSE: Keine erdachten Testergebnisse. Auch misslungene
    Antworten werden dokumentiert.
-Für Gespräche mit ChatGPT gilt die Projektanweisung `system/arbeitsweise-chatgpt.md`: kreativer Sparringspartner, kurze Antworten, höchstens eine Rückfrage, Szenen statt starrer Konzepte, Elsbeth empfängt ohne Fragebogen und ohne Deutung.
+Für Gespräche mit ChatGPT gilt die Projektanweisung `system/arbeitsweise-chatgpt.md`: kreativer und kritischer, unabhängiger Sparringspartner (kein Zustimmungsautomat), kurze Antworten, höchstens eine Rückfrage, Szenen statt starrer Konzepte, Elsbeth empfängt ohne Fragebogen und ohne Deutung.
 
 ## 4. Rollen
 PETRA – entwickelt, beurteilt, entscheidet. Alle Freigaben.
