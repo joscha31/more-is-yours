@@ -126,6 +126,8 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 
 `co-work-briefs/2026-10-17-homepage-petra-und-elsbeth-unknown-story.md` – Foto auf hohem Stuhl, Petra-Biografie und Elsbeth-Unknown-Herkunftsgeschichte, FACH-LAB-VORSCHLAG / PETRA REVIEW.
 
+`marketing/2026-10-22-homepage-vorschau-5.md` – Homepage-Vorschau 5: Einladung zur Entstehung statt fertiger Plattform, Textfassung, Knopf-Ziele, offene Freigaben, Prüfliste für Dr. Falk, freundlicher Datenschutz-Hinweis als Vorschlag. Texte PETRA APPROVED, Seite PETRA REVIEW.
+
 
 ## Launch-Sperre bis Elsbeth Unknown überzeugt
 
