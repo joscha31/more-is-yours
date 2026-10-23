@@ -26,6 +26,7 @@
 - **Neu 23.10.: Begrüßung im Gespräch erneuert.** Der alte Einstieg „Das kann doch noch nicht alles gewesen sein“ ist aus der Halle raus. Jetzt gilt die freigegebene Begrüßung vom 19.10.: „Da bist du ja. Ich bin Elsbeth Unknown. Und wie darf ich dich nennen?“ Der Empfang am Tresen ist noch alt (dort stellt sie sich ein zweites Mal vor); dafür fehlt ein freigegebener Wortlaut.
 - **Neu 23.10., Petras Vorgabe:** Bittet ein Gast um Hilfe, erscheint Elsbeth wieder und hilft weiter. Wie das erkannt wird und was sie sagt, folgt in Phase 3.
 - **Neu 23.10.: Spielregeln vor dem ersten Erlebnis, PETRA REVIEW.** Nur geprüft, wie man sie zeigt; kein Wortlaut, keine neue Begrüßung. Empfehlung: einmal eine Eintrittskarte vor der ersten Tür, danach jederzeit in der Kopfzeile aufrufbar, Elsbeth bleibt still. Aufgefallen: „Stopp“ ist bisher nur in der Demo technisch fest verankert.
+- **Neu 23.10.: Themenlandkarte, PETRA REVIEW.** Grundlage für die Erlebnisbibliothek: erst die Themen sammeln und ordnen, dann Erlebnisse. 15 Gebiete, vier Ebenen (Gebiet → Thema → Situation → das Übbare), dieselbe Grenze wie in PROZESS.md. Kreative Vorarbeit von Petra, ChatGPT und Claude im Browser, keine neue Phase (`erlebnisbibliothek/2026-10-23-themenlandkarte-grundlagen-und-arbeitsweise.md`).
 - Vorgemerkt für Phase 3: eigene Erlebnisanweisungen mit Schutzblock, Moduswechsel im bestehenden Server, Rückkehr zu Elsbeth, wechselnde Türauswahl, Schutzfälle, Modellwahl.
 
 ## 3. DER EINE NÄCHSTE SCHRITT
@@ -38,3 +39,4 @@ Petra beurteilt 0.11 zweispaltig. Die Gast-Sätze für die zweite Problem-Tonpro
 - Nebenbei: Spracheingabe am eigenen Handy testen (`?sprache=1`) und entscheiden, ob sie mit dem Datenschutz-Absatz für alle eingeschaltet wird
 - Nebenbei: Spielregeln – Weg A, B oder C, und Wortlaut mit ChatGPT
 - Nebenbei: neuer Wortlaut für den Empfang am Tresen (der alte passt nicht mehr zur Grundausrichtung)
+- Nebenbei: Themenlandkarte – wie die unterste Ebene formuliert wird (Ich-Satz, Fähigkeit oder Situation)
