@@ -32,6 +32,7 @@
 - **Neu 23.10.: Mabel 0.4 Probe (8,8 Min.):** Petra findet Mabel jetzt zu brav, ohne Humor und zustimmend. Belegt: Lob über die Person, Lebensweisheit, Zusammenfassen, kein Widerspruch, Alter ungefragt. Vermutete Ursache: 0.4 hat die Pointen-Pflichten von 0.3 gestrichen, Humor ist nur noch erlaubt, „Verbündete“ wird als Zustimmung gelesen. Kopier-Fassung für ChatGPT: `berichte-fuer-chatgpt/2026-10-23-mabel-0.4-probe-zu-brav.md`. Nichts geändert.
 - **Neu 23.10.: Mabel 0.5 als Testfassung im Studio** (Auftrag Petra und ChatGPT): eigener Kopf, warmes Herz, „Verbündete“ gestrichen, Humor als Haltung, nie auf Petras Kosten, Alter nicht ungefragt, zwei Tonproben. 0.4 liegt in `podcast/archiv/`. TEST / PETRA REVIEW (`entscheidungen/2026-10-23-mabel-0.5-testfassung-eigener-kopf.md`).
 - **Neu 23.10.: Erste Probe mit Mabel 0.5 (11,1 Min.):** lockerer und mit eigenem Witz („Na, das merkt man aber nicht“, „Kannst du das rausschneiden mit dem loben?“). In den Testlagen noch nicht: Mut-Lob kommt wieder, sie gibt ihre Meinung sofort auf, „170 KIs“ nimmt sie wörtlich, Petras These zu KI und Lob bleibt liegen, am Ende moderiert sie. Petras Urteil: „noch sehr wenig witzig und sehr zurückhaltend“; Mabel spricht nur 28 % der Wörter (0.4: 32 %). Kopier-Fassung für ChatGPT: `berichte-fuer-chatgpt/2026-10-23-mabel-0.5-probe-1.md`.
+- **Neu 23.10.: Mabel 0.6 als Testfassung im Studio** (Auftrag Petra und ChatGPT): mehr Gesprächsraum, weniger „mhm“, Meinung halten, Humor kommt oft vor, keine Moderatorin, darf abschweifen (der Fahrplan gehört Petra). Bremsen wie „1 bis 3 Sätze“ und „keine Witzmaschine“ gestrichen. 0.5 im Archiv. TEST / PETRA REVIEW (`entscheidungen/2026-10-23-mabel-0.6-testfassung-mehr-raum-und-humor.md`).
 - Vorgemerkt für Phase 3: eigene Erlebnisanweisungen mit Schutzblock, Moduswechsel im bestehenden Server, Rückkehr zu Elsbeth, wechselnde Türauswahl, Schutzfälle, Modellwahl.
 
 ## 3. DER EINE NÄCHSTE SCHRITT
@@ -42,6 +43,6 @@ Petra beurteilt 0.11 zweispaltig. Die Gast-Sätze für die zweite Problem-Tonpro
 - Nebenbei: Sichtprüfung Homepage-Vorschau 5 (Hero-Knopftext, Instagram als Ziel, Über-mich)
 - Nebenbei: wie es mit dem Tisch-Erlebnis weitergeht (Fassung 2 war Petra zu schematisch)
 - Nebenbei: Spracheingabe am eigenen Handy testen (`?sprache=1`) und entscheiden, ob sie mit dem Datenschutz-Absatz für alle eingeschaltet wird
-- Nebenbei: neue Probeaufnahme mit Mabel 0.5
+- Nebenbei: neue Probeaufnahme mit Mabel 0.6
 - Nebenbei: Spielregeln – Weg A, B oder C, und Wortlaut mit ChatGPT
 - Nebenbei: neuer Wortlaut für den Empfang am Tresen (der alte passt nicht mehr zur Grundausrichtung)

@@ -2,7 +2,7 @@
 
 | Datei | Was | Wer ändert |
 | --- | --- | --- |
-| `mabel-anweisung.md` | Schublade 1: wer Mabel ist (Testfassung 0.5 seit 23.10.2026, TEST / PETRA REVIEW; 0.3 und 0.4 in `archiv/`) | nur mit Petras Ja |
+| `mabel-anweisung.md` | Schublade 1: wer Mabel ist (Testfassung 0.6 seit 23.10.2026, TEST / PETRA REVIEW; 0.3 bis 0.5 in `archiv/`) | nur mit Petras Ja |
 | `mabel-was-wir-bauen.md` | Schublade 2: dauerhaftes Projektwissen | nur mit Petras Ja |
 | `mabel-petras-weg.md` | Petras Werdegang und Entstehungsgeschichte (PETRA APPROVED 21.10.2026) | nur mit Petras Ja |
 | `mabel-was-gerade-los-ist.md` | Schublade 3: aktueller Stand, gekürzt aus STATUS.md | Claude Code, zusammen mit STATUS.md (PROZESS.md, Abschnitt 5) |
