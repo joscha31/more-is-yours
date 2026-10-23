@@ -1,7 +1,7 @@
 # STATUS – More is Yours
 
 ## 1. STAND VOM
-22.10.2026
+23.10.2026
 
 ## 2. WO WIR STEHEN
 - **Phase:** 2 – Elsbeth spricht (siehe `PROZESS.md`, Abschnitt 2). Geprüft wird Elsbeth Unknown als Gastgeberin, vom Empfang bis zur Tür.
@@ -21,6 +21,8 @@
 - **Neu 22.10.: Dr. Falk hat „Selbstcoaching“ geprüft.** „Selbstcoaching“, „freiwilliges Selbstcoaching“ und „Selbstcoaching-Plattform“ dürfen öffentlich benutzt werden: HWG 🟢, Marke 🟢 (keine lebende Marke, beschreibendes Wort), FernUSG 🟢 solange kostenlos, Podcast-Hinweis 🟢. Zwei Bedingungen (🟡): Solange nichts nutzbar ist, heißt es „entsteht“ statt „ist“, und die KI wird nie als Coachin beschrieben. Stopp nur an einer Stelle: Der Datenschutz-Entwurf sagt noch, Elsbeth antworte aus vorbereiteten Sätzen, so darf er nicht live. Nichts geändert, keine Kosten (`berichte-fuer-chatgpt/2026-10-22-dr-falk-selbstcoaching-pruefung.md`).
 - **Neu 22.10.: Datenschutz-Entwurf, Zähler-Löschfrist und Salz sind eingespielt.** Der Entwurf nennt jetzt Claude statt „vorbereiteter Sätze“, die Zähl-Dateien je Gerät werden nach 7 Tagen gelöscht (beides seit dem Auto-Save 11:44 auf `main`). Petra hat das geheime `ELSBETH_SALZ` in Vercel eingetragen und neu ausgerollt, das offene Ersatzwort greift nicht mehr. Der Entwurf bleibt eine noindex-Vorschau, nichts ist veröffentlicht. Belegt sind die Anthropic-Werte: 30 Tage Speicherfrist (bei markierten Verstößen bis 2 Jahre), kein Training, Standardvertragsklauseln (Quellen im Seitenkopf). Vercel ist laut eigener Datenschutzerklärung DPF-zertifiziert und hat zusätzlich Standardvertragsklauseln im Auftragsverarbeitungsvertrag. Im Entwurf fehlt nur noch das Datum des Live-Gangs.
 - **Podcast Folge 1 (21.10.):** Die erste ganze Probefolge (Entwurf 2, 20:25 Min.) war Petra noch zu langweilig und wird nicht veröffentlicht. Neue Aufnahme geplant. Dafür gibt es **Mabel 0.4 als Testfassung** (kürzer, natürlicher, eigene Gedanken statt Vortrag, konkretes Lob) und einen neuen Fahrplan mit lockerem roten Faden. 0.3 liegt in `podcast/archiv/`. Status TEST / PETRA REVIEW (`entscheidungen/2026-10-21-mabel-0.4-testfassung-natuerlicher.md`).
+- **Neu 23.10.: Spracheingabe gebaut, als Test.** In der Halle gibt es einen Mikrofonknopf: sprechen, der Text erscheint im Feld, der Gast korrigiert, erst „Senden“ schickt. Kostenlos über die Spracherkennung des Browsers, keine neue API. Sichtbar nur mit `?sprache=1` an der Halle-Adresse, für alle anderen ist die Halle unverändert. Dr. Falk: für alle erst, wenn der Datenschutz-Absatz live ist (steht im Entwurf). Rückfall: `index-rueckfall-2026-10-23.html`. Echtes Sprechen am Handy ist noch nicht getestet (`berichte-fuer-chatgpt/2026-10-23-spracheingabe-und-spielregeln.md`).
+- **Neu 23.10.: Spielregeln vor dem ersten Erlebnis, PETRA REVIEW.** Nur geprüft, wie man sie zeigt; kein Wortlaut, keine neue Begrüßung. Empfehlung: einmal eine Eintrittskarte vor der ersten Tür, danach jederzeit in der Kopfzeile aufrufbar, Elsbeth bleibt still. Aufgefallen: „Stopp“ ist bisher nur in der Demo technisch fest verankert.
 - Vorgemerkt für Phase 3: eigene Erlebnisanweisungen mit Schutzblock, Moduswechsel im bestehenden Server, Rückkehr zu Elsbeth, wechselnde Türauswahl, Schutzfälle, Modellwahl.
 
 ## 3. DER EINE NÄCHSTE SCHRITT
@@ -30,3 +32,5 @@ Petra beurteilt 0.11 zweispaltig. Die Gast-Sätze für die zweite Problem-Tonpro
 - Urteil zu 0.11
 - Nebenbei: Sichtprüfung Homepage-Vorschau 5 (Hero-Knopftext, Instagram als Ziel, Über-mich)
 - Nebenbei: wie es mit dem Tisch-Erlebnis weitergeht (Fassung 2 war Petra zu schematisch)
+- Nebenbei: Spracheingabe am eigenen Handy testen (`?sprache=1`) und entscheiden, ob sie mit dem Datenschutz-Absatz für alle eingeschaltet wird
+- Nebenbei: Spielregeln – Weg A, B oder C, und Wortlaut mit ChatGPT
