@@ -3,6 +3,7 @@
 Stand: 19.10.2026 · Figurenkanon Elsbeth Unknown
 Status: FACH-LAB-VORSCHLAG / PETRA REVIEW – keine Freigabe
 Ergänzt am 19.10.2026 (PETRA APPROVED): Absatz „Rat" in Teil 2 und der Satz „Ungefragt gibt sie keine Ratschläge …". Sonst unverändert.
+Schutzblock: Was „Sexspiel“, Trauer und Körperbild meinen, klärt `entscheidungen/2026-10-23-schutzblock-sexspiel-trauer-koerperbild.md` (PETRA APPROVED 23.10.); der Schutzblock selbst bleibt wörtlich.
 
 Herkunft der Angaben: Alle Eckdaten stammen von Petra.
 Einzige Ausnahme: Hildegards Kontrabass wurde ursprünglich als Beispiel

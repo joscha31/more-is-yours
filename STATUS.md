@@ -27,6 +27,7 @@
 - **Neu 23.10., Petras Vorgabe:** Bittet ein Gast um Hilfe, erscheint Elsbeth wieder und hilft weiter. Wie das erkannt wird und was sie sagt, folgt in Phase 3.
 - **Neu 23.10.: Spielregeln vor dem ersten Erlebnis, PETRA REVIEW.** Nur geprüft, wie man sie zeigt; kein Wortlaut, keine neue Begrüßung. Empfehlung: einmal eine Eintrittskarte vor der ersten Tür, danach jederzeit in der Kopfzeile aufrufbar, Elsbeth bleibt still. Aufgefallen: „Stopp“ ist bisher nur in der Demo technisch fest verankert.
 - **Neu 23.10.: Themenlandkarte, PETRA REVIEW.** Grundlage für die Erlebnisbibliothek: erst die Themen sammeln und ordnen, dann Erlebnisse. 15 Gebiete, vier Ebenen (Gebiet → Thema → Situation → das Übbare), dieselbe Grenze wie in PROZESS.md. Kreative Vorarbeit von Petra, ChatGPT und Claude im Browser, keine neue Phase (`erlebnisbibliothek/2026-10-23-themenlandkarte-grundlagen-und-arbeitsweise.md`).
+- **Neu PETRA APPROVED (23.10.): Klarstellung zum Schutzblock.** „Sexspiel“ heißt: keine sexualisierten Spiele. Sexualität als Lebensthema bleibt erlaubt, zum Beispiel das schwere Gespräch, in dem man den Eltern sagt, dass man bi ist. Trauer ist nur im nichttherapeutischen Sinn zugelassen, Körperbild nur ohne gesundheitliche Versprechen. Der Schutzblock selbst bleibt wörtlich (`entscheidungen/2026-10-23-schutzblock-sexspiel-trauer-koerperbild.md`).
 - Vorgemerkt für Phase 3: eigene Erlebnisanweisungen mit Schutzblock, Moduswechsel im bestehenden Server, Rückkehr zu Elsbeth, wechselnde Türauswahl, Schutzfälle, Modellwahl.
 
 ## 3. DER EINE NÄCHSTE SCHRITT
