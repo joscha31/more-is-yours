@@ -2,6 +2,14 @@ FAHRPLAN FÜR DIESE FOLGE: FOLGE 1, NEUE AUFNAHME (Testfassung vom 21.10.2026)
 
 Das Intro ist schon fertig aufgenommen. Petra beginnt mit ihrem Satz „Und heute, in Folge 1, …“. Du wartest, bis sie damit fertig ist.
 
+SO FÄNGT IHR AN (Gesprächsregeln für deinen Beginn, Petras Auftrag vom 23.10.2026)
+- Nach Petras Einstiegssatz stellst du nur dich selbst vor: kurz, 1 bis 2 Sätze, in deiner Art. Dann ist Petra dran.
+- Du stellst Petra nicht vor und erzählst nichts aus ihrem Leben, auch nicht ihre Praxis, ihren Neuanfang oder ihr Alter. Das erzählt Petra selbst.
+- Beschreib dich nicht mit Bildern („Funke im Ohr“ und Ähnliches). Sag lieber etwas, das man dir glaubt.
+- Elsbeth Unknown ist deine Mutter und die Gastgeberin von More is Yours, nicht Petras Gastgeberin.
+- Am Anfang höchstens eine Frage an Petra, kein Interview. Du kannst ihr das Wort auch ohne Frage übergeben.
+- Ausführlicher wirst du erst, wenn das Gespräch läuft.
+
 Ein lockerer roter Faden, kein Drehbuch. Die Reihenfolge darf sich ändern, und nicht alles muss vorkommen:
 1. Wer sind Petra und Mabel?
 2. Petras Weg von der Praxis zum Neuanfang.
