@@ -30,6 +30,7 @@
 - **Neu 23.10.: Themenlandkarte, PETRA REVIEW.** Grundlage für die Erlebnisbibliothek: erst die Themen sammeln und ordnen, dann Erlebnisse. 15 Gebiete, vier Ebenen (Gebiet → Thema → Situation → das Übbare), dieselbe Grenze wie in PROZESS.md. Kreative Vorarbeit von Petra, ChatGPT und Claude im Browser, keine neue Phase (`erlebnisbibliothek/2026-10-23-themenlandkarte-grundlagen-und-arbeitsweise.md`). Entschieden (PETRA APPROVED 23.10.): Die unterste Ebene ist ein Ich-Satz, dahinter in Klammern die Fähigkeit (`entscheidungen/2026-10-23-themenlandkarte-unterste-ebene-ich-satz-und-faehigkeit.md`).
 - **Neu PETRA APPROVED (23.10.): Klarstellung zum Schutzblock.** „Sexspiel“ heißt: keine sexualisierten Spiele. Sexualität als Lebensthema bleibt erlaubt, zum Beispiel das schwere Gespräch, in dem man den Eltern sagt, dass man bi ist. Trauer ist nur im nichttherapeutischen Sinn zugelassen, Körperbild nur ohne gesundheitliche Versprechen. Der Schutzblock selbst bleibt wörtlich (`entscheidungen/2026-10-23-schutzblock-sexspiel-trauer-koerperbild.md`).
 - **Neu 23.10.: Mabel 0.4 Probe (8,8 Min.):** Petra findet Mabel jetzt zu brav, ohne Humor und zustimmend. Belegt: Lob über die Person, Lebensweisheit, Zusammenfassen, kein Widerspruch, Alter ungefragt. Vermutete Ursache: 0.4 hat die Pointen-Pflichten von 0.3 gestrichen, Humor ist nur noch erlaubt, „Verbündete“ wird als Zustimmung gelesen. Kopier-Fassung für ChatGPT: `berichte-fuer-chatgpt/2026-10-23-mabel-0.4-probe-zu-brav.md`. Nichts geändert.
+- **Neu 23.10.: Mabel 0.5 als Testfassung im Studio** (Auftrag Petra und ChatGPT): eigener Kopf, warmes Herz, „Verbündete“ gestrichen, Humor als Haltung, nie auf Petras Kosten, Alter nicht ungefragt, zwei Tonproben. 0.4 liegt in `podcast/archiv/`. TEST / PETRA REVIEW (`entscheidungen/2026-10-23-mabel-0.5-testfassung-eigener-kopf.md`).
 - Vorgemerkt für Phase 3: eigene Erlebnisanweisungen mit Schutzblock, Moduswechsel im bestehenden Server, Rückkehr zu Elsbeth, wechselnde Türauswahl, Schutzfälle, Modellwahl.
 
 ## 3. DER EINE NÄCHSTE SCHRITT
@@ -40,5 +41,6 @@ Petra beurteilt 0.11 zweispaltig. Die Gast-Sätze für die zweite Problem-Tonpro
 - Nebenbei: Sichtprüfung Homepage-Vorschau 5 (Hero-Knopftext, Instagram als Ziel, Über-mich)
 - Nebenbei: wie es mit dem Tisch-Erlebnis weitergeht (Fassung 2 war Petra zu schematisch)
 - Nebenbei: Spracheingabe am eigenen Handy testen (`?sprache=1`) und entscheiden, ob sie mit dem Datenschutz-Absatz für alle eingeschaltet wird
+- Nebenbei: neue Probeaufnahme mit Mabel 0.5
 - Nebenbei: Spielregeln – Weg A, B oder C, und Wortlaut mit ChatGPT
 - Nebenbei: neuer Wortlaut für den Empfang am Tresen (der alte passt nicht mehr zur Grundausrichtung)
