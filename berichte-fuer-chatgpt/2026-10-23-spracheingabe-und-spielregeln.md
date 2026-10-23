@@ -78,3 +78,16 @@ Ziel: Neue Gäste erfahren einmal kurz, wie sie mit der Welt umgehen können, oh
 - `outputs/reel-generator-tool/halle-7k3q/index.html` – Mikrofonknopf, Hinweis, Fehlermeldungen, nur mit `?sprache=1`.
 - `outputs/reel-generator-tool/halle-7k3q/index-rueckfall-2026-10-23.html` – unveränderte Fassung.
 - `outputs/reel-generator-tool/datenschutz-unknown-vorschau.html` – Absatz „Sprechen statt tippen“ und Tabellenzeile (Entwurf, nicht live).
+
+## Nachtrag 23.10. – Begrüßung im Gespräch erneuert (auf Petras Auftrag)
+Petra hat bemerkt, dass Elsbeth im Gespräch noch mit dem alten Satz „Das kann doch noch nicht alles gewesen sein“ einstieg. Diese zwei festen Sätze standen in der Halle und nicht in der Anweisung für Elsbeth.
+- **Ersetzt durch die freigegebene Begrüßung** aus `entscheidungen/2026-10-19-elsbeth-0.8-neuaufbau-freigabe.md`, Punkt 2: „Da bist du ja. Ich bin Elsbeth Unknown. Und wie darf ich dich nennen?“ In der Demo-Elsbeth folgt nach dem Namen: „[Name] also. Dann erzähl mal, was dich hergebracht hat.“ Bei der echten Elsbeth (KI) antwortet die Anweisung 0.4 auf den Namen.
+- Die alten Antwort-Knöpfe unter der Begrüßung („Ich will erst mal nur schauen“ usw.) entfallen, weil Elsbeth jetzt nach dem Namen fragt.
+- **Wiederkehrer mit bekanntem Namen:** Hier erscheint „Da bist du ja. Dann erzähl mal, was dich hergebracht hat.“ Der Satz ist aus den beiden freigegebenen Sätzen zusammengesetzt und nicht eigens freigegeben, deshalb PETRA REVIEW.
+- Geprüft im Browser: Begrüßung erscheint, „Ich heiße Petra“ ergibt „Petra also. Dann erzähl mal, was dich hergebracht hat.“
+- **Noch alt, nicht angefasst:** Der Empfang am Tresen sagt weiterhin „Ah. Da bist du ja. Ich bin Elsbeth Unknown, 80 … Hinter den Türen liegt kein Märchen, sondern dein eigenes Leben, nur anders abgebogen …“. Dadurch stellt sich Elsbeth zweimal vor (am Tresen und im Gespräch). Für den Tresen gibt es keinen freigegebenen neuen Wortlaut (DECISION GAP).
+- Rückfall: `halle-7k3q/index-rueckfall-2026-10-23.html` enthält noch die alte Begrüßung.
+
+## Nachtrag 23.10. – Petras Vorgabe zu „Hilfe“ (Spielregeln)
+Petra (Chat, 23.10.): **„Bei Hilfe soll Elsbeth wieder erscheinen, die weiterhilft.“**
+Damit ist die Lücke „Hilfe verlangen“ fachlich beantwortet: Wer im Erlebnis um Hilfe bittet, bekommt Elsbeth zurück, und sie hilft weiter. Das passt zur Arbeitsteilung vom 20.10. (Elsbeth empfängt, das Erlebnis ist ein eigener Raum). Noch offen für Phase 3: woran „Hilfe“ erkannt wird (Wort, Knopf oder beides) und was Elsbeth dann konkret sagt (Wortlaut ChatGPT und Petra). Nichts gebaut.
