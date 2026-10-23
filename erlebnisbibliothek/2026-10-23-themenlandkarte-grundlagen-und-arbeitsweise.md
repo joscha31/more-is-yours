@@ -90,18 +90,19 @@ Vier Ebenen, nach ChatGPTs Beispiel:
 
 Gebiet → Thema → Situation → das Übbare
 
+Die unterste Ebene wird als Ich-Satz geschrieben, dahinter in Klammern
+die Fähigkeit (PETRA APPROVED 23.10.2026,
+entscheidungen/2026-10-23-themenlandkarte-unterste-ebene-ich-satz-und-faehigkeit.md).
+
 Beispiel:
 Belastung und Rückschläge → Umgang mit Unkontrollierbarem → eine
-unerwartete Planänderung → kurz innehalten, bevor ich reagiere.
+unerwartete Planänderung → Ich halte kurz inne, bevor ich reagiere.
+(Innehalten vor dem Reagieren)
 
 Zweites Beispiel aus demselben Thema:
 Belastung und Rückschläge → Umgang mit Unkontrollierbarem → ich merke,
-dass weiteres Kämpfen nichts ändert → ich wähle eine andere Möglichkeit.
-
-OFFEN (wartet auf Petra): Wie wird die unterste Ebene formuliert? Als
-Ich-Satz („Ich sage einmal nein, ohne es zu begründen"), als nüchterne
-Fähigkeit („Nein sagen ohne Begründung") oder als Situation („Jemand
-bittet dich um etwas, und du willst nicht").
+dass weiteres Kämpfen nichts ändert → Ich wähle einmal bewusst eine
+andere Möglichkeit. (Loslassen, was ich nicht ändern kann)
 
 ## 6. Die Grenze
 
