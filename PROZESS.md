@@ -1,5 +1,5 @@
 # PROZESS.md – Überbau More is Yours
-Stand: 21.10.2026 · Lebendes Dokument · Gilt für alle beteiligten KIs
+Stand: 23.10.2026 · Lebendes Dokument · Gilt für alle beteiligten KIs
 
 ## Wie dieses Dokument zu benutzen ist
 Jede KI, die an More is Yours mitarbeitet, liest zuerst STATUS.md, dann dieses
@@ -33,6 +33,20 @@ Persönlichkeitsentwicklung und Kommunikation können Grundlage eigenständig
 entwickelter Erlebnisse sein.
 Urheberrechte und Lizenzen sind zu beachten.
 Nur diese Grundausrichtung ist freigegeben; alle Einzelheiten bleiben offen.
+
+HELP YOURSELF – DEIN WERKZEUGKASTEN (PETRA APPROVED 23.10.2026,
+entscheidungen/2026-10-23-help-yourself-werkzeugkasten.md):
+Neben der mystischen Erlebnisbibliothek wird der Werkzeugkasten ein
+eigenständiger, freiwillig nutzbarer Bereich: kleine, alltagstaugliche
+Übungen zum Selbst-Ausprobieren (zum Beispiel Atemübungen, Akupressur,
+Kinesiologie, Körper- und Wahrnehmungsübungen aus Petras Erfahrungsschatz).
+Wer nach einem Erlebnis Unterstützung möchte, kann ihn nutzen, muss aber
+nicht; er ist auch ohne Erlebnis zugänglich. Niemand wird analysiert,
+bewertet oder zu einer Übung gedrängt. Prinzip: Help Yourself. Ausprobieren.
+Selbst wahrnehmen. Selbst entscheiden.
+Der Werkzeugkasten ist ein SPÄTERER eigener Plattformbereich und wird jetzt
+noch nicht gebaut. Übungssammlung, Gestaltung, Sicherheits- und
+Wirkungsprüfung vor der Anwendung und Technik sind getrennte Aufgaben.
 
 GRENZE (verbindlich): More is Yours ist ein ÜBUNGSRAUM, keine Diagnostik.
 - Niemand wird ausgewertet, eingeordnet oder bewertet.

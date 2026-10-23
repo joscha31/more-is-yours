@@ -1,6 +1,6 @@
 # INDEX – More is Yours
 
-**Stand:** 21. Oktober 2026  
+**Stand:** 23. Oktober 2026  
 **Funktion:** Zentrales Inhaltsverzeichnis des Projekts
 
 > Der Index enthält keine ausführlichen Fachinhalte. Er zeigt nur, welche Dateien es gibt, wofür sie zuständig sind und welchen Status sie haben.
@@ -10,7 +10,7 @@
 | Datei | Funktion | Status |
 |---|---|---|
 | `STATUS.md` | Die erste Datei für jede KI: Datum, Phase, aktueller Schritt, Elsbeth-Version, der eine nächste Schritt, was auf Petra wartet. Claude Code zieht sie nach jeder Arbeitsrunde nach | **LEBENDER STAND** |
-| `PROZESS.md` | Überbau: wozu More is Yours da ist (spielerische Persönlichkeitsentwicklung, Übungsraum statt Diagnostik; seit 21.10. mit der Grundausrichtung Selbstcoaching-Plattform + Erlebniswelt und zwei Zugängen), die fünf Phasen mit ihren Toren, Regeln der Zusammenarbeit, Rollen, Definition von STATUS.md | **LEBENDES DOKUMENT / von Petra vorgelegt 19.10.2026** |
+| `PROZESS.md` | Überbau: wozu More is Yours da ist (spielerische Persönlichkeitsentwicklung, Übungsraum statt Diagnostik; seit 21.10. mit der Grundausrichtung Selbstcoaching-Plattform + Erlebniswelt und zwei Zugängen, seit 23.10. mit „Help Yourself – dein Werkzeugkasten“ als späterem eigenem Bereich), die fünf Phasen mit ihren Toren, Regeln der Zusammenarbeit, Rollen, Definition von STATUS.md | **LEBENDES DOKUMENT / von Petra vorgelegt 19.10.2026** |
 | `KANON-ELSBETH.md` | Figurenkanon Elsbeth Unknown: feste Eckdaten (Jahrgang 1946, Münchnerin, lebt in Münster, drei Kinder, lernt fliegen), Hildegard, Haltung und Sprechweise, Umgang mit dem Hintergrund (Reservoir statt Gesprächsstoff), offene Punkte. Grundlage für Teil A von 0.8. Ersetzt den Kanon-Vorschlag von Claude Code aus 0.7 (Hildegard als Konditorin, Fluglehrer Konrad) | **FACH-LAB-VORSCHLAG / PETRA REVIEW**; Ergänzung „Rat" am 19.10. PETRA APPROVED |
 
 ---
@@ -96,6 +96,12 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | Datei | Funktion | Status |
 |---|---|---|
 | `entscheidungen/2026-10-21-grundausrichtung-selbstcoaching-und-erlebniswelt.md` | Selbstcoaching-Plattform + geheimnisvolle, interaktive Erlebniswelt; zwei gleichberechtigte Zugänge (mit Thema / aus Neugier); Bibliothek darf über 40 hinaus wachsen, Methoden aus Coaching, Persönlichkeitsentwicklung und Kommunikation als Grundlage eigenständiger Erlebnisse (Rechte und Lizenzen beachten); Elsbeth bleibt Gastgeberin; alle Grenzen bleiben | **PETRA APPROVED 21.10. (nur Grundausrichtung, Einzelheiten offen)** |
+
+## Help Yourself – dein Werkzeugkasten
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `entscheidungen/2026-10-23-help-yourself-werkzeugkasten.md` | Eigenständiger, freiwillig nutzbarer Bereich neben der Erlebnisbibliothek: kleine, alltagstaugliche Übungen zum Selbst-Ausprobieren (Atem, Akupressur, Kinesiologie, Körper und Wahrnehmung, aus Petras Erfahrungsschatz); nach einem Erlebnis oder unabhängig davon nutzbar, niemand wird analysiert oder gedrängt; Übungen dürfen ohne Wirksamkeitsnachweis gesammelt werden, Sicherheit und Wirkungsaussagen werden vor der Anwendung geprüft; späterer eigener Plattformbereich, jetzt wird nichts gebaut | **PETRA APPROVED 23.10. (nur Grundsatz; Übungen, Gestaltung und Technik nicht freigegeben)** |
 
 ## Persönlichkeitsentwicklung – verbindliche Positionierung
 

@@ -4,6 +4,8 @@
 
 **Die Idee:** Probierräume fürs Leben. Über KI können neugierige Erwachsene ungeahnte Möglichkeiten erst erleben und dann frei entscheiden, was sie davon in die Wirklichkeit tragen. Petra ist die kreative Herausgeberin. Die Realitätsbrücke ist das Herzstück, kein Zusatz (PETRA APPROVED 13.10.2026). *(Leitzeile angeglichen am 13.10.2026; vorher: „Sammlung außergewöhnlicher KI-Erlebnisse".)*
 
+**Daneben, nicht darin:** „Help Yourself – dein Werkzeugkasten“ ist ein eigener, freiwilliger Bereich mit kleinen Übungen. Ein Erlebnis muss keine Übung enthalten; wer danach Unterstützung möchte, kann den Werkzeugkasten nutzen, muss aber nicht. Späterer eigener Plattformbereich, noch nicht gebaut (`entscheidungen/2026-10-23-help-yourself-werkzeugkasten.md`, PETRA APPROVED 23.10.2026).
+
 **Wie ein Erlebnis gebaut ist:** Jedes Erlebnis ist ein Startprompt, der in jeder normalen KI läuft (ChatGPT, Claude). Es gibt keine App, keine Datenbank, keine laufenden Kosten und keinen Betrieb. Das entspricht der PETRA-APPROVED-Regel `entscheidungen/2026-10-08-keine-wartungsintensive-spezialsoftware.md`.
 
 **Jedes Erlebnis hat dieselben 5 Teile:**
