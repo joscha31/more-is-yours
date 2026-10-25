@@ -1,5 +1,5 @@
 # PROZESS.md – Überbau More is Yours
-Stand: 23.10.2026 · Lebendes Dokument · Gilt für alle beteiligten KIs
+Stand: 25.10.2026 · Lebendes Dokument · Gilt für alle beteiligten KIs
 
 ## Wie dieses Dokument zu benutzen ist
 Jede KI, die an More is Yours mitarbeitet, liest zuerst STATUS.md, dann dieses
@@ -11,6 +11,18 @@ More is Yours hilft Menschen, sich ins Unbekannte zu trauen.
 Der Überbau in zwei Worten: spielerische Persönlichkeitsentwicklung.
 
 Leitsatz: "Sich trauen können, bevor man sich trauen muss."
+
+LEITGEDANKE (PETRA APPROVED 25.10.2026, Petras Satz wörtlich,
+entscheidungen/2026-10-25-leitgedanke-entwicklung-ohne-problem.md):
+"Nicht jede persönliche Entwicklung muss mit einem Problem beginnen."
+Menschen müssen nicht erst ein Problem haben oder in einer Krise stecken, um
+sich mit sich selbst zu beschäftigen, neue Perspektiven auszuprobieren oder
+unbekannte Seiten an sich zu entdecken.
+Unterstützende Formulierung (von ChatGPT, nicht Petras Wortlaut):
+"Man muss nicht erst unzufrieden mit seinem Leben sein, um neugierig auf ein
+anderes zu werden."
+Kein neues Produktversprechen, keine therapeutische Aussage, keine neue
+Aufgabe. Er stärkt den zweiten Zugang der Grundausrichtung (aus Neugier).
 
 Menschen können hier spielerisch ausprobieren, wie es wäre, anders zu leben,
 anders aufzutreten oder etwas zu wagen – Mut üben, Neugier üben, eine andere

@@ -1,6 +1,6 @@
 # INDEX – More is Yours
 
-**Stand:** 23. Oktober 2026  
+**Stand:** 25. Oktober 2026  
 **Funktion:** Zentrales Inhaltsverzeichnis des Projekts
 
 > Der Index enthält keine ausführlichen Fachinhalte. Er zeigt nur, welche Dateien es gibt, wofür sie zuständig sind und welchen Status sie haben.
@@ -96,6 +96,7 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | Datei | Funktion | Status |
 |---|---|---|
 | `entscheidungen/2026-10-21-grundausrichtung-selbstcoaching-und-erlebniswelt.md` | Selbstcoaching-Plattform + geheimnisvolle, interaktive Erlebniswelt; zwei gleichberechtigte Zugänge (mit Thema / aus Neugier); Bibliothek darf über 40 hinaus wachsen, Methoden aus Coaching, Persönlichkeitsentwicklung und Kommunikation als Grundlage eigenständiger Erlebnisse (Rechte und Lizenzen beachten); Elsbeth bleibt Gastgeberin; alle Grenzen bleiben | **PETRA APPROVED 21.10. (nur Grundausrichtung, Einzelheiten offen)** |
+| `entscheidungen/2026-10-25-leitgedanke-entwicklung-ohne-problem.md` | Leitgedanke, Petras Satz wörtlich: „Nicht jede persönliche Entwicklung muss mit einem Problem beginnen.“ Unterstützende Formulierung von ChatGPT (nicht Petras Wortlaut): „Man muss nicht erst unzufrieden mit seinem Leben sein, um neugierig auf ein anderes zu werden.“ Stärkt den Neugier-Zugang; kein Produktversprechen, keine therapeutische Aussage, keine neue Aufgabe | **PETRA APPROVED 25.10. (Leitgedanke)** |
 
 ## Help Yourself – dein Werkzeugkasten
 

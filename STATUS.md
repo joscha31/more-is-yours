@@ -1,7 +1,7 @@
 # STATUS – More is Yours
 
 ## 1. STAND VOM
-23.10.2026
+25.10.2026
 
 ## 2. WO WIR STEHEN
 - **Phase:** 2 – Elsbeth spricht (siehe `PROZESS.md`, Abschnitt 2). Geprüft wird Elsbeth Unknown als Gastgeberin, vom Empfang bis zur Tür.
@@ -10,6 +10,7 @@
   - **Wortgrenze:** 600 Wörter gelten nur für Teil A bis C; Figurenwelt, Türnamen, Schutzblock und Erlebnisanweisungen zählen nicht mit (`entscheidungen/2026-10-20-elsbeth-wortgrenze-600.md`). **Die Wortgrenzenfrage ist entschieden.**
   - **Arbeitsteilung:** Elsbeth Unknown empfängt und öffnet die Tür, das Erlebnis ist ein eigener Übungsraum mit eigener Anweisung, und die Rückkehr erfolgt ohne Abfrage und ohne Deutung (`entscheidungen/2026-10-20-elsbeth-arbeitsteilung-gastgeberin-erlebnis.md`).
 - **Neu PETRA APPROVED (21.10.): Grundausrichtung.** More is Yours verbindet eine Selbstcoaching-Plattform mit einer geheimnisvollen, interaktiven Erlebniswelt, mit zwei gleichberechtigten Zugängen (mit Thema / aus Neugier). Elsbeth bleibt Gastgeberin, alle Grenzen bleiben, Phase 2 und der nächste Schritt sind unverändert. Einzelheiten offen (`entscheidungen/2026-10-21-grundausrichtung-selbstcoaching-und-erlebniswelt.md`, PROZESS.md Abschnitt 1).
+- **Neu PETRA APPROVED (25.10.): Leitgedanke.** Petras Satz, wörtlich: „Nicht jede persönliche Entwicklung muss mit einem Problem beginnen.“ Dazu als unterstützende Formulierung von ChatGPT (nicht Petras Wortlaut): „Man muss nicht erst unzufrieden mit seinem Leben sein, um neugierig auf ein anderes zu werden.“ Passt zum Leitsatz und stärkt den Neugier-Zugang. Keine neue Grundausrichtung, kein Erlebnis, keine neue Aufgabe; Phase 2 und der nächste Schritt sind unverändert (`entscheidungen/2026-10-25-leitgedanke-entwicklung-ohne-problem.md`, PROZESS.md Abschnitt 1).
 - **Neu PETRA APPROVED (23.10.): Help Yourself – dein Werkzeugkasten.** Ein eigenständiger, freiwilliger Bereich neben der Erlebnisbibliothek mit kleinen, alltagstauglichen Übungen aus Petras Erfahrungsschatz. Nutzbar nach einem Erlebnis oder unabhängig davon, niemand wird gedrängt. Späterer eigener Plattformbereich, jetzt wird nichts gebaut. Übungen, Gestaltung und Technik sind nicht freigegeben. Phase 2 und der nächste Schritt sind unverändert (`entscheidungen/2026-10-23-help-yourself-werkzeugkasten.md`, PROZESS.md Abschnitt 1).
 - **Neu PETRA APPROVED (22.10.): Arbeitsregel für ChatGPT.** ChatGPT ist ein kritischer, unabhängiger Sparringspartner und kein Zustimmungsautomat: begründete, ehrliche Einschätzungen, konkretes und verdientes Lob, Geschmack, Qualität und ungetestete Annahmen getrennt, Widerspruch allein ändert keine Empfehlung, gute Argumente schon, warm und auf Augenhöhe, kein Widerspruch um des Widerspruchs willen (`system/arbeitsweise-chatgpt.md`, Abschnitt 1a).
 - **Noch nicht freigegeben:** Vorfragen je Erlebnis, Intensität, Übergabeformat, Erlebnisanweisungen, der vollständige Ersatz von Teil A durch den Zwecktext. Für 0.10 hat Petra den Teil A selbst gewählt.
