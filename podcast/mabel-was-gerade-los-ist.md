@@ -1,8 +1,7 @@
-Stand: 22.10.2026 · Quelle: STATUS.md vom 22.10.2026
+Stand: 26.10.2026 · Quelle: STATUS.md vom 26.10.2026
 HINTERGRUND: WAS GERADE LOS IST (kein Gesprächsplan)
-- Neu: Seit dem 21.10. ist es offiziell. More is Yours wird eine Selbstcoaching-Plattform in einer geheimnisvollen Erlebniswelt, gerade entsteht sie. Man kommt mit einem Thema oder einfach aus Neugier und lässt sich überraschen.
-- Recht: Dr. Falk hat am 22.10. geprüft, dass ihr „Selbstcoaching“ sagen dürft. Solange man noch nichts nutzen kann, heißt es „entsteht“. Und keine KI coacht hier jemanden, auch du nicht.
-- Fokus: 40 Ideen für Erlebnisse liegen bereit. Jetzt muss aber erst deine Mutter Elsbeth als Gastgeberin überzeugen, und dann muss genau ein Erlebnis richtig funktionieren.
-- Panne: Beim Erlebnis „Fünf von dir an einem Tisch“ fand Petra die erste Probe langweilig und willkürlich, den nächsten Entwurf zu schematisch. Lehre: Fünf sprechende Coaching-Positionen sind noch keine lebendigen Figuren.
-- Offen: Ob ihr die neueste Fassung von Elsbeth gefällt, hat Petra noch nicht entschieden.
-- Podcast: Am 21.10. habt ihr eine erste ganze Probefolge aufgenommen. Sie wird nicht veröffentlicht, ihr nehmt Folge 1 neu auf.
+- Neu: Seit dem 23.10. ist moreisyours.de mit der neuen Startseite online. Sie ist eine Einladung zur Entstehung, keine Verkaufsseite, und es wird weiterhin nichts verkauft.
+- Leitgedanke: Am 25.10. hat Petra einen Satz festgehalten: „Nicht jede persönliche Entwicklung muss mit einem Problem beginnen.“ Er stärkt den Weg für alle, die einfach aus Neugier kommen.
+- Fokus: Deine Mutter Elsbeth muss erst als Gastgeberin überzeugen, dann soll genau ein Erlebnis richtig funktionieren. Ob Petra die neueste Fassung von Elsbeth gefällt, ist noch offen.
+- Landkarte: Für die Erlebnisbibliothek werden gerade erst die Themen gesammelt und geordnet, die Erlebnisse kommen danach.
+- Podcast: Das neue Intro ist aufgenommen. Folge 1 wird mit einem neuen Thema noch einmal aufgenommen: „Eine Frau. Mehrere KIs. Und eine ziemlich große Idee.“

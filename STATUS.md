@@ -1,7 +1,7 @@
 # STATUS – More is Yours
 
 ## 1. STAND VOM
-25.10.2026
+26.10.2026
 
 ## 2. WO WIR STEHEN
 - **Phase:** 2 – Elsbeth spricht (siehe `PROZESS.md`, Abschnitt 2). Geprüft wird Elsbeth Unknown als Gastgeberin, vom Empfang bis zur Tür.
@@ -38,6 +38,7 @@
 - **Neu 23.10. abends: Neues Podcast-Intro v7 (PETRAS WAHL 23.10.).** Neuer Text (Satz 1 wie im alten Intro, Rest neu), Mabel spricht hörbar lächelnd und dynamisch (in Anweisung 0.6 ergänzt), Mabel im Klang heller als in v6. Dateien lokal in `outputs/world-of-the-unknown/podcast-intro/` (v5 bleibt daneben). Der Fahrplan Folge 1 ist zurück im Studio. Vor der ersten Veröffentlichung: Dr. Falk zum „ist“ in „More is Yours ist eine mystische Erlebniswelt“ fragen.
 - **Neu 23.10. abends: Gesprächsregeln für Mabels Beginn** (Petras Auftrag). In der Folge-1-Probe hatte Mabel Petra vorgestellt und ihre Geschichte selbst erzählt. Jetzt stellt sie nur sich selbst kurz vor, erzählt nichts aus Petras Leben und stellt am Anfang höchstens eine Frage. Wortlaut PETRA REVIEW.
 - **Neu 23.10. abends: Probe Folge 1 mit Mabel 0.6 (8,7 Min.):** Beginn hält sich an die neuen Regeln, eine gute Frage. Danach laut Petra „artig, nach dem Mund, langweilig“: kein Witz, kein Widerspruch, Zusammenfassen, Lobrede auf Elsbeth, Werbung für das Projekt. Annahme: Mabel hat nichts Eigenes zu vertreten. Kopier-Fassung für ChatGPT: `berichte-fuer-chatgpt/2026-10-23-mabel-0.6-folge-1-probe-zu-brav.md`. Nichts geändert.
+- **Neu 26.10.: Folge 1 mit neuem Thema vorbereitet** (Auftrag Petra und ChatGPT): „Eine Frau. Mehrere KIs. Und eine ziemlich große Idee.“ Neuer Fahrplan mit fünf Punkten in `podcast/mabel-fahrplan.md`, Petra als erfahrene Unternehmerin, für die die KI-Werkzeuge neu sind; das Experiment ohne Marktrecherche ist ihre bewusste Entscheidung. Mabel 0.6 und das Intro v7 sind unverändert, keine neue Persönlichkeitsanweisung. Ihr Alter steht nur im Petra-Teil, Privates bleibt draußen. `mabel-was-gerade-los-ist.md` auf 26.10. gebracht. Alte Fassungen in `podcast/archiv/`. Geprüft ohne Kosten über die Vorschau des Studios. Kreativer Entwurf, keine Freigabe zur Veröffentlichung (`entscheidungen/2026-10-26-mabel-folge-1-neues-thema.md`).
 - Vorgemerkt für Phase 3: eigene Erlebnisanweisungen mit Schutzblock, Moduswechsel im bestehenden Server, Rückkehr zu Elsbeth, wechselnde Türauswahl, Schutzfälle, Modellwahl.
 
 ## 3. DER EINE NÄCHSTE SCHRITT
@@ -48,6 +49,6 @@ Petra beurteilt 0.11 zweispaltig. Die Gast-Sätze für die zweite Problem-Tonpro
 - Nebenbei: Sichtprüfung Homepage-Vorschau 5 (Hero-Knopftext, Instagram als Ziel, Über-mich)
 - Nebenbei: wie es mit dem Tisch-Erlebnis weitergeht (Fassung 2 war Petra zu schematisch)
 - Nebenbei: Spracheingabe am eigenen Handy testen (`?sprache=1`) und entscheiden, ob sie mit dem Datenschutz-Absatz für alle eingeschaltet wird
-- Nebenbei: neue Probeaufnahme mit Mabel 0.6
+- Nebenbei: neue Probeaufnahme Folge 1 mit Mabel 0.6 und dem neuen Thema
 - Nebenbei: Spielregeln – Weg A, B oder C, und Wortlaut mit ChatGPT
 - Nebenbei: neuer Wortlaut für den Empfang am Tresen (der alte passt nicht mehr zur Grundausrichtung)
