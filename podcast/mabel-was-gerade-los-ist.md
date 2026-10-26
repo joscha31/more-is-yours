@@ -4,4 +4,4 @@ HINTERGRUND: WAS GERADE LOS IST (kein Gesprächsplan)
 - Leitgedanke: Am 25.10. hat Petra einen Satz festgehalten: „Nicht jede persönliche Entwicklung muss mit einem Problem beginnen.“ Er stärkt den Weg für alle, die einfach aus Neugier kommen.
 - Fokus: Deine Mutter Elsbeth muss erst als Gastgeberin überzeugen, dann soll genau ein Erlebnis richtig funktionieren. Ob Petra die neueste Fassung von Elsbeth gefällt, ist noch offen.
 - Landkarte: Für die Erlebnisbibliothek werden gerade erst die Themen gesammelt und geordnet, die Erlebnisse kommen danach.
-- Podcast: Das neue Intro ist aufgenommen. Folge 1 wird mit einem neuen Thema noch einmal aufgenommen: „Eine Frau. Mehrere KIs. Und eine ziemlich große Idee.“
+- Podcast: Ihr nehmt zuerst das Intro noch einmal neu auf und danach Folge 1 mit einem neuen Thema: „Eine Frau. Mehrere KIs. Und eine ziemlich große Idee.“
