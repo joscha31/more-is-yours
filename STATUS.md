@@ -40,6 +40,7 @@
 - **Neu 23.10. abends: Probe Folge 1 mit Mabel 0.6 (8,7 Min.):** Beginn hält sich an die neuen Regeln, eine gute Frage. Danach laut Petra „artig, nach dem Mund, langweilig“: kein Witz, kein Widerspruch, Zusammenfassen, Lobrede auf Elsbeth, Werbung für das Projekt. Annahme: Mabel hat nichts Eigenes zu vertreten. Kopier-Fassung für ChatGPT: `berichte-fuer-chatgpt/2026-10-23-mabel-0.6-folge-1-probe-zu-brav.md`. Nichts geändert.
 - **Neu 26.10.: Folge 1 mit neuem Thema vorbereitet** (Auftrag Petra und ChatGPT): „Eine Frau. Mehrere KIs. Und eine ziemlich große Idee.“ Neuer Fahrplan mit fünf Punkten in `podcast/mabel-fahrplan.md`, Petra als erfahrene Unternehmerin, für die die KI-Werkzeuge neu sind; das Experiment ohne Marktrecherche ist ihre bewusste Entscheidung. Mabel 0.6 ist unverändert, keine neue Persönlichkeitsanweisung. Petra nimmt zuerst das Intro neu auf (Text wie v7, Petras Wunsch 26.10.), Mabels Intro-Regeln stehen dafür vorn im Fahrplan; die Datei v7 bleibt erhalten. Ihr Alter steht nur im Petra-Teil, Privates bleibt draußen. `mabel-was-gerade-los-ist.md` auf 26.10. gebracht. Alte Fassungen in `podcast/archiv/`. Geprüft ohne Kosten über die Vorschau des Studios. Kreativer Entwurf, keine Freigabe zur Veröffentlichung (`entscheidungen/2026-10-26-mabel-folge-1-neues-thema.md`).
 - **Neu 26.10.: Intro v8 als Entwurf.** Petra hat das Intro neu aufgenommen (beste von 7 Aufnahmen gewählt) und eine neue, eigene Musik von Lyria ausgesucht (C3-lang-3, funkelnd, 126 bpm). Abgemischt wie v7, Dateien lokal in `outputs/world-of-the-unknown/podcast-intro/`. v7 bleibt. PETRA REVIEW. Vor Veröffentlichung: Dr. Falk zu den Lyria-Nutzungsbedingungen.
+- **Nebenbei, auf Petras Auftrag (26.10.): Homepage-Vorschau 6 mit Animationen.** Grundlage ist die Live-Fassung vom 23.10., die Texte sind unverändert. Neu sind nur Bewegungen: Goldstaub im Hero und an der Tür, Überschrift Wort für Wort aus dem Nebel, Schimmer über den Knöpfen, Wegkarten neigen sich zum Finger, Schlüssel schwingt, Stern funkelt, Themen leuchten nacheinander, Leitsatz Buchstabe für Buchstabe, Goldfunken am Zeiger, Kerzenschein auf den Porträts. Bei „Bewegung reduzieren“ ist alles aus. `petras-reels.vercel.app/moreisyours-unknown-vorschau-6.html`, PETRA REVIEW, moreisyours.de unverändert, keine Kosten.
 - Vorgemerkt für Phase 3: eigene Erlebnisanweisungen mit Schutzblock, Moduswechsel im bestehenden Server, Rückkehr zu Elsbeth, wechselnde Türauswahl, Schutzfälle, Modellwahl.
 
 ## 3. DER EINE NÄCHSTE SCHRITT
@@ -47,7 +48,7 @@ Petra beurteilt 0.11 zweispaltig. Die Gast-Sätze für die zweite Problem-Tonpro
 
 ## 4. WARTET AUF PETRA
 - Urteil zu 0.11
-- Nebenbei: Sichtprüfung Homepage-Vorschau 5 (Hero-Knopftext, Instagram als Ziel, Über-mich)
+- Nebenbei: Sichtprüfung Homepage-Vorschau 6 (Animationen), danach ggf. auf moreisyours.de übernehmen
 - Nebenbei: wie es mit dem Tisch-Erlebnis weitergeht (Fassung 2 war Petra zu schematisch)
 - Nebenbei: Spracheingabe am eigenen Handy testen (`?sprache=1`) und entscheiden, ob sie mit dem Datenschutz-Absatz für alle eingeschaltet wird
 - Nebenbei: neue Probeaufnahme Folge 1 mit Mabel 0.6 und dem neuen Thema
