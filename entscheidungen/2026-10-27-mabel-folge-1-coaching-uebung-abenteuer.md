@@ -19,3 +19,9 @@ Neues Thema für die nächste interne Aufnahme von Folge 1, Beispiel: ein Abende
 
 ## Offen
 Aus den Rückmeldungen vom 26./27.10. noch nicht entschieden: Umgang mit erfundenen Verwandten („Cousins“), eingefrorene Testfälle für Mabel.
+
+## Fassung 2 (27.10.2026, Auftrag „Podcast Folge 1 vollständig vorbereiten“)
+- `podcast/mabel-fahrplan.md` neu geschrieben. Mabels Teil: „Dein Beginn“ (sie wartet auf Petras Frage „Wer bist du eigentlich?“, stellt nur sich vor, darf Elsbeth als Mutter erwähnen, muss nicht), „Hintergrund für diese Folge“ (wörtlich aus dem Auftrag), „Wie du heute mitredest“ (die Punkte aus dem Auftrag). Die alten Beginn-Regeln vom 23.10. sind darin aufgegangen; die Regel „Elsbeth am Anfang nicht erwähnen“ ist durch „darf, muss nicht“ ersetzt.
+- Petras Karteikarte: Einstieg zum Vorlesen (wörtlich), Selbstvorstellung (wörtlich), fünf Stationen in ganzen Sätzen wie im Auftrag, möglicher Abschluss.
+- Fassung 1 gesichert: `podcast/archiv/mabel-fahrplan-folge-1-stand-2026-10-27-karteikarte-1.md`.
+- Mabel 0.6, Stimme Nuri, Intro v9, Studio-Code unverändert.
