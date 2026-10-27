@@ -49,3 +49,27 @@ Die 26 Stellen (Zeit im Original → Zeit in B, vorher → nachher):
 - Wo und wie veröffentlicht wird: noch nicht besprochen und nicht freigegeben.
 
 Unverändert: Fassung B als Arbeitsfassung (keine Mabel 0.7), GPT-Live-1, Nuri, Elsbeth, More is Yours. Keine neue Aufnahme, kein kostenpflichtiger Dienst, keine Veröffentlichung.
+
+---
+
+## Nachtrag: Fassung A2 und B2 nach Petras Höreindruck (27.10.2026)
+Petra nach dem Anhören von A und B: „es sind sehr viele Übersteuerungen und bei Mabel einige blecherne Stellen und zu viele ähs“.
+
+**Gemessen:** In den fertigen Dateien gibt es keine echte Übersteuerung, der höchste Pegel liegt bei −0,8 dBFS. Gefunden wurden drei mögliche Ursachen:
+1. Der Knackser-Entferner in Petras Stimmkette (aus dem Intro übernommen) hielt an über 500 Stellen (rund 54 s) Konsonanten und Lacher für Knackser und rechnete sie um. Das kann wie Übersteuerung klingen. Er ist **entfernt**.
+2. Petras Rohspur ist schon im Original sehr heiß (154 Stellen über −1 dBFS, 55 Samples an der Grenze). Grund: Das Studio nimmt mit der automatischen Mikrofon-Lautstärke des Browsers auf (`autoGainControl: true` in `index.html`). Das lässt sich nur bei künftigen Aufnahmen ändern. **Vorschlag, nicht umgesetzt:** künftig ausschalten und den Mikrofonpegel am Mac fest einstellen.
+3. Mabel kam über ein wackeliges Netz: Bei 4,5 % ihrer Samples hat der Browser fehlenden Ton aufgefüllt. Solche Stellen klingen oft blechern, und das steckt im Original. Abgemildert: Mabels Höhen-Anhebung halbiert (+2 statt +4 dB bei 3,5 kHz, +1 statt +2,5 dB oben). Der künstliche Raumhall ist für beide entfernt, weil er dünne Stimmen metallisch färben kann.
+
+**Neu in beiden Fassungen:** Petras Kompressor mit weniger Aufholverstärkung, dazu eine sanfte Spitzenbremse je Stimme. Lautstärke weiter −16 LUFS wie das Intro, das Intro wieder bitgenau unverändert.
+
+**Füllwörter (nur Mabel, nur in B2):** Wörter mit Zeitangabe wurden mit Whisper „small“ erkannt. Das Programm war schon auf dem Mac installiert, lief lokal und kostenlos, und es hat nichts den Mac verlassen. Erkannt wurden 102 „äh/ähm“ bei Mabel. **38 davon sind entfernt:**
+- 15 frei stehende, mit Stille davor und danach;
+- 29 weitere, die in einer deutlichen Lautstärke-Delle zwischen den Wörtern lagen. Jeder dieser Schnitte wurde gegengeprüft: Der Ausschnitt wurde vor und nach dem Schnitt erneut erkannt, und der Schnitt bleibt nur, wenn alle übrigen Wörter gleich erkannt werden. 13 Kandidaten fielen dabei durch und blieben drin.
+Nicht geschnitten werden „äh“, während Petra gleichzeitig etwas sagt oder lacht (29), und „äh“, die ohne Delle am Nachbarwort kleben (29). Etwa 60 „äh“ bleiben, die Natürlichkeit bleibt erhalten. Petras eigene Füllwörter sind unangetastet.
+
+**Dateien** (im selben Ordner, A und B bleiben zum Vergleich liegen):
+- `Folge-1-Rohschnitt-A2-vollstaendig-neuer-Klang`: 19:44 Min., ganzes Gespräch, neuer Klang.
+- `Folge-1-Rohschnitt-B2-geschnitten-weniger-aeh`: 19:12 Min., neuer Klang, 26 Pausen gekürzt, 38 Mabel-„äh“ entfernt.
+Die Zeiten der „Stellen zum Hinhören“ oben gelten für A2 weiter. In B2 liegen sie bis zu rund 30 s früher.
+
+**Bitte beim Hören prüfen:** Sind die Übersteuerungen weg? Klingt Mabel weniger blechern? Klingen die Übergänge an den entfernten „äh“ natürlich, oder hört man irgendwo einen Sprung?
