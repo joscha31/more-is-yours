@@ -94,7 +94,7 @@ Warum: Das fühlt sich lebendig, geheimnisvoll und hochwertig an, weil jedes Bil
 
 ## 5. Offene Punkte, die nicht Claude Code entscheidet
 
-- **CONFLICT (bitte von Petra und ChatGPT klären):** Der neue Ablauf spricht von „Persönlichkeitsanteilen seiner selbst“, die Elsbeth vorschlägt. Fassung 2 hatte bewusst festgelegt: „erfundene Figuren, keine Teile der Persönlichkeit des Gastes und keine Einordnung“. PROZESS.md sagt: niemand wird eingeordnet, Elsbeth sagt niemandem, welche Seiten er hat. Für die Technik ist das egal, für den Wortlaut von Elsbeth und für die Namen auf den Rahmen ist es wichtig. Der Bericht löst das nicht auf.
+- **Geklärt (Petras Entscheidung im Chat, 27.10.):** „es sind Persönlichkeitsanteile“. Die fünf Figuren sind mögliche Persönlichkeitsanteile des Gastes; der Satz aus Fassung 2 („erfundene Figuren“) gilt dafür nicht mehr. Die Grenze aus PROZESS.md bleibt gewahrt, weil Elsbeth nur vorschlägt und der Gast selbst entscheidet (`entscheidungen/2026-10-27-tisch-erlebnis-persoenlichkeitsanteile.md`).
 - **DECISION GAP:** Welche Figuren in die Galerie kommen, wie viele es sind und wie sie aussehen.
 - **DECISION GAP:** Ob der Gast Vorschläge nur im Gespräch annimmt und ablehnt, oder zusätzlich mit kleinen Knöpfen am Rahmen („behalten“, „lieber nicht“). Beides ist technisch möglich.
 - **DECISION GAP:** Ob die Figuren im Speisezimmer Gesichter haben oder verschleiert bleiben.
