@@ -57,6 +57,7 @@
 - **Neu 27.10.: Fassung B ist vorläufige Arbeitsfassung für Folge 1** (keine Mabel 0.7). `podcast/mabel-anweisung.md` = Fassung B, Mabel 0.6 im Archiv. Folge-Fahrplan mit Mabels eigener Frage, Petras bewährte Karteikarte unverändert (Petra: diese Kartenform auch künftig). Die gute 10-Minuten-Probe (`2026-10-27-11-46-07`) ist als mögliches Podcastmaterial gekennzeichnet und schreibgeschützt. PETRA REVIEW.
 - **Neu 27.10.: Folge 1 aufgenommen mit Fassung B (19,3 Min., rund 0,96 $):** Petra: „Mabel war viel viel besser.“ Mabel bringt ihre eigene Frage früh ein, hakt mit einer Kette echter Einwände nach („Gastgeberin und Jury“, „laut ist ja nicht immer klug“), Humor aus der Situation, Elsbeth lebendig, fast kein Lob, kein Abdriften. Noch: viele Füllwörter (rund 9 je 100), lösbar im Schnitt. Lokal als „Folge 1 · Rohfassung“ markiert und schreibgeschützt. Bericht: `berichte-fuer-chatgpt/2026-10-27-mabel-folge-1-aufnahme-fassung-b.md`. Nichts geschnitten, nichts veröffentlicht. PETRA REVIEW.
 - **Neu 27.10.: Erster Rohschnitt von Folge 1** (lokal in `Mabel-Aufnahmen/Folge-1-Schnitt/`, Original unverändert). A: Intro v9 plus ganzes Gespräch, 19:44 Min. B: zusätzlich 26 lange Pausen auf 0,8 s gekürzt, 19:29 Min. Beide Stimmen gleich laut, −16 LUFS wie das Intro, 19 kleine Übersteuerungen bei Petra geglättet. Füllwörter bewusst nicht geschnitten (zu ungenaue Zeitmarken). Fünf Stellen zum Hinhören. Bericht: `berichte-fuer-chatgpt/2026-10-27-mabel-folge-1-rohschnitt.md`. Keine Veröffentlichung. PETRA REVIEW.
+- **Neu 27.10.: Machbarkeitsprüfung visueller Flur fürs Tisch-Erlebnis** (Auftrag Petra und ChatGPT, nur Auskunft). Ergebnis: mit vorhandener Technik machbar, ohne neuen Dienst und ohne neue laufende Kosten, wenn die Porträts vorbereitet sind. Empfohlen: gemalter Flur mit fünf Rahmen, kleine Porträt-Galerie im Mystic-Stil, verschleierte Porträts mit Namensschild als Rückfall, Steuerung über unsichtbare Zeichen wie bei „▸ REAL WORLD“, Knopf „Ohne Bilder“. Echtzeit-Bilder erst später (Wartezeit, Stil, geschätzt 20 bis 40 Cent je Durchlauf). Offen: CONFLICT „Persönlichkeitsanteile“ gegen „erfundene Figuren“ aus Fassung 2. Bau gehört in Phase 3. Nichts gebaut (`berichte-fuer-chatgpt/2026-10-27-tisch-erlebnis-visueller-flur-machbarkeit.md`).
 - Vorgemerkt für Phase 3: eigene Erlebnisanweisungen mit Schutzblock, Moduswechsel im bestehenden Server, Rückkehr zu Elsbeth, wechselnde Türauswahl, Schutzfälle, Modellwahl.
 
 ## 3. DER EINE NÄCHSTE SCHRITT
@@ -64,7 +65,7 @@ Petra beurteilt 0.11 zweispaltig. Die Gast-Sätze für die zweite Problem-Tonpro
 
 ## 4. WARTET AUF PETRA
 - Urteil zu 0.11
-- Nebenbei: wie es mit dem Tisch-Erlebnis weitergeht (Fassung 2 war Petra zu schematisch)
+- Nebenbei: wie es mit dem Tisch-Erlebnis weitergeht (Fassung 2 war Petra zu schematisch); dazu der Flur-Bericht vom 27.10. und die Frage „Persönlichkeitsanteile oder erfundene Figuren?“
 - Nebenbei: Spracheingabe am eigenen Handy testen (`?sprache=1`) und entscheiden, ob sie mit dem Datenschutz-Absatz für alle eingeschaltet wird
 - Nebenbei: Rohschnitt Folge 1 anhören (A gegen B, fünf markierte Stellen, Füllwörter ja/nein). Fassung B als Mabel 0.7 festschreiben?
 - Nebenbei: Spielregeln – Weg A, B oder C, und Wortlaut mit ChatGPT
