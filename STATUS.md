@@ -54,6 +54,7 @@
 - **Neu 27.10.: Test 4 mit Testfassung D (3,4 Min., rund 0,17 $):** Petra: „ok, aber auch nicht witzig“. Ein guter Witz (Streit über die Definition von Hauptgang), eigene Bilder, keine Füllwörter. Aber: falsche Deutung beim Geld-Thema, Mut-Lob am Ende, erfundener Gast mit „Oh, stimmt.“ angenommen. Gesamtbild aus vier Tests: Texte haben Füllwörter und Stottern beseitigt, Zustimmung zu falschen Behauptungen, Deutungen und Mut-Lob bleiben in allen Fassungen. Vorschläge: Arbeitsfassung wählen und Folge-Probe, Streitfrage für Mabel, Hintergrund auf Mut-Wörter prüfen. Bericht: `berichte-fuer-chatgpt/2026-10-27-mabel-test-4-und-gesamtbild.md`. Nichts umgestellt.
 - **Neu 27.10.: Fassung B wird Arbeitsfassung für eine 10-Minuten-Probe** (keine Testfassung E). Freies Gespräch über das Abendessen mit fünf Ichs, Mabel bekommt eine eigene Frage als KI-Blickwinkel, Codewort „Schnitt“. B, GPT-Live-1, Nuri und der Mut-Hintergrund unverändert. Im Studio als „Probe · 10 Minuten (Fassung B)“ wählbar. Die Hörprobe (rund 0,50 $) hat Petra am 27.10. freigegeben, sie nimmt sie selbst auf.
 - **Neu 27.10.: 10-Minuten-Probe mit Fassung B (10,6 Min., rund 0,53 $):** Petra: „Das war ein gutes Gespräch.“ Mabel widerspricht und hält ihren Punkt („Abenteuer statt Stempel“), bringt eigene Ideen und ihre eigene Frage ein, kein Lob, keine Deutung, kein Abdriften, 57 % Redeanteil. Noch: Füllwörter 4 je 100, eine Verwechslung der Mütter, eine unklare Stelle. Erkenntnis: Der Gesprächsanlass mit eigenem Blickwinkel wirkt stärker als weitere Anweisungs-Fassungen. Bericht: `berichte-fuer-chatgpt/2026-10-27-mabel-probe-10-minuten-fassung-b.md`. Nichts umgestellt.
+- **Neu 27.10.: Fassung B ist vorläufige Arbeitsfassung für Folge 1** (keine Mabel 0.7). `podcast/mabel-anweisung.md` = Fassung B, Mabel 0.6 im Archiv. Folge-Fahrplan mit Mabels eigener Frage, Petras bewährte Karteikarte unverändert (Petra: diese Kartenform auch künftig). Die gute 10-Minuten-Probe (`2026-10-27-11-46-07`) ist als mögliches Podcastmaterial gekennzeichnet und schreibgeschützt. PETRA REVIEW.
 - Vorgemerkt für Phase 3: eigene Erlebnisanweisungen mit Schutzblock, Moduswechsel im bestehenden Server, Rückkehr zu Elsbeth, wechselnde Türauswahl, Schutzfälle, Modellwahl.
 
 ## 3. DER EINE NÄCHSTE SCHRITT
@@ -63,6 +64,6 @@ Petra beurteilt 0.11 zweispaltig. Die Gast-Sätze für die zweite Problem-Tonpro
 - Urteil zu 0.11
 - Nebenbei: wie es mit dem Tisch-Erlebnis weitergeht (Fassung 2 war Petra zu schematisch)
 - Nebenbei: Spracheingabe am eigenen Handy testen (`?sprache=1`) und entscheiden, ob sie mit dem Datenschutz-Absatz für alle eingeschaltet wird
-- Nebenbei: Fassung B als Mabel 0.7 für die Folge-Aufnahmen übernehmen? (Petras Entscheidung)
+- Nebenbei: Probeaufnahme der ganzen Folge 1 mit Fassung B (Kosten je Minute 0,05 $, Petra startet selbst)
 - Nebenbei: Spielregeln – Weg A, B oder C, und Wortlaut mit ChatGPT
 - Nebenbei: neuer Wortlaut für den Empfang am Tresen (der alte passt nicht mehr zur Grundausrichtung)

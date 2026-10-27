@@ -54,3 +54,10 @@ Freigegeben war: Protokoll und Vorbereitung der zwei Testfassungen. Die Hörprob
 - Fassung B, GPT-Live-1 und Nuri unverändert. Der Mut-Hintergrund bleibt („Sich trauen können, bevor man sich trauen muss“ ist Teil von More is Yours).
 - Studio: Auswahl „Probe · 10 Minuten (Fassung B)“, Höchstdauer 12 Minuten. Hörprobe rund 0,50 $, braucht Petras Ja.
 - Falls Mabel wieder ständig zustimmt: Aufnahme als Podcastmaterial schneiden statt weiter an der Persönlichkeit feilen.
+
+## Fassung B als vorläufige Arbeitsfassung für Folge 1 (27.10.2026, Auftrag Petra und ChatGPT)
+- `podcast/mabel-anweisung.md` enthält jetzt wortgleich Fassung B (`podcast/test/mabel-anweisung-test-b.md`). Vorläufige Arbeitsfassung, **keine Mabel 0.7**. Mabel 0.6 gesichert: `podcast/archiv/mabel-anweisung-0.6-stand-2026-10-27.md`. Hinweis: Im Studio lädt damit auch „Test 1“ jetzt Fassung B; 0.6 liegt nur noch im Archiv.
+- `podcast/mabel-fahrplan.md` (Folge 1, Fassung 2): In Mabels Teil ersetzt „Deine eigene Frage“ („Wie verschieden können fünf Versionen eines Menschen eigentlich sein, und wer entscheidet, welche von ihnen recht hat?“, kein Pflichtsatz, Widerspruch erlaubt) und „Wie du heute dabei bist“ (Gesprächspartnerin, nicht Interviewerin, Moderatorin oder Projektmitarbeiterin; andere Themen erlaubt; Petra entscheidet das Ende) den bisherigen Block „Wie du heute mitredest“ mit seinen Verboten. Vorher-Fassung: `podcast/archiv/mabel-fahrplan-folge-1-stand-2026-10-27-fassung-2-vor-b.md`.
+- **Petras Karteikarte unverändert** (Einstieg zum Vorlesen, Selbstvorstellung, fünf Stationen in ganzen Sätzen, möglicher Abschluss). Petras Wunsch: diese Kartenform auch künftig („daran konnte ich mich gut entlanghangeln“). Die gekürzte Stationen-Fassung aus dem Auftrag wurde deshalb nicht übernommen.
+- GPT-Live-1, Nuri, Intro v9, Studio-Technik unverändert.
+- Die 10-Minuten-Probe `2026-10-27-11-46-07` (Mabel in Fassung B) ist als mögliches Podcastmaterial gekennzeichnet (`PODCASTMATERIAL.txt` im Aufnahme-Ordner, Dateien schreibgeschützt). Nichts geschnitten, gelöscht oder veröffentlicht.
