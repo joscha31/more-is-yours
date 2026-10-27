@@ -47,3 +47,10 @@ Freigegeben war: Protokoll und Vorbereitung der zwei Testfassungen. Die Hörprob
 - Verbindlich (Petra und ChatGPT): GPT-Live-1 und Nuri bleiben, keine Modellvergleiche mehr, nur Mabels Gesprächspersönlichkeit wird weiterentwickelt. Der erfundene Gast wird nicht mit Spezialregeln verfolgt.
 - Neu: `podcast/test/mabel-anweisung-test-d.md` (577 Wörter) = C mit zwei Änderungen: (1) Tonbeispiel aus C ersetzt durch zwei aus B (Widerspruch zu „Pläne werden überschätzt“, ohne das Spickzettel-Detail, weil das eine Tatsache über Petra unterstellt hätte; „Steuererklärung … freigesprochen?“). (2) Ernste Themen: neugierig auf die Sache, nachfragen, wie es dazu kam, eigene Sicht auf die Sache; „Wie es Petra damit geht und was das über sie sagt, erzählt sie selbst.“
 - 0.6, B und C unverändert. Im Studio als „Test 4“ wählbar (nur die Auswahl erweitert). TEST / PETRA REVIEW, keine Mabel 0.7.
+
+## Probe mit Fassung B (27.10.2026, Empfehlung von ChatGPT nach vier Tests)
+- Keine Testfassung E. Fassung B wird Arbeitsfassung für eine Probe, weil Petra nur bei B „viel besser“ sagte; jede Fassung lief nur einmal.
+- Neu: `podcast/test/mabel-probe-10-minuten.md`: freies Gespräch von etwa 10 Minuten über das Abendessen mit fünf Versionen des eigenen Ichs, Codewort „Schnitt“. Einzige neue Zutat: Mabels eigener Blickwinkel als Frage, die sie als KI interessiert („Wie verschieden können fünf Versionen eines Menschen sein, und wer entscheidet, welche recht hat?“), keine zu verteidigende Position.
+- Fassung B, GPT-Live-1 und Nuri unverändert. Der Mut-Hintergrund bleibt („Sich trauen können, bevor man sich trauen muss“ ist Teil von More is Yours).
+- Studio: Auswahl „Probe · 10 Minuten (Fassung B)“, Höchstdauer 12 Minuten. Hörprobe rund 0,50 $, braucht Petras Ja.
+- Falls Mabel wieder ständig zustimmt: Aufnahme als Podcastmaterial schneiden statt weiter an der Persönlichkeit feilen.
