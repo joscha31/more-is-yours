@@ -43,6 +43,7 @@
 - **Nebenbei, auf Petras Auftrag (26.10.): Homepage-Vorschau 6 mit Animationen.** Grundlage ist die Live-Fassung vom 23.10., die Texte sind unverändert. Neu sind nur Bewegungen: Goldstaub im Hero und an der Tür, Überschrift Wort für Wort aus dem Nebel, Schimmer über den Knöpfen, Wegkarten neigen sich zum Finger, Schlüssel schwingt, Stern funkelt, Themen leuchten nacheinander, Leitsatz Buchstabe für Buchstabe, Goldfunken am Zeiger, Kerzenschein auf den Porträts. Bei „Bewegung reduzieren“ ist alles aus. **Seit 26.10. live auf moreisyours.de** (Petras Go im Chat), Texte unverändert gegenüber der von Dr. Falk geprüften Fassung, keine Kosten.
 - **Neu 26.10.: Zwei Proben Folge 1 mit neuem Thema (1,8 und 3,1 Min.):** Petra: „sie macht keine Witze mehr, lobt nur noch und redet mir nach dem Mund“. Belegt: erfundene „Cousins“, Hängenbleiben bei direkter Frage, Deutung über Petra, Zusammenfassen, pauschales Lob, kein Witz, kein Widerspruch. Vermutung: der neue Fahrplan rahmt Petra bewundernd, und Mabel hat keine eigene Position. Vorschlag: eigene These je Folge im Fahrplan. Kopier-Fassung: `berichte-fuer-chatgpt/2026-10-26-mabel-0.6-folge-1-neues-thema-probe.md`. Nichts geändert.
 - **Neu 27.10.: Fahrplan Folge 1 entschärft** (einig zwischen ChatGPT und Claude im Browser): „Zur Lage“ mit der bewundernden Rahmung aus Mabels Teil gestrichen, „Die Frage dahinter“ neutral, Intro-Block raus. Mabel 0.6 unverändert. Offen bei Petra: Mabels eigene Frage oder These, Umgang mit erfundenen Verwandten, Form der nächsten Probe. Technik kostenlos geprüft: keine harten Aussetzer, 0,6 % Paketverlust (`entscheidungen/2026-10-26-mabel-folge-1-neues-thema.md`). PETRA REVIEW.
+- **Neu 27.10.: Folge 1 hat ein neues Thema** (Petra und ChatGPT): „Wie wird aus einer Coaching-Übung ein Abenteuer?“, Beispiel Abendessen mit fünf Versionen des eigenen Ichs. Mabel bekommt einen kurzen sachlichen Hintergrund und ihre Rolle für heute, Petra eine Karteikarte, die nicht an Mabel geht. Mabel 0.6 und Intro v9 unverändert. PETRA REVIEW (`entscheidungen/2026-10-27-mabel-folge-1-coaching-uebung-abenteuer.md`).
 - Vorgemerkt für Phase 3: eigene Erlebnisanweisungen mit Schutzblock, Moduswechsel im bestehenden Server, Rückkehr zu Elsbeth, wechselnde Türauswahl, Schutzfälle, Modellwahl.
 
 ## 3. DER EINE NÄCHSTE SCHRITT
@@ -52,6 +53,6 @@ Petra beurteilt 0.11 zweispaltig. Die Gast-Sätze für die zweite Problem-Tonpro
 - Urteil zu 0.11
 - Nebenbei: wie es mit dem Tisch-Erlebnis weitergeht (Fassung 2 war Petra zu schematisch)
 - Nebenbei: Spracheingabe am eigenen Handy testen (`?sprache=1`) und entscheiden, ob sie mit dem Datenschutz-Absatz für alle eingeschaltet wird
-- Nebenbei: neue Probeaufnahme Folge 1 mit Mabel 0.6 und dem neuen Thema
+- Nebenbei: neue Probeaufnahme Folge 1 („Wie wird aus einer Coaching-Übung ein Abenteuer?“)
 - Nebenbei: Spielregeln – Weg A, B oder C, und Wortlaut mit ChatGPT
 - Nebenbei: neuer Wortlaut für den Empfang am Tresen (der alte passt nicht mehr zur Grundausrichtung)
