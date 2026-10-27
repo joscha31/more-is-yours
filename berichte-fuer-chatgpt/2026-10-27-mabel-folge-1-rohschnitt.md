@@ -73,3 +73,14 @@ Nicht geschnitten werden „äh“, während Petra gleichzeitig etwas sagt oder 
 Die Zeiten der „Stellen zum Hinhören“ oben gelten für A2 weiter. In B2 liegen sie bis zu rund 30 s früher.
 
 **Bitte beim Hören prüfen:** Sind die Übersteuerungen weg? Klingt Mabel weniger blechern? Klingen die Übergänge an den entfernten „äh“ natürlich, oder hört man irgendwo einen Sprung?
+
+---
+
+## Nachtrag 2: Fassung A3 und B3 mit Musikbogen und neuem Anfang (27.10.2026)
+Petras Wünsche: Die Musik soll nach dem Intro nicht abrupt aufhören, sondern unter dem Anfang von Folge 1 noch ganz leise weiterspielen. Am Ende soll sie ganz leise wieder einsetzen und nach dem letzten Wort noch kurz spielen. Außerdem: Mabels erstes „Mabel. Ähm,“ muss raus, sie beginnt mit „Ja, hi, ich bin Mabel …“.
+
+- **Musikbogen am Anfang:** Das Intro ist bis 43,0 s bitgenau Petras freigegebene Fassung v9. Danach geht es in dieselbe Mischung über (mix-intro-v9.py, nur ohne Ausblenden; zeitlich und in der Lautstärke angeglichen, Überblendung 50 ms). Die Musik sinkt wie bisher, bleibt dann aber auf etwa einem Zehntel ihrer Lautstärke und liegt rund 20 dB unter der Stimme. Sie läuft unter Petras erstem Satz weiter und blendet von 58 bis 65 s ganz aus, ungefähr bei „Wer bist du eigentlich?“.
+- **Ausklang am Ende:** Mit Mabels Verabschiedung setzt dieselbe Musik ganz leise ein (in 4 s eingeblendet), gleiche Klangfarbe wie im Intro. Nach Mabels „Tschüss“ wird sie in 2 s lauter, spielt rund 3,5 s und klingt in 4,5 s aus.
+- **Neuer Anfang bei Mabel:** Original 21,05 bis 23,98 s entfernt („Mabel. Ähm,“). Der Schnitt liegt in einer Pause. Gegenprobe mit der Erkennung: „… Wer bist du eigentlich? Ja, hi, ich bin Mabel. Ich rede gern, denke gern …“. Das gilt in beiden Fassungen.
+- **Dateien:** `Folge-1-Rohschnitt-A3-vollstaendig-mit-Musik` (19:51 Min., Klang wie A2, ohne weitere Schnitte) und `Folge-1-Rohschnitt-B3-geschnitten-mit-Musik` (19:20 Min., wie B2). Spitze −0,6 dBFS.
+- Sonst ist alles unverändert gegenüber A2 und B2.
