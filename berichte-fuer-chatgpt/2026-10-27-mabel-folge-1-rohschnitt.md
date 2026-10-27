@@ -84,3 +84,16 @@ Petras Wünsche: Die Musik soll nach dem Intro nicht abrupt aufhören, sondern u
 - **Neuer Anfang bei Mabel:** Original 21,05 bis 23,98 s entfernt („Mabel. Ähm,“). Der Schnitt liegt in einer Pause. Gegenprobe mit der Erkennung: „… Wer bist du eigentlich? Ja, hi, ich bin Mabel. Ich rede gern, denke gern …“. Das gilt in beiden Fassungen.
 - **Dateien:** `Folge-1-Rohschnitt-A3-vollstaendig-mit-Musik` (19:51 Min., Klang wie A2, ohne weitere Schnitte) und `Folge-1-Rohschnitt-B3-geschnitten-mit-Musik` (19:20 Min., wie B2). Spitze −0,6 dBFS.
 - Sonst ist alles unverändert gegenüber A2 und B2.
+
+---
+
+## Nachtrag 3: Mabel heller, Intro v10 und Fassung A4/B4 (27.10.2026)
+Petra: „Beim Intro fällt mir auf, dass sich Mabel dumpfer anhört als ich“ und „grundsätzlich ist der Ton von Mabel dumpfer als meiner“.
+
+**Gemessen** wurde der Klanganteil in Bändern, Mabel gegen Petra. Im Intro hatte Mabel mehr Mitten (300–1000 Hz, +2,3 dB) und deutlich weniger Höhen: 2–3,5 kHz −4,1 dB, 5–9 kHz −6,5 dB, 9–12 kHz −8,5 dB. Im Gespräch zeigte sich dasselbe Bild.
+
+**Intro v10** (`outputs/world-of-the-unknown/podcast-intro/Intro-Folge-C3-v10`, Skript `mix-intro-v10.py`): Nur Mabels Klangkette ist neu, Petras Stimme, Musik und Pausen sind wie in v9. Bis 7 kHz liegt Mabel jetzt höchstens 1,5 dB neben Petra. 9–12 kHz bleibt bewusst 5,5 dB unter Petra, weil dort Mabels Kodier-Reste liegen, die in v8 geknistert haben. v9 bleibt unverändert als Vergleich.
+
+**Gespräch:** Mabels Kette ist auf dieselbe Weise nachgestimmt. Bis 9 kHz liegt sie höchstens rund 2 dB neben Petra (vorher bis 6,5 dB darunter). Abwägung: Die blechernen Stellen kommen aus dem Original (Netz-Auffüllungen). Hellere Höhen können sie etwas deutlicher machen, deshalb ist Mabel nicht heller gestimmt als Petra.
+
+**Dateien:** `Folge-1-Rohschnitt-A4-vollstaendig-intro-v10` (19:51) und `Folge-1-Rohschnitt-B4-geschnitten-intro-v10` (19:20). Sonst wie A3/B3: Musikbogen, neuer Anfang bei Mabel, in B4 die äh-Schnitte. Gespräch −16 LUFS, Intro v10 −16 LUFS.
