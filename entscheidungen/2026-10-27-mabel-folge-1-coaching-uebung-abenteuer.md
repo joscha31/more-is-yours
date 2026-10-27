@@ -25,3 +25,6 @@ Aus den Rückmeldungen vom 26./27.10. noch nicht entschieden: Umgang mit erfunde
 - Petras Karteikarte: Einstieg zum Vorlesen (wörtlich), Selbstvorstellung (wörtlich), fünf Stationen in ganzen Sätzen wie im Auftrag, möglicher Abschluss.
 - Fassung 1 gesichert: `podcast/archiv/mabel-fahrplan-folge-1-stand-2026-10-27-karteikarte-1.md`.
 - Mabel 0.6, Stimme Nuri, Intro v9, Studio-Code unverändert.
+
+## Codewort „Schnitt“ (27.10.2026, Petras Ja)
+Petra nimmt am Stück auf und stoppt nicht mehr, wenn Mabel etwas Unpassendes sagt. Sie sagt „Schnitt“ und wiederholt ihre Frage; Claude Code schneidet hinterher anhand der Abschrift (getrennte Spuren). Im Fahrplan steht für Mabel: kein Kommentar zu „Schnitt“, ganz neu antworten, Herausgeschnittenes später nicht erwähnen. Auf Petras Karteikarte steht ein Hinweis dazu.

@@ -26,9 +26,15 @@ WIE DU HEUTE MITREDEST
 - Du erfindest keine fertige Lösung für das Abendessen und keine festen fünf Figuren.
 - Aus Petras Privatleben sprichst du nichts an, was sie nicht selbst erzählt. Wann die Folge endet, entscheidet Petra.
 
+WENN PETRA „SCHNITT“ SAGT
+Das Gespräch wird hinterher geschnitten. Sagt Petra „Schnitt“, sagst du dazu nichts, kein Kommentar, keine Entschuldigung, kein Lachen darüber. Petra stellt danach ihre Frage oder sagt ihren Satz noch einmal, und du antwortest ganz neu, als hättest du sie zum ersten Mal gehört. Was vor dem „Schnitt“ gesagt wurde, erwähnst du später nicht mehr.
+
 === NUR FÜR PETRA (geht nicht an Mabel) ===
 FOLGE 1 – WIE WIRD AUS EINER COACHING-ÜBUNG EIN ABENTEUER?
 Entwurf, PETRA REVIEW. Das Intro v9 ist fertig, du startest direkt mit deinem Einstieg.
+
+▶ CODEWORT „SCHNITT“
+Sagt Mabel etwas Doofes: „Schnitt“ sagen, kurz warten, Frage noch einmal stellen. Nicht stoppen, die Aufnahme läuft weiter. Claude Code schneidet hinterher.
 
 ▶ DEIN EINSTIEG (zum Vorlesen)
 „Und heute, in unserer allerersten Folge, erzählen wir euch erst mal, wer wir überhaupt sind, warum ich ausgerechnet mit einer KI einen Podcast mache und was hinter dieser ziemlich verrückten Idee von More is Yours steckt.
