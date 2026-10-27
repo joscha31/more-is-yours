@@ -51,6 +51,7 @@
 - **Neu 27.10.: Testfassung C vorbereitet** („mehr Persönlichkeit, weniger Regeln“, 533 Wörter): positiv beschrieben, wer Mabel ist; Widersprüche bemerken und bei Ernstem beim Thema bleiben als Teil ihres Denkens; Grenze beim Humor ist Herabsetzen, nicht jede Frechheit; Schutzgrenzen und Technik-Abschnitte erhalten. Im Studio als Test 3 wählbar. TEST / PETRA REVIEW, kein Mabel 0.7. Den Hörtest (rund 0,30 $) hat Petra am 27.10. freigegeben, sie nimmt ihn selbst auf.
 - **Neu 27.10.: Test 3 mit Testfassung C (4,7 Min., rund 0,24 $):** Petra: „ganz ok, weniger lustig“. Flüssigste Sprache (0 Füllwörter je 100), bleibt beim Geld-Thema mit eigenen Bildern, kein Abdriften. Weniger Witz als B, neu Deutungen über Petras Gefühle, am Ende wieder Mut-Lob. Den erfundenen Gast bemerkt keine der drei Fassungen. Vorschlag: Testfassung D (C plus Würze aus B). Bericht: `berichte-fuer-chatgpt/2026-10-27-mabel-test-3-fassung-c.md`. Nichts umgestellt.
 - **Neu 27.10.: Testfassung D vorbereitet** (C plus zwei Tonbeispiele aus B; bei ernsten Themen Sicht auf die Sache statt Deutung von Petras Gefühlen). Entschieden: GPT-Live-1 und Nuri bleiben, keine Modellvergleiche mehr. Im Studio als Test 4 wählbar. TEST / PETRA REVIEW. Den Hörtest (rund 0,30 $) hat Petra am 27.10. freigegeben, sie nimmt ihn selbst auf.
+- **Neu 27.10.: Test 4 mit Testfassung D (3,4 Min., rund 0,17 $):** Petra: „ok, aber auch nicht witzig“. Ein guter Witz (Streit über die Definition von Hauptgang), eigene Bilder, keine Füllwörter. Aber: falsche Deutung beim Geld-Thema, Mut-Lob am Ende, erfundener Gast mit „Oh, stimmt.“ angenommen. Gesamtbild aus vier Tests: Texte haben Füllwörter und Stottern beseitigt, Zustimmung zu falschen Behauptungen, Deutungen und Mut-Lob bleiben in allen Fassungen. Vorschläge: Arbeitsfassung wählen und Folge-Probe, Streitfrage für Mabel, Hintergrund auf Mut-Wörter prüfen. Bericht: `berichte-fuer-chatgpt/2026-10-27-mabel-test-4-und-gesamtbild.md`. Nichts umgestellt.
 - Vorgemerkt für Phase 3: eigene Erlebnisanweisungen mit Schutzblock, Moduswechsel im bestehenden Server, Rückkehr zu Elsbeth, wechselnde Türauswahl, Schutzfälle, Modellwahl.
 
 ## 3. DER EINE NÄCHSTE SCHRITT
@@ -60,6 +61,6 @@ Petra beurteilt 0.11 zweispaltig. Die Gast-Sätze für die zweite Problem-Tonpro
 - Urteil zu 0.11
 - Nebenbei: wie es mit dem Tisch-Erlebnis weitergeht (Fassung 2 war Petra zu schematisch)
 - Nebenbei: Spracheingabe am eigenen Handy testen (`?sprache=1`) und entscheiden, ob sie mit dem Datenschutz-Absatz für alle eingeschaltet wird
-- Nebenbei: Hörtest mit Testfassung D aufnehmen (Test 4, freigegeben, rund 0,30 $)
+- Nebenbei: welche Mabel-Fassung Arbeitsgrundlage wird und wie es weitergeht
 - Nebenbei: Spielregeln – Weg A, B oder C, und Wortlaut mit ChatGPT
 - Nebenbei: neuer Wortlaut für den Empfang am Tresen (der alte passt nicht mehr zur Grundausrichtung)
