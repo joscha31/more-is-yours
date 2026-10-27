@@ -157,6 +157,7 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 - `entscheidungen/2026-10-27-elsbeth-rueckkehr-neugierig-nachfragen.md` – Elsbeth darf nach dem Erlebnis neugierig nachfragen, wie es war; keine Pflichtfragen, keine Deutung; schärft die Arbeitsteilung vom 20.10. **PETRAS FESTLEGUNG 27.10. (nur Grundsatz, kein Wortlaut)**.
 - `forschung/2026-10-27-erlebnisabschluss-rueckkehr-fundstueck-testfassungen.md` – Ausklang am Abendessen, Rückkehrdialog, Fundstück-Karte. **KREATIVE TESTFASSUNGEN / PETRA REVIEW**.
 - `berichte-fuer-chatgpt/2026-10-27-fundstuecke-konten-email-zaehlung-machbarkeit.md` – Was die Technik schon kann (Supabase Frankfurt aus dem Ilse-Bau, Anmeldung ohne Passwort), drei Wege für Fundstücke, E-Mail-Liste rechtlich sauber, Besucherzählung, Kosten, offene Geschäftsfragen. **AUSKUNFT / PETRA REVIEW**, nichts gebaut.
+- `prototypen/2026-10-27-tisch-erlebnis-prototyp-testbau.md` – Spielbarer Prototyp „Fünf von dir an einem Tisch“ hinter dem Losungswort: was gebaut ist, Technik, Datenschutz-Check, Kosten, echte Testergebnisse A bis I, Befunde zur Live-Elsbeth, offene Entscheidungen. **VON PETRA BEAUFTRAGTER TESTBAU / PETRA REVIEW**, kein Phasenwechsel.
 
 ## Neue Erlebnisideen – Film, Podcast, Buch und Perspektivwechsel
 
