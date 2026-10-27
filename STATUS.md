@@ -69,6 +69,6 @@ Petra beurteilt 0.11 zweispaltig. Die Gast-Sätze für die zweite Problem-Tonpro
 - Urteil zu 0.11
 - Nebenbei: wie es mit dem Tisch-Erlebnis weitergeht (Fassung 2 war Petra zu schematisch); dazu der Flur-Bericht vom 27.10. (Persönlichkeitsanteile sind entschieden)
 - Nebenbei: Spracheingabe am eigenen Handy testen (`?sprache=1`) und entscheiden, ob sie mit dem Datenschutz-Absatz für alle eingeschaltet wird
-- Nebenbei: Folge 1 steht (B4 mit Intro v10). Veröffentlichung erst nach Dr. Falk (Lyria-Musik, KI-Hinweis) und Petras ausdrücklichem Ja. Automatische Mikrofon-Lautstärke im Studio künftig ausschalten? Fassung B als Mabel 0.7 festschreiben?
+- Nebenbei: Folge 1 steht (B4 mit Intro v10). Veröffentlichung erst nach Dr. Falk (Lyria-Musik, KI-Hinweis) und Petras ausdrücklichem Ja. Studio nimmt seit 27.10. zur Probe ohne automatische Mikrofon-Lautstärke auf (Petra: „wir können das ja probieren“); nach der nächsten Aufnahme Pegel prüfen. Fassung B als Mabel 0.7 festschreiben?
 - Nebenbei: Spielregeln – Weg A, B oder C, und Wortlaut mit ChatGPT
 - Nebenbei: neuer Wortlaut für den Empfang am Tresen (der alte passt nicht mehr zur Grundausrichtung)
