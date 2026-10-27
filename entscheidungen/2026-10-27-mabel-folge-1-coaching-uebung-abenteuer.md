@@ -28,3 +28,10 @@ Aus den Rückmeldungen vom 26./27.10. noch nicht entschieden: Umgang mit erfunde
 
 ## Codewort „Schnitt“ (27.10.2026, Petras Ja)
 Petra nimmt am Stück auf und stoppt nicht mehr, wenn Mabel etwas Unpassendes sagt. Sie sagt „Schnitt“ und wiederholt ihre Frage; Claude Code schneidet hinterher anhand der Abschrift (getrennte Spuren). Im Fahrplan steht für Mabel: kein Kommentar zu „Schnitt“, ganz neu antworten, Herausgeschnittenes später nicht erwähnen. Auf Petras Karteikarte steht ein Hinweis dazu.
+
+## Vergleichstest vorbereitet (27.10.2026, Empfehlung von ChatGPT nach dem Untersuchungsbericht)
+Freigegeben war: Protokoll und Vorbereitung der zwei Testfassungen. Die Hörproben (rund 0,60 $) stimmt Petra vorher ausdrücklich ab.
+- **Studio (lokal):** schreibt jetzt alle Ereignisse außer der Abschrift mit (`<Aufnahme>_ereignisse.txt`), zum Beispiel Hintergrund-Nachdenken oder Neustart. Neue Auswahl „Was nimmst du auf?“: Folge, Test 1, Test 2. Ein Test endet spätestens nach 7 Minuten. In `sitzung.json` stehen Testart und eine Kennung der benutzten Anweisung.
+- **Test 1** = Mabel 0.6 unverändert (`podcast/mabel-anweisung.md`). **Test 2** = bereinigte Testfassung `podcast/test/mabel-anweisung-test-b.md` (TEST / PETRA REVIEW, keine neue Mabel-Version). Beide mit demselben Fahrplan `podcast/test/mabel-test-6-minuten.md` und demselben Hintergrund. Die Zuordnung steht nur hier, damit Petra blind hören kann.
+- **Was in Test 2 anders ist als in 0.6:** neue Tonproben ohne Lob (Widerspruch mit Aufziehen, eine ausgemalte Szene, ein schneller Witz), Themen fern vom Test; Lob bleibt erlaubt, aber als eigene Reaktion mit Begründung; „Wie du mitdenkst“ beschreibt, was sie tun soll (eigener Gedanke, Einwand, Szene ausspielen) statt Verboten; ernste Themen: ernst bleiben und die eigene Sicht sagen; „Keine Kritikerin“ und die „mhm“-Pflicht gestrichen, dafür Abschnitte Backchannel, Unterbrechen und Nachdenken im Hintergrund nach OpenAIs Vorlage (kein <|SpawnThinking|> bei Meinung, Fantasie, Witz, Widerspruch, Ernstem). 638 statt 697 Wörter.
+- Mabel 0.6 und die Folge-Einstellungen unverändert.
