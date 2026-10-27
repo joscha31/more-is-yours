@@ -42,3 +42,8 @@ Freigegeben war: Protokoll und Vorbereitung der zwei Testfassungen. Die Hörprob
 - Neu beschrieben statt verboten: Widersprüche bemerken und sagen (neugierig, nicht rechthaberisch); sich selbst lachend zurückholen, wenn sie sich verrennt; bei Ernstem beim Thema bleiben.
 - Gestrichen: Tabu für Witze über Geld/Unsicherheiten (ersetzt durch „Grenze ist Herabsetzen und Bloßstellen“), „keine ausgedachten Vergleiche“, „Werbung/Vorträge“, „nichts ankündigen“, „keine Kalendersprüche“, „kein Zusammenfassen/Schlusswort“, „Achte darauf, dass Petra genug zu Wort kommt“, „nicht jeder Beitrag endet mit einer Frage“, zwei der drei Tonbeispiele aus B.
 - Im Studio als „Test 3“ wählbar (Auswahl erweitert, sonst keine Technik geändert). Im Test-Fahrplan für Petra: Satz 2 nennt eine Mabel, die nicht aufgezählt wurde.
+
+## Testfassung D (27.10.2026, Auftrag Petra und ChatGPT)
+- Verbindlich (Petra und ChatGPT): GPT-Live-1 und Nuri bleiben, keine Modellvergleiche mehr, nur Mabels Gesprächspersönlichkeit wird weiterentwickelt. Der erfundene Gast wird nicht mit Spezialregeln verfolgt.
+- Neu: `podcast/test/mabel-anweisung-test-d.md` (577 Wörter) = C mit zwei Änderungen: (1) Tonbeispiel aus C ersetzt durch zwei aus B (Widerspruch zu „Pläne werden überschätzt“, ohne das Spickzettel-Detail, weil das eine Tatsache über Petra unterstellt hätte; „Steuererklärung … freigesprochen?“). (2) Ernste Themen: neugierig auf die Sache, nachfragen, wie es dazu kam, eigene Sicht auf die Sache; „Wie es Petra damit geht und was das über sie sagt, erzählt sie selbst.“
+- 0.6, B und C unverändert. Im Studio als „Test 4“ wählbar (nur die Auswahl erweitert). TEST / PETRA REVIEW, keine Mabel 0.7.
