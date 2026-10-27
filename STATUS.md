@@ -1,7 +1,7 @@
 # STATUS – More is Yours
 
 ## 1. STAND VOM
-26.10.2026
+27.10.2026
 
 ## 2. WO WIR STEHEN
 - **Phase:** 2 – Elsbeth spricht (siehe `PROZESS.md`, Abschnitt 2). Geprüft wird Elsbeth Unknown als Gastgeberin, vom Empfang bis zur Tür.
@@ -42,6 +42,7 @@
 - **Neu 26.10.: Neues Intro v9 (PETRAS WAHL 26.10.: „Ist super!“).** Petra hat das Intro neu aufgenommen (beste von 7 gewählt), dazu neue, eigene Lyria-Musik C3-lang-3 (funkelnd, 126 bpm). v9 hat eine sanftere Stimmbearbeitung gegen das Knistern (Mabel über 9 kHz begrenzt, kein Entrauschen). Dateien lokal in `outputs/world-of-the-unknown/podcast-intro/` (`Intro-Folge-C3-v9`), v7 bleibt. Vor Veröffentlichung: Dr. Falk zu den Lyria-Nutzungsbedingungen.
 - **Nebenbei, auf Petras Auftrag (26.10.): Homepage-Vorschau 6 mit Animationen.** Grundlage ist die Live-Fassung vom 23.10., die Texte sind unverändert. Neu sind nur Bewegungen: Goldstaub im Hero und an der Tür, Überschrift Wort für Wort aus dem Nebel, Schimmer über den Knöpfen, Wegkarten neigen sich zum Finger, Schlüssel schwingt, Stern funkelt, Themen leuchten nacheinander, Leitsatz Buchstabe für Buchstabe, Goldfunken am Zeiger, Kerzenschein auf den Porträts. Bei „Bewegung reduzieren“ ist alles aus. **Seit 26.10. live auf moreisyours.de** (Petras Go im Chat), Texte unverändert gegenüber der von Dr. Falk geprüften Fassung, keine Kosten.
 - **Neu 26.10.: Zwei Proben Folge 1 mit neuem Thema (1,8 und 3,1 Min.):** Petra: „sie macht keine Witze mehr, lobt nur noch und redet mir nach dem Mund“. Belegt: erfundene „Cousins“, Hängenbleiben bei direkter Frage, Deutung über Petra, Zusammenfassen, pauschales Lob, kein Witz, kein Widerspruch. Vermutung: der neue Fahrplan rahmt Petra bewundernd, und Mabel hat keine eigene Position. Vorschlag: eigene These je Folge im Fahrplan. Kopier-Fassung: `berichte-fuer-chatgpt/2026-10-26-mabel-0.6-folge-1-neues-thema-probe.md`. Nichts geändert.
+- **Neu 27.10.: Fahrplan Folge 1 entschärft** (einig zwischen ChatGPT und Claude im Browser): „Zur Lage“ mit der bewundernden Rahmung aus Mabels Teil gestrichen, „Die Frage dahinter“ neutral, Intro-Block raus. Mabel 0.6 unverändert. Offen bei Petra: Mabels eigene Frage oder These, Umgang mit erfundenen Verwandten, Form der nächsten Probe. Technik kostenlos geprüft: keine harten Aussetzer, 0,6 % Paketverlust (`entscheidungen/2026-10-26-mabel-folge-1-neues-thema.md`). PETRA REVIEW.
 - Vorgemerkt für Phase 3: eigene Erlebnisanweisungen mit Schutzblock, Moduswechsel im bestehenden Server, Rückkehr zu Elsbeth, wechselnde Türauswahl, Schutzfälle, Modellwahl.
 
 ## 3. DER EINE NÄCHSTE SCHRITT

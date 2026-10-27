@@ -26,3 +26,13 @@ Petra nimmt zuerst das Intro neu auf, mit demselben Text wie v7. Mabels Intro-Re
 
 ## Kosten
 Keine. Geprüft wurde nur über die kostenlose Vorschau des Studios.
+
+## Änderung 27.10.2026: Fahrplan entschärft (nach den Proben vom 26.10.)
+Grundlage: `berichte-fuer-chatgpt/2026-10-26-mabel-0.6-folge-1-neues-thema-probe.md` und die Rückmeldungen von ChatGPT (zwei Chats) und Claude im Browser. Alle drei sind sich einig: Der bewundernde Hintergrund muss aus Mabels Teil. Nur das ist umgesetzt.
+- „Zur Lage“ (30 Jahre Praxis, Coaching-Ausbildung, unternehmerische Erfahrung, „kein leichtsinniger Gründungsstil“) ist aus Mabels Teil gestrichen. Die Fakten kennt Mabel weiter aus `mabel-petras-weg.md`.
+- „Die Frage dahinter“ ist neutral: „Was entsteht, wenn ein Mensch zusammen mit KIs etwas Eigenes baut?“
+- Der Intro-Block ist raus, weil das Intro fertig ist (Intro-Folge-C3-v9, Petras Wahl 26.10.).
+- Mabel 0.6 unverändert, keine neue Version. Vorher-Fassung: `podcast/archiv/mabel-fahrplan-folge-1-stand-2026-10-27-vor-entschaerfung.md`.
+- Offen (CONFLICT zwischen den Rückmeldungen, Petra entscheidet): welche eigene Frage oder These Mabel bekommt, ob sie als wörtlicher Satz oder als Frage im Fahrplan steht, ob erfundene Verwandte verboten oder erlaubt mit Auflösung sind, und ob die nächste Probe Folge 1 oder ein 5-Minuten-Gespräch über eine Streitfrage ist.
+
+Technische Prüfung (kostenlos, 27.10.): In Mabels Spur der Probe 14:35 gibt es keinen harten Aussetzer mitten in der Sprache. Verloren gingen 47 von 8406 Paketen (0,6 %). Die 7,5 % „verdeckten“ Samples zählen beim Browser vermutlich auch Mabels stille Pausen mit; über alle 29 Studio-Sitzungen liegt dieser Wert zwischen 1,5 und 20 %, auch bei null verlorenen Paketen. Die frühere Vermutung „schwache Verbindung erklärt das Stocken“ ist damit nicht belegt.
