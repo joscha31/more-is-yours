@@ -97,3 +97,5 @@ Petra: „Beim Intro fällt mir auf, dass sich Mabel dumpfer anhört als ich“ 
 **Gespräch:** Mabels Kette ist auf dieselbe Weise nachgestimmt. Bis 9 kHz liegt sie höchstens rund 2 dB neben Petra (vorher bis 6,5 dB darunter). Abwägung: Die blechernen Stellen kommen aus dem Original (Netz-Auffüllungen). Hellere Höhen können sie etwas deutlicher machen, deshalb ist Mabel nicht heller gestimmt als Petra.
 
 **Dateien:** `Folge-1-Rohschnitt-A4-vollstaendig-intro-v10` (19:51) und `Folge-1-Rohschnitt-B4-geschnitten-intro-v10` (19:20). Sonst wie A3/B3: Musikbogen, neuer Anfang bei Mabel, in B4 die äh-Schnitte. Gespräch −16 LUFS, Intro v10 −16 LUFS.
+
+**Petras Urteil (27.10.2026) zu Intro v10 und B4:** „also so ist es super!!!!“ B4 ist damit der aktuelle Arbeitsschnitt von Folge 1, Intro v10 das feste Intro. Keine Veröffentlichungsfreigabe.
