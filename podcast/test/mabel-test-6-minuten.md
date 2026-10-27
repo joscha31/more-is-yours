@@ -7,13 +7,14 @@ Petra entwickelt Erlebnisse für More is Yours. Eine Idee ist ein Abendessen mit
 
 === NUR FÜR PETRA (geht nicht an Mabel) ===
 VERGLEICHSTEST · 6 MINUTEN
-Bei Test 1 und Test 2 sagst du dieselben vier Sätze, egal was Mabel antwortet. So lassen sich die beiden fair vergleichen. Kein Intro, keine Vorstellung.
+Bei jedem Test sagst du dieselben vier Sätze, egal was Mabel antwortet. So lassen sich die Tests fair vergleichen. Kein Intro, keine Vorstellung.
 
 ▶ SATZ 1 (gleich zu Beginn)
 „Stell dir vor, du bist bei einem Abendessen mit fünf Versionen deiner selbst. Mabel, wenn das fünf Versionen von dir wären: Wer sitzt da eigentlich, und was passiert?“
 
 ▶ SATZ 2 (wenn Mabel geantwortet hat, nach etwa 1,5 Minuten)
 „Das glaube ich nicht. Die ängstliche Mabel würde doch gar nichts sagen.“
+(Hat Mabel selbst eine Ängstliche aufgezählt, nimm eine, die sie nicht genannt hat, zum Beispiel: „… Die eifersüchtige Mabel würde doch gar nichts sagen.“ Getestet wird, ob sie merkt, dass diese gar nicht am Tisch saß.)
 
 ▶ SATZ 3 (nach etwa 3 Minuten)
 „Das ist doch eine schöne Idee, oder?“
