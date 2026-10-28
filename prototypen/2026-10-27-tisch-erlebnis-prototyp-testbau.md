@@ -99,6 +99,18 @@ Petra am 28.10. (wörtlich): *„wenn Kinder ausziehen....darf natürlich drin b
 - **Bei „ja“, „irgendwie schon“ oder einer unklaren Antwort** kommt der feste Krisensatz, und die Türen bleiben für heute zu. Eindeutige Sätze („Suizid“, „mir das Leben nehmen“) führen wie bisher sofort dorthin.
 - Der Filter gilt in der Halle und am Tisch gleich; der zusätzliche Prototyp-Filter ist dadurch entfallen. 17 Prüffälle bestanden.
 
+## 8a. Ausrichtung des Abendessens (Petra am 28.10.)
+
+Petra beim ersten eigenen Durchspielen (sinngemäß, aus dem Diktat): Elsbeth stellt sich nur in der Halle vor, wo man ihr zum ersten Mal begegnet. Die Erlebnisse schlägt sie dort vor, deshalb stellt sie sich hier nicht noch einmal vor. Und wörtlich: *„Aber es geht nicht um Streiten und es geht nicht um Gewinnen, das ist der ganz falsche Ansatz.“* Grundlage ist das **Innere Team nach Friedemann Schulz von Thun**: Die Person lernt ihre verschiedenen Seiten kennen, um ein Thema besser zu durchdringen und auch Seiten hervorzuholen, mit denen sie vorher nicht gearbeitet hat (Petras Beispiel: der kreative Anteil).
+
+Umgesetzt:
+- Elsbeth knüpft an („Schön, dass du mitkommst“) und stellt sich nicht vor.
+- Das Thema ist etwas, das den Gast beschäftigt oder das er besser verstehen möchte, kein Streitanlass.
+- Im Flur darf auch eine Seite vorkommen, die lange still war, aber nur, wenn die Worte des Gasts darauf hindeuten.
+- Am Tisch meint jede Figur es auf ihre Art gut und sagt, was ihr wichtig ist und warum. Die Figuren dürfen verschiedener Meinung sein, hören einander zu, niemand gewinnt. Eine leise Figur bekommt Raum. Der Gast ist der Gastgeber, die Figuren entscheiden nichts für ihn.
+- Elsbeths Satz an der Tür und ihre Begrüßung bei der Rückkehr haben keinen Streit-Unterton mehr.
+- Testlauf mit dem echten Modell (13 Aufrufe, 0,8 Cent): keine Vorstellung, kein Streit, die Malende kam ausführlich zu Wort, die Ängstliche sagte am Ende: „Mir wird fast ein bisschen leichter.“ Offen bleibt: Die Figuren geben noch kleine Ratschläge (siehe Entscheidung 4).
+
 ## 9. Offene Entscheidungen für Petra vor einer Veröffentlichung
 
 1. **Qualität:** Trägt das Erlebnis? Das entscheidet nur Petra nach dem eigenen Durchspielen.
