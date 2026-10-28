@@ -138,6 +138,22 @@ Kontrolle mit dem echten Modell:
 
 Beobachtung: Elsbeth fragt beim Thema schnell nach Damen, Herren oder Anteilen ohne Geschlecht. Das ist die bestehende Regel; ob sie früh oder später kommen soll, kann Petra beim Ausprobieren entscheiden.
 
+## 8c. Elsbeths Ton wie im Chat-Test vom 27.10. (Auftrag vom 28.10.)
+
+**Befund:** Drei Stellen haben die allgemeinen, fürsorglichen Antworten begünstigt: abstrakte Anweisungen („hör aufmerksam zu“) ohne Beispiel, eine Verbotsliste mit genau den unerwünschten Wendungen und die Grenze von höchstens einer Tun-Zeile. Der Hauptgrund liegt aber im Kanon (`_elsbeth-regeln.js`, Abschnitt SICHERHEIT): Bei tieferen Themen, ausdrücklich auch Beziehungen, muss Elsbeth vor jeder Nachfrage um Erlaubnis bitten, mit dem Beispielsatz „Magst du, dass ich da kurz nachfrage? Du darfst jederzeit abbiegen.“
+
+**Geändert (nur Tisch-Prototyp):** drei kurze Dialogbeispiele im Ton des Chat-Tests (Kontaktabbruch, „vom Fahrrad aus“, Gemüsegarten), ausdrücklich nur als Ton; die Verbotsliste ist entfernt; Tun-Zeilen meist eine, höchstens zwei je Antwort.
+
+**Test mit dem echten Modell (Haiku), je zweimal:**
+- Kontaktabbruch, Lauf 1: „Hm. Das kommt ja selten aus heiterem Himmel. Was war denn davor zwischen euch los …?“ und nach der Erzählung: „Drei Jahre ein gemeinsames Studio, und das Ende kommt per Sprachnachricht. Meine Güte.“
+- Kontaktabbruch, Lauf 2: wieder „Das ist ein harter Brocken … Magst du, dass ich vorsichtig nachfrage …? Du kannst jederzeit abbiegen.“ Das ist die Kanon-Regel.
+- Begeisterung (Podcast): konkret („Hast du schon eine im Kopf, mit der du anfangen würdest?“), aber ohne spontane Freude.
+- Nur neugierig: beide Male „Neugierig reicht völlig.“ und drei leichte Themen zur Wahl.
+
+**CONFLICT, nicht eigenmächtig aufgelöst:** Der gewünschte Stil („Erzähl mal. Was ist denn passiert?“) widerspricht der Erlaubnisregel im Kanon. Lokal getestet und **nicht hochgeladen** wurde eine Ausnahme nur für den Tisch: Elsbeth hat dort selbst gefragt, was den Gast beschäftigt, also ist seine Antwort schon die Einladung. Ergebnis in 3 von 3 Läufen ohne Erlaubnisfrage, mit konkreten Fragen („Wie habt ihr das Studio aufgeteilt? Wer hatte die Kurse und wer den ganzen Papierkram?“, „Das ist ja kein Hobby, das ist ein Laden mit Matten, Miete und Terminkalender.“). Der erste Satz bleibt manchmal allgemein („Das ist hart, wenn so etwas ohne Vorwarnung kommt.“). Entscheidung bei Petra.
+
+**Beobachtung:** Der Chat-Test lief mit ChatGPT, der Prototyp mit dem kleinsten Claude-Modell (Haiku). Einen Teil des Unterschieds wird man mit Anweisungen allein nicht schließen. Ein größeres Modell wäre teurer und braucht Petras Zustimmung.
+
 ## 9. Offene Entscheidungen für Petra vor einer Veröffentlichung
 
 1. **Qualität:** Trägt das Erlebnis? Das entscheidet nur Petra nach dem eigenen Durchspielen.
