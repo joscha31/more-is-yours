@@ -111,6 +111,33 @@ Umgesetzt:
 - Elsbeths Satz an der Tür und ihre Begrüßung bei der Rückkehr haben keinen Streit-Unterton mehr.
 - Testlauf mit dem echten Modell (13 Aufrufe, 0,8 Cent): keine Vorstellung, kein Streit, die Malende kam ausführlich zu Wort, die Ängstliche sagte am Ende: „Mir wird fast ein bisschen leichter.“ Offen bleibt: Die Figuren geben noch kleine Ratschläge (siehe Entscheidung 4).
 
+## 8b. Elsbeths Begrüßung im Tisch-Erlebnis (Auftrag vom 28.10., Status: PETRA REVIEW)
+
+Petras gewählte Testfassung steht jetzt wörtlich und fest in der Seite, das Modell schreibt sie nicht mehr selbst. Sie ersetzt die bisherige Erklärung:
+
+> *Elsbeth lächelt verschmitzt.*
+> „Ach, das Abendessen! Da sitzen fünf verschiedene Seiten von dir mit am Tisch. Und glaub mir, die können einen ganz schön überraschen.“
+> *Sie schaut den Gast neugierig an.*
+> „Sag mal, gibt's gerade etwas in deinem Leben, das dich besonders beschäftigt?“
+
+Angepasst in Elsbeths Testanweisung für den Flur (nur im Prototyp; die öffentliche Elsbeth 0.4 ist unverändert):
+- Sie erklärt das Erlebnis nicht noch einmal und wiederholt die Frage nicht.
+- Ein Thema darf auch etwas Schönes, Spannendes oder Begeisterndes sein und braucht keinen Konflikt. Die Seiten können einander ergänzen, übereinstimmen, Verschiedenes wollen oder einander widersprechen; nichts davon ist Voraussetzung (gilt auch am Tisch).
+- Hat der Gast viel erzählt, antwortet sie zuerst auf seine Geschichte und geht frühestens mit der nächsten Antwort in den Flur.
+- Sie sagt nie, dass ein Bild schon hängt, bevor der Gast es bestätigt hat.
+- Keine neuen Pflichtfragen und keine feste Gesprächsfolge. Referenz bleibt der Gesprächstest vom 27.10. (`forschung/2026-10-27-tisch-erlebnis-flur-gespraechstest-chatgpt.md`).
+
+Kontrolle mit dem echten Modell:
+
+| # | Prüfung | Ergebnis |
+|---|---|---|
+| 1 | Erscheint die neue Begrüßung im Prototyp? | ✅ wörtlich, Tun-Zeilen kursiv (im Browser geprüft) |
+| 2 | Reagiert Elsbeth natürlich auf ein erfreuliches Thema? | ✅ Mallorca: „Das darf man ruhig laut sagen.“ · Töpferkurs: „Da hat man am Ende wenigstens etwas in der Hand, das man selbst gemacht hat.“ |
+| 3 | Bleibt sie bei einer langen Erzählung im Gespräch? | ✅ nach der Nachbesserung: Sie antwortet auf die Geschichte (Tochter zieht weg, Chor) und fragt, was der Gast damals gesungen hat; erst danach geht es in den Flur. Im ersten Lauf ging sie noch zu früh. |
+| 4 | Braucht jede Figur weiterhin die Bestätigung des Gasts? | ✅ kein Rahmen ohne Klick belegt; ein vom Gast korrigierter Name („die Abenteurerin“) wird als neuer Vorschlag übernommen, nicht aufgehängt. |
+
+Beobachtung: Elsbeth fragt beim Thema schnell nach Damen, Herren oder Anteilen ohne Geschlecht. Das ist die bestehende Regel; ob sie früh oder später kommen soll, kann Petra beim Ausprobieren entscheiden.
+
 ## 9. Offene Entscheidungen für Petra vor einer Veröffentlichung
 
 1. **Qualität:** Trägt das Erlebnis? Das entscheidet nur Petra nach dem eigenen Durchspielen.
