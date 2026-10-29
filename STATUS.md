@@ -75,3 +75,4 @@ Petra beurteilt 0.11 zweispaltig. Die Gast-Sätze für die zweite Problem-Tonpro
 - Nebenbei: Folge 1 steht (B4 mit Intro v10). Veröffentlichung erst nach Dr. Falk (Lyria-Musik, KI-Hinweis) und Petras ausdrücklichem Ja. Studio nimmt seit 27.10. zur Probe ohne automatische Mikrofon-Lautstärke auf (Petra: „wir können das ja probieren“); nach der nächsten Aufnahme Pegel prüfen. Fassung B als Mabel 0.7 festschreiben?
 - Nebenbei: Spielregeln – Weg A, B oder C, und Wortlaut mit ChatGPT
 - Nebenbei: neuer Wortlaut für den Empfang am Tresen (der alte passt nicht mehr zur Grundausrichtung)
+- Nebenbei: Marktrecherche Apps (Heilpraktiker, Selbstcoaching) mit Vorschlägen V1 bis V6 liegt in `forschung/`, Kurzfassung für ChatGPT in `berichte-fuer-chatgpt/` (29.10.)

@@ -67,6 +67,14 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 |---|---|---|
 | `forschung/2026-10-15-erlebniswelten-41-60-reale-minikurse-entwurf.md` | Neue Ideen 41–60 in fünf Welten mit möglichen realen Minikursen | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
 
+## App-Markt und Begleit-Apps
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `forschung/2026-10-29-app-markt-heilpraktiker-und-selbstcoaching.md` | Marktrecherche Apps für Heilpraktiker und Selbstcoaching, Lücke für More is Yours, Vorschläge V1 bis V6 | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+| `berichte-fuer-chatgpt/2026-10-29-app-markt-selbstcoaching-fuer-chatty.md` | Kurzfassung mit Fragen für ChatGPT | **FACH-LAB-VORSCHLAG / PETRA REVIEW** |
+| Branch `begleitung-anne-ultra`, Ordner `begleitungen/anne-ultra/` | Begleit-App für Annes K85, live unter annes-nachtstart.vercel.app; bewusst nicht in `main` | **PROTOTYP / PETRA REVIEW** |
+
 ## Empfang und Türvorschlag
 
 | Datei | Funktion | Status |
