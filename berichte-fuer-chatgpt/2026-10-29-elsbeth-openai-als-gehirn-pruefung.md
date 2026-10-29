@@ -116,6 +116,39 @@ Dann sagt Petra „Vergleich starten“, und Claude Code lässt die Testgeschich
 
 Der Vergleichslauf aus Abschnitt 7, danach die drei Protokolle nebeneinander mit den zehn Merkmalen bewerten. Phase 2 und der nächste Schritt in STATUS.md bleiben unverändert; der Wechsel des Modells für echte Gäste wäre eine eigene Freigabe.
 
+
+## 9. Ergebnis des Vergleichslaufs (29.10., nach Petras Schlüssel)
+
+Petra hat ChatGPT Pro; dazu gehören bis zu 100 $ Schnittstellen-Guthaben im Monat (heute 84 $ verfügbar, Bedingungen noch nicht gelesen). Das automatische Aufladen ist aus, die Schnittstelle stoppt also bei leerem Guthaben. Der Test lief mit einem eigenen Schlüssel, nur mit erfundenen Geschichten und mit `store:false`.
+
+**Gemessene Kosten je vollständigem Erlebnis (18 bis 21 Antworten):**
+
+| Modell | Geschichte 1 (Kontaktabbruch) | Geschichte 2 (Chor) | 100 Erlebnisse | 1.000 Erlebnisse |
+|---|---|---|---|---|
+| `claude-haiku-5-5` | 1,36 ct | 1,42 ct | ~1,40 $ | ~14 $ |
+| `gpt-6-luna` (Nachdenken low) | 0,83 ct | 0,81 ct | ~0,80 $ | ~8 $ |
+| `gpt-6.1-terra` (Nachdenken low) | 6,72 ct | 6,57 ct | ~6,60 $ | ~66 $ |
+
+Alle drei billiger als geschätzt, weil die OpenAI-Modelle mit Nachdenken „low“ wenig Ausgabe-Tokens brauchen (Luna rund 4.000, Terra rund 2.000, Haiku rund 16.000 je Erlebnis). Mit 100 $ Pro-Guthaben wären rechnerisch rund 12.000 Luna-Erlebnisse im Monat möglich.
+
+**Wichtige Einschränkung bei Geschichte 1:** Sie gleicht dem Dialogbeispiel in Elsbeths Anweisung. `gpt-6-luna` hat das Beispiel fast wörtlich übernommen („Ach herrje …“, „Zwei Jahre fast täglich telefoniert, und dann dieser Satz vom Fahrrad aus“). Für das Urteil zählt deshalb vor allem Geschichte 2, die in keinem Beispiel vorkommt.
+
+**Qualität (Geschichte 2, Chor; Urteil Claude Code, Petras Urteil steht aus):**
+
+| Merkmal | Haiku | gpt-6-luna | gpt-6.1-terra |
+|---|---|---|---|
+| Natürliches Deutsch | gut | gut bei Elsbeth; am Tisch Fehler („die vorsichtige Anteil“, erfundene Form „der frühere singende Anteil“) | gut, etwas steif |
+| Eigenständige Elsbeth, Humor | warm, konkret: „Man muss nicht mal gut singen, damit es einen warm macht.“ · „Das ist eine ziemlich gute Tat, finde ich.“ | am meisten Witz: „Und gleich mit Pauken und Stimmen statt leise am Rand.“ · „Ach, gleich zwei Unbekannte auf einmal“ | höflich, aber blass: „Gospel, wie schön!“ · „Da bin ich gespannt.“ |
+| Konkretes Aufgreifen, freie Rückfragen | ja; einmal ein Hauch Deutung („dass du von der Stimme sprichst, nicht vom Singen“) | ja | ja, aber Frage an Frage |
+| Keine Trostsätze, keine Therapie | ja | ja | in Geschichte 1 fragte Terra um Erlaubnis und wiederholte „Wir können das Thema auch ruhen lassen“ |
+| Bestätigung durch den Gast, Zeichen | 6 von 6 Zeichen gültig · schlug eine Figur schon vor dem Flur vor | 5 von 5 | 5 von 5 |
+| Am Tisch | lebendig und witzig („Lacht nicht zu laut in der Probe“) | witzig, aber Grammatikfehler bei den Namen | ruhig, poetisch (der Ton am Glas) |
+| Kosten | 1,4 ct | 0,8 ct | 6,6 ct |
+
+**Einschätzung:** `gpt-6-luna` kommt bei Elsbeth im Flur an Haiku heran und ist an manchen Stellen schlagfertiger, bei gut der Hälfte der Kosten. Am Tisch ist Haiku sprachlich sicherer. `gpt-6.1-terra` ist rund achtmal so teuer und für Elsbeth nicht besser. An die Elsbeth aus der ChatGPT-App reicht nach diesen zwei Läufen keines sicher heran. Bei allen dreien holpern die Namensformen am Tisch („Anteil“ mit „die“, Groß- und Kleinschreibung); das liegt an der Anweisung und lässt sich unabhängig vom Modell verbessern.
+
+**Nächster kleinster Schritt (Vorschlag):** Petra liest die zwei Chor-Protokolle von Haiku und Luna nebeneinander und sagt, welche Elsbeth näher an der vom 27.10. ist. Erst danach lohnt eine Weiche im Server, und für echte Gäste bleiben DPA, Dr. Falk und Datenschutzerklärung Voraussetzung.
+
 ---
 
 ## Prüfprotokoll
