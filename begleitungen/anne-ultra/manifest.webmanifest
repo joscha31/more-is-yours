@@ -1,0 +1,17 @@
+{
+  "name": "Annes Nachtstart",
+  "short_name": "Nachtstart",
+  "lang": "de",
+  "start_url": "./#heute",
+  "display": "standalone",
+  "background_color": "#071a2b",
+  "theme_color": "#071a2b",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
