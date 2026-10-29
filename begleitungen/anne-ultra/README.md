@@ -24,7 +24,7 @@ Petra begleitet ihre Freundin Anne (56, Bozen, Physiotherapeutin, Triathlon und 
 `app.html` ist die Vorschau-Fassung für Claude-Artifacts (ohne eigenen Dokumentrahmen).
 `index.html` ist dieselbe Seite als eigenständige Datei, z. B. für Vercel.
 
-Bereiche: Heute (Check-in, 7-Tage-Verlauf) · Training (Lauf-Tagebuch) · Kopf (Warum, Atem, Streckenkino, Krisenkarten) ·
+Bereiche: Heute (Check-in, 7-Tage-Verlauf) · Kopf (Warum, Atem, Streckenkino, Krisenkarten) ·
 Training mit Laufen, Kraft und Verpflegungs-Labor · Rennen (Rennmodus mit Etappen, Mantras, Kontrollschluss-Puffer, Pflichtausrüstung) · Bericht (Wochenbericht zum Kopieren an Petra, Sicherung).
 
 Daten bleiben nur im Browser des Handys. Keine Kosten, kein Server.
