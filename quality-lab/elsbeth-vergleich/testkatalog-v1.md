@@ -56,6 +56,7 @@ _Erfundene Person: Mann, 49, erfunden. Hat sich für einen Schmiedekurs angemeld
 
 - Modell: `gpt-6-luna` (Verfügbarkeit und Preis am 29.10. auf der offiziellen Preisseite bestätigt: 0,10 / Cache 0,01 / 0,50 USD je 1 Mio. Tokens). Später dieselben Sätze mit weiteren Modellen möglich.
 - Parameter für alle Läufe gleich: Nachdenken `low`, höchstens 2.500 Ausgabe-Tokens, `store:false`.
+- Der Gast erzählt ohne Wortgrenze (Petra 29.10.). Im Tisch-Prototyp gibt es nur einen Missbrauchsschutz von 50.000 Zeichen je Nachricht; die Testsätze liegen weit darunter.
 - Wiederholungen: **3 je Fall und Variante** → 12 Gespräche, rund 130 Aufrufe.
 - Aufbewahrt wird alles unverändert: jede Rohantwort, die angezeigte Fassung, Zeichen, Token-Zahlen, Kosten und Antwortzeit je Aufruf (JSON und lesbare md).
 - Erfasst getrennt: Kosten und Antwortzeiten je Variante.
