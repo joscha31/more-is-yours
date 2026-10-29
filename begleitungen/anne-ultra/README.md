@@ -8,9 +8,10 @@ Petra begleitet ihre Freundin Anne (56, Bozen, Physiotherapeutin, Triathlon und 
 ## Rennen (laut Veranstalter und Streckenliste 2027)
 - Start: Samstag, 8. Mai 2027, 0:00 Uhr, Landestheater Innsbruck (Nachtstart, gemeinsam mit dem K110)
 - 86,8 km, 3.880 Hm hoch und runter
-- Verpflegung bis km 55,3: Kranebitten 14,1 · Birgitz 22,3 · Mutterer Alm 31,1 (1.608 m) · Telfes 39,8 · Wasserstelle ÖAMTC 50,7 · Bergisel 55,3 (Drop-Zone)
-- Kontrollschluss laut Veranstalter-Liste 2026 (Spalten aus dem PDF gelesen, für 2027 bestätigen): Kranebitten 03:30 · Birgitz 05:00 · Mutterer Alm 07:26 · Telfes 09:00 · ÖAMTC 11:15 · Bergisel 12:30 · Herzsee 13:30 · Hall 15:00 · Thaur 16:15 · Ziel 18:44
-- Petra hat von 2 Cut-off-Zeiten gehört; die Liste 2026 zeigt an jeder Station eine Zeit. Klären
+- Verpflegung: Kranebitten 14,1 · Birgitz 22,3 · Mutterer Alm 31,1 (1.608 m) · Telfes 39,8 · Wasserstelle ÖAMTC 50,7 · Bergisel 55,3 (Drop-Zone) · Herzsee 61,1 · Hall 68,4 · Thaur 74,6
+- Cut-off laut Veranstalter-Liste 2026 (von Petra am 29.10.2026 als Screenshot geprüft, für 2027 bestätigen): Kranebitten 03:30 · Birgitz 05:00 · Bergisel 12:30 · Herzsee 13:30 · Hall 15:00 · Thaur 16:15. Kein Cut-off an Mutterer Alm, Telfes, ÖAMTC und im Ziel
+- Richtzeiten der Veranstalter für die hinteren Läuferinnen: Kranebitten 03:19 · Birgitz 05:00 · Mutterer Alm 07:26 · Telfes 09:00 · ÖAMTC 11:15 · Bergisel 12:22 · Herzsee 13:30 · Hall 14:55 · Thaur 16:17 · Ziel 18:44
+- Höhenmeter nach km 55,3: Herzsee +304/−104 · Hall +181/−442 · Thaur +216/−43 · Ziel +444/−605 (Liste: 86,7 km, 3.901 Hm)
 - Annes Sohn läuft die K110, gleicher Start
 
 ## Stand Anne (von Petra, 29.10.2026)
@@ -33,5 +34,4 @@ Mantras und Visualisierungstexte sind ENTWÜRFE von Claude; Anne und Petra mache
 ## Bewusst noch nicht
 - Gemeinsame Datenbank, damit Petra live mitliest
 - Audioaufnahmen mit Petras Stimme
-- Höhenmeter pro Abschnitt nach km 55,3
 - Trainingsplan für Kraft (macht die Trainerin in Bozen)

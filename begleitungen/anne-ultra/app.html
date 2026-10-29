@@ -318,8 +318,8 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
     <div class="tafel">
       <h3>Streckenkino</h3>
       <p class="klein leise">Die Strecke in Abschnitten. Tipp auf einen Abschnitt, schließ die Augen und lauf ihn im Kopf.</p>
-      <div class="profil-box"><svg class="profil" id="profil" viewBox="0 0 560 170" role="img" aria-label="Vereinfachtes Höhenprofil der ersten 55 Kilometer"></svg></div>
-      <p class="klein leise">Höhenprofil bis km 55,3 aus der Streckenliste 2027. Ab dem Bergisel fehlen noch Detaildaten, die Linie dort ist nur die Verbindung zum Ziel.</p>
+      <div class="profil-box"><svg class="profil" id="profil" viewBox="0 0 560 170" role="img" aria-label="Vereinfachtes Höhenprofil der ganzen Strecke"></svg></div>
+      <p class="klein leise">Vereinfacht: Höhe an jeder Station, errechnet aus den Höhenmetern der Veranstalter-Liste. Dazwischen liegen weitere Hügel.</p>
       <div class="etappen" id="etappen"></div>
     </div>
 
@@ -353,8 +353,8 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
       <p class="klein leise" id="renn-wach">Im Rennmodus bleibt der Bildschirm an, solange die Seite offen ist.</p>
     </div>
     <div class="tafel">
-      <h3>Kontrollschluss</h3>
-      <p class="klein leise">Bis zu diesen Uhrzeiten muss Anne die Station verlassen haben. Gelesen aus der Liste des Veranstalters für 2026, für 2027 bitte bestätigen lassen.</p>
+      <h3>Cut-off und Richtzeiten</h3>
+      <p class="klein leise">Cut-off gilt an 6 Stationen. „Hintere“ ist die Uhrzeit, die der Veranstalter für die langsamsten Läuferinnen plant. Stand Liste 2026, für 2027 bestätigen lassen.</p>
       <div class="tabelle-box"><table class="cutoff" id="cutoff"></table></div>
     </div>
     <div class="tafel">
@@ -398,18 +398,18 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
 
   // Echte Daten aus der Streckenliste 2027 (Trace de Trail, Laufwerkstatt). Ab km 55,3 noch offen.
   var ETAPPEN = [
-    { von: "Landestheater Innsbruck", nach: "Kranebitten", km: 14.1, bis: 14.1, hoch: 777, runter: 771, cut: "03:30", info: "Essen, Trinken, Brühe, Toiletten", mantra: "Langsam ist das neue Schnell. Die Nacht trägt mich.", bild: "Du stehst am Landestheater, Stirnlampe an, um dich herum Lichter und Jubel. Du lässt alle ziehen und findest deinen eigenen Rhythmus." },
-    { von: "Kranebitten", nach: "Birgitz", km: 8.2, bis: 22.3, hoch: 354, runter: 78, cut: "05:00", info: "Essen, Trinken, Brühe, Toiletten", mantra: "Kleine Schritte, ruhiger Atem.", bild: "Es ist mitten in der Nacht. Du hörst deinen Atem und deine Schritte. Dein Lichtkegel ist deine ganze Welt, und die ist gut." },
-    { von: "Birgitz", nach: "Mutterer Alm", km: 8.8, bis: 31.1, hoch: 921, runter: 163, cut: "07:26", info: "Essen, Trinken, warme Getränke, Brühe", mantra: "Ein Schritt, ein Atemzug. Oben wartet Tee.", bild: "Der lange Anstieg. Stöcke, gleichmäßiger Takt. Du stellst dir den warmen Becher auf der Alm vor, schon in deinen Händen." },
-    { von: "Mutterer Alm", nach: "Telfes", km: 8.7, bis: 39.8, hoch: 160, runter: 774, cut: "09:00", info: "Essen, Trinken, warme Getränke, Toiletten", mantra: "Leichte Füße, weiche Knie.", bild: "Es geht bergab. Kurze, leichte Schritte, als würdest du über heiße Steine tanzen. Deine Beine bleiben weich." },
-    { von: "Telfes", nach: "Wasserstelle ÖAMTC", km: 10.9, bis: 50.7, hoch: 372, runter: 645, cut: "11:15", info: "Nur Wasser", mantra: "Ab hier ist jeder Schritt Neuland. Und Neuland kann ich.", bild: "Irgendwo hier läufst du über deinen bisher längsten Lauf hinaus. Du spürst es und lächelst: Ab jetzt schreibst du eine neue Geschichte." },
-    { von: "Wasserstelle ÖAMTC", nach: "Bergisel", km: 4.6, bis: 55.3, hoch: 172, runter: 276, cut: "12:30", info: "Trinken, Drop-Zone mit deiner Tasche, warmes Essen", mantra: "Frische Socken, frischer Kopf.", bild: "Am Bergisel wartet deine Tasche. Du wechselst, was dir guttut, und startest in den letzten Teil wie in ein neues Rennen." },
-    { von: "Bergisel", nach: "Herzsee", km: 5.8, bis: 61.1, hoch: null, runter: null, cut: "13:30", info: "Verpflegung laut Liste 2026", mantra: "Ein Schritt, dann der nächste.", bild: "Du denkst nur bis zur nächsten Station. Mehr musst du heute nicht wissen." },
-    { von: "Herzsee", nach: "Hall", km: 7.3, bis: 68.4, hoch: null, runter: null, cut: "15:00", info: "Suppe und einfache warme Gerichte", mantra: "Suppe, kurze Pause, weiter.", bild: "In Hall riecht es nach Suppe. Du setzt dich kurz, isst in Ruhe und stehst wieder auf, so wie du es geübt hast." },
-    { von: "Hall", nach: "Thaur", km: 6.2, bis: 74.6, hoch: null, runter: null, cut: "16:15", info: "Verpflegung laut Liste 2026", mantra: "Die Lichter von Innsbruck holen mich ab.", bild: "Die Stadt rückt näher. Du läufst schon mit dem Gefühl, gleich anzukommen." },
-    { von: "Thaur", nach: "Ziel Landestheater", km: 12.2, bis: 86.8, hoch: null, runter: null, cut: "18:44", info: "Ziel mit Suppe und warmen Gerichten", mantra: "Jeder Kilometer bringt mich nach Hause.", bild: "Du siehst das Landestheater, hörst die Menschen. Du läufst durchs Ziel, so wie du es dir vorgenommen hast." }
+    { von: "Landestheater Innsbruck", nach: "Kranebitten", km: 14.1, bis: 14.1, hoch: 777, runter: 771, richt: "03:19", cut: "03:30", info: "Essen, Trinken, Brühe, Toiletten", mantra: "Langsam ist das neue Schnell. Die Nacht trägt mich.", bild: "Du stehst am Landestheater, Stirnlampe an, um dich herum Lichter und Jubel. Du lässt alle ziehen und findest deinen eigenen Rhythmus." },
+    { von: "Kranebitten", nach: "Birgitz", km: 8.2, bis: 22.3, hoch: 354, runter: 78, richt: "05:00", cut: "05:00", info: "Essen, Trinken, Brühe, Toiletten", mantra: "Kleine Schritte, ruhiger Atem.", bild: "Es ist mitten in der Nacht. Du hörst deinen Atem und deine Schritte. Dein Lichtkegel ist deine ganze Welt, und die ist gut." },
+    { von: "Birgitz", nach: "Mutterer Alm", km: 8.8, bis: 31.1, hoch: 921, runter: 163, richt: "07:26", cut: null, info: "Essen, Trinken, warme Getränke, Brühe", mantra: "Ein Schritt, ein Atemzug. Oben wartet Tee.", bild: "Der lange Anstieg. Stöcke, gleichmäßiger Takt. Du stellst dir den warmen Becher auf der Alm vor, schon in deinen Händen." },
+    { von: "Mutterer Alm", nach: "Telfes", km: 8.7, bis: 39.8, hoch: 160, runter: 774, richt: "09:00", cut: null, info: "Essen, Trinken, warme Getränke, Toiletten", mantra: "Leichte Füße, weiche Knie.", bild: "Es geht bergab. Kurze, leichte Schritte, als würdest du über heiße Steine tanzen. Deine Beine bleiben weich." },
+    { von: "Telfes", nach: "Wasserstelle ÖAMTC", km: 10.9, bis: 50.7, hoch: 372, runter: 645, richt: "11:15", cut: null, info: "Nur Wasser", mantra: "Ab hier ist jeder Schritt Neuland. Und Neuland kann ich.", bild: "Irgendwo hier läufst du über deinen bisher längsten Lauf hinaus. Du spürst es und lächelst: Ab jetzt schreibst du eine neue Geschichte." },
+    { von: "Wasserstelle ÖAMTC", nach: "Bergisel", km: 4.6, bis: 55.3, hoch: 172, runter: 276, richt: "12:22", cut: "12:30", info: "Trinken, Drop-Zone mit deiner Tasche, warmes Essen", mantra: "Frische Socken, frischer Kopf.", bild: "Am Bergisel wartet deine Tasche. Du wechselst, was dir guttut, und startest in den letzten Teil wie in ein neues Rennen." },
+    { von: "Bergisel", nach: "Herzsee", km: 5.8, bis: 61.1, hoch: 304, runter: 104, richt: "13:30", cut: "13:30", info: "Verpflegung laut Liste 2026", mantra: "Ein Schritt, dann der nächste.", bild: "Du denkst nur bis zur nächsten Station. Mehr musst du heute nicht wissen." },
+    { von: "Herzsee", nach: "Hall", km: 7.3, bis: 68.4, hoch: 181, runter: 442, richt: "14:55", cut: "15:00", info: "Suppe und einfache warme Gerichte", mantra: "Suppe, kurze Pause, weiter.", bild: "In Hall riecht es nach Suppe. Du setzt dich kurz, isst in Ruhe und stehst wieder auf, so wie du es geübt hast." },
+    { von: "Hall", nach: "Thaur", km: 6.2, bis: 74.6, hoch: 216, runter: 43, richt: "16:17", cut: "16:15", info: "Verpflegung laut Liste 2026", mantra: "Die Lichter von Innsbruck holen mich ab.", bild: "Die Stadt rückt näher. Du läufst schon mit dem Gefühl, gleich anzukommen." },
+    { von: "Thaur", nach: "Ziel Landestheater", km: 12.1, bis: 86.7, hoch: 444, runter: 605, richt: "18:44", cut: null, info: "Ziel mit Suppe und warmen Gerichten", mantra: "Jeder Kilometer bringt mich nach Hause.", bild: "Du siehst das Landestheater, hörst die Menschen. Du läufst durchs Ziel, so wie du es dir vorgenommen hast." }
   ];
-  var PROFIL = [[0,575],[14.1,580],[22.3,857],[31.1,1608],[39.8,1000],[50.7,728],[55.3,623],[86.8,575]];
+  var PROFIL = [[0,575],[14.1,580],[22.3,857],[31.1,1608],[39.8,1000],[50.7,728],[55.3,623],[61.1,823],[68.4,562],[74.6,735],[86.7,574]];
 
   var BEISPIEL_LAEUFE = [
     { datum: "24.10.2026", km: 15, hm: 620, zeit: "1:52", rpe: 5, essen: "500 ml Wasser, 1 Riegel nach 60 min, gut", kopf: "Bergauf ruhig geblieben", nacht: false, beispiel: true },
@@ -571,25 +571,24 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
     var B = 560, H = 170, L = 40, R = 14, T = 14, U = 28, maxKm = 86.8, minH = 500, maxH = 1700;
     function x(k) { return L + k / maxKm * (B - L - R); }
     function y(h) { return T + (1 - (h - minH) / (maxH - minH)) * (H - T - U); }
-    var bekannt = PROFIL.slice(0, 7), pfad = "", s = "";
+    var bekannt = PROFIL, pfad = "", s = "";
     bekannt.forEach(function (p, i) { pfad += (i ? "L" : "M") + x(p[0]).toFixed(1) + " " + y(p[1]).toFixed(1); });
-    var flaeche = pfad + "L" + x(55.3).toFixed(1) + " " + y(minH) + "L" + x(0) + " " + y(minH) + "Z";
+    var flaeche = pfad + "L" + x(86.7).toFixed(1) + " " + y(minH) + "L" + x(0) + " " + y(minH) + "Z";
     s += '<defs><linearGradient id="fl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2fd6c6" stop-opacity=".45"/><stop offset="1" stop-color="#2fd6c6" stop-opacity="0"/></linearGradient></defs>';
     [600, 1000, 1400].forEach(function (h) { s += '<line x1="' + L + '" x2="' + (B - R) + '" y1="' + y(h) + '" y2="' + y(h) + '" stroke="#1f4a63" stroke-width="1"/><text x="' + (L - 6) + '" y="' + (y(h) + 4) + '" fill="#93b5bd" font-size="10" text-anchor="end" font-family="IBM Plex Mono, monospace">' + h + '</text>'; });
     s += '<path d="' + flaeche + '" fill="url(#fl)"/>';
     s += '<path d="' + pfad + '" fill="none" stroke="#2fd6c6" stroke-width="2.2" stroke-linejoin="round"/>';
-    s += '<path d="M' + x(55.3) + " " + y(623) + "L" + x(86.8) + " " + y(575) + '" fill="none" stroke="#93b5bd" stroke-width="1.6" stroke-dasharray="4 5"/>';
     PROFIL.forEach(function (p, i) {
-      s += '<circle cx="' + x(p[0]) + '" cy="' + y(p[1]) + '" r="3.6" fill="' + (i === 7 ? "#9ff0b8" : "#071a2b") + '" stroke="#9ff0b8" stroke-width="1.6"/>';
+      s += '<circle cx="' + x(p[0]) + '" cy="' + y(p[1]) + '" r="3.6" fill="' + (i === PROFIL.length - 1 ? "#9ff0b8" : "#071a2b") + '" stroke="#9ff0b8" stroke-width="1.6"/>';
     });
-    [0, 14.1, 31.1, 55.3, 86.8].forEach(function (k) { s += '<text x="' + x(k) + '" y="' + (H - 8) + '" fill="#93b5bd" font-size="10" text-anchor="middle" font-family="IBM Plex Mono, monospace">' + zahl(k) + '</text>'; });
+    [0, 14.1, 31.1, 55.3, 74.6, 86.7].forEach(function (k) { s += '<text x="' + x(k) + '" y="' + (H - 8) + '" fill="#93b5bd" font-size="10" text-anchor="middle" font-family="IBM Plex Mono, monospace">' + zahl(k) + '</text>'; });
     s += '<text x="' + (x(31.1) + 6) + '" y="' + (y(1608) - 4) + '" fill="#e6f4f3" font-size="11" font-family="Atkinson Hyperlegible, sans-serif">Mutterer Alm 1.608 m</text>';
     $("profil").innerHTML = s;
   }
 
   // Etappen
-  function etappenDaten(e) { return zahl(e.km) + " km · bei km " + zahl(e.bis) + (e.hoch != null ? " · +" + e.hoch + " / −" + e.runter + " Hm" : "") + " · Schluss " + e.cut + " Uhr"; }
-  function cutMs(e) { var t = e.cut.split(":"); return START + (+t[0]) * 3600000 + (+t[1]) * 60000; }
+  function etappenDaten(e) { return zahl(e.km) + " km · bei km " + zahl(e.bis) + (e.hoch != null ? " · +" + e.hoch + " / −" + e.runter + " Hm" : "") + (e.cut ? " · Cut-off " + e.cut + " Uhr" : " · hinten " + e.richt + " Uhr"); }
+  function cutMs(zeit) { var t = zeit.split(":"); return START + (+t[0]) * 3600000 + (+t[1]) * 60000; }
   function etappen() {
     var html = "";
     ETAPPEN.forEach(function (e, i) {
@@ -736,16 +735,19 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
 
   // Kontrollschluss und Puffer
   function cutoffTabelle() {
-    var html = "<thead><tr><th>Station</th><th style=\"text-align:right\">km</th><th style=\"text-align:right\">Schluss</th></tr></thead><tbody>";
-    ETAPPEN.forEach(function (e, i) { html += '<tr' + (i === (daten.renn || 0) ? ' class="jetzt"' : "") + "><td>" + esc(e.nach) + '</td><td class="z">' + zahl(e.bis) + '</td><td class="z">' + e.cut + " Uhr</td></tr>"; });
+    var html = "<thead><tr><th>Station</th><th style=\"text-align:right\">km</th><th style=\"text-align:right\">Hintere</th><th style=\"text-align:right\">Cut-off</th></tr></thead><tbody>";
+    ETAPPEN.forEach(function (e, i) { html += '<tr' + (i === (daten.renn || 0) ? ' class="jetzt"' : "") + "><td>" + esc(e.nach) + '</td><td class="z">' + zahl(e.bis) + '</td><td class="z">' + e.richt + '</td><td class="z">' + (e.cut ? "<b>" + e.cut + "</b>" : "") + "</td></tr>"; });
     $("cutoff").innerHTML = html + "</tbody>";
   }
   function puffer() {
     var el = $("renn-puffer"), jetzt = Date.now();
     if (jetzt < START || jetzt > START + 20 * 3600000) { el.hidden = true; return; }
-    var rest = Math.round((cutMs(ETAPPEN[daten.renn || 0]) - jetzt) / 60000);
+    var naechste = null;
+    for (var i = daten.renn || 0; i < ETAPPEN.length; i++) { if (ETAPPEN[i].cut) { naechste = ETAPPEN[i]; break; } }
+    if (!naechste) { el.hidden = false; el.textContent = "Kein Cut-off mehr. Jetzt nur noch nach Hause."; return; }
+    var rest = Math.round((cutMs(naechste.cut) - jetzt) / 60000);
     el.hidden = false;
-    el.textContent = rest >= 0 ? "Noch " + Math.floor(rest / 60) + " Std " + (rest % 60) + " Min bis Kontrollschluss" : "Kontrollschluss vorbei. Sprich mit der Station.";
+    el.textContent = rest >= 0 ? "Noch " + Math.floor(rest / 60) + " Std " + (rest % 60) + " Min bis Cut-off " + naechste.nach : "Cut-off " + naechste.nach + " ist vorbei. Sprich mit der Station.";
   }
   setInterval(function () { if (!$("v-rennen").hidden) puffer(); }, 30000);
 
