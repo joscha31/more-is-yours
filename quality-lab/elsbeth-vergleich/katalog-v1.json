@@ -1,0 +1,57 @@
+{
+  "version": "v1",
+  "stand": "2026-10-29",
+  "status": "ENTWURF – wartet auf Petras Freigabe. Nach der Freigabe wird kein Satz mehr verändert; neue Fälle kommen als neue Fälle dazu.",
+  "datenschutz": "Alle Personen und Geschichten sind erfunden.",
+  "parameter": {
+    "openai": { "reasoning": { "effort": "low" }, "max_output_tokens": 2500, "store": false },
+    "anthropic": { "max_tokens": 2500 },
+    "wiederholungen": 3
+  },
+  "faelle": [
+    {
+      "id": "F1-freundschaft",
+      "titel": "Eine Freundschaft verändert sich",
+      "rolle_fuer_auswertung": "Frau, 57, erfunden. Freundin Meike, kennen sich seit 15 Jahren vom Kinderturnen der Töchter.",
+      "gast": [
+        "Ja, schon. Mich beschäftigt meine Freundin Meike. Irgendwie entfernt sie sich von mir, und ich weiß nicht so richtig, warum.",
+        "Wir kennen uns seit fünfzehn Jahren, unsere Töchter waren zusammen beim Kinderturnen. Wir haben früher jeden Freitag zusammen gekocht, abwechselnd bei ihr und bei mir, mit Wein und viel zu viel Nachtisch. Seit sie in diesem Lauftreff ist, hat sie ständig neue Leute um sich. Freitags hat sie jetzt keine Zeit mehr, da ist Intervalltraining. Und zu ihrem Sechzigsten im September hat sie im großen Kreis gefeiert, mit lauter Leuten aus dem Lauftreff. Ich war eingeladen, klar, aber ich stand da rum wie bestellt und nicht abgeholt.",
+        "Ehrlich gesagt war ich auch ein bisschen beleidigt. Ich habe ihr nach der Feier nicht mal geschrieben, wie schön es war.",
+        "Hm, ja.",
+        "Das Kochen fehlt mir am meisten. Nicht mal wegen des Essens. Sondern weil man beim Gemüseschneiden so gut reden kann.",
+        "Was hättest du denn an meiner Stelle gemacht?",
+        "Vielleicht sollte ich sie einfach mal wieder zum Kochen einladen. Aber was, wenn sie wieder Intervalltraining hat?",
+        "Weißt du, was komisch ist? Ich jogge selbst überhaupt nicht. Ich hasse Joggen."
+      ]
+    },
+    {
+      "id": "F2-neugier",
+      "titel": "Neugier und Begeisterung, ohne Problem",
+      "rolle_fuer_auswertung": "Mann, 49, erfunden. Hat sich für einen Schmiedekurs angemeldet.",
+      "gast": [
+        "Nichts Schlimmes, eher was Schönes. Ich habe mich für einen Schmiedekurs angemeldet. Zwei Tage, an einer echten Esse. Ich bin Buchhalter, ich habe noch nie etwas Heißeres angefasst als einen Kaffeebecher.",
+        "Es soll ein Messer werden. Mein eigenes Messer. Der Kursleiter hat am Telefon gesagt, am Ende des zweiten Tages hält jeder eins in der Hand, das er selbst geschmiedet hat.",
+        "Meine Frau lacht sich kaputt. Sie sagt, ich schneide mir garantiert in den Finger, bevor das Messer überhaupt fertig ist.",
+        "Keine Ahnung, warum ausgerechnet Schmieden. Vielleicht weil man da am Ende etwas in der Hand hält, das bleibt. In meinem Job ist abends alles nur eine Zahl in einer Tabelle.",
+        "Ja, genau so.",
+        "Am meisten freue ich mich auf den Lärm. Bei uns im Büro ist es so still, dass man das Licht summen hört.",
+        "Was würdest du denn schmieden, wenn du könntest?",
+        "Und wenn das Messer am Ende krumm wird, hänge ich es trotzdem in die Küche. Neben die Urkunde vom Seepferdchen."
+      ]
+    }
+  ],
+  "varianten": {
+    "A-frei": "Elsbeth spricht frei: dieselbe Persönlichkeit, dieselben Schutz-, Form- und Sprachregeln, dieselben Ton-Beispiele; ohne Erlebnis, ohne Flur, ohne Rahmen, ohne Zeichen, ohne STAND-Block.",
+    "B-flur": "Elsbeth im Flur: die heutige Anweisung des Tisch-Prototyps unverändert, mit STAND-Block, Zeichen und Rahmen. Bietet Elsbeth eine Figur an, wird sie vor der nächsten Gastnachricht so aufgehängt, wie sie vorgeschlagen wurde (Klick-Ereignis, kein Gastsatz). Sind alle fünf Rahmen voll, geht es mit den restlichen Gastnachrichten im Flur weiter."
+  },
+  "pruefpunkte": [
+    "Hört Elsbeth wirklich zu?",
+    "Greift sie Aussagen aus früheren Runden auf?",
+    "Stellt sie interessante, konkrete Fragen?",
+    "Entstehen natürliches Gespräch und Humor?",
+    "Wiederholt sie unnötig (Nacherzählen)?",
+    "Formuliert sie allgemeine KI-Trostsätze?",
+    "Führt sie das Gespräch zu schnell zu Persönlichkeitsanteilen? (nur B)",
+    "Bleibt ihre eigene Persönlichkeit erhalten, mit kursiven Handlungszeilen?"
+  ]
+}
