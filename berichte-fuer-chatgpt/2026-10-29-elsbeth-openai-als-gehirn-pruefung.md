@@ -149,6 +149,21 @@ Alle drei billiger als geschätzt, weil die OpenAI-Modelle mit Nachdenken „low
 
 **Nächster kleinster Schritt (Vorschlag):** Petra liest die zwei Chor-Protokolle von Haiku und Luna nebeneinander und sagt, welche Elsbeth näher an der vom 27.10. ist. Erst danach lohnt eine Weiche im Server, und für echte Gäste bleiben DPA, Dr. Falk und Datenschutzerklärung Voraussetzung.
 
+
+## 10. Petras Urteil und Nachbesserung (29.10.)
+
+Petra: *„eigentlich finde ich fast Luna besser“*, aber: *„Bei beiden Modellen wurden dem Gast keine Fragen gestellt. Das ist ein Nogo. Er muss ja mit einbezogen werden und ist nicht nur der Zuhörer.“* Außerdem bezweifelte eine Luna-Figur das Vorsingen, obwohl der Gast es selbst erwähnt hatte. Und es stellte sich die Frage nach dem Mehrwert für den Gast.
+
+**Klarstellung:** Das wiederholte „Genau“ stammte aus den festen Testsätzen von Claude Code, nicht von Luna. Weil der feste Testgast keine Frage beantwortete, wirkte er wie ein Zuhörer. Das war eine Schwäche des Tests.
+
+**Geändert (nur Tisch-Prototyp, hochgeladen):** In jeder Tischantwort stellt am Ende eine Figur dem Gast genau eine konkrete Frage, außer wenn er nur zuhört oder geht. Antwortet er, gehen die Figuren zuerst darauf ein. Was der Gast erzählt, gilt als wahr; keine Figur zweifelt es an. Im Vergleichsskript antwortet jetzt ein Testgast (`gpt-6-luna` in einer erfundenen Rolle) wirklich auf die Fragen (`--testgast`).
+
+**Neuer Lauf, Chor-Geschichte mit antwortendem Gast:** Haiku 1,59 ct, Luna 0,88 ct. Bei beiden fragen die Figuren in jeder Runde und greifen die Antworten auf. Haiku: Der Tisch erinnert sich an Ruth, die früher neben dem Gast stand, und der Gast kommt selbst auf *„Dass jemand anders das A anfängt und ich einfach einsteigen darf.“* Die Namen werden am Tisch gekürzt („Der Mutige“ statt „der mutige Anteil“). Luna: Die Figuren summen am Ende das Lied, das der Gast genannt hat; der „genervte Anteil“ kommt dreimal auf den Ehemann zurück. Das stützt sich zwar auf die Worte des Gasts, ist aber zu viel. Keine erfundenen Tatsachen in beiden Läufen.
+
+**Mehrwert für den Gast** zeigt sich, wenn er selbst etwas formuliert, das er vorher so nicht gesagt hat (hier: einsteigen statt anfangen). Dafür braucht es die Fragen. Ob das reicht, beurteilt Petra beim eigenen Spielen.
+
+**Offen bei Petra:** welches Modell (Haiku oder Luna) und ob der Prototyp für ihr eigenes Spielen auf Luna umgeschaltet werden soll. Das wäre schon eine Weitergabe ihrer eigenen Testgespräche an OpenAI; für Gäste bleibt es ausgeschlossen bis DPA, Dr. Falk und Datenschutzerklärung.
+
 ---
 
 ## Prüfprotokoll
