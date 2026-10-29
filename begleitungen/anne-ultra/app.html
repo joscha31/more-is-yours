@@ -153,8 +153,8 @@ nav.unten a { text-decoration: none; color: var(--text-leise); display: grid; ju
 nav.unten a svg { width: 22px; height: 22px; }
 nav.unten a[aria-current=page] { color: var(--tuerkis); background: var(--nacht-3); }
 
-.reiter { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; background: var(--nacht-2); border: 1px solid var(--linie); border-radius: 999px; padding: 4px; }
-.reiter button { border: 0; padding: 8px 6px; font-size: .9rem; color: var(--text-leise); }
+.reiter { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; background: var(--nacht-2); border: 1px solid var(--linie); border-radius: 999px; padding: 4px; }
+.reiter button { border: 0; padding: 8px 4px; font-size: .82rem; min-width: 0; overflow-wrap: anywhere; color: var(--text-leise); }
 .reiter button[aria-selected=true] { background: var(--tuerkis); color: var(--nacht); }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chips label { display: inline-flex; gap: 6px; align-items: center; padding: 6px 12px; border: 1px solid var(--linie); border-radius: 999px; font-size: .88rem; cursor: pointer; }
@@ -217,7 +217,8 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
     <div class="reiter" role="tablist" aria-label="Trainingsbereich">
       <button type="button" role="tab" data-reiter="laufen" aria-selected="true">Laufen</button>
       <button type="button" role="tab" data-reiter="kraft" aria-selected="false">Kraft</button>
-      <button type="button" role="tab" data-reiter="essen" aria-selected="false">Verpflegung</button>
+      <button type="button" role="tab" data-reiter="essen" aria-selected="false">Essen</button>
+      <button type="button" role="tab" data-reiter="supp" aria-selected="false">Supplements</button>
     </div>
     <div class="block" data-teil="laufen">
     <p class="leise">Die Uhr misst den Lauf. Hier steht, wie er sich angefühlt hat.</p>
@@ -291,6 +292,29 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
         <div class="knopfreihe"><button class="voll" type="submit">Test eintragen</button><span class="meldung" id="essen-meldung"></span></div>
       </form>
       <div class="liste" id="essen-liste"></div>
+    </div>
+
+    <div class="block" data-teil="supp" hidden>
+      <div class="tafel">
+        <div class="knopfreihe" style="justify-content:space-between"><h3>Heute genommen</h3><span class="label" id="supp-datum"></span></div>
+        <div class="checkliste" id="supp-heute"></div>
+        <div class="richtwert"><span>Letzte 7 Tage komplett</span><span id="supp-quote">0 von 7</span></div>
+      </div>
+      <div class="tafel">
+        <h3>Mein Plan</h3>
+        <p class="klein leise">Den Plan legt ihr gemeinsam fest. Er bleibt nur auf diesem Handy. Am Renntag gilt: nur, was im Training schon vertraut ist.</p>
+        <div class="liste" id="supp-plan"></div>
+      </div>
+      <form class="tafel" id="supp-form">
+        <div class="felder">
+          <div class="feld"><label for="s-name">Präparat</label><input type="text" id="s-name" placeholder="Name"></div>
+          <div class="feld"><label for="s-wann">Wann</label><select id="s-wann"><option>Morgens</option><option>Mittags</option><option>Abends</option><option>Vor dem Training</option><option>Nach dem Training</option><option>Nur an langen Tagen</option></select></div>
+          <div class="feld"><label for="s-menge">Menge laut Plan</label><input type="text" id="s-menge" placeholder="z. B. 2 Kapseln"></div>
+        </div>
+        <label class="haken"><input type="checkbox" id="s-koeln"> Auf der Kölner Liste geprüft</label>
+        <div class="feld"><label for="s-notiz">Notiz</label><input type="text" id="s-notiz" placeholder="z. B. mit Essen nehmen"></div>
+        <div class="knopfreihe"><button class="voll" type="submit">Zum Plan hinzufügen</button><span class="meldung" id="supp-meldung"></span></div>
+      </form>
     </div>
   </section>
 
@@ -424,7 +448,7 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
   ];
 
   var daten = laden();
-  function leer() { return { checkins: {}, laeufe: [], krisen: START_KRISEN.slice(), warum: "", renn: 0, kraft: [], essen: [], ausruestung: {} }; }
+  function leer() { return { checkins: {}, laeufe: [], krisen: START_KRISEN.slice(), warum: "", renn: 0, kraft: [], essen: [], ausruestung: {}, supp: [], suppTage: {} }; }
   function laden() {
     try { var t = localStorage.getItem(SPEICHER); if (t) { var d = JSON.parse(t); return Object.assign(leer(), d); } } catch (e) {}
     return leer();
@@ -660,6 +684,7 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
     zeilen.push("Kraft und Ergänzung: " + kw.length + " Einheiten" + (kw.length ? " (" + kw.map(function (k) { return k.art; }).join(", ") + ")" : ""));
     var ew = daten.essen.filter(function (x) { return inWoche(x.datum); });
     ew.forEach(function (x) { zeilen.push("· Verpflegungstest " + x.datum + ": " + x.was + (x.magen ? ", Magen " + x.magen + "/10" : "")); });
+    if (daten.supp.length) zeilen.push("Supplements: an " + suppQuote() + " von 7 Tagen komplett");
     if (daten.warum) { zeilen.push(""); zeilen.push("Mein Warum: " + daten.warum); }
     return zeilen.join("\n");
   }
@@ -733,6 +758,44 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
     gespeichert("essen-meldung"); e.target.reset(); essenListe();
   });
 
+  // Supplements
+  var WANN = ["Morgens", "Mittags", "Vor dem Training", "Nach dem Training", "Abends", "Nur an langen Tagen"];
+  function suppSortiert() { return daten.supp.map(function (x, i) { return { x: x, i: i }; }).sort(function (a, b) { return WANN.indexOf(a.x.wann) - WANN.indexOf(b.x.wann); }); }
+  function suppKomplett(tag) { var t = daten.suppTage[tag] || {}, pflicht = daten.supp.filter(function (x) { return x.wann !== "Nur an langen Tagen"; }); return pflicht.length > 0 && pflicht.every(function (x) { return t[x.id]; }); }
+  function supp() {
+    var heute = heuteSchluessel(), tag = daten.suppTage[heute] || {}, html = "", plan = "", gruppe = "";
+    $("supp-datum").textContent = heuteText();
+    if (!daten.supp.length) {
+      html = '<p class="klein leise">Noch kein Plan. Tragt unten eure Präparate ein, dann erscheinen sie hier zum Abhaken.</p>';
+      plan = '<div class="eintrag"><div><b>Präparat A</b><span class="chip">Beispiel</span></div><div class="werte">Morgens</div><div class="satz">2 Kapseln · mit Frühstück · Kölner Liste geprüft</div></div>';
+    }
+    suppSortiert().forEach(function (o) {
+      var x = o.x;
+      if (x.wann !== gruppe) { gruppe = x.wann; html += "<h4>" + esc(gruppe) + "</h4>"; }
+      html += '<label for="sh-' + x.id + '"><input type="checkbox" id="sh-' + x.id + '" data-supp="' + x.id + '"' + (tag[x.id] ? " checked" : "") + "> " + esc(x.name) + (x.menge ? ' <span class="leise">· ' + esc(x.menge) + "</span>" : "") + "</label>";
+      plan += '<div class="eintrag"><div><b>' + esc(x.name) + "</b>" + (x.koeln ? '<span class="chip nacht">Kölner Liste</span>' : "") + '</div><div class="werte">' + esc(x.wann) + '</div><div class="satz karte-zeile" style="display:flex"><span>' + esc([x.menge, x.notiz].filter(Boolean).join(" · ")) + '</span><button type="button" data-supp-weg="' + o.i + '" style="padding:4px 10px;font-size:.8rem;border-color:var(--linie);color:var(--text-leise)">Entfernen</button></div></div>';
+    });
+    $("supp-heute").innerHTML = html;
+    $("supp-plan").innerHTML = plan;
+    $("supp-heute").querySelectorAll("[data-supp]").forEach(function (c) {
+      c.addEventListener("change", function () { var t = daten.suppTage[heute] || (daten.suppTage[heute] = {}); t[c.dataset.supp] = c.checked; sichern(); suppQuote(); });
+    });
+    $("supp-plan").querySelectorAll("[data-supp-weg]").forEach(function (b) { b.addEventListener("click", function () { daten.supp.splice(+b.dataset.suppWeg, 1); sichern(); supp(); }); });
+    suppQuote();
+  }
+  function suppQuote() {
+    var n = 0; for (var i = 0; i < 7; i++) { var d = new Date(); d.setDate(d.getDate() - i); if (suppKomplett(heuteSchluessel(d))) n++; }
+    $("supp-quote").textContent = n + " von 7";
+    return n;
+  }
+  $("supp-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var name = $("s-name").value.trim();
+    if (!name) { meldung("supp-meldung", "Bitte den Namen des Präparats eintragen."); return; }
+    daten.supp.push({ id: "s" + Date.now().toString(36), name: name, wann: $("s-wann").value, menge: $("s-menge").value.trim(), notiz: $("s-notiz").value.trim(), koeln: $("s-koeln").checked });
+    gespeichert("supp-meldung"); e.target.reset(); supp();
+  });
+
   // Kontrollschluss und Puffer
   function cutoffTabelle() {
     var html = "<thead><tr><th>Station</th><th style=\"text-align:right\">km</th><th style=\"text-align:right\">Hintere</th><th style=\"text-align:right\">Cut-off</th></tr></thead><tbody>";
@@ -768,7 +831,7 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
     $("ausruestung").querySelectorAll("input").forEach(function (c) { c.addEventListener("change", function () { daten.ausruestung[c.dataset.ding] = c.checked; sichern(); }); });
   }
 
-  function alles() { kraftListe(); essenListe(); ausruestung(); cutoffTabelle(); checkinLaden(); woche(); laufListe(); $("warum").value = daten.warum || ""; krisen(); bericht(); }
+  function alles() { supp(); kraftListe(); essenListe(); ausruestung(); cutoffTabelle(); checkinLaden(); woche(); laufListe(); $("warum").value = daten.warum || ""; krisen(); bericht(); }
 
   countdown(); setInterval(countdown, 60000);
   profil(); etappen(); alles();

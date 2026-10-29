@@ -28,7 +28,7 @@ Petra begleitet ihre Freundin Anne (56, Bozen, Physiotherapeutin, Triathlon und 
 `index.html` ist dieselbe Seite als eigenständige Datei, z. B. für Vercel.
 
 Bereiche: Heute (Check-in, 7-Tage-Verlauf) · Kopf (Warum, Atem, Streckenkino, Krisenkarten) ·
-Training mit Laufen, Kraft und Verpflegungs-Labor · Rennen (Rennmodus mit Etappen, Mantras, Kontrollschluss-Puffer, Pflichtausrüstung) · Bericht (Wochenbericht zum Kopieren an Petra, Sicherung).
+Training mit Laufen, Kraft, Verpflegungs-Labor und Supplements (Plan und tägliches Abhaken, nur auf Annes Handy) · Rennen (Rennmodus mit Etappen, Mantras, Kontrollschluss-Puffer, Pflichtausrüstung) · Bericht (Wochenbericht zum Kopieren an Petra, Sicherung).
 
 Daten bleiben nur im Browser des Handys. Keine Kosten, kein Server.
 Mantras und Visualisierungstexte sind ENTWÜRFE von Claude; Anne und Petra machen sie zu ihren eigenen.
