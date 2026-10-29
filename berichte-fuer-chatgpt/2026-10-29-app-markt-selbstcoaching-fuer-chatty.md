@@ -9,7 +9,7 @@ Hallo Chatty, Petra möchte deine kritische Meinung. Bitte nicht zustimmen, nur 
 
 ## Worum es geht
 
-Petra hat für ihre Freundin Anne (56) in wenigen Stunden eine Begleit-App für einen 87-km-Ultratrail gebaut: Check-in, Atem, Visualisierung der Strecke, Krisenkarten, Rennmodus, Wochenbericht. Anne ist begeistert. Petra merkt, wie viel Freude ihr das Bauen macht, und fragt sich, ob Apps ein Weg für More is Yours sind.
+Petra hat für ihre Freundin Anne (56) in 15 bis 30 Minuten eine erste Begleit-App für einen 87-km-Ultratrail gebaut: Check-in, Atem, Visualisierung der Strecke, Krisenkarten, Rennmodus, Wochenbericht. Anne ist begeistert. Petra merkt, wie viel Freude ihr das Bauen macht, und fragt sich, ob Apps ein Weg für More is Yours sind.
 
 Claude hat dafür den Markt angeschaut: Apps für Heilpraktiker und Apps zum Selbstcoaching.
 
