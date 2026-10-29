@@ -1,6 +1,6 @@
 # Elsbeths Gehirn: Modellauswahl und Testkatalog v2
 
-Stand: 29.10.2026 · Status: **ENTWURF / PETRA REVIEW**. Liegt vor den kostenpflichtigen Tests zur Durchsicht vor. Nach Petras Freigabe wird kein Satz mehr verändert.
+Stand: 29.10.2026 · Status: **FREIGEGEBEN von Petra am 29.10.2026** („ich gebe alles frei“): drei Modelle, Wortlaut der fünf Fälle, Grenze 25 $, Kanon unverändert in beiden Bedingungen (Abschnitt 5, Empfehlung). Ab jetzt wird kein Satz mehr verändert. Die kreative Qualitätsentscheidung trifft Petra; das ist keine Freigabe einer Elsbeth-Fassung.
 Geschrieben von Claude Code im Auftrag von Petra (29.10.2026: „Die Qualität des Erlebnisses steht an erster Stelle“). Bisher gab es keinen kostenpflichtigen Aufruf, und am öffentlichen System hat sich nichts geändert. v2 ersetzt den nie freigegebenen Katalog v1.
 
 ## 1. Die Modellauswahl
