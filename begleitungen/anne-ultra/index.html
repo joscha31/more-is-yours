@@ -158,6 +158,27 @@ nav.unten a { text-decoration: none; color: var(--text-leise); display: grid; ju
 nav.unten a svg { width: 22px; height: 22px; }
 nav.unten a[aria-current=page] { color: var(--tuerkis); background: var(--nacht-3); }
 
+.reiter { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; background: var(--nacht-2); border: 1px solid var(--linie); border-radius: 999px; padding: 4px; }
+.reiter button { border: 0; padding: 8px 6px; font-size: .9rem; color: var(--text-leise); }
+.reiter button[aria-selected=true] { background: var(--tuerkis); color: var(--nacht); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips label { display: inline-flex; gap: 6px; align-items: center; padding: 6px 12px; border: 1px solid var(--linie); border-radius: 999px; font-size: .88rem; cursor: pointer; }
+.chips input { accent-color: var(--tuerkis); }
+.fokus { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.fokus li { display: grid; grid-template-columns: 1fr; gap: 2px; padding: 10px 12px; border-radius: 10px; background: var(--nacht-3); }
+.fokus b { color: var(--gletscher); }
+.richtwert { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; font-family: var(--font-zahl); font-size: .9rem; }
+.tabelle-box { overflow-x: auto; }
+table.cutoff { width: 100%; border-collapse: collapse; font-size: .9rem; }
+table.cutoff th { text-align: left; font-weight: 400; color: var(--text-leise); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; padding: 6px 8px; border-bottom: 1px solid var(--linie); }
+table.cutoff td { padding: 8px; border-bottom: 1px solid var(--linie); }
+table.cutoff td.z { font-family: var(--font-zahl); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+table.cutoff tr.jetzt td { color: var(--gletscher); }
+.puffer { font-family: var(--font-display); font-size: 1.5rem; color: var(--warm); }
+.checkliste { display: grid; gap: 6px; }
+.checkliste label { display: flex; gap: 10px; align-items: start; font-size: .95rem; }
+.checkliste input { width: 20px; height: 20px; margin-top: 2px; accent-color: var(--tuerkis); flex: none; }
+.checkliste h4 { margin: 8px 0 0; font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--text-leise); font-weight: 400; }
 pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--font-zahl); font-size: .85rem; background: var(--nacht); border: 1px solid var(--linie); border-radius: 10px; padding: 12px; margin: 0; max-height: 360px; overflow: auto; }
 
 @media (prefers-reduced-motion: reduce) { .kreis { transition-duration: 0s !important; } }
@@ -167,7 +188,7 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
   <header class="kopf">
     <div>
       <div class="marke">Annes <span>Nachtstart</span></div>
-      <div class="unterzeile">K85 Heart of the Alps · 86,8 km · 3.880 Hm</div>
+      <div class="unterzeile">K85 Heart of the Alps · 86,8 km · 3.880 Hm · Ziel: ankommen</div>
     </div>
     <div class="countdown" aria-live="polite">
       <div class="zahl" id="cd-tage">0</div>
@@ -197,7 +218,13 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
 
   <!-- TRAINING -->
   <section id="v-training" class="block" data-ansicht="training" hidden>
-    <h2>Lauf-Tagebuch</h2>
+    <h2>Training</h2>
+    <div class="reiter" role="tablist" aria-label="Trainingsbereich">
+      <button type="button" role="tab" data-reiter="laufen" aria-selected="true">Laufen</button>
+      <button type="button" role="tab" data-reiter="kraft" aria-selected="false">Kraft</button>
+      <button type="button" role="tab" data-reiter="essen" aria-selected="false">Verpflegung</button>
+    </div>
+    <div class="block" data-teil="laufen">
     <p class="leise">Die Uhr misst den Lauf. Hier steht, wie er sich angefühlt hat.</p>
     <div class="summen" id="summen"></div>
     <form class="tafel" id="lauf-form">
@@ -214,6 +241,62 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
       <div class="knopfreihe"><button class="voll" type="submit">Lauf eintragen</button><span class="meldung" id="lauf-meldung"></span></div>
     </form>
     <div class="liste" id="lauf-liste"></div>
+    </div>
+
+    <div class="block" data-teil="kraft" hidden>
+      <div class="tafel">
+        <h3>Wofür die Kraft gebraucht wird</h3>
+        <p class="klein leise">Grundlage fürs Gespräch mit der Trainerin. Den Plan machen Trainerin und Anne, Anne kennt als Physiotherapeutin ihren Körper am besten.</p>
+        <ul class="fokus">
+          <li><b>Abstiege</b><span>Längster Abstieg der Strecke: 1.910 m am Stück. Bremsende Oberschenkel, Knie und Hüfte tragen das Rennen.</span></li>
+          <li><b>Lange Anstiege</b><span>Längster Anstieg: 1.290 m. Waden, Gesäß und Rumpf für den gleichmäßigen Takt.</span></li>
+          <li><b>Stöcke</b><span>Schultern, Rücken und Arme, damit die Stöcke über viele Stunden mitarbeiten.</span></li>
+          <li><b>Trittsicherheit im Dunkeln</b><span>Die ersten Stunden mit Stirnlampe. Fußgelenke und Gleichgewicht.</span></li>
+        </ul>
+        <div class="richtwert"><span>Diese Woche</span><span id="kraft-woche">0 Einheiten</span></div>
+        <p class="klein leise">Richtwert für Läuferinnen ab 40: mindestens 2 Krafteinheiten pro Woche.</p>
+      </div>
+      <form class="tafel" id="kraft-form">
+        <div class="felder">
+          <div class="feld"><label for="kr-datum">Datum</label><input type="text" id="kr-datum" inputmode="numeric" placeholder="TT.MM.JJJJ"></div>
+          <div class="feld"><label for="kr-art">Art</label><select id="kr-art"><option>Kraft mit Trainerin</option><option>Kraft allein</option><option>Rad</option><option>Skitour oder Bergwandern</option><option>Beweglichkeit</option></select></div>
+          <div class="feld"><label for="kr-min">Minuten</label><input type="number" id="kr-min" min="0" step="5" inputmode="numeric"></div>
+          <div class="feld"><label for="kr-gefuehl">Gefühl 1 bis 10</label><input type="number" id="kr-gefuehl" min="1" max="10" inputmode="numeric"></div>
+        </div>
+        <div class="chips" role="group" aria-label="Schwerpunkt">
+          <label><input type="checkbox" value="Abstieg" id="kr-s1"> Abstieg</label>
+          <label><input type="checkbox" value="Anstieg" id="kr-s2"> Anstieg</label>
+          <label><input type="checkbox" value="Rumpf" id="kr-s3"> Rumpf</label>
+          <label><input type="checkbox" value="Stöcke" id="kr-s4"> Stöcke</label>
+          <label><input type="checkbox" value="Gleichgewicht" id="kr-s5"> Gleichgewicht</label>
+        </div>
+        <div class="feld"><label for="kr-notiz">Notiz</label><input type="text" id="kr-notiz" placeholder="Was war schwer, was ging leicht?"></div>
+        <div class="knopfreihe"><button class="voll" type="submit">Einheit eintragen</button><span class="meldung" id="kraft-meldung"></span></div>
+      </form>
+      <div class="liste" id="kraft-liste"></div>
+    </div>
+
+    <div class="block" data-teil="essen" hidden>
+      <div class="tafel">
+        <h3>Verpflegungs-Labor</h3>
+        <p class="klein leise">Am Renntag wird nur gegessen, was im Training schon funktioniert hat. Jeder lange Lauf ist ein Test.</p>
+        <div class="richtwert"><span>Ausgangswert aus einer Übersichtsarbeit</span><span>200 bis 400 kcal pro Std</span></div>
+        <div class="richtwert"><span>davon Kohlenhydrate</span><span>30 bis 50 g pro Std</span></div>
+        <p class="klein leise">Annes eigener Wert entsteht hier im Labor. Am Start Pflicht: mindestens 500 kcal Essen dabei, 1 Liter Trinkbehälter, eigener Becher.</p>
+      </div>
+      <form class="tafel" id="essen-form">
+        <div class="felder">
+          <div class="feld"><label for="e-datum">Datum</label><input type="text" id="e-datum" inputmode="numeric" placeholder="TT.MM.JJJJ"></div>
+          <div class="feld"><label for="e-std">Laufdauer (Std)</label><input type="number" id="e-std" min="0" step="0.25" inputmode="decimal"></div>
+          <div class="feld"><label for="e-kcal">kcal gesamt</label><input type="number" id="e-kcal" min="0" step="10" inputmode="numeric"></div>
+          <div class="feld"><label for="e-kh">Kohlenhydrate g</label><input type="number" id="e-kh" min="0" step="5" inputmode="numeric"></div>
+          <div class="feld"><label for="e-magen">Magen 1 bis 10</label><input type="number" id="e-magen" min="1" max="10" inputmode="numeric"></div>
+        </div>
+        <div class="feld"><label for="e-was">Was genau, und wann?</label><input type="text" id="e-was" placeholder="z. B. Riegel nach 45 min, Gel nach 90 min, Brühe"></div>
+        <div class="knopfreihe"><button class="voll" type="submit">Test eintragen</button><span class="meldung" id="essen-meldung"></span></div>
+      </form>
+      <div class="liste" id="essen-liste"></div>
+    </div>
   </section>
 
   <!-- KOPF -->
@@ -260,10 +343,11 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
   <!-- RENNEN -->
   <section id="v-rennen" class="block" data-ansicht="rennen" hidden>
     <div class="renn">
-      <div class="label" id="renn-abschnitt">Abschnitt 1 von 7</div>
+      <div class="label" id="renn-abschnitt">Abschnitt 1 von 10</div>
       <div class="gross" id="renn-ziel">Kranebitten</div>
       <div class="zeile" id="renn-daten"></div>
       <div class="mantra" id="renn-mantra"></div>
+      <div class="puffer" id="renn-puffer" hidden></div>
       <div class="knopfgitter">
         <button type="button" id="renn-zurueck">Zurück</button>
         <button type="button" class="voll" id="renn-weiter">Angekommen</button>
@@ -272,6 +356,16 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
       <div class="krise-anzeige" id="renn-karte" hidden></div>
       <p class="klein leise">Du und dein Sohn startet beide um Mitternacht am Landestheater. Er läuft die K110, du deine K85.</p>
       <p class="klein leise" id="renn-wach">Im Rennmodus bleibt der Bildschirm an, solange die Seite offen ist.</p>
+    </div>
+    <div class="tafel">
+      <h3>Kontrollschluss</h3>
+      <p class="klein leise">Bis zu diesen Uhrzeiten muss Anne die Station verlassen haben. Gelesen aus der Liste des Veranstalters für 2026, für 2027 bitte bestätigen lassen.</p>
+      <div class="tabelle-box"><table class="cutoff" id="cutoff"></table></div>
+    </div>
+    <div class="tafel">
+      <h3>Pflichtausrüstung</h3>
+      <p class="klein leise">Laut Veranstalter, Stand 2026. Abhaken beim Packen.</p>
+      <div class="checkliste" id="ausruestung"></div>
     </div>
   </section>
 
@@ -309,13 +403,16 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
 
   // Echte Daten aus der Streckenliste 2027 (Trace de Trail, Laufwerkstatt). Ab km 55,3 noch offen.
   var ETAPPEN = [
-    { von: "Landestheater Innsbruck", nach: "Kranebitten", km: 14.1, bis: 14.1, hoch: 777, runter: 771, hoehe: 580, info: "Essen, Trinken, Toiletten", mantra: "Langsam ist das neue Schnell. Die Nacht trägt mich.", bild: "Du stehst am Landestheater, Stirnlampe an, um dich herum Lichter und Jubel. Du lässt alle ziehen und findest deinen eigenen Rhythmus." },
-    { von: "Kranebitten", nach: "Birgitz", km: 8.2, bis: 22.3, hoch: 354, runter: 78, hoehe: 857, info: "Essen, Trinken, Toiletten", mantra: "Kleine Schritte, ruhiger Atem.", bild: "Es ist mitten in der Nacht. Du hörst deinen Atem und deine Schritte. Dein Lichtkegel ist deine ganze Welt, und die ist gut." },
-    { von: "Birgitz", nach: "Mutterer Alm", km: 8.8, bis: 31.1, hoch: 921, runter: 163, hoehe: 1608, info: "Essen, Trinken, warme Getränke", mantra: "Ein Schritt, ein Atemzug. Oben wartet Tee.", bild: "Der lange Anstieg. Stöcke, gleichmäßiger Takt. Du stellst dir den warmen Becher auf der Alm vor, schon in deinen Händen." },
-    { von: "Mutterer Alm", nach: "Telfes", km: 8.7, bis: 39.8, hoch: 160, runter: 774, hoehe: 1000, info: "Essen, Trinken, warme Getränke, Toiletten", mantra: "Leichte Füße, weiche Knie.", bild: "Es geht bergab. Kurze, leichte Schritte, als würdest du über heiße Steine tanzen. Deine Beine bleiben weich." },
-    { von: "Telfes", nach: "Wasserstelle ÖAMTC", km: 10.9, bis: 50.7, hoch: 372, runter: 645, hoehe: 728, info: "Nur Wasser", mantra: "Ich habe heute schon einen Berg geschafft.", bild: "Halbzeit liegt hinter dir. Du spürst, was du heute schon geleistet hast, und nimmst es mit." },
-    { von: "Wasserstelle ÖAMTC", nach: "Bergisel", km: 4.6, bis: 55.3, hoch: 172, runter: 276, hoehe: 623, info: "Trinken, Drop-Zone mit deiner Tasche", mantra: "Frische Socken, frischer Kopf.", bild: "Am Bergisel wartet deine Tasche. Du wechselst, was dir guttut, und startest in den letzten Teil wie in ein neues Rennen." },
-    { von: "Bergisel", nach: "Ziel Landestheater", km: 31.5, bis: 86.8, hoch: null, runter: null, hoehe: 575, info: "Weitere Verpflegungsstellen folgen aus der Streckenliste", mantra: "Jeder Kilometer bringt mich nach Hause.", bild: "Du siehst das Landestheater, hörst die Menschen. Du läufst durchs Ziel, so wie du es dir vorgenommen hast." }
+    { von: "Landestheater Innsbruck", nach: "Kranebitten", km: 14.1, bis: 14.1, hoch: 777, runter: 771, cut: "03:30", info: "Essen, Trinken, Brühe, Toiletten", mantra: "Langsam ist das neue Schnell. Die Nacht trägt mich.", bild: "Du stehst am Landestheater, Stirnlampe an, um dich herum Lichter und Jubel. Du lässt alle ziehen und findest deinen eigenen Rhythmus." },
+    { von: "Kranebitten", nach: "Birgitz", km: 8.2, bis: 22.3, hoch: 354, runter: 78, cut: "05:00", info: "Essen, Trinken, Brühe, Toiletten", mantra: "Kleine Schritte, ruhiger Atem.", bild: "Es ist mitten in der Nacht. Du hörst deinen Atem und deine Schritte. Dein Lichtkegel ist deine ganze Welt, und die ist gut." },
+    { von: "Birgitz", nach: "Mutterer Alm", km: 8.8, bis: 31.1, hoch: 921, runter: 163, cut: "07:26", info: "Essen, Trinken, warme Getränke, Brühe", mantra: "Ein Schritt, ein Atemzug. Oben wartet Tee.", bild: "Der lange Anstieg. Stöcke, gleichmäßiger Takt. Du stellst dir den warmen Becher auf der Alm vor, schon in deinen Händen." },
+    { von: "Mutterer Alm", nach: "Telfes", km: 8.7, bis: 39.8, hoch: 160, runter: 774, cut: "09:00", info: "Essen, Trinken, warme Getränke, Toiletten", mantra: "Leichte Füße, weiche Knie.", bild: "Es geht bergab. Kurze, leichte Schritte, als würdest du über heiße Steine tanzen. Deine Beine bleiben weich." },
+    { von: "Telfes", nach: "Wasserstelle ÖAMTC", km: 10.9, bis: 50.7, hoch: 372, runter: 645, cut: "11:15", info: "Nur Wasser", mantra: "Ab hier ist jeder Schritt Neuland. Und Neuland kann ich.", bild: "Irgendwo hier läufst du über deinen bisher längsten Lauf hinaus. Du spürst es und lächelst: Ab jetzt schreibst du eine neue Geschichte." },
+    { von: "Wasserstelle ÖAMTC", nach: "Bergisel", km: 4.6, bis: 55.3, hoch: 172, runter: 276, cut: "12:30", info: "Trinken, Drop-Zone mit deiner Tasche, warmes Essen", mantra: "Frische Socken, frischer Kopf.", bild: "Am Bergisel wartet deine Tasche. Du wechselst, was dir guttut, und startest in den letzten Teil wie in ein neues Rennen." },
+    { von: "Bergisel", nach: "Herzsee", km: 5.8, bis: 61.1, hoch: null, runter: null, cut: "13:30", info: "Verpflegung laut Liste 2026", mantra: "Ein Schritt, dann der nächste.", bild: "Du denkst nur bis zur nächsten Station. Mehr musst du heute nicht wissen." },
+    { von: "Herzsee", nach: "Hall", km: 7.3, bis: 68.4, hoch: null, runter: null, cut: "15:00", info: "Suppe und einfache warme Gerichte", mantra: "Suppe, kurze Pause, weiter.", bild: "In Hall riecht es nach Suppe. Du setzt dich kurz, isst in Ruhe und stehst wieder auf, so wie du es geübt hast." },
+    { von: "Hall", nach: "Thaur", km: 6.2, bis: 74.6, hoch: null, runter: null, cut: "16:15", info: "Verpflegung laut Liste 2026", mantra: "Die Lichter von Innsbruck holen mich ab.", bild: "Die Stadt rückt näher. Du läufst schon mit dem Gefühl, gleich anzukommen." },
+    { von: "Thaur", nach: "Ziel Landestheater", km: 12.2, bis: 86.8, hoch: null, runter: null, cut: "18:44", info: "Ziel mit Suppe und warmen Gerichten", mantra: "Jeder Kilometer bringt mich nach Hause.", bild: "Du siehst das Landestheater, hörst die Menschen. Du läufst durchs Ziel, so wie du es dir vorgenommen hast." }
   ];
   var PROFIL = [[0,575],[14.1,580],[22.3,857],[31.1,1608],[39.8,1000],[50.7,728],[55.3,623],[86.8,575]];
 
@@ -332,7 +429,7 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
   ];
 
   var daten = laden();
-  function leer() { return { checkins: {}, laeufe: [], krisen: START_KRISEN.slice(), warum: "", renn: 0 }; }
+  function leer() { return { checkins: {}, laeufe: [], krisen: START_KRISEN.slice(), warum: "", renn: 0, kraft: [], essen: [], ausruestung: {} }; }
   function laden() {
     try { var t = localStorage.getItem(SPEICHER); if (t) { var d = JSON.parse(t); return Object.assign(leer(), d); } } catch (e) {}
     return leer();
@@ -496,7 +593,8 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
   }
 
   // Etappen
-  function etappenDaten(e) { return zahl(e.km) + " km · bei km " + zahl(e.bis) + (e.hoch != null ? " · +" + e.hoch + " / −" + e.runter + " Hm" : " · Höhenmeter folgen"); }
+  function etappenDaten(e) { return zahl(e.km) + " km · bei km " + zahl(e.bis) + (e.hoch != null ? " · +" + e.hoch + " / −" + e.runter + " Hm" : "") + " · Schluss " + e.cut + " Uhr"; }
+  function cutMs(e) { var t = e.cut.split(":"); return START + (+t[0]) * 3600000 + (+t[1]) * 60000; }
   function etappen() {
     var html = "";
     ETAPPEN.forEach(function (e, i) {
@@ -532,6 +630,8 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
     $("renn-ziel").textContent = e.nach;
     $("renn-daten").textContent = etappenDaten(e);
     $("renn-mantra").textContent = e.mantra;
+    puffer();
+    cutoffTabelle();
     $("renn-zurueck").disabled = i === 0;
     $("renn-weiter").textContent = i === ETAPPEN.length - 1 ? "Im Ziel" : "Angekommen";
     $("renn-karte").hidden = true;
@@ -561,6 +661,11 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
     zeilen.push("");
     zeilen.push("Check-ins: " + tage + " von 7 Tagen" + (tage ? " · Mittel " + zahl(summeM / tage) + " von 10" : ""));
     saetze.forEach(function (x) { zeilen.push(x); });
+    var kw = daten.kraft.filter(function (k) { return inWoche(k.datum); });
+    zeilen.push("");
+    zeilen.push("Kraft und Ergänzung: " + kw.length + " Einheiten" + (kw.length ? " (" + kw.map(function (k) { return k.art; }).join(", ") + ")" : ""));
+    var ew = daten.essen.filter(function (x) { return inWoche(x.datum); });
+    ew.forEach(function (x) { zeilen.push("· Verpflegungstest " + x.datum + ": " + x.was + (x.magen ? ", Magen " + x.magen + "/10" : "")); });
     if (daten.warum) { zeilen.push(""); zeilen.push("Mein Warum: " + daten.warum); }
     return zeilen.join("\n");
   }
@@ -585,7 +690,88 @@ pre.bericht { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(-
     catch (e) { meldung("sicherung-meldung", "Das sieht nicht nach einer Sicherung aus. Bitte den ganzen Text einfügen."); }
   });
 
-  function alles() { checkinLaden(); woche(); laufListe(); $("warum").value = daten.warum || ""; krisen(); bericht(); }
+  // Reiter im Training
+  document.querySelectorAll("[data-reiter]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      document.querySelectorAll("[data-reiter]").forEach(function (x) { x.setAttribute("aria-selected", x === b ? "true" : "false"); });
+      document.querySelectorAll("[data-teil]").forEach(function (t) { t.hidden = t.dataset.teil !== b.dataset.reiter; });
+    });
+  });
+  function heuteText() { var h = new Date(); return String(h.getDate()).padStart(2, "0") + "." + String(h.getMonth() + 1).padStart(2, "0") + "." + h.getFullYear(); }
+  function inWoche(datum) { var g = new Date(); g.setHours(0, 0, 0, 0); g.setDate(g.getDate() - 6); var d = datumZu(datum); return d && d >= g; }
+
+  // Kraft
+  var BEISPIEL_KRAFT = [{ datum: "23.10.2026", art: "Kraft mit Trainerin", min: 60, gefuehl: 6, schwer: ["Abstieg", "Rumpf"], notiz: "Exzentrische Kniebeugen, morgen spürbar", beispiel: true }];
+  function kraftListe() {
+    var liste = daten.kraft.length ? daten.kraft : BEISPIEL_KRAFT, html = "";
+    liste.forEach(function (k) {
+      html += '<div class="eintrag"><div><b>' + esc(k.datum) + "</b> " + esc(k.art) + (k.beispiel ? '<span class="chip">Beispiel</span>' : "") + '</div><div class="werte">' + (k.min ? esc(k.min) + " min" : "") + (k.gefuehl ? " · " + esc(k.gefuehl) + "/10" : "") + "</div>" +
+        ((k.schwer && k.schwer.length) || k.notiz ? '<div class="satz">' + esc((k.schwer || []).join(", ")) + (k.notiz ? (k.schwer && k.schwer.length ? " · " : "") + esc(k.notiz) : "") + "</div>" : "") + "</div>";
+    });
+    $("kraft-liste").innerHTML = html;
+    var n = daten.kraft.filter(function (k) { return /Kraft/.test(k.art) && inWoche(k.datum); }).length;
+    $("kraft-woche").textContent = n + (n === 1 ? " Krafteinheit" : " Krafteinheiten") + " · Richtwert 2";
+  }
+  $("kraft-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var schwer = []; document.querySelectorAll("#kraft-form .chips input:checked").forEach(function (c) { schwer.push(c.value); });
+    daten.kraft.unshift({ datum: $("kr-datum").value.trim() || heuteText(), art: $("kr-art").value, min: $("kr-min").value, gefuehl: $("kr-gefuehl").value, schwer: schwer, notiz: $("kr-notiz").value.trim() });
+    gespeichert("kraft-meldung"); e.target.reset(); kraftListe();
+  });
+
+  // Verpflegung
+  var BEISPIEL_ESSEN = [{ datum: "24.10.2026", std: 2, kcal: 450, kh: 90, magen: 8, was: "Riegel nach 45 min, Gel nach 90 min", beispiel: true }];
+  function essenListe() {
+    var liste = daten.essen.length ? daten.essen : BEISPIEL_ESSEN, html = "";
+    liste.forEach(function (x) {
+      var std = parseFloat(x.std) || 0, proStd = "";
+      if (std && x.kcal) proStd += Math.round(x.kcal / std) + " kcal/Std";
+      if (std && x.kh) proStd += (proStd ? " · " : "") + Math.round(x.kh / std) + " g/Std";
+      html += '<div class="eintrag"><div><b>' + esc(x.datum) + "</b> " + (std ? zahl(std) + " Std" : "") + (x.beispiel ? '<span class="chip">Beispiel</span>' : "") + '</div><div class="werte">' + esc(proStd) + (x.magen ? " · Magen " + esc(x.magen) + "/10" : "") + "</div>" +
+        (x.was ? '<div class="satz">' + esc(x.was) + "</div>" : "") + "</div>";
+    });
+    $("essen-liste").innerHTML = html;
+  }
+  $("essen-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (!$("e-was").value.trim()) { meldung("essen-meldung", "Bitte eintragen, was du gegessen hast."); return; }
+    daten.essen.unshift({ datum: $("e-datum").value.trim() || heuteText(), std: $("e-std").value, kcal: +$("e-kcal").value || 0, kh: +$("e-kh").value || 0, magen: $("e-magen").value, was: $("e-was").value.trim() });
+    gespeichert("essen-meldung"); e.target.reset(); essenListe();
+  });
+
+  // Kontrollschluss und Puffer
+  function cutoffTabelle() {
+    var html = "<thead><tr><th>Station</th><th style=\"text-align:right\">km</th><th style=\"text-align:right\">Schluss</th></tr></thead><tbody>";
+    ETAPPEN.forEach(function (e, i) { html += '<tr' + (i === (daten.renn || 0) ? ' class="jetzt"' : "") + "><td>" + esc(e.nach) + '</td><td class="z">' + zahl(e.bis) + '</td><td class="z">' + e.cut + " Uhr</td></tr>"; });
+    $("cutoff").innerHTML = html + "</tbody>";
+  }
+  function puffer() {
+    var el = $("renn-puffer"), jetzt = Date.now();
+    if (jetzt < START || jetzt > START + 20 * 3600000) { el.hidden = true; return; }
+    var rest = Math.round((cutMs(ETAPPEN[daten.renn || 0]) - jetzt) / 60000);
+    el.hidden = false;
+    el.textContent = rest >= 0 ? "Noch " + Math.floor(rest / 60) + " Std " + (rest % 60) + " Min bis Kontrollschluss" : "Kontrollschluss vorbei. Sprich mit der Station.";
+  }
+  setInterval(function () { if (!$("v-rennen").hidden) puffer(); }, 30000);
+
+  // Pflichtausrüstung (Stand 2026)
+  var AUSRUESTUNG = [
+    ["Kleidung", ["Geschlossene Trailschuhe mit griffiger Sohle", "Shirt (kurzarm nur mit Armlingen)", "Lange Hose oder Beinlinge", "Regenjacke mit Kapuze, mindestens 10.000 mm Wassersäule", "Buff, Kappe oder Bandana", "Mütze", "Warme Handschuhe"]],
+    ["Essen und Trinken", ["Trinkbehälter 1 Liter", "Eigener Becher", "Essen mit mehr als 500 kcal"]],
+    ["Sicherheit", ["Ausweis für die Startnummer", "Handy mit App SOS EU ALPS", "Bergrettungsversicherung", "Erste-Hilfe-Set", "Rettungsdecke 210 x 160 cm", "Stirnlampe mit Ersatzlampe oder Ersatzakku", "Pfeife"]],
+    ["Kaltwetter, falls angeordnet", ["Regenhose", "Warme dritte Schicht", "Grödel für die Schuhe"]]
+  ];
+  function ausruestung() {
+    var html = "", n = 0;
+    AUSRUESTUNG.forEach(function (g) {
+      html += "<h4>" + esc(g[0]) + "</h4>";
+      g[1].forEach(function (t) { var id = "aus-" + (n++); html += '<label for="' + id + '"><input type="checkbox" id="' + id + '" data-ding="' + esc(t) + '"' + (daten.ausruestung[t] ? " checked" : "") + "> " + esc(t) + "</label>"; });
+    });
+    $("ausruestung").innerHTML = html;
+    $("ausruestung").querySelectorAll("input").forEach(function (c) { c.addEventListener("change", function () { daten.ausruestung[c.dataset.ding] = c.checked; sichern(); }); });
+  }
+
+  function alles() { kraftListe(); essenListe(); ausruestung(); cutoffTabelle(); checkinLaden(); woche(); laufListe(); $("warum").value = daten.warum || ""; krisen(); bericht(); }
 
   countdown(); setInterval(countdown, 60000);
   profil(); etappen(); alles();
