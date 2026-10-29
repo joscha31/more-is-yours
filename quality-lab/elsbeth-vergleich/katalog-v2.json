@@ -1,0 +1,115 @@
+{
+  "version": "v2",
+  "stand": "2026-10-29",
+  "status": "ENTWURF – wartet auf Petras Freigabe. Ersetzt den nie freigegebenen v1. Nach der Freigabe wird kein Satz mehr verändert; neue Fälle kommen als neue Fälle dazu.",
+  "auftrag": "Qualitätsvergleich: das beste KI-Gehirn für Elsbeth Unknown (Petra 29.10.2026). Qualität vor Kosten.",
+  "datenschutz": "Alle Personen und Geschichten sind erfunden. Keine echten Gespräche, keine echten Besucherdaten.",
+  "modelle": [
+    { "id": "gpt-6-astra", "anbieter": "openai", "preise_usd_je_mio": { "eingabe": 10, "cache": 1, "ausgabe": 50 }, "einstellung": { "reasoning": { "effort": "medium" }, "max_output_tokens": 4000, "store": false } },
+    { "id": "gpt-6.1-sol", "anbieter": "openai", "preise_usd_je_mio": { "eingabe": 2, "cache": 0.1, "ausgabe": 10 }, "einstellung": { "reasoning": { "effort": "medium" }, "max_output_tokens": 4000, "store": false } },
+    { "id": "claude-opus-5-5", "anbieter": "anthropic", "preise_usd_je_mio": { "eingabe": 4, "cache": 0.2, "ausgabe": 20 }, "einstellung": { "thinking": { "type": "adaptive" }, "effort": "medium", "max_tokens": 4000 } }
+  ],
+  "wiederholungen": 2,
+  "faelle": [
+    {
+      "id": "A-konflikt",
+      "titel": "Persönlicher Konflikt: eine langjährige Freundin zieht sich zurück",
+      "rolle_fuer_auswertung": "Frau, 57, erfunden. Freundin Meike, seit 15 Jahren befreundet. Erzählt ausführlich und widerspricht sich (gönnt es ihr / ist beleidigt / es ist ihr egal / es ist ihr nicht egal).",
+      "gast": [
+        "Ja, schon. Meine Freundin Meike. Also, eigentlich ist alles gut zwischen uns. Na ja. Nicht ganz.",
+        "Wir kennen uns seit 15 Jahren, unsere Töchter waren zusammen beim Kinderturnen. Früher haben wir jeden Freitag zusammen gekocht, abwechselnd bei ihr und bei mir, mit Wein und viel zu viel Nachtisch. Seit sie in diesem Lauftreff ist, hat sie ständig neue Leute um sich, und freitags ist jetzt Intervalltraining. Zu ihrem 60. Geburtstag hat sie im großen Kreis gefeiert, lauter Leute aus dem Lauftreff, und ich stand da wie bestellt und nicht abgeholt. Dabei gönne ich ihr das wirklich. Sie war jahrelang so unglücklich, und jetzt blüht sie richtig auf. Aber wenn ich ihre Fotos sehe, mit den ganzen neuen Leuten in Funktionsjacken, dann denke ich: Und ich? Bin ich jetzt die alte Jacke?",
+        "Ehrlich gesagt war ich beleidigt. Ich habe ihr nach der Feier nicht mal geschrieben. Obwohl, eigentlich ist es mir auch egal. Soll sie doch laufen.",
+        "Hm, ja.",
+        "Nein, egal ist es mir natürlich nicht. Das Kochen fehlt mir. Nicht mal wegen des Essens. Sondern weil man beim Gemüseschneiden so gut reden kann.",
+        "Was hättest du denn an meiner Stelle gemacht?",
+        "Vielleicht lade ich sie einfach wieder ein. Andererseits, warum immer ich? Ich war früher auch immer die, die angerufen hat.",
+        "Weißt du, was komisch ist? Ich jogge selbst überhaupt nicht. Ich hasse Joggen."
+      ]
+    },
+    {
+      "id": "B-begeisterung",
+      "titel": "Freude und Begeisterung: eine neue Idee",
+      "rolle_fuer_auswertung": "Frau, 64, erfunden. Hat ein altes Eisfahrrad gekauft und will sonntags Limonade mit Gedicht verkaufen. Kein Problem, nur Vorfreude und ein kleines Bauchweh.",
+      "gast": [
+        "Oh, ich platze gleich! Ich habe mir ein altes Eisfahrrad gekauft. Vorne eine richtige Kühlbox dran, Baujahr 1962, hellblau.",
+        "Damit will ich sonntags durchs Dorf fahren und selbstgemachte Limonade verkaufen. Holunder und Rhabarber. Und wer eine kauft, bekommt ein Gedicht dazu. Das lese ich vor, direkt am Gartenzaun.",
+        "Mein Sohn sagt, das ist doch kein Geschäftsmodell. Hat er recht. Ist auch keins. Es ist ein Eisfahrrad.",
+        "Ich habe schon 40 Gedichte ausgesucht. Kästner, Mascha Kaléko, Ringelnatz. Und eins von mir selbst, aber das verrate ich nicht.",
+        "Ja!",
+        "Das Einzige, was mir ein bisschen Bauchweh macht: Was, wenn am Sonntag einfach keiner kommt?",
+        "Was würdest du denn für ein Gedicht haben wollen?",
+        "Am Samstag ist die erste Probefahrt. Die Klingel funktioniert schon, die habe ich heute 3 Mal ausprobiert. Die Nachbarin hat aus dem Fenster geschaut."
+      ]
+    },
+    {
+      "id": "C-neugier",
+      "titel": "Reine Neugier: kein Problem, einfach etwas Ungewöhnliches erleben",
+      "rolle_fuer_auswertung": "Mann, 49, erfunden. Buchhalter, es geht ihm gut. Erst nach ein paar Runden erzählt er vom Schmiedekurs.",
+      "gast": [
+        "Ehrlich gesagt nichts Besonderes. Mir geht's gut. Ich habe nur gehört, dass hier etwas Ungewöhnliches passiert, und wollte mal schauen.",
+        "Nein, wirklich, kein Problem. Job ist in Ordnung, Familie ist in Ordnung, der Hund ist in Ordnung. Ich bin einfach neugierig.",
+        "Was machen denn die anderen Leute hier so?",
+        "Gut. Dann überrasch mich.",
+        "Na gut, wenn ich schon was erzählen soll: Ich bin Buchhalter, und letzte Woche habe ich mich für einen Schmiedekurs angemeldet. 2 Tage an einer echten Esse. Keine Ahnung, warum.",
+        "Vielleicht, weil man da am Ende etwas in der Hand hält, das bleibt. Bei mir ist abends alles nur eine Zahl in einer Tabelle.",
+        "Was würdest du denn schmieden, wenn du könntest?",
+        "Und wenn das Messer krumm wird, hänge ich es trotzdem in die Küche. Neben die Urkunde vom Seepferdchen."
+      ]
+    },
+    {
+      "id": "D-korrektur",
+      "titel": "Korrektur: der Gast lehnt einen vorgeschlagenen Anteil ab und beschreibt einen passenderen",
+      "rolle_fuer_auswertung": "Frau, 52, erfunden. Ihr wurde die Leitung ihrer Abteilung angeboten. Sie lehnt Elsbeths ersten Namensvorschlag ab und nennt ihre eigene Figur „die Ungeduldige“.",
+      "nur_im_erlebnis": true,
+      "gast": [
+        "Ja. Man hat mir angeboten, unsere Abteilung zu leiten. Und ich weiß nicht, ob ich das will.",
+        "Ich arbeite seit 22 Jahren dort, ich kenne jeden Kopierer persönlich. Alle sagen: Wer, wenn nicht du? Aber dann sitze ich in Besprechungen statt bei meinen Leuten. Und ich müsste Kolleginnen beurteilen, mit denen ich jeden Mittag Kaffee trinke.",
+        "Ein Teil von mir will das aber unbedingt. Endlich mal selbst entscheiden, wie es läuft.",
+        "Und dann ist da noch die, die Angst hat, dass mittags keiner mehr mit ihr Kaffee trinkt.",
+        "Genau.",
+        "Meine Mutter hätte gesagt: Kind, nimm das, so ein Angebot kommt nicht zweimal.",
+        "Was meinst du, muss ich mich heute entscheiden?",
+        "Ich glaube, die Ungeduldige würde jetzt schon die Kaffeemaschine für die Besprechungen bestellen."
+      ],
+      "ablehnung": {
+        "text": "Nein, der Name passt nicht. Die ist eher eine, die seit Jahren zuschaut, wie andere Fehler machen, und denkt: Lasst mich doch mal ran. Ich würde sie die Ungeduldige nennen.",
+        "regel": "Wird genau einmal gesendet, und zwar direkt nach der ersten Antwort, in der Elsbeth einen Anteil vorschlägt (Zeichen [[FIGUR: …]]). Dieser erste Vorschlag wird NICHT aufgehängt. Danach geht es mit dem nächsten Satz der Liste weiter. Hat Elsbeth bis einschließlich Satz 6 nichts vorgeschlagen, entfällt die Ablehnung, und das wird als Ergebnis festgehalten."
+      }
+    },
+    {
+      "id": "E-knapp",
+      "titel": "Schwierige Gesprächsführung: der Gast antwortet knapp und weicht aus",
+      "rolle_fuer_auswertung": "Mann, 61, erfunden. Wortkarg, weicht der ersten Frage aus. Öffnet sich erst beim Garten.",
+      "gast": [
+        "Weiß nicht.",
+        "Arbeit halt.",
+        "Geht so.",
+        "Können wir über was anderes reden?",
+        "Mein Garten. Da bin ich am liebsten.",
+        "Tomaten. 14 Sorten.",
+        "Warum willst du das wissen?",
+        "Die Ochsenherz. Die wird nie rot, solange man hinschaut."
+      ]
+    }
+  ],
+  "bedingungen": {
+    "1-frei": "Freie Elsbeth: ihre Persönlichkeit, ihr Figurenkanon und die notwendigen Schutzregeln, dieselben Sprach- und Formregeln und dieselben Ton-Beispiele. Keine Bilderrahmen, keine Figurenzählung, kein vorgegebener Erlebnisablauf, kein STAND-Block, keine Zeichen.",
+    "2-erlebnis": "Elsbeth im Erlebnis: dasselbe wie 1, zusätzlich die heutige Steuerung des Flurs mit fünf Rahmen (Anweisung des Tisch-Prototyps unverändert, mit STAND-Block und Zeichen). Schlägt Elsbeth einen Anteil vor, wird er vor der nächsten Gastnachricht so aufgehängt, wie sie ihn vorgeschlagen hat (Klick-Ereignis, kein Gastsatz). Ausnahme: der abgelehnte erste Vorschlag in Fall D. Sind alle fünf Rahmen voll, geht es mit den restlichen Gastnachrichten im Flur weiter."
+  },
+  "ablauf": {
+    "stufe_1_modellvergleich": "Alle drei Modelle, alle fünf Fälle, Bedingung 2 (Erlebnis), je 2 Wiederholungen = 30 Gespräche.",
+    "stufe_2_bedingungen": "Nur das Modell, das Petra in Stufe 1 am meisten überzeugt: Fälle A, B, C und E in Bedingung 1 (frei), je 2 Wiederholungen = 8 Gespräche. Verglichen wird mit den Läufen desselben Modells aus Stufe 1 (Bedingung 2). Fall D gibt es nur im Erlebnis."
+  },
+  "pruefpunkte": [
+    "Würde man ihr freiwillig weitererzählen?",
+    "Reagiert sie konkret auf das Gesagte?",
+    "Erkennt sie Zusammenhänge über mehrere Runden?",
+    "Stellt sie interessante, manchmal überraschende Fragen?",
+    "Hat sie einen eigenen Charakter (mit den kursiven Handlungszeilen)?",
+    "Entsteht Humor aus der Situation?",
+    "Vermeidet sie oberflächliche Zusammenfassungen?",
+    "Bleibt sie neugierig statt therapeutisch-belehrend?",
+    "Kann sie mit begeisterten und neugierigen Gästen umgehen?",
+    "Bleibt die Gesprächsqualität erhalten, wenn die Bilderrahmen dazukommen?"
+  ]
+}

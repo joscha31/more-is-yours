@@ -1,6 +1,6 @@
 # Elsbeth-Vergleich: Testkatalog v1
 
-Stand: 29.10.2026 · Status: **ENTWURF / PETRA REVIEW** – vor den kostenpflichtigen Tests zur Durchsicht. Nach Petras Freigabe wird kein Satz mehr verändert; neue Fälle kommen als neue Fälle dazu (v2, v3 …).
+Stand: 29.10.2026 · Status: **ÜBERHOLT durch `testkatalog-v2.md` (29.10.), nie freigegeben, nie gelaufen** · vorher ENTWURF / PETRA REVIEW – vor den kostenpflichtigen Tests zur Durchsicht. Nach Petras Freigabe wird kein Satz mehr verändert; neue Fälle kommen als neue Fälle dazu (v2, v3 …).
 Geschrieben von Claude Code im Auftrag von Petra und ChatGPT. Noch keine Aufrufe, keine Kosten, keine Änderung am öffentlichen System.
 
 Maschinenlesbar: `katalog-v1.json` (dieselben Sätze). Exakt gesendete Anweisungen: `anweisung-A-frei.md`, `anweisung-B-flur.md`. Skript im Arbeitsbereich: `scripts/elsbeth-vergleich.js`.
