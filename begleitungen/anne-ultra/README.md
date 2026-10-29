@@ -22,6 +22,8 @@ Petra begleitet ihre Freundin Anne (56, Bozen, Physiotherapeutin, Triathlon und 
 - Wochenumfang derzeit mindestens 45 km in 3 Läufen, dazu Kraft und Rad
 
 ## App
+**Live:** https://annes-nachtstart.vercel.app (Vercel-Projekt `annes-nachtstart`, Team petra67, seit 29.10.2026). Nicht mit Git verknüpft: Änderungen erscheinen erst nach einem neuen Deployment von diesem Branch.
+
 `app.html` ist die Vorschau-Fassung für Claude-Artifacts (ohne eigenen Dokumentrahmen).
 `index.html` ist dieselbe Seite als eigenständige Datei, z. B. für Vercel.
 
