@@ -20,4 +20,4 @@
 Die Elsbeth-Gesprächsprobe auswerten: Die 36 Testgast-Gespräche (6 Modelle) liegen blind bereit, Petra führt dazu eigene Gespräche, blind, und löst erst am Ende auf. Prüfmaßstab: „Würdest du mit dieser Elsbeth freiwillig weiterreden?“
 
 ## 4. WARTET AUF PETRA
-- Petras Urteil nach der Probe: Welche Fassung und welches Modell überzeugen? (Modelle und Kosten am 30.10. von Petra freigegeben: sechs Modelle, ohne Obergrenze.)
+- Erstes Ergebnis (30.10.): In Petras 6 Gesprächen klang Elsbeth in beiden Fassungen noch nach KI; alle Gespräche waren nach 3 bis 4 Wechseln an einer Tür. Petra entscheidet den nächsten Schritt: Testgast-Gespräche lesen oder eine Fassung 0.13 gegen das schnelle Türenanbieten. (Modelle und Kosten am 30.10. freigegeben: sechs Modelle, ohne Obergrenze.)
