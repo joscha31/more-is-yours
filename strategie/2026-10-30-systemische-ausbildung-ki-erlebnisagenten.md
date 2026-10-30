@@ -70,6 +70,8 @@ Geprüft wird an vollständigen Gesprächen. Prüffragen sind unter anderem:
 9. War das Erlebnis lebendig, interessant und freiwillig?
 10. Konnte der Gast selbst beurteilen, ob sein Anliegen erfüllt wurde?
 
+Wie das zuerst erprobt wird (eine KI spielt die Figuren und führt die Regie, nachträgliche Prüfung, Petra urteilt zuletzt), legt die Teststrategie fest: `entscheidungen/2026-10-30-teststrategie-ki-regie-und-erlebnisfiguren.md` (PETRA APPROVED 30.10., nur die Strategie).
+
 Nicht bestandene Tests dienen der Verbesserung. Es gibt keine automatische Zertifizierung und keine garantierte Gesprächsqualität. (Passt zu `PROZESS.md`, Regel 7: Auch misslungene Antworten werden dokumentiert.)
 
 ### Stufe 4 – Eigene Persönlichkeit
@@ -103,6 +105,8 @@ Eine Methode ist nicht deshalb gut, weil sie fachlich anerkannt ist. Entscheiden
 **Beispiel:** Ein Gast soll einen Film über sich selbst inszenieren und fühlt sich dabei zunehmend unwohl. Der Agent setzt das Drehbuch nicht stur fort. Er kann eine Alternative anbieten, etwa ein anderes Erlebnis, eine andere Ausdrucksform oder einen spielerischeren Zugang.
 
 > **Eine Methode dient dem Menschen. Nicht der Mensch der Methode.**
+
+*Hinweis (30.10.):* Für die Reihenfolge gilt die Teststrategie (PETRA APPROVED): Zuerst werden Figuren und Verlauf innerhalb desselben Erlebnisses angepasst. Ein anderes Erlebnis gibt es nur, wenn der Gast es ausdrücklich wählt. Siehe `entscheidungen/2026-10-30-teststrategie-ki-regie-und-erlebnisfiguren.md`.
 
 ### D. Pacing
 - Die Agenten passen Sprache, Tempo, Komplexität und Kommunikationsstil an ihr Gegenüber an.
