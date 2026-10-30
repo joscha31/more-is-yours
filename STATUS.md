@@ -6,6 +6,7 @@
 ## 2. WO WIR STEHEN
 - **Phase 2 – Elsbeth spricht**, unverändert (`PROZESS.md`). Eine neue Phase gibt es nur mit Petras Zustimmung.
 - **Elsbeth:** live läuft **0.4** mit Claude Haiku 5.5, unverändert. Letzter Entwurf **0.11** (20.10.), nicht im Server. Neu: **Prüffassung 0.12** für das Gastgebergespräch (30.10., TEST / PETRA REVIEW): Spiegel-Regel, Mustersätze und Rat-Formel heraus, Zuhören, eigene Meinung, Humor aus der Lage, keine Eile; Schutzblock wörtlich. Dazu eine blinde Probe nur auf Petras Mac (0.11 gegen 0.12, eigene Gespräche plus antwortender Testgast, kein Flur, kein Zähler). Noch nichts gesendet, keine Kosten. Bericht: `berichte-fuer-chatgpt/2026-10-30-elsbeth-0.12-pruef-fassung.md`.
+- **Neu 30.10. abends: Testfassung 0.13** (TEST / PETRA REVIEW), gebaut nach Mabels Gesprächsregeln: etwas Eigenes statt Fragen, Meinung behalten, „Neugier“ ist keine Bitte um eine Tür, das Gespräch ist schon der Besuch; Schutzblock wörtlich. Kostenloser Probelauf mit Helfern (kein Messergebnis): weniger Fragebogen, mehr eigene Gedanken, kein vorschnelles Türenanbieten, aber deutlich längere Antworten und an der verletzlichsten Stelle in beiden Fassungen ein Kalenderspruch. Bericht: `berichte-fuer-chatgpt/2026-10-30-elsbeth-0.13-testfassung-mabel-vergleich.md`. Noch nicht in die Probe-Seite eingebaut.
 - **Konsolidierung (Petras Auftrag 30.10.):** Weniger Baustellen, mehr Qualität. Zwei gleichberechtigte Qualitätsziele:
   - **A – Erlebniswelt:** außergewöhnlich schön und lebendig, geheimnisvoll, hochwertig. Die bisherigen Bilder überzeugen Petra nicht; die neue Bildwelt entsteht mit Petra, ChatGPT und gegebenenfalls Higgsfield.
     Freigegeben 30.10. (`entscheidungen/2026-10-30-visuelle-identitaet-goldstaub-masterbild-drei-ideen.md`): Goldstaub nur sehr dezent · Elsbeths Masterbild nur noch Referenz für ihre Identität, für Räume keine Pflichtvorlage. Visuelle Leitlinie und Higgsfield-Leitlinie liegen in `strategie/` als PETRA REVIEW.
@@ -17,7 +18,8 @@
 - **Überblick und Begründungen:** `berichte-fuer-chatgpt/2026-10-30-konsolidierung-qualitaet-im-mittelpunkt.md`. Frühere Fassung dieser Datei mit allen Einzelheiten: `archiv/2026-10-30-STATUS-vor-konsolidierung.md`.
 
 ## 3. DER EINE NÄCHSTE SCHRITT
-Die Elsbeth-Gesprächsprobe auswerten: Die 36 Testgast-Gespräche (6 Modelle) liegen blind bereit, Petra führt dazu eigene Gespräche, blind, und löst erst am Ende auf. Prüfmaßstab: „Würdest du mit dieser Elsbeth freiwillig weiterreden?“
+Petra führt ein langes Gespräch mit Elsbeth 0.13 gegen 0.12, blind, mit kurzen Antworten begonnen und mit einem zwiespältigen Moment darin. Prüfmaßstab: „Möchte ich mit dieser Frau freiwillig weiterreden?“
 
 ## 4. WARTET AUF PETRA
-- Erstes Ergebnis (30.10.): In Petras 6 Gesprächen klang Elsbeth in beiden Fassungen noch nach KI; alle Gespräche waren nach 3 bis 4 Wechseln an einer Tür. Petra entscheidet den nächsten Schritt: Testgast-Gespräche lesen oder eine Fassung 0.13 gegen das schnelle Türenanbieten. (Modelle und Kosten am 30.10. freigegeben: sechs Modelle, ohne Obergrenze.)
+- Darf 0.13 in die Probe-Seite (eine Zeile, Gespräche kosten je nach Modell rund 5 bis 30 Cent)? Gilt dafür die Freigabe vom 30.10. („Modelle testen, Obergrenze ohne“)?
+- Erstes Ergebnis (30.10.): In Petras 6 Gesprächen klang Elsbeth in beiden Fassungen noch nach KI; alle Gespräche waren nach 3 bis 4 Wechseln an einer Tür. Die Fassung 0.13 gegen das schnelle Türenanbieten liegt jetzt vor; die 36 Testgast-Gespräche bleiben blind lesbar. (Modelle und Kosten am 30.10. freigegeben: sechs Modelle, ohne Obergrenze.)
