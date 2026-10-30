@@ -118,7 +118,7 @@ function zeile(wer, text) {
 async function stand() {
   const s = await post('/api/stand');
   $('#stand').textContent = s.trocken ? 'Trockenlauf: Es wird nichts gesendet, es entstehen keine Kosten.' : `Läuft mit ${s.modell.replace('anthropic/', '')} · bisher ${s.ausgegeben.toFixed(2)} $ (Notbremse gegen Technikfehler bei ${s.budget} $)`;
-  $('#liste').innerHTML = s.gespraeche.length ? '<div class="leise">Bisher</div>' + s.gespraeche.sort((a, b) => a.nr - b.nr).map(g => `<div>Gespräch ${g.nr} · ${g.rolle} · ${g.wechsel} Wechsel · ${g.bewertet ? '✓ bewertet' : 'noch nicht bewertet'}</div>`).join('') : '<div class="leise">Noch keine Gespräche.</div>';
+  $('#liste').innerHTML = s.gespraeche.length ? '<div class="leise">Bisher</div>' + s.gespraeche.sort((a, b) => a.nr - b.nr).map(g => `<div style="margin:6px 0">Gespräch ${g.nr} · ${g.rolle} · ${g.wechsel} Wechsel · ${g.bewertet ? '✓ bewertet' : 'noch nicht bewertet'} <button class="oeffnen" data-id="${g.id}" style="font-size:15px;padding:4px 10px;margin-left:6px">Öffnen</button></div>`).join('') : '<div class="leise">Noch keine Gespräche.</div>';
 }
 document.querySelectorAll('[data-reiter]').forEach(b => b.onclick = async () => {
   document.querySelectorAll('[data-reiter]').forEach(x => x.classList.toggle('an', x === b));
@@ -132,6 +132,18 @@ document.querySelectorAll('[data-reiter]').forEach(b => b.onclick = async () => 
 });
 document.querySelectorAll('#rollen button').forEach(b => b.onclick = () => { rolle = b.dataset.rolle; document.querySelectorAll('#rollen button').forEach(x => x.classList.toggle('an', x === b)); });
 document.querySelectorAll('#weiter button').forEach(b => b.onclick = () => { weiter = b.dataset.w; document.querySelectorAll('#weiter button').forEach(x => x.classList.toggle('an', x === b)); });
+// Ein gespeichertes Gespräch wieder öffnen: zu Ende lesen, weiterreden oder bewerten.
+$('#liste').addEventListener('click', async ev => {
+  const b = ev.target.closest('.oeffnen'); if (!b) return;
+  aktuell = await post('/api/lade', { id: b.dataset.id }); weiter = aktuell.bewertung?.weiterreden || '';
+  document.querySelectorAll('#weiter button').forEach(x => x.classList.toggle('an', x.dataset.w === weiter));
+  $('#lebendig').value = aktuell.bewertung?.lebendig || ''; $('#kuenstlich').value = aktuell.bewertung?.kuenstlich || '';
+  $('#start').hidden = true; $('#gespraech').hidden = false; $('#eingabe').hidden = aktuell.tuer; $('#bewertung').hidden = !aktuell.tuer;
+  $('#verlauf').innerHTML = ''; $('#kopf').textContent = `Gespräch ${aktuell.nr} · ${aktuell.rolle}`;
+  aktuell.verlauf.forEach(v => zeile(v.wer, v.text));
+  if (aktuell.tuer) { const h = document.createElement('div'); h.className = 'zeile hinweis'; h.textContent = 'Hier würde jetzt das Erlebnis beginnen. Die Probe endet an der Tür.'; $('#verlauf').append(h); }
+  window.scrollTo({ top: 0 });
+});
 $('#neu').onclick = async () => {
   aktuell = await post('/api/neu', { rolle }); weiter = '';
   $('#start').hidden = true; $('#gespraech').hidden = false; $('#eingabe').hidden = false; $('#bewertung').hidden = true;

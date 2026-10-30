@@ -50,6 +50,7 @@ async function api(pfad, daten) {
     const g = { id: crypto.randomBytes(6).toString('hex'), nr, fassung: naechsteFassung(), modell: JA ? naechstesModell() : 'trockenlauf', rolle: String(daten.rolle || '').slice(0, 60), beginn: new Date().toISOString(), verlauf: [{ wer: 'elsbeth', text: BEGRUESSUNG }], kosten: 0, tuer: false };
     speichere(g); return ohneSchluessel(g);
   }
+  if (pfad === '/api/lade') return ohneSchluessel(lade(daten.id));
   if (pfad === '/api/sag') {
     const g = lade(daten.id);
     if (g.tuer) throw new Error('Die Tür ist schon offen, die Probe endet hier.');

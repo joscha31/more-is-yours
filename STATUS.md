@@ -17,7 +17,7 @@
 - **Überblick und Begründungen:** `berichte-fuer-chatgpt/2026-10-30-konsolidierung-qualitaet-im-mittelpunkt.md`. Frühere Fassung dieser Datei mit allen Einzelheiten: `archiv/2026-10-30-STATUS-vor-konsolidierung.md`.
 
 ## 3. DER EINE NÄCHSTE SCHRITT
-Die Elsbeth-Gesprächsprobe läuft: 36 Gespräche mit dem antwortenden Testgast (6 Modelle), dazu führt Petra eigene Gespräche, blind, und löst erst am Ende auf. Prüfmaßstab: „Würdest du mit dieser Elsbeth freiwillig weiterreden?“
+Die Elsbeth-Gesprächsprobe auswerten: Die 36 Testgast-Gespräche (6 Modelle) liegen blind bereit, Petra führt dazu eigene Gespräche, blind, und löst erst am Ende auf. Prüfmaßstab: „Würdest du mit dieser Elsbeth freiwillig weiterreden?“
 
 ## 4. WARTET AUF PETRA
 - Petras Urteil nach der Probe: Welche Fassung und welches Modell überzeugen? (Modelle und Kosten am 30.10. von Petra freigegeben: sechs Modelle, ohne Obergrenze.)

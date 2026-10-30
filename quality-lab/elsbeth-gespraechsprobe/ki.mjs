@@ -1,6 +1,6 @@
 // Gemeinsamer KI-Anschluss für die Gesprächsprobe (Seite und Testgast).
 // Ohne --ja wird NICHTS gesendet (Trockenlauf, keine Kosten).
-// Mit --ja geht jede Anfrage über OpenRouter; vor JEDEM Aufruf wird der schlimmste Fall gegen die Obergrenze gerechnet.
+// Mit --ja geht jede Anfrage direkt an Anthropic oder OpenAI (oder mit --weg openrouter über OpenRouter); vor JEDEM Aufruf wird der schlimmste Fall gegen die Obergrenze gerechnet.
 // Elsbeth bekommt nur ihre Anweisung und den Gesprächsverlauf: kein Zähler, keine Regie-Zeile, kein Flur.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -23,7 +23,7 @@ export const FASSUNG_NAME = { X: '0.11', Y: '0.12-Prüffassung' };
 // Petras freigegebene Begrüßung (Entscheidung 19.10., 0.8-Freigabe Punkt 2). Die Seite zeigt sie fest, in beiden Fassungen gleich.
 export const BEGRUESSUNG = 'Da bist du ja. Ich bin Elsbeth Unknown. Und wie darf ich dich nennen?';
 
-// Listenpreise in $ je Million Tokens (OpenRouter, abgerufen 30.10.2026). Nur für die Vorab-Bremse; gebucht wird der echte Preis.
+// Listenpreise in $ je Million Tokens (abgerufen 30.10.2026, bei OpenRouter und direkt gleich). Daraus werden die Kosten je Anfrage gerechnet.
 export const PREISE = {
   'anthropic/claude-haiku-5.5': [0.1, 0.5], 'anthropic/claude-sonnet-5.5': [2, 10], 'anthropic/claude-opus-5.5': [4, 20],
   'openai/gpt-6-luna': [0.1, 0.5], 'openai/gpt-6.1-sol': [2, 10], 'openai/gpt-6-astra': [10, 50],
@@ -35,8 +35,40 @@ const AUSGABEN = path.join(HIER, opt('kasse', 'ausgaben.json'));
 const bisher = () => fs.existsSync(AUSGABEN) ? JSON.parse(fs.readFileSync(AUSGABEN, 'utf8')) : { gesamt_usd: 0, posten: [] };
 export const ausgegeben = () => bisher().gesamt_usd;
 
-function schluessel() {
-  return fs.readFileSync(path.join(os.homedir(), 'Desktop', 'OPENROUTER-API-KEY.txt'), 'utf8').trim();
+// Weg zu den Modellen: direkt bei Anthropic und OpenAI (Standard, Schlüssel vom Modellvergleich)
+// oder über OpenRouter (--weg openrouter). Der direkte Weg hängt nicht am OpenRouter-Guthaben.
+const WEG = opt('weg', 'direkt');
+const datei = n => fs.readFileSync(path.join(os.homedir(), 'Desktop', n), 'utf8').trim();
+const DIREKT_ID = m => m.split('/')[1].replace('claude-haiku-5.5', 'claude-haiku-5-5').replace('claude-sonnet-5.5', 'claude-sonnet-5-5').replace('claude-opus-5.5', 'claude-opus-5-5');
+
+async function sende(modell, system, messages, maxTokens, temperatur) {
+  const anthropic = modell.startsWith('anthropic/'), p = PREISE[modell];
+  if (WEG === 'openrouter') {
+    const body = { model: modell, max_tokens: maxTokens, temperature: temperatur, usage: { include: true },
+      messages: [{ role: 'system', content: anthropic ? [{ type: 'text', text: system, cache_control: { type: 'ephemeral' } }] : system }, ...messages] };
+    if (!anthropic) { delete body.temperature; body.reasoning = { effort: 'medium' }; }
+    const r = await fetch('https://openrouter.ai/api/v1/chat/completions', { method: 'POST',
+      headers: { authorization: 'Bearer ' + datei('OPENROUTER-API-KEY.txt'), 'content-type': 'application/json', 'X-Title': 'Elsbeth-Gespraechsprobe' }, body: JSON.stringify(body) });
+    const d = await r.json();
+    return { ok: r.ok, status: r.status, d, text: d.choices?.[0]?.message?.content, kosten: Number(d.usage?.cost || 0), ein: d.usage?.prompt_tokens, aus: d.usage?.completion_tokens };
+  }
+  if (anthropic) {
+    const r = await fetch('https://api.anthropic.com/v1/messages', { method: 'POST',
+      headers: { 'x-api-key': datei('ANTHROPIC-API-KEY.txt'), 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
+      body: JSON.stringify({ model: DIREKT_ID(modell), max_tokens: maxTokens,
+        system: [{ type: 'text', text: system, cache_control: { type: 'ephemeral' } }], messages }) });
+    const d = await r.json(), u = d.usage || {};
+    const kosten = ((u.input_tokens || 0) * p[0] + (u.cache_read_input_tokens || 0) * p[0] * 0.1 + (u.cache_creation_input_tokens || 0) * p[0] * 1.25 + (u.output_tokens || 0) * p[1]) / 1e6;
+    return { ok: r.ok, status: r.status, d, text: (d.content || []).filter(x => x.type === 'text').map(x => x.text).join('').trim(), kosten, ein: u.input_tokens, aus: u.output_tokens };
+  }
+  const r = await fetch('https://api.openai.com/v1/responses', { method: 'POST',
+    headers: { authorization: 'Bearer ' + datei('OPENAI-API-KEY-TISCHTEST.txt'), 'content-type': 'application/json' },
+    body: JSON.stringify({ model: DIREKT_ID(modell), instructions: system, input: messages, reasoning: { effort: 'medium' },
+      max_output_tokens: maxTokens, store: false, prompt_cache_key: 'elsbeth-probe-' + DIREKT_ID(modell) }) });
+  const d = await r.json(), u = d.usage || {}, cache = u.input_tokens_details?.cached_tokens || 0;
+  const text = (d.output || []).filter(o => o.type === 'message').flatMap(o => o.content || []).filter(c => c.type === 'output_text').map(c => c.text).join('').trim();
+  const kosten = (((u.input_tokens || 0) - cache) * p[0] + cache * p[0] * 0.1 + (u.output_tokens || 0) * p[1]) / 1e6;
+  return { ok: r.ok, status: r.status, d, text, kosten, ein: u.input_tokens, aus: u.output_tokens };
 }
 
 // messages: [{role:'user'|'assistant', content}]
@@ -48,30 +80,19 @@ export async function frage({ modell, system, messages, maxTokens, temperatur = 
   if (!BUDGET) throw new Error('Keine Obergrenze gesetzt (--budget).');
   const zeichen = system.length + messages.reduce((s, m) => s + m.content.length, 0);
   const schlimmst = (zeichen / 3) * p[0] * 1.25 / 1e6 + maxTokens * p[1] / 1e6;
-  const b = bisher();
-  if (b.gesamt_usd + schlimmst > BUDGET) throw new Error(`Obergrenze erreicht: ${b.gesamt_usd.toFixed(3)} $ von ${BUDGET} $ ausgegeben. Nichts mehr gesendet.`);
-  const body = {
-    model: modell, max_tokens: maxTokens, temperature: temperatur, usage: { include: true },
-    messages: [{ role: 'system', content: modell.startsWith('anthropic/') ? [{ type: 'text', text: system, cache_control: { type: 'ephemeral' } }] : system }, ...messages],
-  };
-  if (modell.startsWith('openai/')) { delete body.temperature; body.reasoning = { effort: 'medium' }; }
-  let d;
+  if (bisher().gesamt_usd + schlimmst > BUDGET) throw new Error(`Notbremse: ${bisher().gesamt_usd.toFixed(3)} $ von ${BUDGET} $ ausgegeben. Nichts mehr gesendet.`);
+  let r;
   for (let versuch = 1; ; versuch++) {
-    const r = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-      method: 'POST',
-      headers: { authorization: 'Bearer ' + schluessel(), 'content-type': 'application/json', 'X-Title': 'Elsbeth-Gespraechsprobe' },
-      body: JSON.stringify(body),
-    });
-    d = await r.json();
-    if (r.ok && d.choices?.[0]?.message?.content) break;
-    if (versuch >= 3) throw new Error(`${r.status} ${JSON.stringify(d).slice(0, 300)}`);
-    await new Promise(z => setTimeout(z, 3000 * versuch));
+    r = await sende(modell, system, messages, maxTokens, temperatur);
+    if (r.ok && r.text) break;
+    if (versuch >= 4) throw new Error(`${r.status} ${JSON.stringify(r.d).slice(0, 300)}`);
+    await new Promise(z => setTimeout(z, 4000 * versuch));
   }
-  const kosten = Number(d.usage?.cost || 0);
-  b.gesamt_usd += kosten;
-  b.posten.push({ zeit: new Date().toISOString(), modell, etikett, usd: kosten, ein: d.usage?.prompt_tokens, aus: d.usage?.completion_tokens });
+  const b = bisher();
+  b.gesamt_usd += r.kosten;
+  b.posten.push({ zeit: new Date().toISOString(), weg: WEG, modell, etikett, usd: r.kosten, ein: r.ein, aus: r.aus });
   fs.writeFileSync(AUSGABEN, JSON.stringify(b, null, 1));
-  return { text: d.choices[0].message.content.trim(), kosten };
+  return { text: r.text.trim(), kosten: r.kosten };
 }
 
 // Elsbeth antwortet. verlauf: [{wer:'elsbeth'|'gast', text}], beginnt mit der festen Begrüßung.
