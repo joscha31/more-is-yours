@@ -52,3 +52,19 @@ Grundlage: `berichte-fuer-chatgpt/2026-10-30-more-is-yours-in-chatgpt-machbarkei
 ## Was danach kommt
 
 Petra meldet die Zählung, oder Claude im Browser zählt mit Petras Erlaubnis in ihrem Konto mit. Dann entscheidet Petra mit ChatGPT, ob der Weg weiterverfolgt wird. Abschalten lässt sich die Probe jederzeit: das Plugin in ChatGPT entfernen und die Datei `api/mcp.js` aus der Zentrale löschen.
+
+## Durchlauf 1 (30.10.2026, gefahren von Claude im Browser in Petras Konto, mit Petras Freigabe)
+
+**Verbinden:** Das Plugin „More is Yours Flur-Probe“ ist in Petras ChatGPT eingetragen, mit der Adresse oben und ohne Anmeldung. ChatGPT meldet „ist jetzt verbunden“. Beim Verbinden zeigt ChatGPT einen Hinweis, den der Machbarkeitsbericht so noch nicht kannte: *„ChatGPT kann relevante Erinnerungen (sofern aktiviert) und Chats mit dieser App teilen“*, und Inhalte können zum Training einfließen, wenn „Das Modell für alle verbessern“ eingeschaltet ist. Unser Server nimmt nur Name und Anliegen an. Was ChatGPT grundsätzlich teilen *darf*, ist trotzdem weiter gefasst. → Punkt für Dr. Falk.
+
+**Das Gespräch** (erfundene Geschichte, Sätze aus Fall A):
+
+| Messfrage | Ergebnis |
+|---|---|
+| Hat sich der Flur beim Start gezeigt? | ✅ ja, mit leerem Rahmen; Elsbeth begrüßt wörtlich wie vorgegeben |
+| Stand Elsbeths Vorschlag im Rahmen? | ✅ ja. Nach 4 Gastsätzen und der Geschlechterfrage schlägt sie „die Sehnsüchtige“ vor, und das Modell ruft `figur_vorschlagen` von sich aus auf. Der Rahmen zeigt Namen, Anliegen und Knöpfe. |
+| Ist nach „Aufhängen“ das Porträt erschienen? | ❓ **nicht prüfbar.** Klicks von Claude im Browser erreichen die Knöpfe im ChatGPT-Fenster nicht: Laut Server-Protokoll kam kein Aufruf an, und es erschien auch keine Fehlermeldung. Das muss ein Mensch mit der Maus prüfen. |
+| Wusste Elsbeth danach, dass es hängt? | ❓ folgt aus der Zeile davor |
+| Ist sie Elsbeth geblieben? | erster Eindruck, kein Urteil: Sie blieb erst lange im Gespräch (keine Eile zum Flur), lachte nicht über das Beleidigtsein und bat nicht darum, den Namen der Freundin wegzulassen. Sie fasste aber noch zusammen und sprach von „fünf leeren Bilderrahmen“, obwohl heute nur einer hängt. |
+
+**Technisch:** Der Server schreibt jetzt je Aufruf nur Methode und Werkzeugnamen ins Protokoll (keine Inhalte). So lässt sich bei Petras Klick sehen, ob „Aufhängen“ ankommt.
