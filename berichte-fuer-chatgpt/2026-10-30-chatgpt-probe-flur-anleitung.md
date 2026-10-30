@@ -63,8 +63,10 @@ Petra meldet die Zählung, oder Claude im Browser zählt mit Petras Erlaubnis in
 |---|---|
 | Hat sich der Flur beim Start gezeigt? | ✅ ja, mit leerem Rahmen; Elsbeth begrüßt wörtlich wie vorgegeben |
 | Stand Elsbeths Vorschlag im Rahmen? | ✅ ja. Nach 4 Gastsätzen und der Geschlechterfrage schlägt sie „die Sehnsüchtige“ vor, und das Modell ruft `figur_vorschlagen` von sich aus auf. Der Rahmen zeigt Namen, Anliegen und Knöpfe. |
-| Ist nach „Aufhängen“ das Porträt erschienen? | ❓ **nicht prüfbar.** Klicks von Claude im Browser erreichen die Knöpfe im ChatGPT-Fenster nicht: Laut Server-Protokoll kam kein Aufruf an, und es erschien auch keine Fehlermeldung. Das muss ein Mensch mit der Maus prüfen. |
-| Wusste Elsbeth danach, dass es hängt? | ❓ folgt aus der Zeile davor |
+| Ist nach „Aufhängen“ das Porträt erschienen? | ✅ **ja, mit Petras eigenem Klick** (11:28 Uhr). Laut Server-Protokoll kam `figur_aufhaengen` an, das verschleierte Porträt erschien, und die Nachricht „Ich hänge „die Sehnsüchtige“ in den Rahmen.“ ging als Petras Satz ins Gespräch. Die Klicks von Claude im Browser erreichten die Knöpfe dagegen nicht: Für die übrigen Durchläufe muss ein Mensch klicken. |
+| Wusste Elsbeth danach, dass es hängt? | ✅ ja: „Na bitte. Die Sehnsüchtige hat ihren Platz gefunden.“ Vorher hatte sie es nicht behauptet. **Aber:** Die Probe-Regel „hängt das eine Bild, endet der Flur für heute“ hat sie nicht befolgt. Sie fragte weiter („Was hat dich an dieser Geburtstagsfeier eigentlich am meisten getroffen?“), schlug allerdings keine zweite Figur vor. |
 | Ist sie Elsbeth geblieben? | erster Eindruck, kein Urteil: Sie blieb erst lange im Gespräch (keine Eile zum Flur), lachte nicht über das Beleidigtsein und bat nicht darum, den Namen der Freundin wegzulassen. Sie fasste aber noch zusammen und sprach von „fünf leeren Bilderrahmen“, obwohl heute nur einer hängt. |
+
+**Zwischenstand nach Durchlauf 1:** Der ganze technische Weg funktioniert einmal von vorn bis hinten: Flur, Vorschlag durch das Modell, Aufhängen per Knopf, Elsbeth weiß Bescheid. Für die Abbruchregel braucht es noch 9 weitere Durchläufe mit menschlichem Klick.
 
 **Technisch:** Der Server schreibt jetzt je Aufruf nur Methode und Werkzeugnamen ins Protokoll (keine Inhalte). So lässt sich bei Petras Klick sehen, ob „Aufhängen“ ankommt.
