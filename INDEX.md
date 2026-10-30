@@ -1,6 +1,6 @@
 # INDEX – More is Yours
 
-**Stand:** 25. Oktober 2026  
+**Stand:** 30. Oktober 2026  
 **Funktion:** Zentrales Inhaltsverzeichnis des Projekts
 
 > Der Index enthält keine ausführlichen Fachinhalte. Er zeigt nur, welche Dateien es gibt, wofür sie zuständig sind und welchen Status sie haben.
@@ -42,6 +42,15 @@ Widersprüche werden sichtbar gemacht und bewusst entschieden.
 | Datei | Funktion | Status |
 |---|---|---|
 | `entscheidungen/2026-10-13-name-more-is-yours-the-world-of-the-unknown.md` | Bestätigter Name „MORE IS YOURS – The World of the Unknown“; getrennt von Bau- und Veröffentlichungsfreigabe | **PETRA APPROVED** |
+
+## Visuelle Welt und Bildgestaltung
+
+| Datei | Funktion | Status |
+|---|---|---|
+| `gesetze/2026-10-15-stil-gesetz-mystic.md` | Stil-Gesetz „Mystic“: Nachtblau, Gold, Creme, warmes Licht, Materialien, Schrift, Türen, Stockwerk-Vorschlag; seit 30.10. mit Abschnitt 3b (Goldstaub dezent, Masterbild nur für Elsbeths Identität, drei getrennte Ideen) | **PETRA APPROVED** (Stil 15.10., Abschnitt 3b 30.10.); Stockwerke: FACH-LAB-VORSCHLAG / PETRA REVIEW |
+| `entscheidungen/2026-10-30-visuelle-identitaet-goldstaub-masterbild-drei-ideen.md` | Goldstaub sehr dezent · Elsbeths Masterbild als Identitäts-Referenz, Kleidung und Frisur dürfen wechseln, für Räume keine Pflichtvorlage · Hotel der verlorenen Kontrolle, Hotel der ungelebten Möglichkeiten, Garderobe der ungelebten Möglichkeiten getrennt (nur die Unterscheidung) | **PETRA APPROVED** |
+| `strategie/2026-10-30-visuelle-leitlinie-arbeitsfassung.md` | Visuelle Leitlinie: Grundgefühl, Farben, Materialien, Licht, drei Ebenen (real, poetisch, unmöglich), Stufung je Erlebnis, No-Gos, Prüffragen | **ARBEITSFASSUNG / PETRA REVIEW** (bis auf die drei Punkte der Entscheidung vom 30.10.) |
+| `strategie/2026-10-30-higgsfield-leitlinie-arbeitsfassung.md` | Mini-Leitlinie für Bild- und Videogenerierung mit Higgsfield: Referenzen, Aufbau eines Bildauftrags, Bilder für die Web-App, Video, Qualitätskontrolle, Aufgabenverteilung | **ARBEITSFASSUNG / PETRA REVIEW** (bis auf den Masterbild-Punkt) |
 
 ## Animation der Eingangshalle
 
