@@ -101,10 +101,16 @@
 <script>
 const $ = s => document.querySelector(s);
 let aktuell = null, rolle = 'ich selbst', weiter = '';
+const OHNE_SERVER = 'Die Probe ist gerade nicht gestartet. Doppelklick auf „Probe-starten.command“ im Ordner elsbeth-gespraechsprobe, dann diese Seite unter http://127.0.0.1:8794 neu laden.';
 async function post(pfad, daten = {}) {
-  const r = await fetch(pfad, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(daten) });
-  const d = await r.json(); if (!r.ok) throw new Error(d.fehler || 'Fehler'); return d;
+  let r;
+  try { r = await fetch(pfad, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(daten) }); }
+  catch (e) { throw new Error(OHNE_SERVER); }
+  const d = await r.json().catch(() => ({})); if (!r.ok) throw new Error(d.fehler || OHNE_SERVER); return d;
 }
+function zeigeFehler(e) { $('#stand').innerHTML = ''; const f = document.createElement('div'); f.className = 'fehler'; f.textContent = e.message; $('#stand').append(f); }
+window.addEventListener('unhandledrejection', ev => zeigeFehler(ev.reason));
+if (location.protocol === 'file:') setTimeout(() => zeigeFehler(new Error(OHNE_SERVER)), 0);
 function zeile(wer, text) {
   const z = document.createElement('div'); z.className = 'zeile ' + wer;
   const n = document.createElement('span'); n.className = 'wer'; n.textContent = wer === 'elsbeth' ? 'Elsbeth' : 'Du';
