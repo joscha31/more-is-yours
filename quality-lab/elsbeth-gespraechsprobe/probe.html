@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Elsbeth-Gesprächsprobe</title>
+<style>
+  :root { --grund:#142138; --karte:#243650; --tief:#0e1829; --kante:#5a4c34; --schrift:#f8f3ea; --leise:#d9d2c4; --gold:#d8b477; --gold-hell:#eccf98; --gruen:#8fd1b5; --rot:#d98a7a; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--grund); color:var(--schrift); font:19px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:20px 16px 80px; }
+  h1 { color:var(--gold); font-size:26px; margin:0 0 4px; }
+  .stand { color:var(--leise); font-size:15px; margin-bottom:18px; }
+  .reiter { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:18px; }
+  button { font:inherit; border-radius:12px; border:2px solid var(--gold); background:transparent; color:var(--schrift); padding:10px 16px; cursor:pointer; }
+  button.an, button.haupt { background:var(--gold); color:var(--grund); font-weight:600; }
+  button:disabled { opacity:.4; cursor:default; }
+  .karte { background:var(--karte); border:1px solid var(--kante); border-radius:16px; padding:16px 18px; margin-bottom:14px; }
+  .leise { color:var(--leise); font-size:16px; }
+  .chips { display:flex; gap:8px; flex-wrap:wrap; margin:10px 0 14px; }
+  .chips button { font-size:16px; padding:8px 12px; }
+  .zeile { margin:12px 0; padding:12px 16px; border-radius:14px; white-space:pre-wrap; }
+  .elsbeth { background:var(--tief); border-left:4px solid var(--gold); }
+  .gast { background:var(--karte); margin-left:12%; border-right:4px solid var(--gruen); }
+  .wer { font-size:14px; color:var(--gold-hell); display:block; margin-bottom:2px; }
+  textarea, input { width:100%; font:inherit; color:var(--schrift); background:var(--tief); border:1px solid var(--kante); border-radius:12px; padding:12px; }
+  textarea { min-height:90px; }
+  .knopfreihe { display:flex; gap:10px; flex-wrap:wrap; margin-top:10px; }
+  .hinweis { border-left:4px solid var(--gruen); padding-left:12px; }
+  .fehler { color:var(--rot); }
+  table { width:100%; border-collapse:collapse; font-size:17px; }
+  td, th { text-align:left; padding:6px 8px; border-bottom:1px solid var(--kante); }
+  pre { white-space:pre-wrap; font:inherit; }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Gespräch mit Elsbeth · Probe</h1>
+  <div class="stand" id="stand">…</div>
+
+  <div class="reiter">
+    <button class="an" data-reiter="sprechen">Selbst sprechen</button>
+    <button data-reiter="mitlesen">Testgast mitlesen</button>
+    <button data-reiter="aufloesen">Auflösen</button>
+  </div>
+
+  <section id="sprechen">
+    <div class="karte" id="start">
+      <div>Jedes Gespräch bekommt zufällig eine der beiden Fassungen. Welche, siehst du erst unter „Auflösen“.</div>
+      <div class="leise" style="margin-top:8px">Wenn du magst, nimm dir eine Rolle vor. Du kannst auch einfach du selbst sein.</div>
+      <div class="chips" id="rollen">
+        <button class="an" data-rolle="ich selbst">Ich selbst</button>
+        <button data-rolle="mit persönlichem Thema">Mit einem Thema</button>
+        <button data-rolle="nur neugierig">Nur neugierig</button>
+        <button data-rolle="frech, widersprechend">Frech, widersprechend</button>
+      </div>
+      <button class="haupt" id="neu">Neues Gespräch</button>
+    </div>
+
+    <div id="gespraech" hidden>
+      <div class="leise" id="kopf"></div>
+      <div id="verlauf"></div>
+      <div id="eingabe">
+        <div class="leise hinweis" style="margin:8px 0">Bitte keine Nachnamen, Adressen oder echten Namen anderer Menschen schreiben.</div>
+        <textarea id="text" placeholder="Was sagst du Elsbeth?"></textarea>
+        <div class="knopfreihe">
+          <button class="haupt" id="senden">Senden</button>
+          <button id="ende">Gespräch beenden</button>
+        </div>
+      </div>
+      <div class="karte" id="bewertung" hidden>
+        <div style="color:var(--gold-hell);font-weight:600">Würdest du mit dieser Elsbeth freiwillig weiterreden?</div>
+        <div class="chips" id="weiter">
+          <button data-w="ja">Ja</button><button data-w="eher ja">Eher ja</button><button data-w="eher nein">Eher nein</button><button data-w="nein">Nein</button>
+        </div>
+        <div class="leise">Was war lebendig? (wenn dir etwas einfällt)</div>
+        <textarea id="lebendig"></textarea>
+        <div class="leise" style="margin-top:8px">Was klang künstlich?</div>
+        <textarea id="kuenstlich"></textarea>
+        <div class="knopfreihe"><button class="haupt" id="speichern">Speichern</button></div>
+      </div>
+    </div>
+    <div class="karte" id="liste"></div>
+  </section>
+
+  <section id="mitlesen" hidden>
+    <div class="karte leise">Hier stehen die Gespräche mit dem antwortenden Testgast, nur mit Nummern. Erst lesen, dann auflösen.</div>
+    <div id="gastliste"></div>
+  </section>
+
+  <section id="aufloesen" hidden>
+    <div class="karte">
+      <div>Erst auflösen, wenn du alle Gespräche bewertet hast. Danach weißt du bei jedem, welche Fassung es war.</div>
+      <div class="knopfreihe"><button class="haupt" id="aufloesenKnopf">Jetzt auflösen</button></div>
+    </div>
+    <div id="ergebnis"></div>
+  </section>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+let aktuell = null, rolle = 'ich selbst', weiter = '';
+async function post(pfad, daten = {}) {
+  const r = await fetch(pfad, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(daten) });
+  const d = await r.json(); if (!r.ok) throw new Error(d.fehler || 'Fehler'); return d;
+}
+function zeile(wer, text) {
+  const z = document.createElement('div'); z.className = 'zeile ' + wer;
+  const n = document.createElement('span'); n.className = 'wer'; n.textContent = wer === 'elsbeth' ? 'Elsbeth' : 'Du';
+  z.append(n, document.createTextNode(text)); $('#verlauf').append(z); z.scrollIntoView({ behavior: 'smooth', block: 'end' });
+}
+async function stand() {
+  const s = await post('/api/stand');
+  $('#stand').textContent = s.trocken ? 'Trockenlauf: Es wird nichts gesendet, es entstehen keine Kosten.' : `Läuft mit ${s.modell.replace('anthropic/', '')} · bisher ${s.ausgegeben.toFixed(2)} $ von höchstens ${s.budget} $`;
+  $('#liste').innerHTML = s.gespraeche.length ? '<div class="leise">Bisher</div>' + s.gespraeche.sort((a, b) => a.nr - b.nr).map(g => `<div>Gespräch ${g.nr} · ${g.rolle} · ${g.wechsel} Wechsel · ${g.bewertet ? '✓ bewertet' : 'noch nicht bewertet'}</div>`).join('') : '<div class="leise">Noch keine Gespräche.</div>';
+}
+document.querySelectorAll('[data-reiter]').forEach(b => b.onclick = async () => {
+  document.querySelectorAll('[data-reiter]').forEach(x => x.classList.toggle('an', x === b));
+  ['sprechen', 'mitlesen', 'aufloesen'].forEach(id => $('#' + id).hidden = id !== b.dataset.reiter);
+  if (b.dataset.reiter === 'mitlesen') {
+    const { liste } = await post('/api/testgast');
+    $('#gastliste').innerHTML = '';
+    if (!liste.length) $('#gastliste').innerHTML = '<div class="karte leise">Noch keine Testgast-Gespräche.</div>';
+    liste.forEach(g => { const k = document.createElement('details'); k.className = 'karte'; k.innerHTML = `<summary>${g.name.replace('gespraech-', 'Gespräch ').replace('.md', '')}</summary>`; const p = document.createElement('pre'); p.textContent = g.text; k.append(p); $('#gastliste').append(k); });
+  }
+});
+document.querySelectorAll('#rollen button').forEach(b => b.onclick = () => { rolle = b.dataset.rolle; document.querySelectorAll('#rollen button').forEach(x => x.classList.toggle('an', x === b)); });
+document.querySelectorAll('#weiter button').forEach(b => b.onclick = () => { weiter = b.dataset.w; document.querySelectorAll('#weiter button').forEach(x => x.classList.toggle('an', x === b)); });
+$('#neu').onclick = async () => {
+  aktuell = await post('/api/neu', { rolle }); weiter = '';
+  $('#start').hidden = true; $('#gespraech').hidden = false; $('#eingabe').hidden = false; $('#bewertung').hidden = true;
+  $('#verlauf').innerHTML = ''; $('#kopf').textContent = `Gespräch ${aktuell.nr} · ${rolle}`;
+  zeile('elsbeth', aktuell.verlauf[0].text); $('#text').focus();
+};
+async function senden() {
+  const text = $('#text').value.trim(); if (!text) return;
+  $('#senden').disabled = true; zeile('gast', text); $('#text').value = '';
+  try {
+    const r = await post('/api/sag', { id: aktuell.id, text }); zeile('elsbeth', r.text);
+    if (r.tuer) { const h = document.createElement('div'); h.className = 'zeile hinweis'; h.textContent = 'Hier würde jetzt das Erlebnis beginnen. Die Probe endet an der Tür.'; $('#verlauf').append(h); beenden(); }
+  } catch (e) { const f = document.createElement('div'); f.className = 'zeile fehler'; f.textContent = e.message; $('#verlauf').append(f); }
+  $('#senden').disabled = false;
+}
+function beenden() { $('#eingabe').hidden = true; $('#bewertung').hidden = false; $('#bewertung').scrollIntoView({ behavior: 'smooth' }); }
+$('#senden').onclick = senden;
+$('#text').addEventListener('keydown', e => { if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) senden(); });
+$('#ende').onclick = beenden;
+$('#speichern').onclick = async () => {
+  await post('/api/bewerte', { id: aktuell.id, weiterreden: weiter, lebendig: $('#lebendig').value, kuenstlich: $('#kuenstlich').value });
+  $('#lebendig').value = ''; $('#kuenstlich').value = ''; $('#gespraech').hidden = true; $('#start').hidden = false; stand();
+};
+$('#aufloesenKnopf').onclick = async () => {
+  if (!confirm('Wirklich auflösen? Danach ist der Vergleich nicht mehr blind.')) return;
+  const a = await post('/api/aufloesung');
+  const tab = (titel, kopf, zeilen) => `<div class="karte"><div style="color:var(--gold-hell);font-weight:600">${titel}</div><table><tr>${kopf.map(k => `<th>${k}</th>`).join('')}</tr>${zeilen.join('')}</table></div>`;
+  $('#ergebnis').innerHTML =
+    tab('Deine Gespräche', ['Nr.', 'Fassung', 'Rolle', 'Weiterreden?'], a.petra.map(g => `<tr><td>${g.nr}</td><td>${g.fassung}</td><td>${g.rolle}</td><td>${g.weiterreden}</td></tr>`)) +
+    tab('Testgast', ['Nr.', 'Fassung', 'Gast'], a.testgast.map(g => `<tr><td>${g.nr}</td><td>${g.fassung}</td><td>${g.profil}</td></tr>`));
+};
+stand();
+</script>
+</body>
+</html>
