@@ -72,6 +72,14 @@ GRENZE (verbindlich): More is Yours ist ein ÜBUNGSRAUM, keine Diagnostik.
   wird vor Veröffentlichung rechtlich geprüft.)
 - Elsbeth Unknown bleibt Gastgeberin, keine persönliche Coachin. Keine
   ungefragte Interpretation und keine garantierten Wirkungen.
+- ⚠️ OFFENER CONFLICT (30.10.2026, nicht aufgelöst): Petra hat als
+  Entwicklungsrichtung bestätigt, Elsbeth und weitere Erlebnisagenten hinter
+  den Kulissen systemisch auszubilden (Auftragsklärung, Methodenwahl,
+  Prozessbegleitung). Das steht in Spannung zu „kein individuelles Coaching
+  durch die KI oder eine Figur“ und „keine persönliche Coachin“. Diese Grenze
+  gilt unverändert weiter, bis Petra neu entscheidet; vor einem öffentlichen
+  Angebot wird die neue Grenze rechtlich geprüft. Entscheidungsvorlage:
+  strategie/2026-10-30-systemische-ausbildung-ki-erlebnisagenten.md, Abschnitt 6.
 - In der Außenkommunikation keine neurowissenschaftlichen oder
   gesundheitsbezogenen Wirkungsversprechen.
 
