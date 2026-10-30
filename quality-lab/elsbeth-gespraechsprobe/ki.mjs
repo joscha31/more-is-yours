@@ -24,10 +24,14 @@ export const FASSUNG_NAME = { X: '0.11', Y: '0.12-Prüffassung' };
 export const BEGRUESSUNG = 'Da bist du ja. Ich bin Elsbeth Unknown. Und wie darf ich dich nennen?';
 
 // Listenpreise in $ je Million Tokens (OpenRouter, abgerufen 30.10.2026). Nur für die Vorab-Bremse; gebucht wird der echte Preis.
-const PREISE = {
+export const PREISE = {
   'anthropic/claude-haiku-5.5': [0.1, 0.5], 'anthropic/claude-sonnet-5.5': [2, 10], 'anthropic/claude-opus-5.5': [4, 20],
+  'openai/gpt-6-luna': [0.1, 0.5], 'openai/gpt-6.1-sol': [2, 10], 'openai/gpt-6-astra': [10, 50],
 };
-const AUSGABEN = path.join(HIER, 'ausgaben.json');
+// OpenAI-Modelle denken vor der Antwort; das zählt in die Ausgabe-Tokens und braucht mehr Platz.
+const PLATZ = modell => modell.startsWith('openai/') ? 3000 : 1500;
+// Jeder Prozess (Seite, Testgast) führt sein eigenes Kassenbuch, damit sich zwei gleichzeitige Läufe nicht überschreiben.
+const AUSGABEN = path.join(HIER, opt('kasse', 'ausgaben.json'));
 const bisher = () => fs.existsSync(AUSGABEN) ? JSON.parse(fs.readFileSync(AUSGABEN, 'utf8')) : { gesamt_usd: 0, posten: [] };
 export const ausgegeben = () => bisher().gesamt_usd;
 
@@ -36,8 +40,9 @@ function schluessel() {
 }
 
 // messages: [{role:'user'|'assistant', content}]
-export async function frage({ modell, system, messages, maxTokens = 700, temperatur = 0.8, etikett }) {
+export async function frage({ modell, system, messages, maxTokens, temperatur = 0.8, etikett }) {
   if (!JA) return { text: '', kosten: 0, trocken: true };
+  maxTokens = maxTokens || PLATZ(modell);
   const p = PREISE[modell];
   if (!p) throw new Error('Unbekanntes Modell: ' + modell);
   if (!BUDGET) throw new Error('Keine Obergrenze gesetzt (--budget).');
@@ -47,8 +52,9 @@ export async function frage({ modell, system, messages, maxTokens = 700, tempera
   if (b.gesamt_usd + schlimmst > BUDGET) throw new Error(`Obergrenze erreicht: ${b.gesamt_usd.toFixed(3)} $ von ${BUDGET} $ ausgegeben. Nichts mehr gesendet.`);
   const body = {
     model: modell, max_tokens: maxTokens, temperature: temperatur, usage: { include: true },
-    messages: [{ role: 'system', content: [{ type: 'text', text: system, cache_control: { type: 'ephemeral' } }] }, ...messages],
+    messages: [{ role: 'system', content: modell.startsWith('anthropic/') ? [{ type: 'text', text: system, cache_control: { type: 'ephemeral' } }] : system }, ...messages],
   };
+  if (modell.startsWith('openai/')) { delete body.temperature; body.reasoning = { effort: 'medium' }; }
   let d;
   for (let versuch = 1; ; versuch++) {
     const r = await fetch('https://openrouter.ai/api/v1/chat/completions', {
@@ -69,11 +75,11 @@ export async function frage({ modell, system, messages, maxTokens = 700, tempera
 }
 
 // Elsbeth antwortet. verlauf: [{wer:'elsbeth'|'gast', text}], beginnt mit der festen Begrüßung.
-export async function elsbeth(fassung, verlauf, etikett) {
+export async function elsbeth(fassung, verlauf, etikett, modell = MODELL) {
   const messages = verlauf.map(v => ({ role: v.wer === 'elsbeth' ? 'assistant' : 'user', content: v.text }));
   // Die Begrüßung steht als Elsbeths erste Antwort im Verlauf; davor braucht das Modell einen Gast-Anfang.
   messages.unshift({ role: 'user', content: '(Der Gast kommt in die Bibliothek.)' });
-  const r = await frage({ modell: MODELL, system: FASSUNGEN[fassung], messages, etikett });
+  const r = await frage({ modell, system: FASSUNGEN[fassung], messages, etikett });
   if (r.trocken) {
     await new Promise(z => setTimeout(z, 500));
     return { text: '(Trockenlauf: Hier antwortet Elsbeth, sobald Petra Modell und Obergrenze freigegeben hat.)', kosten: 0, tuer: false };

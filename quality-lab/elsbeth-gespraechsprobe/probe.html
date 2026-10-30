@@ -117,7 +117,7 @@ function zeile(wer, text) {
 }
 async function stand() {
   const s = await post('/api/stand');
-  $('#stand').textContent = s.trocken ? 'Trockenlauf: Es wird nichts gesendet, es entstehen keine Kosten.' : `Läuft mit ${s.modell.replace('anthropic/', '')} · bisher ${s.ausgegeben.toFixed(2)} $ von höchstens ${s.budget} $`;
+  $('#stand').textContent = s.trocken ? 'Trockenlauf: Es wird nichts gesendet, es entstehen keine Kosten.' : `Läuft mit ${s.modell.replace('anthropic/', '')} · bisher ${s.ausgegeben.toFixed(2)} $ (Notbremse gegen Technikfehler bei ${s.budget} $)`;
   $('#liste').innerHTML = s.gespraeche.length ? '<div class="leise">Bisher</div>' + s.gespraeche.sort((a, b) => a.nr - b.nr).map(g => `<div>Gespräch ${g.nr} · ${g.rolle} · ${g.wechsel} Wechsel · ${g.bewertet ? '✓ bewertet' : 'noch nicht bewertet'}</div>`).join('') : '<div class="leise">Noch keine Gespräche.</div>';
 }
 document.querySelectorAll('[data-reiter]').forEach(b => b.onclick = async () => {
@@ -160,8 +160,8 @@ $('#aufloesenKnopf').onclick = async () => {
   const a = await post('/api/aufloesung');
   const tab = (titel, kopf, zeilen) => `<div class="karte"><div style="color:var(--gold-hell);font-weight:600">${titel}</div><table><tr>${kopf.map(k => `<th>${k}</th>`).join('')}</tr>${zeilen.join('')}</table></div>`;
   $('#ergebnis').innerHTML =
-    tab('Deine Gespräche', ['Nr.', 'Fassung', 'Rolle', 'Weiterreden?'], a.petra.map(g => `<tr><td>${g.nr}</td><td>${g.fassung}</td><td>${g.rolle}</td><td>${g.weiterreden}</td></tr>`)) +
-    tab('Testgast', ['Nr.', 'Fassung', 'Gast'], a.testgast.map(g => `<tr><td>${g.nr}</td><td>${g.fassung}</td><td>${g.profil}</td></tr>`));
+    tab('Deine Gespräche', ['Nr.', 'Modell', 'Fassung', 'Rolle', 'Weiterreden?'], a.petra.map(g => `<tr><td>${g.nr}</td><td>${g.modell}</td><td>${g.fassung}</td><td>${g.rolle}</td><td>${g.weiterreden}</td></tr>`)) +
+    tab('Testgast', ['Nr.', 'Modell', 'Fassung', 'Gast'], a.testgast.map(g => `<tr><td>${g.nr}</td><td>${g.modell}</td><td>${g.fassung}</td><td>${g.profil}</td></tr>`));
 };
 stand();
 </script>

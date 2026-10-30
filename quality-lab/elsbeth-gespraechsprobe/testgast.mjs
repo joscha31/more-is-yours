@@ -8,48 +8,60 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
-import { JA, MODELL, GAST_MODELL, BUDGET, BEGRUESSUNG, elsbeth, frage, ausgegeben } from './ki.mjs';
+import { JA, MODELL, GAST_MODELL, BUDGET, BEGRUESSUNG, PREISE, elsbeth, frage, ausgegeben } from './ki.mjs';
 
 const HIER = path.dirname(new URL(import.meta.url).pathname);
 const ABLAGE = path.join(HIER, 'gespraeche-testgast');
 const G = JSON.parse(fs.readFileSync(path.join(HIER, 'gaeste.json'), 'utf8'));
 const args = process.argv.slice(2);
-const WDH = Number(args[args.indexOf('--wiederholungen') + 1] || 2) || 2;
+const wert = n => { const i = args.indexOf('--' + n); return i < 0 ? null : args[i + 1]; };
+const WDH = Number(wert('wiederholungen') || 1) || 1;
+const MODELLE = (wert('modelle') || MODELL).split(',');
+for (const m of MODELLE) if (!PREISE[m]) { console.log('Unbekanntes Modell:', m); process.exit(1); }
 const MAX = 16;
 
-// Alle Läufe planen und mischen, damit die Nummer nichts über Fassung oder Gast verrät.
+// Alle Läufe planen und mischen, damit die Nummer nichts über Modell, Fassung oder Gast verrät.
 const plan = [];
-for (const p of G.profile) for (const f of ['X', 'Y']) for (let w = 1; w <= WDH; w++) plan.push({ profil: p, fassung: f, w });
+for (const modell of MODELLE) for (const p of G.profile) for (const f of ['X', 'Y']) for (let w = 1; w <= WDH; w++) plan.push({ modell, profil: p, fassung: f, w });
 for (let i = plan.length - 1; i > 0; i--) { const j = crypto.randomInt(i + 1); [plan[i], plan[j]] = [plan[j], plan[i]]; }
 
-console.log(`${plan.length} Gespräche geplant, bis ${MAX} Wechsel je Gespräch. Elsbeth: ${MODELL} · Gast: ${GAST_MODELL}`);
+console.log(`${plan.length} Gespräche geplant, bis ${MAX} Wechsel je Gespräch. Elsbeth: ${MODELLE.join(', ')} · Gast: ${GAST_MODELL}`);
 if (!JA) { console.log('Trockenlauf: Es wird nichts gesendet. Für den echten Lauf --ja und --budget angeben.'); process.exit(0); }
 fs.mkdirSync(ABLAGE, { recursive: true });
 const schluessel = [];
 
-try {
-  for (let i = 0; i < plan.length; i++) {
-    const { profil, fassung } = plan[i], nr = i + 1;
+async function einGespraech(i) {
+    const { modell, profil, fassung } = plan[i], nr = i + 1;
     const verlauf = [{ wer: 'elsbeth', text: BEGRUESSUNG }];
     const zeilen = [`Gespräch ${nr}`, '', `Elsbeth: ${BEGRUESSUNG}`, ''];
     let kosten = 0;
     for (let n = 1; n <= MAX; n++) {
       // Der Gast sieht Elsbeths Sätze als Gegenüber, seine eigenen als eigene Antworten.
       const gm = verlauf.map(v => ({ role: v.wer === 'elsbeth' ? 'user' : 'assistant', content: v.text }));
-      const g = await frage({ modell: GAST_MODELL, system: G.rahmen + profil.text, messages: gm, maxTokens: 300, temperatur: 0.9, etikett: `gast/${nr}/${n}` });
+      const g = await frage({ modell: GAST_MODELL, system: G.rahmen + profil.text, messages: gm, maxTokens: 1500, temperatur: 0.9, etikett: `gast/${nr}/${n}` });
       kosten += g.kosten;
       const ende = g.text.includes('[ENDE]'), gast = g.text.replace('[ENDE]', '').trim();
       verlauf.push({ wer: 'gast', text: gast }); zeilen.push(`Gast: ${gast}`, '');
       if (ende && n > 1) break;
-      const e = await elsbeth(fassung, verlauf, `testgast/${nr}/${n}`);
+      const e = await elsbeth(fassung, verlauf, `testgast/${nr}/${n}`, modell);
       kosten += e.kosten; verlauf.push({ wer: 'elsbeth', text: e.text }); zeilen.push(`Elsbeth: ${e.text}`, '');
       if (e.tuer) { zeilen.push('(Hier öffnet sich die Tür. Die Probe endet an der Tür.)'); break; }
     }
     const datei = `gespraech-${String(nr).padStart(2, '0')}.md`;
     fs.writeFileSync(path.join(ABLAGE, datei), zeilen.join('\n'));
-    schluessel.push({ nr, datei, profil: profil.kurz, fassung, kosten_usd: kosten, wechsel: verlauf.filter(v => v.wer === 'gast').length });
+    schluessel.push({ nr, datei, modell, profil: profil.kurz, fassung, kosten_usd: kosten, wechsel: verlauf.filter(v => v.wer === 'gast').length });
+    schluessel.sort((a, b) => a.nr - b.nr);
     fs.writeFileSync(path.join(ABLAGE, 'schluessel.json'), JSON.stringify(schluessel, null, 1));
-    console.log(`Gespräch ${nr}: ${verlauf.length - 1} Beiträge, ${(kosten * 100).toFixed(1)} ct`);
+    console.log(`Gespräch ${nr}: ${verlauf.length - 1} Beiträge, ${(kosten * 100).toFixed(1)} ct · fertig ${schluessel.length} von ${plan.length}`);
+}
+
+// Mehrere Gespräche gleichzeitig; die Obergrenze prüft jede einzelne Anfrage.
+const GLEICHZEITIG = Number(wert('gleichzeitig') || 6);
+let naechstes = 0;
+await Promise.all(Array.from({ length: GLEICHZEITIG }, async () => {
+  while (naechstes < plan.length) {
+    const i = naechstes++;
+    try { await einGespraech(i); } catch (e) { console.log(`Gespräch ${i + 1} abgebrochen:`, e.message); }
   }
-} catch (e) { console.log('Abgebrochen:', e.message); }
+}));
 console.log(`Insgesamt bisher ${ausgegeben().toFixed(3)} $ von ${BUDGET} $`);
