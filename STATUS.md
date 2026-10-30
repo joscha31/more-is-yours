@@ -80,5 +80,5 @@ Petra beurteilt 0.11 zweispaltig. Die Gast-Sätze für die zweite Problem-Tonpro
 - Nebenbei: Spielregeln – Weg A, B oder C, und Wortlaut mit ChatGPT
 - Nebenbei: neuer Wortlaut für den Empfang am Tresen (der alte passt nicht mehr zur Grundausrichtung)
 - Nebenbei: Marktrecherche Apps (Heilpraktiker, Selbstcoaching) mit Vorschlägen V1 bis V6 liegt in `forschung/`, Kurzfassung für ChatGPT in `berichte-fuer-chatgpt/` (29.10.)
-- Nebenbei: ob der Weg „More is Yours in ChatGPT“ geprüft wird; dafür zuerst in ChatGPT am Computer nachsehen, ob unter Plugins „Add custom MCP server“ angeboten wird, und den eigenen Tarif nennen
+- Nebenbei: Go oder kein Go für die kleinste Probe „More is Yours in ChatGPT“ (ein Rahmen, 10 Durchläufe, keine API-Kosten). Geklärt 30.10.: Petras Konto ist Pro, „Benutzerdefinierten MCP-Server hinzufügen“ wird angeboten, der Test geht also ohne neues Abo, im Browser am Computer
 - Nebenbei: Web-App-Appetizer am eigenen iPhone ausprobieren; mit ChatGPT entscheiden, wie das Abendessen beginnt (erster Platz in der App, der gefüllt wird)

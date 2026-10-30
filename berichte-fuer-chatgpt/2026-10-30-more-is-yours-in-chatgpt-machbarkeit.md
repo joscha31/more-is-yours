@@ -181,6 +181,12 @@ Der große Vorteil bleibt: **keine Gesprächskosten für uns** und möglicherwei
   - eigener Server, was laut Doku Business oder Enterprise/Edu braucht,
   - oder *ChatGPT Sites*, was laut Doku auf jedem Tarif geht, wenn Sites freigeschaltet ist.
 - ⚠️ Ein Business-Tarif nur für den Test wäre ein neues Abo und braucht Petras ausdrückliches Ja.
+- ✅ **Ergebnis (30.10., nachgesehen von Claude im Browser in Petras Konto):**
+  - Petras Konto hat den Tarif **Pro**.
+  - Unter Plugins → „Hinzufügen“ wird **„Benutzerdefinierten MCP-Server hinzufügen“** angeboten. Daneben stehen „Plugin erstellen“ und „Plugin-Archiv hochladen“.
+  - Der Testweg mit eigenem Server ist damit **ohne neues Abo offen**. Die Hilfeseite nennt nur Business und Enterprise/Edu, Petras Konto zeigt es trotzdem: Die Wirklichkeit ist hier weiter als die Doku.
+  - Weiterhin gilt laut Doku: nur im Browser am Computer, nicht am Handy.
+  - Eingetragen wurde nichts.
 
 **Schritt 1, die Probe selbst** (erst nach Petras Freigabe zu bauen):
 - **Ablauf:** Ein neuer Chat, Petra ruft das Plugin mit @ auf. Elsbeth spricht über ChatGPTs eigenes Modell mit dem Skill aus der heutigen Tisch-Anweisung. Daneben erscheint der Flur mit **einem** leeren Rahmen.
