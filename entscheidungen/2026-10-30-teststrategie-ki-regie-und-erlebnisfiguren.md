@@ -56,7 +56,7 @@ Eine zusätzliche Regie-KI wird erst erwogen, wenn praktische Tests zeigen, dass
 - Im Ausbildungsdokument (Grundregel C, Film-Beispiel) steht als mögliche Alternative auch „ein anderes Erlebnis“. Ab jetzt gilt die Reihenfolge aus Punkt 3: zuerst innerhalb desselben Erlebnisses anpassen; ein anderes Erlebnis nur, wenn der Gast es ausdrücklich wählt oder aussteigt. Im Ausbildungsdokument steht dazu ein Hinweis, Petras Wortlaut dort bleibt unverändert.
 
 **Was offen bleibt (DECISION GAP / CONTENT GAP):**
-- **Coaching-Grenze:** Die Regie behält „Anliegen und Auftrag“ im Blick. Der CONFLICT mit „kein individuelles Coaching durch die KI“ in `PROZESS.md` ist durch diese Freigabe **nicht** aufgelöst (Entscheidungsvorlage im Ausbildungsdokument, Abschnitt 6).
+- ~~**Coaching-Grenze**~~ **aufgelöst am 30.10.:** Mit der Leistungsgrenze Variante B (PETRA APPROVED, `entscheidungen/2026-10-30-leistungsgrenze-variante-b-systemische-kompetenz.md`) dürfen die Figuren Anliegen und Aufträge klären und innerhalb eines Erlebnisses flexibel reagieren. Die Regie dieser Teststrategie steht damit im Einklang mit `PROZESS.md`.
 - **Kosten:** Die zweite Prüf-KI und die Testgespräche kosten Geld, sobald sie über eine Schnittstelle laufen. Dafür braucht es vor dem ersten Lauf Petras Kostenfreigabe (`PROZESS.md`, Regel 5). Die Freigabe vom 30.10. („sechs Modelle, ohne Obergrenze“) gilt für die Elsbeth-Gesprächsprobe, nicht automatisch hierfür.
 - **Messbarer Qualitätsgewinn (Punkt 5):** Woran er gemessen wird, ist noch nicht festgelegt.
 - **Wer die Figuren spielt:** Ob Elsbeth selbst im Erlebnis mitspielt oder nur Gastgeberin davor und danach bleibt, ist nicht entschieden.

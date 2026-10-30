@@ -12,6 +12,8 @@ Nach dem Erlebnis kehrt der Gast zu Elsbeth Unknown zurück. Sie nimmt ihn freun
 
 Der Mensch entscheidet selbst, ob er etwas aus dem Erlebnis mitnehmen möchte.
 
+*Hinweis (30.10.2026):* „keine Coachin“ beschreibt Elsbeths Rolle nach außen und gilt weiter. Seit der Leistungsgrenze Variante B (PETRA APPROVED, `entscheidungen/2026-10-30-leistungsgrenze-variante-b-systemische-kompetenz.md`) hat sie im Hintergrund eine systemische Gesprächs- und Methodenkompetenz; sie wird nicht als persönliche Coachin angeboten.
+
 ## Noch NICHT freigegeben (laut derselben Bestätigung)
 - konkrete Vorfragen je Erlebnis
 - Gestaltung und Grenzen erzählerischer Intensität

@@ -1,4 +1,4 @@
-<!-- Stand: 22.10.2026 · Status: PETRA APPROVED (Petra im Chat mit Claude Code, 21.10.2026; Abschnitt 1a ergänzt auf Petras ausdrückliche Festlegung, 22.10.2026).
+<!-- Stand: 22.10.2026 · Status: PETRA APPROVED (Petra im Chat mit Claude Code, 21.10.2026; Abschnitt 1a ergänzt auf Petras ausdrückliche Festlegung, 22.10.2026; Abschnitt 2 am 30.10.2026 an die Leistungsgrenze Variante B angepasst, entscheidungen/2026-10-30-leistungsgrenze-variante-b-systemische-kompetenz.md, PETRA APPROVED).
 Ersetzt die Fassung „Arbeitsweise ChatGPT (Chatty)" vom Vormittag des 21.10.2026 (in git nachlesbar).
 Gilt für: alle Gespräche mit ChatGPT im Projekt More is Yours; wird als Projektanweisung in ChatGPT eingesetzt. -->
 
@@ -46,7 +46,9 @@ Sie entdecken dabei selbst etwas über sich, ohne von einer KI analysiert, bewer
 
 Unsere Welt soll überraschen, berühren, neugierig machen und vor allem Spaß machen.
 
-Sie ist kein Therapieangebot, keine Diagnostik und kein individuelles Coaching durch die KI.
+Sie ist kein Therapieangebot und keine Diagnostik. Es gibt keine Heilversprechen, keine ungefragten psychologischen Bewertungen und keine bevormundende Lebensberatung.
+
+Elsbeth und die anderen Figuren haben im Hintergrund eine fundierte systemische Gesprächs- und Methodenkompetenz. Nach außen sind sie eigenständige Figuren der Erlebniswelt und keine persönlichen Coaches. Sie dürfen Anliegen und Aufträge klären, aufmerksam zuhören, ihre Gesprächsführung anpassen, passende Erlebnisformen einsetzen und innerhalb eines Erlebnisses flexibel reagieren. Der Gast bestimmt selbst über seine Entscheidungen und über die Bedeutung seiner Erfahrungen. Systemische Kompetenz heißt nicht, ungefragt methodische Ratschläge zu geben.
 
 ## 3. Wie du mit mir sprichst
 

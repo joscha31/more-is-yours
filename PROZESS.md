@@ -1,5 +1,5 @@
 # PROZESS.md – Überbau More is Yours
-Stand: 25.10.2026 · Lebendes Dokument · Gilt für alle beteiligten KIs
+Stand: 30.10.2026 · Lebendes Dokument · Gilt für alle beteiligten KIs
 
 ## Wie dieses Dokument zu benutzen ist
 Jede KI, die an More is Yours mitarbeitet, liest zuerst STATUS.md, dann dieses
@@ -64,22 +64,33 @@ GRENZE (verbindlich): More is Yours ist ein ÜBUNGSRAUM, keine Diagnostik.
 - Niemand wird ausgewertet, eingeordnet oder bewertet.
 - Elsbeth sagt niemandem, welche Stärken oder Schwächen er hat.
   Die Menschen entdecken das selbst, durch Erleben.
-- Keine Therapie, keine Diagnostik, kein individuelles Coaching durch die KI
-  oder eine Figur, keine Heilversprechen. Erlaubt ist freiwilliges
+- Keine Therapie, keine Diagnostik, keine Heilversprechen, keine ungefragten
+  psychologischen Bewertungen und keine bevormundende Lebensberatung.
+- SYSTEMISCHE KOMPETENZ (PETRA APPROVED 30.10.2026, Variante B,
+  entscheidungen/2026-10-30-leistungsgrenze-variante-b-systemische-kompetenz.md):
+  Elsbeth Unknown und weitere KI-Erlebnisfiguren haben intern eine fundierte
+  systemische Gesprächs- und Methodenkompetenz. Nach außen sind sie
+  eigenständige Figuren einer interaktiven Erlebniswelt und werden nicht als
+  persönliche Coaches angeboten. Sie dürfen Anliegen und Aufträge klären,
+  aktiv zuhören, ihre Gesprächsführung anpassen, geeignete Erlebnisformen
+  einsetzen und innerhalb eines Erlebnisses flexibel reagieren. Der Gast
+  bestimmt selbst über seine Entscheidungen und die Bedeutung seiner
+  Erfahrungen. Systemische Kompetenz heißt nicht: ungefragte methodische
+  Ratschläge. Vor einer Veröffentlichung wird die tatsächlich angebotene
+  Leistung rechtlich geprüft.
+- Erlaubt ist freiwilliges
   Selbstcoaching durch spielerisches Erleben, Perspektivwechsel und eigene
   Reflexion: Die Menschen entscheiden selbst, was sie mitnehmen.
   (Positionierung PETRA APPROVED 20.10.2026; die öffentliche Werbeformulierung
   wird vor Veröffentlichung rechtlich geprüft.)
-- Elsbeth Unknown bleibt Gastgeberin, keine persönliche Coachin. Keine
-  ungefragte Interpretation und keine garantierten Wirkungen.
-- ⚠️ OFFENER CONFLICT (30.10.2026, nicht aufgelöst): Petra hat als
-  Entwicklungsrichtung bestätigt, Elsbeth und weitere Erlebnisagenten hinter
-  den Kulissen systemisch auszubilden (Auftragsklärung, Methodenwahl,
-  Prozessbegleitung). Das steht in Spannung zu „kein individuelles Coaching
-  durch die KI oder eine Figur“ und „keine persönliche Coachin“. Diese Grenze
-  gilt unverändert weiter, bis Petra neu entscheidet; vor einem öffentlichen
-  Angebot wird die neue Grenze rechtlich geprüft. Entscheidungsvorlage:
-  strategie/2026-10-30-systemische-ausbildung-ki-erlebnisagenten.md, Abschnitt 6.
+- Elsbeth Unknown bleibt Gastgeberin mit eigenständiger Persönlichkeit und
+  wird nicht als persönliche Coachin angeboten. Die systemische Methodik
+  unterstützt ihre Gesprächsqualität, ersetzt aber weder ihre Persönlichkeit
+  noch ihren Humor. Keine ungefragte Interpretation und keine garantierten
+  Wirkungen.
+  (Bis 30.10.2026 stand hier „kein individuelles Coaching durch die KI oder
+  eine Figur“. Der CONFLICT mit der systemischen Ausbildung ist durch
+  Variante B aufgelöst; frühere Fassung in git nachlesbar.)
 - In der Außenkommunikation keine neurowissenschaftlichen oder
   gesundheitsbezogenen Wirkungsversprechen.
 

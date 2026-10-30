@@ -1,7 +1,8 @@
 # Systemische Ausbildung der KI-Erlebnisagenten – Entwicklungsdokument
 
 **Stand:** 30.10.2026
-**Status:** **ENTWICKLUNGSRICHTUNG / PETRA REVIEW.** Die fachliche Richtung hat Petra am 30.10.2026 bestätigt (Auftrag an Claude Code, erarbeitet mit ChatGPT). Das ist **keine** Freigabe zum Programmieren, für neue Agenten, für eine Änderung an der laufenden Elsbeth oder für eine Veröffentlichung. Nichts in diesem Dokument ist PETRA APPROVED.
+**Status:** **ENTWICKLUNGSRICHTUNG / PETRA REVIEW.** Die fachliche Richtung hat Petra am 30.10.2026 bestätigt (Auftrag an Claude Code, erarbeitet mit ChatGPT). Das ist **keine** Freigabe zum Programmieren, für neue Agenten, für eine Änderung an der laufenden Elsbeth oder für eine Veröffentlichung. Das Dokument selbst bleibt PETRA REVIEW.
+**Dazu freigegeben (PETRA APPROVED 30.10.):** die Leistungsgrenze Variante B (`entscheidungen/2026-10-30-leistungsgrenze-variante-b-systemische-kompetenz.md`, löst Abschnitt 6 auf) · die Teststrategie (`entscheidungen/2026-10-30-teststrategie-ki-regie-und-erlebnisfiguren.md`).
 **Phase:** Phase 2 – Elsbeth spricht, unverändert (`PROZESS.md`).
 **Herkunft:** Petras Auftrag vom 30.10.2026, inhaltlich übernommen. Claude Code hat geordnet, eingeordnet und die Widersprüche markiert, aber keine eigenen Fachinhalte ergänzt. Die weitere methodische Ausarbeitung übernehmen Petra und ChatGPT.
 
@@ -27,7 +28,7 @@ Weiter gilt:
 - Sie wird **nicht** öffentlich mit einer menschlichen Coachingqualifikation beworben.
 - Sie darf dabei weder ihre Eigenständigkeit noch ihren Humor oder ihre Gastgeberrolle verlieren (siehe Stufe 4).
 
-⚠️ Diese Rolle steht in Spannung zu bestehenden verbindlichen Regeln, siehe Abschnitt 6.
+✅ Die frühere Spannung zu den bestehenden Regeln ist seit 30.10. durch Variante B aufgelöst, siehe Abschnitt 6.
 
 ## 3. Das vierstufige Ausbildungsmodell
 
@@ -132,9 +133,11 @@ Eine Methode ist nicht deshalb gut, weil sie fachlich anerkannt ist. Entscheiden
 
 Ein eigenes Dokument zur Ausbildung aller Erlebnisagenten gab es bisher nicht. Deshalb entsteht diese Datei, statt eine bestehende zu erweitern.
 
-## 6. ⚠️ CONFLICT – die neue Richtung und die bestehende Coaching-Grenze
+## 6. ✅ CONFLICT aufgelöst am 30.10.2026 – Variante B (PETRA APPROVED)
 
-**Nichts davon ist aufgelöst. Die bisherigen Regeln gelten unverändert weiter, bis Petra neu entscheidet.**
+**Petra hat Variante B freigegeben:** `entscheidungen/2026-10-30-leistungsgrenze-variante-b-systemische-kompetenz.md`. `PROZESS.md` (GRENZE), `system/arbeitsweise-chatgpt.md` (Abschnitt 2), `KANON-ELSBETH.md` (Einordnung in Teil 2) und die Arbeitsteilung vom 20.10. (Hinweis) sind angepasst. Die Tabelle und die Vorlage unten bleiben als Weg zur Entscheidung stehen.
+
+*Ursprünglicher Stand vom 30.10., vor der Entscheidung:*
 
 | # | Bestehende Regel (Wortlaut) | Wo | Spannung zur neuen Richtung |
 |---|---|---|---|
@@ -163,7 +166,7 @@ Ein eigenes Dokument zur Ausbildung aller Erlebnisagenten gab es bisher nicht. D
 - FernUSG, sobald ein Preis dazukommt
 - Datenschutz bei persönlichen Gesprächsinhalten (Art. 9 DSGVO, falls Gesundheitsbezug entsteht)
 
-**DECISION GAP:** Bis Petra entscheidet, bleibt `PROZESS.md` unverändert. Dort steht nur ein sichtbarer Hinweis auf diesen Abschnitt.
+**Entschieden:** Weg B, PETRA APPROVED 30.10.2026. Die rechtliche Prüfung vor einer Veröffentlichung bleibt.
 
 ## 7. Was ausdrücklich nicht passiert
 
@@ -179,4 +182,4 @@ Ein eigenes Dokument zur Ausbildung aller Erlebnisagenten gab es bisher nicht. D
 - Bewertungsmaßstab und Ablauf der Qualitätsprüfung in Stufe 3, auch im Verhältnis zur laufenden Gesprächsprobe
 - welche Methoden in Frage kommen (Urheberrechte und Lizenzen beachten, `PROZESS.md` Abschnitt 1)
 - welche weiteren Erlebnisagenten es geben soll und wann (frühestens Phase 3, eine eigene Anweisung je Erlebnis)
-- der neue Wortlaut der Leistungsgrenze (Abschnitt 6)
+- ~~der neue Wortlaut der Leistungsgrenze~~ entschieden am 30.10. (Variante B)
